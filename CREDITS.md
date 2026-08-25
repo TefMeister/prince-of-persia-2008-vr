@@ -20,9 +20,13 @@ redistribution (noted below).
 
 | Source / Work | Creator(s) | Link |
 |---|---|---|
-
-Nothing to list yet — engine research on this project has not started. This
-table will be filled in as we study public material and build the mod.
+| Helix Mod: Prince of Persia 2008 (2012 fix) | Chiz, Helix Mod community | https://helixmod.blogspot.com/2012/03/prince-of-persia-2008-written-by-chiz.html |
+| Helix Mod: Prince of Persia 2008 (2016 updated fix) | Helix Mod community | https://helixmod.blogspot.com/2016/04/prince-of-persia-2008-updated.html |
+| Anvil/Scimitar engine background & Assassin's Creed lineage reporting | VideoGamer.com, Ubisoft (Ben Mattes interview) | https://www.videogamer.com/news/prince-of-persia-based-on-assassins-creed-game-engine/ |
+| EaglePatch (Assassin's Creed 1 & 2 patches) | Sergeanur | https://github.com/Sergeanur/EaglePatch |
+| Anvil engine community hub | ModDB/IndieDB contributors | https://www.moddb.com/engines/scimitar |
+| .forge extractor/replacer | Turfster | https://www.moddb.com/downloads/forge-extractorreplacer-by-turfster |
+| PCGamingWiki (Prince of Persia 2008 technical notes) | PCGamingWiki community | https://www.pcgamingwiki.com/wiki/Prince_of_Persia_(2008) |
 
 Development on this project is AI-assisted: much of the research, code, and
 documentation was produced with **Claude (Anthropic)** (https://claude.com)

@@ -27,6 +27,8 @@ redistribution (noted below).
 | Anvil engine community hub | ModDB/IndieDB contributors | https://www.moddb.com/engines/scimitar |
 | .forge extractor/replacer | Turfster | https://www.moddb.com/downloads/forge-extractorreplacer-by-turfster |
 | PCGamingWiki (Prince of Persia 2008 technical notes) | PCGamingWiki community | https://www.pcgamingwiki.com/wiki/Prince_of_Persia_(2008) |
+| MobyGames (technical/middleware specs) | MobyGames contributors | https://www.mobygames.com/game/38110/prince-of-persia/ |
+| Prince of Persia (2008) Cheat Engine table | mul0 | https://fearlessrevolution.com/viewtopic.php?t=26099 |
 
 Development on this project is AI-assisted: much of the research, code, and
 documentation was produced with **Claude (Anthropic)** (https://claude.com)

@@ -6,7 +6,7 @@ rendering and 6DOF head tracking, with motion-controlled combat and traversal
 as a stretch target once the core is solid.
 
 > **Status: just starting out — repos created, no code written yet, nothing
-> playable released.** This repository will hold releases only; watch it if
+> playable released.** This folder holds releases only; watch it if
 > you want to know the moment there is something to try.
 
 ## What this will be
@@ -18,7 +18,7 @@ API, and patch points — will be worked out from scratch via reverse
 engineering, and documented as we go. The playable mod is almost the
 by-product; the real goal is the knowledge gained on the way there, written
 down and shared so anyone can do the same for any game — see the
-[engine dossier](https://github.com/TefMeister/prince-of-persia-2008-vr-engine-research)
+[engine dossier](../engine-research/)
 and the cross-engine
 [flat-to-VR library](https://github.com/TefMeister/flat-to-vr-cross-engine-research).
 
@@ -28,19 +28,19 @@ and the cross-engine
   **no** game files).
 - A PC VR headset (target runtime TBD as engine research progresses).
 
-## The six repositories for Prince of Persia (2008) VR
+## The folders for Prince of Persia (2008) VR
 
-Everything for this game lives in six repositories, each with one job — so you
-always know where to look. You are in **prince-of-persia-2008-vr-mod**.
+Everything for this game lives in one repository, one folder per job — so you
+always know where to look. You are in **`mod/`**.
 
-| Repository | What lives here |
+| Folder | What lives here |
 | --- | --- |
-| **prince-of-persia-2008-vr-mod** ← you are here | The mod itself — VR renderer/injection code, once it exists. |
-| [prince-of-persia-2008-vr-dev-archive](https://github.com/TefMeister/prince-of-persia-2008-vr-dev-archive) | Full development history — snapshots, probes, dead ends, raw recon. |
-| [prince-of-persia-2008-vr-modding-notes](https://github.com/TefMeister/prince-of-persia-2008-vr-modding-notes) | Readable field notes / progress ledger. |
-| [prince-of-persia-2008-vr-staging](https://github.com/TefMeister/prince-of-persia-2008-vr-staging) 🔒 | **Private** — unverified WIP builds, cross-machine handoff. |
-| [prince-of-persia-2008-vr-engine-research](https://github.com/TefMeister/prince-of-persia-2008-vr-engine-research) | Distilled engine reference (dossier) + reusable VR RE playbook. |
-| [prince-of-persia-2008-vr-external-research](https://github.com/TefMeister/prince-of-persia-2008-vr-external-research) | Ongoing public-research leads, gathered separately from hands-on modding work. |
+| **`mod/`** ← you are here | The mod itself — VR renderer/injection code, once it exists. |
+| [`dev-archive/`](../dev-archive/) | Full development history — snapshots, probes, dead ends, raw recon. |
+| [`modding-notes/`](../modding-notes/) | Readable field notes / progress ledger. |
+| [staging/prince-of-persia-2008-vr](https://github.com/TefMeister/staging/tree/main/prince-of-persia-2008-vr) 🔒 | **Private** — unverified WIP builds, cross-machine handoff. |
+| [`engine-research/`](../engine-research/) | Distilled engine reference (dossier) + reusable VR RE playbook. |
+| [`external-research/`](../external-research/) | Ongoing public-research leads, gathered separately from hands-on modding work. |
 
 ## Credits, scope, and legality
 

@@ -25,7 +25,7 @@
 ## 4. DRM / anti-debug & injection foothold
 - DRM (CEG/Denuvo/GOG/none); launch-time-debugger behaviour: **Reconciled, 2026-08-25 — appears genuinely DRM-free, on two rounds of evidence.** Initial static pass found no Denuvo/SecuROM/StarForce/Uplay strings. External-research then flagged a real, specific reason to double-check: the 2008 **retail boxed** PC release was famously, publicly made DRM-free (widely covered contemporary press — Ubisoft removed disc-check protection entirely), but digital/downloadable versions weren't confirmed part of that move, and this console-generation's PC ports commonly carried **StarForce** (a kernel-driver-based DRM, architecturally very different from Denuvo — also flagged as having known compatibility problems on modern Windows independent of anti-piracy concerns). **Follow-up check on the actually-installed Steam build, specifically for StarForce**: no `*starforce*`/`*sfdrv*`/`*.sys`/`*protection*` files anywhere in the install directory, no StarForce Windows service installed, no StarForce-related strings anywhere in the exe (broadened search beyond the first pass). **Conclusion: this Steam release appears to have shipped DRM-free, consistent with the retail precedent** — not airtight certainty (no debugger has been attached live yet, unlike Mad Max where live testing was what actually settled the equivalent question), but two independent negative checks plus a real historical precedent make this well-supported.
 - Attach workflow that works: not yet tested live, but no static evidence predicts a block this time — genuinely different starting expectation than Mad Max going into its first live test.
-- Injection vector that works (proxy DLL name / injector / framework): not yet tested live. **Plan: a from-scratch `d3d9.dll` proxy** — matches this portfolio's own precedent on Psychonauts (also D3D9, proxied directly rather than via a carrier DLL) more closely than the winmm-carrier pattern used on The Evil Within/Far Cry 2. Given no DRM found, a direct same-named proxy should be low-risk here. **✅ LIVE-VERIFIED, first attempt, zero issues (2026-08-25):** deployed `prince-of-persia-2008-vr-staging/proxy-d3d9/`'s `d3d9.dll` and launched normally — the game reached the main menu and a real level with no problems. `pop2008_vr_proxy_log.txt` confirms: proxy loaded, real system `d3d9.dll` resolved correctly, `Direct3DCreate9` called once with `SDKVersion=0x20` (the standard `D3D_SDK_VERSION` constant), returned a valid non-null `IDirect3D9*`, clean unload on close. Matches the static "no DRM found" prediction — no EA-App-style detour, no Denuvo-style resistance, worked exactly as expected. **Next injection-side step, whenever resumed:** extend logging to device creation (`IDirect3D9::CreateDevice`) to see the actual backbuffer format/resolution/window handle — the natural M1 step, mirroring the other two fronts.
+- Injection vector that works (proxy DLL name / injector / framework): not yet tested live. **Plan: a from-scratch `d3d9.dll` proxy** — matches this portfolio's own precedent on Psychonauts (also D3D9, proxied directly rather than via a carrier DLL) more closely than the winmm-carrier pattern used on The Evil Within/Far Cry 2. Given no DRM found, a direct same-named proxy should be low-risk here. **✅ LIVE-VERIFIED, first attempt, zero issues (2026-08-25):** deployed `staging/prince-of-persia-2008-vr/proxy-d3d9/`'s `d3d9.dll` and launched normally — the game reached the main menu and a real level with no problems. `pop2008_vr_proxy_log.txt` confirms: proxy loaded, real system `d3d9.dll` resolved correctly, `Direct3DCreate9` called once with `SDKVersion=0x20` (the standard `D3D_SDK_VERSION` constant), returned a valid non-null `IDirect3D9*`, clean unload on close. Matches the static "no DRM found" prediction — no EA-App-style detour, no Denuvo-style resistance, worked exactly as expected. **Next injection-side step, whenever resumed:** extend logging to device creation (`IDirect3D9::CreateDevice`) to see the actual backbuffer format/resolution/window handle — the natural M1 step, mirroring the other two fronts.
 
 **No vorpX precedent exists for this specific game** (external-research, 2026-08-25) — vorpX's forums cover only the PS2-era trilogy and Sands of Time, with an explicit caveat that unsupported titles "might or might not hook." Unlike Mad Max, this project doesn't have that class of third-party feasibility signal yet; the HelixMod fix below is this project's actual evidence that D3D9-level hooking works against this exact binary.
 
@@ -35,6 +35,55 @@
 - One-frame walkthrough (record → replay → present):
 
 ## 6. Camera & projection delivery (the crucial section)
+
+### ⛔️ The shipped shader pack is LZ-compressed — the CTAB route does not work here (2026-09-01, `/pd`)
+
+**The game was not launched.** Tried the technique that settled `alice-madness-returns-vr` the same
+day — read constant names and register indices straight out of the shipped compiled shaders — and it
+**fails on this game**, for a reason worth recording so nobody spends the afternoon on it twice.
+
+`ekshaderspccompress.bin` (9.3 MB, install root) is this game's shader pack, and it does contain D3D9
+shaders: the literal bytes `CTAB` occur **830 times**, far above chance for a 4-byte pattern in 9.3 MB,
+and `DXBC` occurs **zero** times (so it is Direct3D 9 bytecode, not D3D10+ — consistent with the rest
+of this dossier). `[inferred-static 2026-09-01]`
+
+**But not one of the 830 parses.** Reading the CTAB header at each hit gives nonsense — constant
+counts in the billions, offsets past the end of the file. The reason is visible in the surviving
+strings: constant names come out **shredded by inserted bytes** —
+
+```
+ViewPro*j    ViewPrToj    ViewPProj    Vi@ewProj    UVMatrixJ1    onMatrix
+```
+
+Those stray characters mid-word are LZ match/literal tokens breaking up the literal stream. The file
+name says `compress` and it means it. So: **fragments of the constant vocabulary leak through
+(`ViewProj…`, `…Matrix`, `WorldView`, `UVMatrix`, `LightProj`), but no register index is recoverable**,
+because the numeric fields are exactly what the compressor encodes away. `[inferred-static 2026-09-01]`
+
+**What this does and does not tell us.** It confirms the game's shaders use a
+`WorldViewProjection`-family constant vocabulary — nothing more. It says nothing about which register
+holds it, which is the question §6 actually asks.
+
+**Next step for this section, and the choice is now explicit:** either decode the `ekshaderspc`
+container (or the `.forge` archives) far enough to decompress one shader, or get the registers at
+runtime from the proxy. Given the proxy already loads cleanly (below), the runtime route is likely
+cheaper — but it needs a launch, and the static route does not.
+
+**This converges with the other open thread.** Earlier the same day this project filed an inbox drop
+saying **`.forge` tooling is now critical path** for the `CGST_DebugModeFPSCamera` question (ordinal
+189, nothing in the code dispatching it). The shader pack is a second, independent reason to want a
+container decoder: **one piece of tooling would unblock both the debug-camera question and the whole
+of §6.** If anything on this project deserves static effort, it is that decoder.
+
+### Confirmed the same day, for free: this game creates a plain D3D9 device
+
+`pop2008_vr_proxy_log.txt`, still sitting in the install folder from the 2026-08-25 live test, records
+`Direct3DCreate9` (not `…Ex`) called once with `SDKVersion=0x20`, returning a valid `IDirect3D9*`.
+Same conclusion as `enslaved-vr`, and it carries the same consequence for any future compositor
+submission path — see that project's §9 for the D3D9-vs-D3D9Ex bridge problem and the
+`D3DPOOL_MANAGED` trap that comes with upgrading a device. The log has been rescued into
+`dev-archive/recon/` (it existed only in the game folder). `[verified-live 2026-08-25, n=1]`
+
 - How the world transform reaches the GPU (shared VP buffer / per-draw MVP /
   other), with **shader-reflection / disassembly evidence**:
 - Exact constant-buffer slot, parameter name(s), byte offset(s), layout,

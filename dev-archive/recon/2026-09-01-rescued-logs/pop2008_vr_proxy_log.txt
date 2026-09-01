@@ -1,0 +1,5 @@
+[14:16:30.227] === prince-of-persia-2008-vr proxy d3d9.dll loaded, PID=33004 ===
+[14:16:30.231] real d3d9.dll loaded from C:\Windows\system32\d3d9.dll; Direct3DCreate9=74394B20
+[14:16:31.914] Direct3DCreate9 called: SDKVersion=0x20
+[14:16:32.036]   -> returned 0322AA18
+[14:19:57.441] === prince-of-persia-2008-vr proxy d3d9.dll unloading ===

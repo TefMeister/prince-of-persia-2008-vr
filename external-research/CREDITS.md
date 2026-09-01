@@ -29,6 +29,11 @@ redistribution (noted below).
 | PCGamingWiki (Prince of Persia 2008 technical notes) | PCGamingWiki community | https://www.pcgamingwiki.com/wiki/Prince_of_Persia_(2008) |
 | MobyGames (technical/middleware specs) | MobyGames contributors | https://www.mobygames.com/game/38110/prince-of-persia/ |
 | Prince of Persia (2008) Cheat Engine table | mul0 | https://fearlessrevolution.com/viewtopic.php?t=26099 |
+| AnvilNext `.forge` container-format documentation (header magic `scimitar`, resource index and descriptions chunk) | GenuineAster / Mischa-Alff and the `broadside` project contributors | https://github.com/Mischa-Alff/broadside/wiki/AnvilNext-%60.forge%60-file-format |
+| Elika (Prince of Persia 2008 `.forge` datafile/datablock/texture/mesh/localization tool) | Turfster | https://www.moddb.com/groups/assassins-creed-fans/downloads/forge-extractorreplacer-by-turfster |
+| AnvilToolkit (`.forge` unpack/repack for the Assassin's Creed titles; its support list is what shows PoP 2008 is excluded) | AnvilToolkit authors and contributors | https://www.nexusmods.com/assassinscreed/mods/30 |
+| ACExplorer (open-source `.forge` explorer, corroborating how far public format knowledge reaches) | gentlegiantJGC | https://github.com/gentlegiantJGC/ACExplorer |
+| The Cutting Room Floor (documentation of the Assassin's Creed prototype's debug menu and Ghost Mode) | TCRF contributors | https://tcrf.net/Proto:Assassin%27s_Creed |
 
 Development on this project is AI-assisted: much of the research, code, and
 documentation was produced with **Claude (Anthropic)** (https://claude.com)

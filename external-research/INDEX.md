@@ -1,6 +1,6 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-01 — FULL.** Inbox drained (the `.forge` re-ranking). The `.forge` topic is
+**Last `/gr` pass: 2026-09-01 — CHECK-IN** (inbox + INDEX in full + the re-ranked topic; the dossier was not read in full)**.** Inbox drained (the `.forge` re-ranking). The `.forge` topic is
 promoted to ⭐ critical path and answered: public knowledge of this format stops at the container and
 at assets — **nobody has ever published a reading of a behaviour or camera graph** — and AnvilToolkit
 does not list this game at all. But the registry `/pd` decoded turns that from a blocker into a byte

@@ -75,6 +75,48 @@ saying **`.forge` tooling is now critical path** for the `CGST_DebugModeFPSCamer
 container decoder: **one piece of tooling would unblock both the debug-camera question and the whole
 of §6.** If anything on this project deserves static effort, it is that decoder.
 
+### 🎯 The `.forge` route has a plan now: the state HASH is a schema-free needle (`/gr`, folded 2026-09-01)
+
+The two questions this project filed came back **negative**: no public `.forge` work has ever touched
+a camera or character graph, and the best format documentation (the `broadside` wiki) covers the
+**container only** — no compression scheme, no type IDs, no datablock schema. Prince of Persia is
+absent from the AC-focused tooling scene entirely. `[reported 2026-09-01]` **So building schema
+knowledge from public sources is not possible.**
+
+**But the schema is not needed.** `Elika v0.85` extracts and replaces datablocks, and the registry
+already decoded gives the needle: **`CGST_DebugModeFPSCamera`, ordinal 189, hash `0xA80488AB`.** A
+data-driven state machine must reference its states by *something*, and the executable has told us
+both of the engine's own encodings. Plan:
+
+1. **Elika → extract datablocks** (raw bytes; no interpretation needed).
+2. **Search every datablock for `0xA80488AB` in both byte orders.** A 32-bit hash is a strong needle;
+   a hit is almost certainly real, and its containing file **is** the character graph.
+3. Reverse-engineer **one record in one already-localised file** — not a format.
+4. **Do NOT search on the ordinal.** `189` as a four-byte integer (`BD 00 00 00`) occurs everywhere by
+   chance; use it only to confirm a hit the hash already found.
+
+**⚠️ Run a positive control first — the negative here is the dangerous one.** Take a state that
+unquestionably runs in normal play, take its hash from the same registry, and confirm **that** hash is
+found in the extracted set. If the control is not found either, a null result on `0xA80488AB` proves
+nothing about the debug camera — it proves the extraction or the search was wrong. A hash stored
+transformed, or a graph in a file type Elika does not extract cleanly, looks **exactly** like a real
+negative.
+
+If the control hits and the target does not, that is itself valuable: the state is registered but
+present in no authored graph, and §6 should return to the D3D9 route rather than spend more time on
+data archaeology.
+
+**The same test extends the `Camera*` class hypothesis** — if those 152 class names also carry hashes,
+an identical search locates the camera graph, which would make the *data* route rather than the D3D9
+shader-constant route the way to own this game's camera. `[hypothesis]`, but now with a stated first
+step.
+
+**✅ Free confirmation, verified on this install:** `.forge` archives begin with the literal ASCII
+identifier **`scimitar`** at offset 0 — checked on `DataPC.forge`, `DataPC_Default.forge` and
+`DataPC_RC.forge`, all three byte-identical for the first 16 bytes.
+`[inferred-static 2026-09-01, n=3 files]` An independent confirmation of §2's engine identification,
+readable off the front of any archive.
+
 ### Confirmed the same day, for free: this game creates a plain D3D9 device
 
 `pop2008_vr_proxy_log.txt`, still sitting in the install folder from the 2026-08-25 live test, records

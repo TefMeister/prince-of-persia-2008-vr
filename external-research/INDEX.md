@@ -1,11 +1,7 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-01 — CHECK-IN** (inbox + INDEX in full + the re-ranked topic; the dossier was not read in full)**.** Inbox drained (the `.forge` re-ranking). The `.forge` topic is
-promoted to ⭐ critical path and answered: public knowledge of this format stops at the container and
-at assets — **nobody has ever published a reading of a behaviour or camera graph** — and AnvilToolkit
-does not list this game at all. But the registry `/pd` decoded turns that from a blocker into a byte
-search: the state's **32-bit hash is the needle**, and Elika's datablock extraction is the only
-primitive required. Pointer filed to `engine-research/inbox/`.
+**Last `/gr` pass: 2026-09-02 (estate sweep) — CHECK-IN** (board OPEN block + INDEX; the dossier was not read in full)**.** Inbox empty. **Nothing new.** The `.forge` decoder and the hash search are static work that yesterday's re-ranked topic already scoped; no public source has appeared since that reads a behaviour or camera graph. Not searched.
+_Previous: Last `/gr` pass: 2026-09-01 — CHECK-IN (inbox + INDEX in full + the re-ranked topic; the dossier was not read in full). Inbox drained (the `.forge` re-ranking). The `.forge` topic is promoted to ⭐ critical path a…_
 
 Every research topic gathered for this project, newest first. Each row links to a self-contained
 write-up in `topics/`. Status tags:

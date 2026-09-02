@@ -1,0 +1,8 @@
+done DataPC_HC.forge
+done DataPC_LR.forge
+done DataPC_OB.forge
+done DataPC_RC.forge
+done DataPC_lod.forge
+datablocks scanned 306850 state-description records 7830
+rules conditioned on 188/189: 1
+   ('DataPC_LR.forge', 'LR4_TowerExterior_LU', 1666, 'CameraRule', '', (188, 188, 309))

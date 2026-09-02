@@ -1,0 +1,202 @@
+type	count	bytes	examples
+SoundBao	206444	4524911513	Game Bootstrap/BAO_0x004777c6; Game Bootstrap/BAO_0x7fffffff
+TextureMap	14280	1966097929	Default Diffuse Texture/Default Diffuse Texture; Default Normal Texture/Default Normal Texture
+Mesh	12145	507084491	?/?; Game Bootstrap/GFX_Debug_Axe
+Animation	71004	455506400	Game Bootstrap/CAM_co_turn_180_01; Game Bootstrap/CAM_co_turn_180_02
+Entity	38382	258307647	Game Bootstrap/GFX_Combat_Hunter_Sate_Desactivation_OnCharacter; Game Bootstrap/GFX_Combat_Hunter_State_Desactivation
+NavMeshManager	2696	54376184	DE1_A_LU/NavMeshManager_01367; DE1_A_LU/NavMeshManager_01691
+EnvironmentMesh	479	47790421	DE1_A_LU/DE1_A_LAM_Intro_Mountain_01_EnvironmentMesh; DE1_A_LU/DES1_A_LAM_Ground_01b_EnvironmentMesh
+824a23ba	4703	17393417	Game Bootstrap/FX_Combat_Hunter_State_Desactivation_SubFX; Game Bootstrap/FX_Combat_Hunter_State_Desactivation_onCharacter_SubFX
+MeshShape	1311	16218170	DE1_A_LU/DE1_LDM_SandStorm; Game Bootstrap/?
+ActionBlock	2464	8563296	Game Bootstrap/GLO_BG_CINE_003_PrLo; Game Bootstrap/GLO_BG_CINE_004_PrLo
+ParticleSystem	3023	8250735	Game Bootstrap/GFX_Combat_Hunter_Sate_Desactivation_OnCharacter; Game Bootstrap/GFX_Combat_Hunter_State_Desactivation
+LocalizationPackage	13	7007721	LocalizationPackage_English/LocalizationPackage_English; LocalizationPackage_Polish/LocalizationPackage_Polish
+GrassPattern	91	6369081	DE1_A_LU/DE_GrassPatern00; DE3_Terrace_LU/DE_GrassPatern00
+MagmaMgbFile	15	4680784	Game Bootstrap/LocMagmaIngame_MGB; Game Bootstrap/MagmaFonts_MGB
+EKAPopMaterial	6033	3233956	Game Bootstrap/Test_Material_GFX_Debug_Axe_Red_000; Game Bootstrap/Test_Material_GFX_Debug_Axe_Yellow_000
+TextureMapSpec	13792	2899819	Game Bootstrap/Trajan Prince Bold 20 tga32_MapSpec; Game Bootstrap/Trajan Prince Bold 38 tga32_MapSpec
+DuelPack	46	1442738	DE1_A_LU/DuelPack_Guard; DE3_Terrace_LU/DuelPack_MourningKing
+Skeleton	374	1272364	Game Bootstrap/GFX_Skeleton_Alchimiste_Stuggle; Game Bootstrap/GFX_Skeleton_GFX_Cin_Elika_TrappedInGoo_OnSpine2
+ODDRule	1030	589833	Game Bootstrap/LineID-43297; Game Bootstrap/LineID-44203
+MagmaMftFile	5	494117	Game Bootstrap/MagmaFontText ; Game Bootstrap/MagmaFontTitle 
+EntityGroup	48	490659	DE3A_TempleCorridor_LU/DE3A_RS_V_DN_001; DE3C_Temple_LU/DE3C_RS_V_DN_001
+GrassIndirectLightingData	759	464799	DE1_A_LU/?; DE3_Terrace_LU/?
+TextureSet	4733	409392	Game Bootstrap/GFX_Shield_Elika_Set; Game Bootstrap/Goo_Official_Set_Set
+CameraRule	876	365695	Game Bootstrap/Archetype_FreeRoaming; Game Bootstrap/Archetype_MovComp
+PopFreeRoamingCamera	119	362726	Game Bootstrap/Archetype Vanille Free Cam; Game Bootstrap/Ground Compass Cam
+RegionLayoutAmbienceA	1	318387	POP0WORLD/?
+GraphRuleBook	2631	295774	Game Bootstrap/Contextual_Events; Game Bootstrap/Ingame_FreeCam
+CoopMove	716	295652	Prince_Sot/P0 AAA DISABLED Avoidance HangFree Banked_Left_Up To_Left  (HayStack_SE_from_Ledge_HangFree_Left); Prince_Sot/P0 AAA DISABLED Avoidance HangFree Banked_Left_Up To_Right  (HayStack_SE_from_Ledge_HangFree_Right)
+AnimSet	77	271098	Game Bootstrap/Elika_State_Fight; Game Bootstrap/Elika_State_Relaxed_CleansedWorld
+LODSelector	1651	270411	DE2_LU/DE2_Goo_LVL1_043_LODSelector_Goo; DE2_LU/DE2_Goo_LVL1_044_LODSelector_Goo
+GenericRule	941	213641	Game Bootstrap/Disable__SOME_Rules; Game Bootstrap/Pr_Mood_ApplyFacial
+MissionItemSceneSequencer	1186	209070	POP0_ROOT/ACT1_002_AdvTutorial_004_GuardFight; POP0_ROOT/ACT1_005_WorldCorrupts_003_TempleCollapses
+PopFixedCamera	277	203027	Game Bootstrap/CAM Magic Dash Down; Game Bootstrap/CAM Magic Dash Up
+OnomatopeInfoArray	66	195128	DE1_A_LU/OnomatopeInfoArray_Guard; DE1_A_LU/OnomatopeInfoArray_Guard_D
+RegionLayoutReverb	1	177261	POP0WORLD/?
+PopSplineCamera	252	172968	DE1_A_LU/Spline_CamZone_Backup_002; DE1_A_LU/Spline_CamZone_Backup_003
+TemporalCameraTransition	968	172485	Game Bootstrap/VanilleTransition; Game Bootstrap/VineTransitionIN
+PortalLoadUnit	337	169053	DE1_A_LU/DE1_A_LU; DE3_Terrace_LU/DE3_Terrace_LU
+PathAnimationCamera	845	161488	Game Bootstrap/CO Struggle INST Ledge Win 01 Cam; Game Bootstrap/CO Struggle INST Ledge Win 02 Cam
+ExtraOasisInfoManager	1	152771	Game Bootstrap/?
+ContactTable	39	118335	DE1_A_LU/Guard_Healed_ContactTable; DE1_B_LU/Guard_Healed_ContactTable
+RegionLayoutCorruption	1	113771	POP0WORLD/?
+RegionLayoutAmbienceB	1	110483	POP0WORLD/?
+AudioRule	430	99158	Game Bootstrap/Micro_StartParametres; Game Bootstrap/Mix_Fight_End
+RegionLayoutEnvironmentArea	1	80912	POP0WORLD/?
+FXRule	483	76854	Game Bootstrap/InsideDE3C_OpenLight; Game Bootstrap/InsideRC2_OpenLight
+GraphExecutionPack	128	75363	DE1_A_LU/FX_Guard; DE1_A_LU/Global Variable_Guard
+NoiseExtend	937	72548	Game Bootstrap/?; Game Bootstrap/Copy of GFX_Alchimiste_Struggle_NoiseExtend
+SkyLight	141	64895	DE3_Terrace_LU/DE_3A_Skylight_Healed; DE3_Terrace_LU/DE_Slylight_Healed
+PopCollisionMaterial	722	57336	DE1_A_LU/Sand; DE1_A_LU/Stone_Dirt
+RegionLayoutAmbienceC	1	57255	POP0WORLD/?
+PopSplineDrivenCamera	76	56282	Tutorial_Dash_LU/Instance of 0_SplineDrivenCamera; Tutorial_Dash_LU/Tutorial_Dash_CamZone_001_Trajectory01
+MovementCompensationCamera	28	56257	Game Bootstrap/Archetype MovementCompensationCamera; Game Bootstrap/Parent Ledge Cam
+GooComponentOptions	155	47387	DE2_LU/DES Goo Options Horizontal; DE2_LU/DES Goo Options Vertical
+ColumnCamera	17	42026	Game Bootstrap/Archetype Column Cam; Game Bootstrap/PRoofing Cam
+EntitySoundSet	132	39591	DE3A_TempleCorridor_LU/Ring_Switch_SoundSet; DE3C_Temple_LU/Ring_Switch_SoundSet
+GooMaterialExtend	173	37397	DE2_LU/DES_Goo_STD_Horizontale_GooMaterialExtend_000; DE3_Terrace_LU/Goo_STD_CIN_GooMaterialExtend
+MissionItemList	168	34458	POP0_ROOT/ACT1; POP0_ROOT/POP0_ROOT
+PostEffects	20	31024	DE2_LU/Post Effects_POP0WORLD_Desert_3A_Healed; DE3_Terrace_LU/Post Effects_POP0WORLD_Desert_3A_Healed
+LayerSet	91	30975	DE1_A_LU/DES_Canyon_01; DE3_Terrace_LU/DES_Tree_Bark_01
+GameBootstrap	1	30943	Game Bootstrap/Game Bootstrap
+BodyPartMapping	44	30922	DE1_A_LU/Human_BodyPartMapping; DE3_Terrace_LU/Human_BodyPartMapping
+OmniLight	252	30314	Game Bootstrap/?; Game Bootstrap/GFX_DynamicLight_ElikaLightsUp
+Credit	304	29887	Game Bootstrap/?
+World	1	29581	POP0WORLD/POP0WORLD
+CutCameraTransition	569	24644	Game Bootstrap/?; Game Bootstrap/SaveMeCameraTransition
+ListShape	170	24229	HC1_LeftTower_LU/?; HC2_Pools_LU/?
+SoundAmbienceSet	59	22364	DE3A_TempleCorridor_LU/SAS_AMB_DE3_TempleCorridor; DE3A_TempleCorridor_LU/SAS_AMB_DE3_TempleInside
+MissionItemFertileGround	56	19716	POP0_ROOT/ACT3_FertileGround1; POP0_ROOT/ACT3_FertileGround2
+PopWorldSection	170	19276	POP0WORLD/Default; POP0WORLD/HC1_LeftTower
+BoxShape	161	16905	DE3C_Temple_LU/?; HC12_Chains_LU/?
+HealingCamera	12	15386	Game Bootstrap/Activation_plate_CAM; Game Bootstrap/TUTO_Activation_plate_CAM
+RimLightingExtend	269	14614	DE1_A_LU/?; DE3_Terrace_LU/?
+DuelStruggleCamera	10	14604	Game Bootstrap/CO Struggle Instigator Cam; Game Bootstrap/Struggle Instigator Cam
+EntityList	138	14420	DE2_LU/DE2_Sparkles; DE3_Terrace_LU/FX_CLIP_TreeCollapse
+PopEnvironmentArea	81	13815	DE3_Terrace_LU/DE2_JCT_EnvArea_Healed; DE3_Terrace_LU/DE_3A_EnvArea_Healed
+LookAtTargetFreeRoamingCamera	6	13740	Game Bootstrap/A Duel Intro L Cam; Game Bootstrap/Duel BigD Target CAM
+OutlineExtend	180	11780	DE1_A_LU/?; Game Bootstrap/Copy of OutlineExtend
+ParallaxExtand	234	10529	DE3_Terrace_LU/?; DE3_Terrace_LU/Goo_STD_CIN_ParallaxExtand
+DuelProjectionCamera	8	10111	Game Bootstrap/Archetype Prince Projection Camera; Game Bootstrap/Instance of Archetype Prince Projection Camera
+AudioMixingSequence	26	9953	Game Bootstrap/MIX_SEQ_Fight_Lift_Combo; Game Bootstrap/MIX_SEQ_Fight_Prince_Hurt
+DynamicMesh	192	9819	DE1_A_LU/ACT_Guard_Clothe_A_DM; DE1_A_LU/ACT_Guard_Clothe_B_DM
+AnimatedFreeRoamingCamera	4	9108	Game Bootstrap/?; Game Bootstrap/AnimatedGripfall
+VegetationExtend	206	8938	DE1_A_LU/?; DE1_A_LU/DES_VegetationExtend
+ICameraRule	16	8506	DE1_A_LU/?; DE3_Terrace_LU/?
+SoundMusicBank	1	7938	POP0WORLD/PoPSoundMusicBank
+LayerBlendOperatorExtend	229	7606	DE1_A_LU/?; Game Bootstrap/?
+SimpleShaderExtend	312	7488	DE2_FAKE_LU/?; DE_FAKE_LU/?
+ActionKit	47	7253	DE1_A_LU/Guard_ActionKit; DE3_Terrace_LU/MourningKing_ActionKit
+ObjectPack	105	6977	DE1_A_LU/Guard; DE1_A_LU/Weapons_Guards
+SectionGameData	162	6804	POP0WORLD/?
+FalloffExtend	216	6656	DE1_A_LU/?; Game Bootstrap/?
+PortalShared	7	6312	?/?
+EnvironmentArea	62	5700	DE2_LU/DE2_JCT_EnvArea_Corrupted; DE3_Terrace_LU/DE2_JCT_EnvArea_Corrupted
+MaterialTemplate	13	5642	Default Material Template/Default Material Template; Solid Color Material Template/Solid Color Material Template
+DynamicSubMesh	95	5510	DE3C_Temple_LU/VisualTrail; Game Bootstrap/VisualTrail
+GameTestComponent	1	5325	POP0WORLD/?
+PopMarketingCamera	3	4804	Game Bootstrap/CAM FPS; Game Bootstrap/CAM Marketing POP2
+ImpactData	23	4646	DE3C_Temple_LU/ImpactData_SwordMonsterX; HC12_Chains_LU/ImpactData_SwordMonsterX
+CompassCamera	2	4592	Game Bootstrap/CA ODD Target Camera L; Game Bootstrap/CA ODD Target Camera R
+DuelCamera	2	4353	Game Bootstrap/Big D Duel Camera; Game Bootstrap/New Duel Cam
+SkyDome	23	4169	OB2_ObservatoryEntrance_LU/SkyDome_POP0WORLD_ObservatoryLair; OB2_ObservatoryEntrance_LU/SkyDome_POP0WORLD_ObservatoryLair_Corrupted
+PopAxisCamera	5	3492	DE3C_Temple_LU/DE3C_CamZone_000_POVWalling; DE3C_Temple_LU/DE3C_CamZone_012
+Achievement	50	3423	Game Bootstrap/PopAchievement49; Game Bootstrap/PopAchievement50
+FixedCamera	4	3081	Game Bootstrap/?; Game Bootstrap/Big D RollUnder Cam
+SoundReverbSet	28	3078	DE3A_TempleCorridor_LU/SRS_AMB_RVB_DE3_TempleInside; DE3C_Temple_LU/SRS_AMB_RVB_DE3_TempleInside
+CoopMoveData	4	3028	Prince/CoopMoveData_All; Prince_Sot/CoopMoveData_All
+CharacterAnimSetLayer	47	2586	DE1_A_LU/CharacterAnimSetLayer_Guard; DE3_Terrace_LU/CharacterAnimSetLayer_MourningKing
+HumanFXPack	38	2477	DE1_A_LU/Enemy_FXPack; DE1_B_LU/Enemy_FXPack
+SpherifyNormalExtand	64	2176	DE1_A_LU/?; DE3_Terrace_LU/?
+FogVolume	59	2065	DE1_A_LU/?; DE1_B_LU/?
+SphereShape	45	2025	DE1_B_LU/?; DE2_LU/?
+MapMenuHandler_m	1	2009	Game Bootstrap/?
+PopGhostCamera	1	1991	Game Bootstrap/CAM Ghost POP
+CorruptionProjector	32	1813	DE2_LU/DE2_DesertTree01_CorruptionProjector; DE2_LU/DE2_DesertTree02_CorruptionProjector
+CapsuleShape	29	1769	HC1_LeftTower_LU/?; HC4_CentralPeak_LU/?
+CorruptionZone	37	1767	POP0WORLD/RC5; POP0WORLD/RC6
+AudioBusManager	1	1658	Game Bootstrap/?
+PopSoundSettings	1	1630	Game Bootstrap/PopSoundSettings
+PopSplinePointAxisCamera	2	1487	DE3C_Temple_LU/DE3C_CamZone_000_POVFall_001; DE3C_Temple_LU/DE3C_CamZone_000_POVWalling_001
+ObjectAnimSetLayer	9	1485	Prince/SuperState_layer; Prince_Sot/SuperState_layer
+TutorialGraph	1	1447	Game Bootstrap/?
+SaveGame	2	1426	Game Bootstrap/GameOptionsSave; Game Bootstrap/SaveGameTemplate
+CreditManager	1	1255	Game Bootstrap/Credit Manager
+PopAudioGraph	1	817	Game Bootstrap/?
+WorldDivisionContainer	1	754	POP0WORLD/?
+Material	6	702	?/?
+DiffuseRampExtend	18	702	DE1_A_LU/?; DE1_B_LU/?
+PopGameplaySettings	1	690	Game Bootstrap/PopGamePlay Settings
+PopFlyOnBeamCamera	1	686	Game Bootstrap/PopFlyOnBeamCamera
+MagmaMenuHandler_m	9	666	Game Bootstrap/?
+VoiceGraph	1	659	Game Bootstrap/?
+BodyReactionAnimSetLayer	9	540	Prince/State_layer; Prince_Sot/State_layer
+BodyPartTemplate	1	521	Game Bootstrap/BodyPartTemplate_Human
+PreGameSoundOptionsMenuHandler_m	1	519	Game Bootstrap/?
+SoundOptionsMenuHandler_m	1	466	Game Bootstrap/?
+AchievementSet	1	460	Game Bootstrap/?
+FXGraph	1	334	Game Bootstrap/FX Graph
+PreGameControlsMenuHandler_m	1	302	Game Bootstrap/?
+PreGameDisplayOptionsMenuHandler_m	1	301	Game Bootstrap/?
+PreGameCombosListMenuHandler_m	1	300	Game Bootstrap/?
+CombosListMenuHandler_m	1	298	Game Bootstrap/?
+PreGameSkinManagerMenuHandler_m	1	298	Game Bootstrap/?
+PreGameArtGalleryMenuHandler_m	1	297	Game Bootstrap/?
+PreGameLoadingScreenMenuHandler_m	1	294	Game Bootstrap/?
+OptionsMenuHandler_m	1	293	Game Bootstrap/?
+PreGameLoadGameMenuHandler_m	1	291	Game Bootstrap/?
+MainPauseMenuHandler_m	1	290	Game Bootstrap/?
+SaveGameMenuHandler_m	1	290	Game Bootstrap/?
+PreGameOptionsMenuHandler_m	1	290	Game Bootstrap/?
+PreGameExtrasMenuHandler_m	1	289	Game Bootstrap/?
+GameSetting	1	282	Game Bootstrap/Game Settings
+TCRMenuHandler_m	1	272	Game Bootstrap/?
+LocalizationManager	1	270	Game Bootstrap/Localization Manager
+ControlsMenuHandler_m	1	249	Game Bootstrap/?
+DisplayOptionsMenuHandler_m	1	248	Game Bootstrap/?
+AnimationGraph	1	242	Game Bootstrap/?
+PopGamePlayManager	1	233	POP0WORLD/?
+InterfaceManager	1	215	Game Bootstrap/Interface Manager
+PopWorldSectionGroup	8	205	POP0WORLD/Default; POP0WORLD/HC
+ContentPackage	3	196	?/?
+PowersManager	1	191	POP0WORLD/?
+PreGameMainMenuHandler_m	1	189	Game Bootstrap/?
+CorruptionManager	1	177	POP0WORLD/?
+HudMenuHandler_m	1	176	Game Bootstrap/?
+PreGameCreditsMenuHandler_m	1	137	Game Bootstrap/?
+SaveGameIconHandler_m	1	134	Game Bootstrap/?
+LoverSpawnerComponent	1	134	POP0WORLD/?
+PlatformProfileManager	1	133	Game Bootstrap/Platform Profile Manager
+PauseMenuHandler_m	1	125	Game Bootstrap/?
+SpotLight	1	122	Game Bootstrap/?
+CameraGraph	1	120	Game Bootstrap/CameraGraph
+VirtualSoundEmittersManager	1	113	POP0WORLD/?
+DownloadableContentMenuHandler_m	1	106	Game Bootstrap/?
+DuelAbilityManager	1	100	Game Bootstrap/PopDuelUnlockAbility Manager
+SoundManager	1	96	Game Bootstrap/Sound Manager
+StartMenuDebug_m	1	94	Game Bootstrap/?
+PreGameMenuHandler_m	1	94	Game Bootstrap/?
+DebugMenuHandler_m	1	91	Game Bootstrap/?
+CheatMenuMagma_m	1	91	Game Bootstrap/?
+StartMenuE3Handler_m	1	89	Game Bootstrap/?
+TrapsManager	1	89	POP0WORLD/?
+POPPlayer	1	89	POP0WORLD/?
+TutorialMenuHandler_m	1	85	Game Bootstrap/?
+FadeHandler_m	1	83	Game Bootstrap/?
+Compass	1	82	POP0WORLD/?
+GraphManager	1	66	Game Bootstrap/Graph Manager
+GameConfig	1	64	Game Bootstrap/Game Config
+PersistenceManager	1	59	Game Bootstrap/class scimitar::PersistenceManager
+HighLevelAIDispatcher	1	58	Game Bootstrap/High level AI Dispatcher
+MissionManager	1	56	Game Bootstrap/Mission Manager
+CameraTransitionManager	1	55	Game Bootstrap/Camera Transition Manager
+SaveGameManager	1	46	Game Bootstrap/Save Game Manager
+GameFix	1	38	Game Bootstrap/Fixed Objects
+PortalDynamicLoaderSaveState	1	29	POP0WORLD/?
+WorldPersistenceComponent	1	29	POP0WORLD/?
+GooPoolsManager	1	29	POP0WORLD/?
+PopSoundReverbManager	1	25	Game Bootstrap/?
+PopSoundAmbienceManager	1	25	Game Bootstrap/?
+WorldTransitionPortal	1	25	POP0WORLD/?
+HealingSystem	1	25	POP0WORLD/?

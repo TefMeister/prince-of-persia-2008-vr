@@ -36,6 +36,45 @@
 
 ## 6. Camera & projection delivery (the crucial section)
 
+### ✅ `.forge` IS DECODED, THE CAMERA SYSTEM IS DATA, AND THE DEBUG FPS CAMERA IS AUTHORED AND SHIPPED (2026-09-02, `/pd`, no launch)
+
+**Supersedes the two 2026-09-01 subsections below on method** (the hash-needle plan and "one
+container decoder would unblock both"); their *destination* stood. Full write-up:
+`modding-notes/2026-09-02-forge-decoded-the-debug-fps-camera-is-authored-data.md`; layout:
+`dev-archive/tools/forge/FORMAT.md`; tool: `dev-archive/tools/forge/forge.py` (+ `lzo2a.c`).
+
+- **Reader:** parses all 33,401 datafiles in the 20 archives with every field cross-checked, 0
+  problems. Payloads are chunked **LZO2A** (the exe names its compressor enum `LZO1X_1 / LZO1X_999 /
+  LZO2A / LZX`; chunk type 2); the transcribed decoder reproduces every block to the exact size and
+  input — 7.90 GB across the 14 non-sound archives. Decompressed streams are typed, named
+  **datablocks** whose `typeHash` is **CRC32 of the class name**, the same function the state
+  registry uses; 201 of 202 types resolve. Elika was not needed. `[verified-numerically 2026-09-02]`
+- **The camera system is data — the 2026-09-01 `[hypothesis]` is now fact:** 876 `CameraRule`, 277
+  `PopFixedCamera`, 119 `PopFreeRoamingCamera`, 968 `TemporalCameraTransition`, 2,631
+  `GraphRuleBook` (`Ingame_FreeCam`, `Fight_Cameras`, …), one `CameraGraph`, one
+  `CameraTransitionManager`, mostly in `DataPC.forge → Game Bootstrap`. Owning this camera can run
+  through data. `[verified-numerically 2026-09-02]`
+- **States are referenced in data by ORDINAL, not hash.** The positive control (`CGST_Idle`,
+  `CGST_Walk`, `CGST_Ground` by CRC32) hit only inside audio blocks — so the hash needle is
+  `[disproved 2026-09-02]` and any null on `0xA80488AB` is meaningless. The real reference is
+  `PopCharacterGraphStateDescription` = `u32 3; u32 state[3]`, sentinel **309 = `CGST_Any`**.
+- **The debug first-person camera is authored:** `CameraRule "CR_Debug_1stPerson"` is conditioned on
+  (**188 `CGST_DebugMode`, 189 `CGST_DebugModeFPSCamera`**, 309); `"CR_Debug_GhostCam"` on (188, 309,
+  309); one unnamed level-local rule in `LR4_TowerExterior_LU` on (188, 188, 309); all other 7,800+
+  state descriptions estate-wide never name 188 or 189. Its chain — `TemporalCameraTransition
+  "FPSCamera_Transition"` / `"DebugMode_Transition"`, `PopMarketingCamera "CAM FPS"`,
+  `PopGhostCamera "CAM Ghost POP"` — is all present. **`CGST_DebugModeFPSCamera` did not outlive its
+  data.** `[verified-numerically 2026-09-02]`
+- **NOT established — how the Prince enters `CGST_DebugMode`.** No datablock *transitions* into
+  188/189; `.text` has no 32-bit immediate 188/189. Either a name-driven path (console / debug menu
+  resolving the name through the registry — the exe's default command line carries `/noconsole`) or
+  stripped. `[hypothesis]` The deciding static step: find the registry-descriptor (`0x00E53094`)
+  walker that does name → ordinal and enumerate its callers.
+- **Mod-shaped consequence:** rules select cameras by state, so rewriting `CR_Debug_1stPerson`'s
+  list to (309, 309, 309) with a raised priority would make "CAM FPS" live in normal play with no
+  code patch. Needs a repacker; raw blocks are legal (no compressor needed) but the per-block
+  `u32 checksum` is unidentified (not CRC32/Adler/CRC-32C/FNV/djb2/sum) and may be verified.
+
 ### ⛔️ The shipped shader pack is LZ-compressed — the CTAB route does not work here (2026-09-01, `/pd`)
 
 **The game was not launched.** Tried the technique that settled `alice-madness-returns-vr` the same
@@ -169,7 +208,10 @@ submission path — see that project's §9 for the D3D9-vs-D3D9Ex bridge problem
 - Frame-capture method; where images land: not yet investigated.
 
 ## 11. Dead ends & false leads (save future time)
-- <what looked true but wasn't, and why>
+- **Searching `.forge` data for a `CGST_*` state by its CRC32 hash** (`/gr` plan, 2026-09-01) — states are stored as **ordinals**; the three positive-control hashes hit only audio bytes. `[disproved 2026-09-02]`
+- **Reading register indices out of `ekshaderspccompress.bin`** — the pack is LZ-compressed; 830 `CTAB`s, none parse. The `.forge` decoder's LZO2A code may apply to it (same engine, untested). `[inferred-static 2026-09-01]`
+- **Scanning `.text` for a state-machine dispatch on ordinal 189** — the machine is data-driven; no dispatch exists, so "no reference" meant nothing (2026-09-01).
+- **Elika / Turfster tooling as a prerequisite** — never needed; the container took one session to decode from the archives themselves (2026-09-02).
 
 ## 12. Open risks toward the North Star
 - **No vorpX (or equivalent live-VR-tool) precedent exists for this specific game** (external-research, 2026-08-25) — unlike Mad Max, there's no third-party confirmation that a full stereo/head-tracking conversion is achievable here, only the HelixMod 3D-Vision fix (a different, more limited technique) as evidence the renderer isn't unusually resistant to hooking.

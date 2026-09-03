@@ -140,10 +140,103 @@ matrix-class check earned its keep:
 - **Which draws are the camera's** is unanswered, as it was for Alan Wake's fused paths:
   `g_WorldToLightProj` shows a shadow/light path exists, and a camera shear applied to it would
   corrupt shadows. The orthographic guard is a fail-safe, not an answer.
-- The **five-byte preamble** and the **per-block `u32` checksum** are both still unidentified. The
-  checksum is unchanged from `.forge` and is the subject of its own open item.
+- The **five-byte preamble** is still unidentified. (The per-block `u32` checksum was unidentified
+  when this section was written and is **solved in the addendum below** — Adler-32 seeded 0.)
 
 **The diagnostic that would show the container decode is wrong** rather than incomplete: it consumes
 the file to the byte and every block reproduces its declared uncompressed size, so a wrong format
 would have to be wrong in a way that is self-consistent across 1,361 independent blocks. If a future
 shader read produces nonsense, suspect the CTAB interpretation, not the decode.
+
+---
+
+# ADDENDUM — the block checksum is solved, the exe is unpacked, and the state registry is decoded
+
+Same session, still **no launch**.
+
+## 1. The `.forge` block checksum: Adler-32 seeded 0
+
+**It is Adler-32 with the accumulators seeded to 0 instead of 1, over the block's stored
+(compressed) bytes** — `zlib.adler32(stored, 0)`. That is LZO's own `lzo_adler32(0, buf, len)`: LZO
+documents the seed idiom as `lzo_adler32(0, NULL, 0)`, which *returns* 1, and whoever wrote the
+packer initialised the running value to a literal `0` and never made that call.
+
+**That one-bit difference is precisely why "Adler-32" was correctly ruled out on 2026-09-02.** The
+standard function matches no block at all. A negative result on the right family, for the wrong
+parameter.
+
+`[verified-numerically 2026-09-03, n=241758 blocks across 10 archives]` — every block of every
+chunk-compressed datafile in the game, 100% match. I re-checked it here independently over 1,500
+blocks (495 raw-stored, 1,005 compressed) from `DataPC_OB.forge`, an archive not used in the
+original demonstration, with two implementations: all matched, and standard Adler-32 matched zero.
+
+**The diagnostic that would have shortcut it:** both 16-bit halves are always `< 65521`, so no
+checksum has a half in `0xFFF1..0xFFFF`. That gap is an Adler fingerprint and the seed is then a
+two-value guess. Recorded in `FORMAT.md`.
+
+⚠️ **A method note on my own error while verifying this.** My first check reported "0 chunked
+datafiles found" across three archives — a clean negative that was entirely my bug: I called
+`Forge.payload()`, which does not exist (the method is `read()`), inside a bare `except Exception:
+continue`. Every entry was silently skipped. **A negative result is only evidence if the test could
+have produced a positive one**, and that one could not. Fixed, re-run, and only then believed.
+
+## 2. The exe is SteamStub **Variant 2.1** — and unpacks
+
+`PrinceOfPersia_Launcher.exe` has the same signature Alice had: a `.bind` section holding the entry
+point, `.text` at entropy **8.00**, zero `CC` padding runs. It carries **no `0xC0DEC0DF` magic**,
+because it is **Variant 2.1**, not 3.x. Steamless unpacks it: entropy **8.00 → 6.61**, `CC` runs
+**0 → 2**, `.bind` removed, entry point `0x011022ED` → **`0x00B076BD`** in `.text`.
+`[measured 2026-09-03]`
+
+That matters beyond convenience: **every static claim ever made about this exe's `.text` was made
+against encrypted bytes.** Strings in `.rdata` were always readable (which is why the state names
+were findable), but code searches — including the "no 32-bit immediate 188/189 in `.text`" result
+that §6 leaned on — could not have returned a positive. `/gr` reached the same conclusion from the
+other direction on 2026-09-03: the searches were correct, at the wrong layer.
+
+⚠️ The unpacked exe is **game content and is not committed**. It regenerates in one command.
+
+## 3. The state registry, decoded
+
+With readable code, the structure falls out. The registry is a table of **12-byte records,
+`{char* name; u32 ordinal; u32 hash}`**, based at **`0x00E521E8`**:
+
+```
+[  0] 'CGST_Ground'                 ordinal 0    hash 0x06F4ECF7
+[  1] 'CGST_Idle'                   ordinal 1    hash 0x407DC47E
+...
+[188] 'CGST_DebugMode'              ordinal 188  hash 0x861D663F
+[189] 'CGST_DebugModeFPSCamera'     ordinal 189  hash 0xA80488AB
+```
+
+Both ordinals **and** both hashes reproduce `cgst_registry.tsv` exactly — two independent
+confirmations of the layout, from a source (unpacked code) that did not exist when that file was
+made. `[inferred-static 2026-09-03]`
+
+**How it is reached, which is the question the board asked.** `0x00E53094` — the descriptor named on
+the board — has **exactly one** reference in `.text`, and it is a registration thunk:
+
+```
+0x0065D710:  push 1 ; push 0xE53094 ; mov ecx, 0xE48380 ; call 0x505E90 ; ret
+0x0065D6F0:  push 1 ; push 0xE521B4 ; mov ecx, 0xE48380 ; call 0x505E90 ; ret   <- the CGST enum
+```
+
+There are **258 such thunks**, each registering one enum descriptor into a global registry object at
+`0xE48380`; that object is touched from **2,758** sites. **The CGST name table itself has ZERO
+references in `.text`** — nothing walks it by a hardcoded pointer, so every lookup goes through the
+registry.
+
+**That confirms `/gr`'s reading and answers the board's branch.** A name-driven registry exists, it
+is populated at startup for 258 enums including this one, and the absence of an ordinal literal for
+188/189 is the *expected* signature of that design rather than evidence the state is unreachable.
+
+## What is still NOT established
+
+- **Which caller looks `CGST_DebugMode` up by name.** Following `0x505E90`'s object API through
+  2,758 use sites is the next step, and it is real work rather than a lookup — I have identified the
+  mechanism, not the trigger.
+- The descriptor header layout is only partly read: the 12-byte entry records are confirmed by the
+  CGST table's ordinals and hashes, but the header preceding the entries is not fully decoded, and I
+  have deliberately not guessed at its fields.
+- Nothing about the debug camera being *usable* follows from any of this. It is authored and
+  registered; whether the shipping build can enter it is unanswered.

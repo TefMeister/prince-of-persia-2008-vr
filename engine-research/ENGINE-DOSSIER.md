@@ -75,6 +75,17 @@ container decoder would unblock both"); their *destination* stood. Full write-up
   code patch. Needs a repacker; raw blocks are legal (no compressor needed) but the per-block
   `u32 checksum` is unidentified (not CRC32/Adler/CRC-32C/FNV/djb2/sum) and may be verified.
 
+  - **🔓 UNBLOCKED 2026-09-03 — the checksum is identified, so this is now buildable.** It is
+    **Adler-32 with the accumulators seeded to 0** (not 1), over the block's stored bytes.
+    `[verified-numerically 2026-09-03, n=241758 blocks across 10 archives]` — see
+    `dev-archive/tools/forge/FORMAT.md` §4. **The repacker has no remaining format unknown**, which
+    makes this the shortest recorded path to first person on this game: a data edit, no code patch.
+  - **Containing layer, mapped 2026-09-03 — a CONFIRMATION, not a new finding.** The four
+    `CR_Debug_*` rules are not loose: they sit in `GraphRuleBook "FunkyCameras"` (`25cf2e52`)
+    alongside `Prince_CloseUp_CR`, and `FunkyCameras` is one of exactly four rule books the
+    top-level `CameraGraph` (`c58f04b4`) references, with `Ingame_FreeCam`, `Contextual_Events` and
+    `Fight_Cameras`. Both the graph and the rule book list their children **twice**, unexplained
+    `[hypothesis 2026-09-03]`. Ids: `dev-archive/recon/2026-09-03-camera-graph-1stperson/`.
 ### ✅ THE SHADER PACK IS DECODED AND §6 IS ANSWERED (2026-09-03, `/pd`, no launch) — the block below was a correct measurement with a WRONG conclusion
 
 **`ekshaderspccompress.bin` is the SAME LZO2A container as `.forge`.** The magic

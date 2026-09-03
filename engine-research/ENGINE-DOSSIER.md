@@ -86,6 +86,32 @@ container decoder would unblock both"); their *destination* stood. Full write-up
     top-level `CameraGraph` (`c58f04b4`) references, with `Ingame_FreeCam`, `Contextual_Events` and
     `Fight_Cameras`. Both the graph and the rule book list their children **twice**, unexplained
     `[hypothesis 2026-09-03]`. Ids: `dev-archive/recon/2026-09-03-camera-graph-1stperson/`.
+  - **✅ THE REPACKER IS BUILT AND VALIDATED, same session (2026-09-03).**
+    `dev-archive/tools/forge/forge_write.py` patches a same-length byte range inside a named
+    datafile's decompressed payload and writes a new, valid archive — recompressing nothing (no
+    LZO2A encoder exists here), it re-stores the ONE affected 32 KiB block **raw**, which the format
+    explicitly permits, then splices the (now larger) payload into a full archive rewrite: every
+    later datafile's `data_offset` shifts by the aligned growth, and the touched entry's `size` is
+    patched in all three places it is recorded (file table, name table, the datafile's own inline
+    descriptor). Layout assumptions (entries laid out in index order; `next.data_offset ==
+    align_up(this.data_offset + PAYLOAD_OFF + this.size, 0x800)` exactly; padding always zero) were
+    verified empirically against the real archives — 29/29 consecutive pairs in `DataPC.forge`,
+    0 mismatches — before any of this was written, and the tool re-checks them on every run.
+    **Validation:** a null-op self-test (patch an already-raw block to its own value) produced
+    byte-identical output on three archives up to 752 MB
+    `[verified-numerically 2026-09-03, n=3 archives]`. The actual recorded edit — `CR_Debug_1stPerson`'s
+    state list `(188, 189, 309) → (309, 309, 309)` — applied to a scratch copy of `DataPC.forge` and
+    checked by decompressing and diffing **every datafile in the whole 64.5 MB archive** against the
+    original: **29 of 30 byte-identical, the touched one differing at exactly the intended 4 bytes,
+    zero checksum failures anywhere** `[verified-numerically 2026-09-03, n=1 production edit,
+    full-archive diff]`. Evidence: `dev-archive/recon/2026-09-03-repacker-validation/`.
+    ⚠️ **Not deployed to the game install** — attempted, following this project's DLL-deployment
+    precedent (dated backup, one-step revert), and blocked by the session's own safety system, which
+    treats a core data archive as a different risk class from an optional proxy DLL. **This is now a
+    `[USER]` action** — see `status/prince-of-persia-2008-vr.md` for the exact command. ⚠️ **The
+    "raised priority" half of the mod-shaped consequence above is not located or touched** — only the
+    state-list rewrite is done, so whether that alone is enough for `CAM FPS` to win over its sibling
+    rules is untested and needs the game running regardless of who deploys it.
 ### ✅ THE SHADER PACK IS DECODED AND §6 IS ANSWERED (2026-09-03, `/pd`, no launch) — the block below was a correct measurement with a WRONG conclusion
 
 **`ekshaderspccompress.bin` is the SAME LZO2A container as `.forge`.** The magic

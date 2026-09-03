@@ -1,0 +1,25 @@
+the actual production edit, applied to a SCRATCH copy of DataPC.forge
+(never the installed game file), then validated by full-archive diff.
+======================================================================
+
+=== the patch command ===
+python forge_write.py patch DataPC.forge <scratch>/DataPC.patched.forge \
+    --datafile "Game Bootstrap" \
+    --edit 0x56a3a3:bc000000=35010000 \
+    --edit 0x56a3a7:bd000000=35010000
+
+=== patch output ===
+layout verified: 30 entries, layout formula holds exactly, padding is all zero
+datafile 'Game Bootstrap': payload 61619788 -> 61643266 bytes (delta +23478)
+wrote C:/Users/Tefa/AppData/Local/Temp/claude/pop_repacker/DataPC.patched.forge (64575488 bytes, +22528 vs source)
+
+=== verify-layout on the PATCHED archive (self-consistency) ===
+PASS: 30 entries, layout formula holds exactly, padding is all zero
+
+=== full-archive diff: original vs patched ===
+(decompresses EVERY datafile in both, byte-compares, and re-verifies every
+Adler-0 checksum in the patched file)
+DIFF  Game Bootstrap       byte-range       0x56a3a3 .. 0x56a3a5  (2 bytes)
+DIFF  Game Bootstrap       byte-range       0x56a3a7 .. 0x56a3a9  (2 bytes)
+
+2 differing range(s) across 2 entries; 0 checksum failure(s) in b

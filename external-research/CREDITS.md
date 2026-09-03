@@ -34,6 +34,10 @@ redistribution (noted below).
 | AnvilToolkit (`.forge` unpack/repack for the Assassin's Creed titles; its support list is what shows PoP 2008 is excluded) | AnvilToolkit authors and contributors | https://www.nexusmods.com/assassinscreed/mods/30 |
 | ACExplorer (open-source `.forge` explorer, corroborating how far public format knowledge reaches) | gentlegiantJGC | https://github.com/gentlegiantJGC/ACExplorer |
 | The Cutting Room Floor (documentation of the Assassin's Creed prototype's debug menu and Ghost Mode) | TCRF contributors | https://tcrf.net/Proto:Assassin%27s_Creed |
+| "DLC Debug Menu" thread (the Epilogue pause-menu route into a shipped "Menu Debug" screen) | XboxAchievements forum members | https://www.xboxachievements.com/forum/topic/115001-dlc-debug-menu/ |
+| "Debug menu/cheats in DLC" thread (independent report of the same pause-menu route) | Giant Bomb forum members | https://www.giantbomb.com/prince-of-persia/3030-20961/forums/debug-menucheats-in-dlc-233454/ |
+| Wikipedia — Prince of Persia (2008 video game) (Epilogue DLC platform availability; Scimitar lineage) | Wikipedia contributors | https://en.wikipedia.org/wiki/Prince_of_Persia_(2008_video_game) |
+| LZO (`lzo2a_d.ch` / `config2a.h`, GPL) — the decompressor our own `.forge` reader was transcribed from | Markus F.X.J. Oberhumer | http://www.oberhumer.com/opensource/lzo/ |
 
 Development on this project is AI-assisted: much of the research, code, and
 documentation was produced with **Claude (Anthropic)** (https://claude.com)

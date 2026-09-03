@@ -240,3 +240,58 @@ is populated at startup for 258 enums including this one, and the absence of an 
   have deliberately not guessed at its fields.
 - Nothing about the debug camera being *usable* follows from any of this. It is authored and
   registered; whether the shipping build can enter it is unanswered.
+
+---
+
+# ADDENDUM 2 — the debug-state entry path is DATA, not code
+
+Same session, still **no launch**. This narrows the board's remaining question and redirects it.
+
+## Two checks the unpack made possible, and their honest results
+
+**1. Neither state name is referenced by code.** `CGST_DebugMode` (`0x00D4D67C`) and
+`CGST_DebugModeFPSCamera` (`0x00D4D664`) each have **exactly one** absolute reference in the whole
+image, and it is their own entry in the registry table in `.data` — **zero references from
+`.text`.** `[inferred-static 2026-09-03]` No compiled code names these states.
+
+**2. The old "no immediate 188/189 in `.text`" negative is formally void — and the positive is
+uninformative.** That claim was made against encrypted `.text` and could not have returned a
+positive. On the unpacked image the immediates appear **1,196** and **592** times — which tells us
+nothing either, because 188 and 189 are ordinary small integers that occur all over any binary.
+The question simply cannot be answered by immediate-scanning in either direction.
+
+## Where that leaves the entry path
+
+The registry itself is fully mapped: 258 enum descriptors registered at startup into a global object
+at `0xE48380`, reached through **13 distinct methods**, the busiest being `0x0050A2B0` (2,352 call
+sites) with registration at `0x00505E90` (258) and two plausible lookup helpers at `0x00505E10` (66)
+and `0x00503760` (53).
+
+I checked whether either lookup helper is ever called with a **string literal**: across all 119 call
+sites between them, **not one pushes a readable string**. `[inferred-static 2026-09-03]`
+
+Put together with the name having no code reference at all, the conclusion is:
+
+> **Nothing in the executable names this state. If it is reachable, the name or ordinal arrives from
+> DATA — a `.forge` datablock — and the UI resolves it generically through the registry.**
+
+That is exactly what `/gr` predicted from the other direction (a pause-menu entry is a *data* route,
+so it leaves no literal in code), and it is now established from the binary rather than inferred
+from community reports.
+
+## What this changes about the next step
+
+**Stop searching the exe.** The remaining question — *what enters `CGST_DebugMode`* — is a search of
+the decoded `.forge` data for a menu/UI datablock that carries the state name or its ordinal, and
+the `.forge` reader already parses all 33,401 datafiles. That is a different, cheaper search than
+following 2,758 call sites, and it is where `/gr`'s three suggested follow-ups pointed:
+
+1. census the menu classes as the camera classes were censused;
+2. search the data for the state NAMES (not the ordinals, not the hashes);
+3. read `GraphRuleBook` `Ingame_FreeCam` in full — if a rule book can be entered directly, the state
+   ordinal may not be needed at all.
+
+⚠️ **What is NOT established:** that the state is reachable. Everything here establishes only that
+*if* it is, the trigger lives in data. A negative result from the data search would be genuinely
+meaningful, unlike the immediate-scan negatives, because the `.forge` reader can produce a positive
+— it resolves 201 of 202 type hashes and reads every datafile.

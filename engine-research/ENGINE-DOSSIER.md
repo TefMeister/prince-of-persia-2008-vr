@@ -212,9 +212,17 @@ hardcoded pointer, so every lookup goes through the registry. **A name-driven re
 exists**, which is what `/gr` predicted and which makes the missing ordinal literal the expected
 signature of the design rather than evidence of absence.
 
-⚠️ **Still open:** *which* caller looks `CGST_DebugMode` up by name. That means following the
-registry object's API through 2,758 use sites — real work, not a lookup. The mechanism is
-identified; the trigger is not.
+✅ **NARROWED 2026-09-03 — the entry path is DATA, not code.** Neither state name is referenced from
+`.text` at all: each has exactly one absolute reference in the whole image, its own registry-table
+entry in `.data`. And neither of the registry's two lookup helpers (`0x00505E10`, 66 call sites;
+`0x00503760`, 53) is ever called with a string literal — **0 of 119 call sites push a readable
+string**. `[inferred-static 2026-09-03]` So **nothing in the executable names this state**; if it is
+reachable, the name or ordinal arrives from a `.forge` datablock and the UI resolves it generically.
+⚠️ Also: the old *"no 32-bit immediate 188/189 in `.text`"* negative is formally void (it ran against
+encrypted code) **and its replacement is uninformative** — the unpacked image contains 1,196 and 592
+of them, because those are ordinary small integers. That question cannot be settled by
+immediate-scanning in either direction. **The remaining search belongs in the decoded `.forge` data,
+not the exe.**
 
 ### 🎯 The `.forge` route has a plan now: the state HASH is a schema-free needle (`/gr`, folded 2026-09-01)
 

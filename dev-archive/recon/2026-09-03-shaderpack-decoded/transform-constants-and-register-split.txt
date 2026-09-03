@@ -1,0 +1,27 @@
+parsed 17270 tables (vs=8700 ps=8570)
+
+=== transform-ish float4 constants ===
+  g_WorldViewProj                    8428   MATRIX_ROWS      vs_3_0 c0 x4(6292), vs_3_0 c128 x4(2016), vs_3_0 c8 x4(96)
+  g_World                            7992   MATRIX_ROWS      vs_3_0 c4 x4(5274), vs_3_0 c132 x4(1582), vs_3_0 c4 x3(483)
+  g_UVMatrix1                        7282   MATRIX_ROWS      vs_3_0 c11 x2(3304), vs_3_0 c8 x2(1095), vs_3_0 c136 x2(998)
+  g_ViewerPosition                   6417   VECTOR           ps_3_0 c10 x1(424), ps_3_0 c7 x1(405), ps_3_0 c13 x1(357)
+  g_CorruptionColorCorrectionMatrix  3524   MATRIX_ROWS      ps_3_0 c7 x3(803), ps_3_0 c11 x3(553), ps_3_0 c4 x3(516)
+  g_UVMatrix2                        3091   MATRIX_ROWS      vs_3_0 c13 x2(1603), vs_3_0 c10 x2(469), vs_3_0 c138 x2(360)
+  g_WorldToLightProj                 2588   MATRIX_ROWS      ps_3_0 c10 x3(392), ps_3_0 c3 x3(319), ps_3_0 c14 x3(270)
+  g_Bones                            2016   MATRIX_ROWS      vs_3_0 c0 x128(2016)
+  g_PrebakedColorCorrectionMatrixPSCorrupted 1856   MATRIX_ROWS      vs_3_0 c8 x3(1357), vs_3_0 c136 x3(261), vs_3_0 c7 x3(106)
+  g_PrebakedColorCorrectionMatrixPSHealed 1748   MATRIX_ROWS      vs_3_0 c8 x3(1231), vs_3_0 c136 x3(191), vs_3_0 c7 x3(111)
+  g_TextureProjectionMatrix          1580   MATRIX_ROWS      ps_3_0 c0 x4(914), ps_3_0 c4 x4(392), ps_3_0 c8 x4(212)
+  g_CorruptionProjectorPosition      1580   VECTOR           ps_3_0 c12 x1(177), ps_3_0 c15 x1(170), ps_3_0 c9 x1(151)
+  g_CorruptionProjectorFarInvFarMinusNear 1580   VECTOR           ps_3_0 c11 x1(177), ps_3_0 c14 x1(170), ps_3_0 c8 x1(151)
+  g_PrebakedColorCorrectionMatrixPSBlended 1210   MATRIX_ROWS      vs_3_0 c8 x3(1038), vs_3_0 c136 x3(100), vs_3_0 c10 x3(24)
+  g_noiseWorldBounds                 1178   VECTOR           vs_3_0 c16 x1(251), vs_3_0 c18 x1(229), vs_3_0 c15 x1(225)
+  g_WorldView                        688    MATRIX_ROWS      vs_3_0 c4 x3(287), vs_3_0 c132 x3(261), vs_3_0 c8 x3(123)
+  g_UVMatrixV                        424    VECTOR           ps_3_0 c13 x3(54), ps_3_0 c17 x3(48), ps_3_0 c16 x3(46)
+  g_UVMatrixU                        424    VECTOR           ps_3_0 c10 x3(54), ps_3_0 c14 x3(48), ps_3_0 c13 x3(46)
+
+=== why g_WorldViewProj moves between c0 and c128 ===
+  c0    :  6292 shaders ; large arrays present: none
+  c128  :  2016 shaders ; large arrays present: (('g_Bones', 0, 128),)
+  c8    :    96 shaders ; large arrays present: none
+  c12   :    24 shaders ; large arrays present: none

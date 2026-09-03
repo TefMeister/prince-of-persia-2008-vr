@@ -20,7 +20,7 @@
 ## 3. Binary & memory
 - 32/64-bit, size, module base, ASLR behaviour (stable base? relocations?): **32-bit** (PE32, `coff-i386`), standard MSVC section layout (`.text`/`.rdata`/`.data`/`.tls`/`.rsrc` — no unusual renamed sections, no giant opaque blob like Burnout Paradise's or Mad Max's Denuvo-shaped sections; consistent with the DRM finding below). 12.7 MB.
 - Renderer API (D3D11/12, DXGI, GL, Vulkan) with evidence: **Direct3D 9 confirmed.** Static imports include `d3d9.dll` and `d3dx9_39.dll` (D3DX9 helper library, SDK version marker "_39" ≈ June 2010 SDK); literal string `Direct3DCreate9` present. **`Direct3DCreate9Ex` is NOT present** — this game uses plain (non-Ex) D3D9, worth remembering since Ex vs. non-Ex changes some behavior (e.g. windowed flip-model, `GetGPUThreadPriority`) relevant to injection/hooking design later.
-- Developer console / cvar system present? how opened?: **A real console AND a real debug menu both appear to exist.** Strings found: `"- unable to open console device"`, `GetConsoleCP`/`GetConsoleMode`/`WriteConsoleA`/`WriteConsoleW`, `consoleout`, and critically a default command-line string embedded in the exe: `/world:POP0WORLD /fast /shadows:on /lightmode:normal /fardist:1500 /noconsole /bink:on /mission:pop0_root /startupmenu:on /localbigfile` — the presence of `/noconsole` strongly implies a console-enabling launch flag exists (untested: try launching without it, or with an explicit `/console`). Separately, `DebugMenu`/`DebugMenuHandler_m` strings confirm an actual developer debug menu class exists in the binary — how it's opened is unconfirmed, but this is the same category of find that unblocked Psychonauts' void investigation elsewhere in this portfolio (a dormant dev tool, not something to reverse-engineer from scratch). **Checked externally (2026-08-25): no publicly-documented unlock method found for either** (unlike Mad Max, where MMConsole solved the equivalent problem) — the only "debug menu" hits elsewhere were an unrelated Xbox 360 DLC-specific feature. This will need to be solved through this project's own live work.
+- Developer console / cvar system present? how opened?: **A real console AND a real debug menu both appear to exist.** Strings found: `"- unable to open console device"`, `GetConsoleCP`/`GetConsoleMode`/`WriteConsoleA`/`WriteConsoleW`, `consoleout`, and critically a default command-line string embedded in the exe: `/world:POP0WORLD /fast /shadows:on /lightmode:normal /fardist:1500 /noconsole /bink:on /mission:pop0_root /startupmenu:on /localbigfile` — the presence of `/noconsole` strongly implies a console-enabling launch flag exists (untested: try launching without it, or with an explicit `/console`). Separately, `DebugMenu`/`DebugMenuHandler_m` strings confirm an actual developer debug menu class exists in the binary — how it's opened is unconfirmed, but this is the same category of find that unblocked Psychonauts' void investigation elsewhere in this portfolio (a dormant dev tool, not something to reverse-engineer from scratch). **⚠️ CORRECTED 2026-09-03 (`/gr`, superseding this line's 2026-08-25 dismissal): a debug menu is reachable from this game's own pause menu in at least one retail build.** Console players reached a shipped **`Menu Debug`** screen in the Epilogue DLC when the pause list scrolled past its own bounds, with options including turning the corruption effects off `[reported 2026-09-03]`. The PC release never got the Epilogue, so **this is not a route to try on PC as-is** — what it establishes is that **the menu system carries debug entries**, which makes §6's UI/data branch the live one. The earlier text read: *no publicly-documented unlock method found for either … the only "debug menu" hits elsewhere were an unrelated Xbox 360 DLC-specific feature.* That dismissal was wrong, and wrong in the expensive direction — it sat in our own external-research filed as noise while §6 recorded the entry path as an open branch. The `DebugMenu`/`DebugMenuHandler_m` strings and `/noconsole` are unchanged and now read as corroboration rather than curiosities. ⚠️ Both source threads returned HTTP 403 to a direct fetch and were read through search summaries only, so this is `[reported]`, not verified; one read in a human browser would upgrade it.
 
 ## 4. DRM / anti-debug & injection foothold
 - DRM (CEG/Denuvo/GOG/none); launch-time-debugger behaviour: **Reconciled, 2026-08-25 — appears genuinely DRM-free, on two rounds of evidence.** Initial static pass found no Denuvo/SecuROM/StarForce/Uplay strings. External-research then flagged a real, specific reason to double-check: the 2008 **retail boxed** PC release was famously, publicly made DRM-free (widely covered contemporary press — Ubisoft removed disc-check protection entirely), but digital/downloadable versions weren't confirmed part of that move, and this console-generation's PC ports commonly carried **StarForce** (a kernel-driver-based DRM, architecturally very different from Denuvo — also flagged as having known compatibility problems on modern Windows independent of anti-piracy concerns). **Follow-up check on the actually-installed Steam build, specifically for StarForce**: no `*starforce*`/`*sfdrv*`/`*.sys`/`*protection*` files anywhere in the install directory, no StarForce Windows service installed, no StarForce-related strings anywhere in the exe (broadened search beyond the first pass). **Conclusion: this Steam release appears to have shipped DRM-free, consistent with the retail precedent** — not airtight certainty (no debugger has been attached live yet, unlike Mad Max where live testing was what actually settled the equivalent question), but two independent negative checks plus a real historical precedent make this well-supported.
@@ -75,7 +75,64 @@ container decoder would unblock both"); their *destination* stood. Full write-up
   code patch. Needs a repacker; raw blocks are legal (no compressor needed) but the per-block
   `u32 checksum` is unidentified (not CRC32/Adler/CRC-32C/FNV/djb2/sum) and may be verified.
 
-### ⛔️ The shipped shader pack is LZ-compressed — the CTAB route does not work here (2026-09-01, `/pd`)
+### ✅ THE SHADER PACK IS DECODED AND §6 IS ANSWERED (2026-09-03, `/pd`, no launch) — the block below was a correct measurement with a WRONG conclusion
+
+**`ekshaderspccompress.bin` is the SAME LZO2A container as `.forge`.** The magic
+`33 AA FB 57 99 FA 04 10` sits at offset **5**, behind a five-byte preamble. The only structural
+difference is that there is **no block table** — sizes are inline per block, each header carrying a
+leading flag byte:
+
+```
+u8[5] preamble f5 9f 37 a8 02 | u8[8] magic | u16 ver=1 | u8 type=2 (LZO2A)
+u16 0x8000 | u16 0x0000        (.forge has 0x8000 in that last field)
+then per block: u8 flag(=1) ; u32 compressed ; u32 uncompressed ; u32 checksum ; data
+```
+
+`[verified-numerically 2026-09-03, n=1361 blocks]` — **1,361 blocks, ZERO decompression failures,
+the file consumed exactly**, 9,784,709 → 44,578,719 bytes (4.56×), yielding **17,464 `CTAB`** and
+**0 `DXBC`**. Tool: `dev-archive/tools/forge/ekshaderspc.py` (reuses `forge.py`'s LZO2A; output
+byte-identical to the ad-hoc decode that found the format).
+
+**§6's answer, from 17,270 parsed constant tables** (8,700 `vs_3_0`, 8,570 `ps_3_0`):
+
+| constant | class | registers | shaders |
+| --- | --- | --- | --- |
+| **`g_WorldViewProj`** | `MATRIX_ROWS` | **`vs c0 ×4`** (6,292) · **`c128 ×4`** (2,016) · `c8` (96) · `c12` (24) | **8,428** |
+| `g_World` | `MATRIX_ROWS` | `vs c4 ×4` · `c132 ×4` | 7,992 |
+| `g_WorldView` | `MATRIX_ROWS` | `vs c4 ×3` · `c132 ×3` | 688 |
+| `g_ViewerPosition` | `VECTOR` | `ps c10`/`c7`/`c13` | 6,417 |
+| `g_WorldToLightProj` | `MATRIX_ROWS` | `ps c10 ×3` · `c3 ×3` | 2,588 |
+| `g_Bones` | `MATRIX_ROWS` | **`vs c0 ×128`** | 2,016 |
+
+**⚠️ The `c0` ⇄ `c128` split is the skinning palette**, exactly: all 2,016 shaders with the matrix at
+`c128` carry `g_Bones` at `c0..c127`, and **none of the 6,292 at `c0` has any large array**.
+`[inferred-static 2026-09-03, n=8428]` **A proxy must resolve the register per shader** — a fixed
+`c0` corrupts 2,016 shaders. Same displacement `alan-wake-vr` has (192 registers there).
+
+**Convention established two ways**, because metadata alone nearly misled on another project the
+same day: the CTAB class says `MATRIX_ROWS`, and the bytecode agrees — the simplest shader carrying
+it does `dp4 o0.x, c0, r0` / `dp4 o0.y, c1, r0` / `dp4 o0.z, c2, r0` / `dp4 o0.w, c3, r0`, i.e.
+**registers are ROWS**, column-vector convention. `[inferred-static 2026-09-03, two independent
+reads]` (`alice-madness-returns-vr` is `MATRIX_COLUMNS` and needs a *transposed* implementation of
+the identical formula; this game is on `alan-wake-vr`'s side of that line.)
+
+**Consequence: `g_WorldViewProj` is FUSED**, so the per-eye edit is the clip-space form
+`row0 += S·row3 ; row0.w -= S·C` — which is `alan-wake-vr`'s `aw_stereo_apply_fused_clip`, written
+and verified 2026-09-03, and it ports here unchanged.
+
+⚠️ **Open, and specific to this game:** there is **no standalone projection constant**, so `p00`
+cannot be recovered the way it is elsewhere — and the `|row0.xyz|` trick fails on a fused
+`World→Clip` whenever the object has scale. Where `p00` comes from here is a real unanswered
+question. Also unanswered: which draws are the camera's rather than the light's
+(`g_WorldToLightProj` shows a shadow path exists). Write-up:
+`modding-notes/2026-09-03-the-shader-pack-is-the-same-lzo2a-container-and-section-6-is-answered.md`;
+evidence in `dev-archive/recon/2026-09-03-shaderpack-decoded/`.
+
+<details>
+<summary>The superseded 2026-09-01 block, kept because the measurements are still true and the
+reasoning failure is worth seeing (click to expand)</summary>
+
+### ⛔️ [SUPERSEDED 2026-09-03] The shipped shader pack is LZ-compressed — the CTAB route does not work here (2026-09-01, `/pd`)
 
 **The game was not launched.** Tried the technique that settled `alice-madness-returns-vr` the same
 day — read constant names and register indices straight out of the shipped compiled shaders — and it
@@ -113,6 +170,12 @@ saying **`.forge` tooling is now critical path** for the `CGST_DebugModeFPSCamer
 189, nothing in the code dispatching it). The shader pack is a second, independent reason to want a
 container decoder: **one piece of tooling would unblock both the debug-camera question and the whole
 of §6.** If anything on this project deserves static effort, it is that decoder.
+
+*(That last paragraph called it right — and the decoder, written for `.forge` on 2026-09-02,
+turned out to decode this file too the next day. What the block above got wrong was only the
+inference that the compression made the pack unreadable.)*
+
+</details>
 
 ### 🎯 The `.forge` route has a plan now: the state HASH is a schema-free needle (`/gr`, folded 2026-09-01)
 
@@ -208,6 +271,7 @@ submission path — see that project's §9 for the D3D9-vs-D3D9Ex bridge problem
 - Frame-capture method; where images land: not yet investigated.
 
 ## 11. Dead ends & false leads (save future time)
+- **⚠️ Reading the ordinal/immediate searches as evidence of ABSENCE — correct searches, wrong layer (2026-09-03).** `.text` carries no 32-bit immediate 188/189 for `CGST_DebugMode`, and that was taken as a point against the feature being reachable. **A name-driven menu route leaves no literal by construction** — the state is named in data and resolved through the registry, so the search was looking in the one place such a route guarantees is empty. The negatives are real and carry **no weight** against the UI/data branch (§3, §6). Search for the state NAMES in the `.forge` data instead.
 - **Searching `.forge` data for a `CGST_*` state by its CRC32 hash** (`/gr` plan, 2026-09-01) — states are stored as **ordinals**; the three positive-control hashes hit only audio bytes. `[disproved 2026-09-02]`
 - **Reading register indices out of `ekshaderspccompress.bin`** — the pack is LZ-compressed; 830 `CTAB`s, none parse. The `.forge` decoder's LZO2A code may apply to it (same engine, untested). `[inferred-static 2026-09-01]`
 - **Scanning `.text` for a state-machine dispatch on ordinal 189** — the machine is data-driven; no dispatch exists, so "no reference" meant nothing (2026-09-01).

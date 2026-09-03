@@ -1,0 +1,19 @@
+Simplest vs_3_0 in the decoded shader DB carrying g_WorldViewProj at c0.
+Establishes the register convention: four consecutive dp4 against c0..c3,
+i.e. registers are ROWS (column-vector convention), matching alan-wake-vr
+and NOT alice-madness-returns-vr (which is MATRIX_COLUMNS).
+
+   g_WorldViewProj                    float4   c0    x4
+
+  ; version 0xFFFE0300
+  def c4, 3.05185e-05, 1, 0, 0
+  dcl v0
+  dcl o0
+  mul    r0.x, c4.x, v0.w
+  mul    r0.xyz, r0.x, v0
+  mov    r0.w, c4.y
+  dp4    o0.x, c0, r0
+  dp4    o0.y, c1, r0
+  dp4    o0.z, c2, r0
+  dp4    o0.w, c3, r0
+  end

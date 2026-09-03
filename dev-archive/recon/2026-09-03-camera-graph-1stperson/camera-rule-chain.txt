@@ -1,0 +1,54 @@
+The camera-rule chain to CAM FPS - a CONFIRMATION pass, not a discovery
+/pd, dev PC, 2026-09-03. THE GAME WAS NOT LAUNCHED.
+
+⚠️ READ THIS FIRST. The chain below was ALREADY FOUND on 2026-09-02 and is
+recorded in ENGINE-DOSSIER.md §6, which went further than this pass did - it
+decoded the CameraRule condition format and stated the mod. This file is kept
+only because it maps the containing rule-book layer, which the earlier pass did
+not spell out, and because independent re-derivation from a different direction
+is worth something. It is NOT a new finding.
+
+What this pass added, and only this:
+
+  CameraGraph (68, c58f04b4) lists exactly four rule books:
+      842a4000 Ingame_FreeCam · c58f0613 Contextual_Events
+      ddbf82fe Fight_Cameras  · 25cf2e52 FunkyCameras
+
+  GraphRuleBook FunkyCameras (497, 25cf2e52) lists exactly five rules:
+      c58f04b2 CR_Debug_GhostCam    c58f050b CR_Debug_1stPerson
+      25cf2e5c CR_Debug_Marketing2  5af9c000 CR_Debug_Marketing
+      98e46a08 Prince_CloseUp_CR
+
+  So the debug cameras are not loose rules: they live in one rule book,
+  FunkyCameras, which the TOP-LEVEL CameraGraph already references. Both
+  CameraGraph and FunkyCameras list their children TWICE, in the same order -
+  unexplained. [hypothesis 2026-09-03]
+
+Block/id reference (interface metadata, not game content):
+
+  block   id          type                      name
+  ------------------------------------------------------------------------
+     68   c58f04b4    CameraGraph               CameraGraph
+    494   842a4000    GraphRuleBook             Ingame_FreeCam
+    495   c58f0613    GraphRuleBook             Contextual_Events
+    496   ddbf82fe    GraphRuleBook             Fight_Cameras
+    497   25cf2e52    GraphRuleBook             FunkyCameras
+    505   6a982be1    GraphRuleBook             MENU RuleBook
+   1003   c58f04b2    CameraRule                CR_Debug_GhostCam
+   1004   c58f050b    CameraRule                CR_Debug_1stPerson
+   1005   25cf2e5c    CameraRule                CR_Debug_Marketing2
+   1006   5af9c000    CameraRule                CR_Debug_Marketing
+   1007   98e46a08    CameraRule                Prince_CloseUp_CR
+   1621   c0f7800d    TemporalCameraTransition  DebugMode_Transition
+   1622   c0f78033    PopMarketingCamera        CAM FPS
+   1624   25cf2e5d    PopMarketingCamera        CAM Marketing POP2
+   1626   c0f78001    PopMarketingCamera        CAM Marketing POP
+
+Method: forge.py grep --value <id> --match "Game Bootstrap", which reports the
+datablock each hit falls in, so each link is read from the data.
+
+THE THING THAT ACTUALLY CHANGED TODAY IS ELSEWHERE. §6's 2026-09-02 entry ends:
+"Needs a repacker; raw blocks are legal (no compressor needed) but the per-block
+u32 checksum is unidentified". That checksum was identified today - Adler-32
+with the accumulators seeded to 0, over the stored bytes, verified on 241,758
+blocks. The repacker is no longer blocked.

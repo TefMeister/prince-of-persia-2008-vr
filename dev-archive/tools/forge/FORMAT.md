@@ -111,9 +111,38 @@ LZO's `lzo2a_d.ch` with the `config2a.h` constants (`SWD_N 8191`, hence no M3 br
 refilled a byte at a time. `lzo2a.c` is the C transcription; `forge.py` falls back to the
 pure-Python one when the DLL is absent (measured 184 MB/s native on the 61 MB Game Bootstrap datafile; the Python path is tens of times slower on large files, fine for single datafiles). `lzo2a.dll` is a build artifact and is git-ignored — build it with the one-line `clang` command in its header.
 
-The per-block `checksum` is **not established**: it is not CRC32 or Adler-32 of either
-the compressed or the decompressed bytes. Exact-size + exact-consumption + EOF marker is
-the integrity check the tool applies instead.
+**✅ The per-block `checksum` is SOLVED (2026-09-03): it is Adler-32 with the accumulators
+seeded to 0 instead of 1**, computed over the block's **stored (compressed) bytes** - i.e. exactly
+the `u8 data[compressed]` that follows it. Equivalently `zlib.adler32(stored, 0)`.
+
+This is LZO's own `lzo_adler32(0, buf, len)`. LZO documents the seed idiom as
+`lzo_adler32(0, NULL, 0)`, which *returns* 1; whoever wrote the packer initialised the running value
+to a literal `0` and never made that call. That one-bit difference is exactly why "Adler-32" was
+correctly ruled out before - the standard function never matches a single block.
+
+```python
+BASE = 65521
+def block_checksum(stored_bytes):     # note: a starts at 0, not 1
+    a = b = 0
+    for x in stored_bytes:
+        a = (a + x) % BASE
+        b = (b + a) % BASE
+    return (b << 16) | a
+```
+
+`[verified-numerically 2026-09-03, n=241758 blocks across 10 archives]` - every block of every
+chunk-compressed datafile in the game (401 of 33,401 entries are chunked; the rest are streamed
+sound and metadata with no block checksums), 100% match, 0 failures. Independently re-checked in
+this session over 1,500 blocks from `DataPC_OB.forge` with two implementations; standard Adler-32
+matched **0** of them.
+
+**Diagnostic tell, worth remembering for the next unknown u32:** both 16-bit halves are always
+`< 65521`, so no checksum ever has a half in `0xFFF1..0xFFFF`. That gap in the distribution is the
+Adler fingerprint, and the seed is then a two-value guess. An all-zero block hashes to `0x00000000`
+here, where standard Adler-32 would give `0x00010001`.
+
+**For a repacker:** compute it *after* compression, over the bytes you are about to write; for a
+raw-stored block (`uncompressed == compressed`) over those same bytes. That is the whole rule.
 
 ## 5. Decompressed stream: datablocks
 

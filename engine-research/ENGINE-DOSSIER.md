@@ -177,6 +177,45 @@ inference that the compression made the pack unreadable.)*
 
 </details>
 
+### ✅ THE EXE IS SteamStub 2.1 AND UNPACKS; THE BLOCK CHECKSUM IS SOLVED; THE STATE REGISTRY IS DECODED (2026-09-03, `/pd`, no launch)
+
+**`PrinceOfPersia_Launcher.exe` is SteamStub Variant 2.1.** Same signature Alice had — `.bind`
+holding the entry point, `.text` at entropy **8.00**, zero `CC` runs — but **no `0xC0DEC0DF` magic**,
+because that marker is v3.x only. Steamless unpacks a copy: entropy **8.00 → 6.61**, `CC` runs
+**0 → 2**, `.bind` removed, entry point `0x011022ED` → **`0x00B076BD`**. `[measured 2026-09-03]`
+
+⚠️ **This retroactively qualifies every static claim ever made about this exe's `.text`.** Strings in
+`.rdata` were always readable, but **code** searches ran against encrypted bytes and could not have
+returned a positive — including the "no 32-bit immediate 188/189 in `.text`" result §6 leaned on.
+`/gr` reached the same conclusion from the other direction (§3, §11): correct searches, wrong layer.
+⚠️ The unpacked exe is **game content and is not committed**; it regenerates in one command.
+
+**The `.forge` per-block checksum is Adler-32 with the accumulators seeded to 0** (not 1), over the
+block's **stored/compressed** bytes — LZO's own `lzo_adler32(0, buf, len)`. The one-bit seed
+difference is exactly why "Adler-32" was correctly ruled out on 2026-09-02.
+`[verified-numerically 2026-09-03, n=241758 blocks across 10 archives]`, independently re-checked
+here over 1,500 blocks from a different archive with two implementations. Full rule and the
+distribution tell that identifies an Adler variant on sight: `dev-archive/tools/forge/FORMAT.md` §4.
+**This retires the repacker's last format unknown.**
+
+**The state registry is decoded**: 12-byte records `{char* name; u32 ordinal; u32 hash}` based at
+**`0x00E521E8`**. Entries 188/189 reproduce `cgst_registry.tsv`'s ordinals **and** hashes exactly —
+two independent confirmations from a source that did not exist when that file was made.
+`[inferred-static 2026-09-03]`
+
+**How it is entered — the branch §6 asked about.** `0x00E53094` has **exactly one** reference in
+`.text`, and it is a registration thunk (`push 1 ; push <descriptor> ; mov ecx, 0xE48380 ;
+call 0x505E90`). There are **258 such thunks**, one per enum, registering into a global registry
+object at `0xE48380` that is touched from **2,758** sites; the CGST descriptor is registered at
+`0x0065D6F3`. **The name table itself has ZERO references in `.text`** — nothing walks it by
+hardcoded pointer, so every lookup goes through the registry. **A name-driven registry demonstrably
+exists**, which is what `/gr` predicted and which makes the missing ordinal literal the expected
+signature of the design rather than evidence of absence.
+
+⚠️ **Still open:** *which* caller looks `CGST_DebugMode` up by name. That means following the
+registry object's API through 2,758 use sites — real work, not a lookup. The mechanism is
+identified; the trigger is not.
+
 ### 🎯 The `.forge` route has a plan now: the state HASH is a schema-free needle (`/gr`, folded 2026-09-01)
 
 The two questions this project filed came back **negative**: no public `.forge` work has ever touched

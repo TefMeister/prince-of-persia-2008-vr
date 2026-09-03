@@ -220,3 +220,46 @@ clang -O2 -shared -o lzo2a.dll lzo2a.c                 # optional, for speed
 Read-only against the game folder. Never commit archives, extracted datablocks or the
 executable — names, offsets, hashes and counts are interface metadata and are all this
 folder holds.
+
+## 9. Writer (`forge_write.py`)
+
+A repacker built 2026-09-03, once §4's checksum was solved. Patches a same-length byte
+range inside a named datafile's decompressed payload and writes a **new** archive — never
+in place, never touching the source file.
+
+```
+python forge_write.py verify-layout <archive.forge>          # re-checks the §3 alignment
+                                                              #   formula and zero-padding
+                                                              #   before trusting them
+python forge_write.py selftest-noop <archive.forge>           # null-op acceptance test:
+                                                              #   patches an already-raw
+                                                              #   block to its own value,
+                                                              #   requires byte-identical
+                                                              #   output. Writes to the
+                                                              #   system temp dir, never
+                                                              #   beside the source.
+python forge_write.py patch <archive.forge> <out.forge> \
+    --datafile "Game Bootstrap" \
+    --edit 0x56a3a3:bc000000=35010000
+python forge_write.py diff   <original.forge> <patched.forge> # decompresses EVERY
+                                                              #   datafile in both,
+                                                              #   byte-diffs, and
+                                                              #   re-verifies every
+                                                              #   checksum in b
+```
+
+**Why a full rewrite, not an in-place patch:** there is no LZO2A encoder here (only the
+decoder above), so an edited block that was stored compressed cannot be recompressed to fit
+its old slot. The format's own escape hatch is used instead — a block whose two sizes are
+equal is stored raw — which is legal but larger, so everything downstream shifts. See the
+tool's own module docstring for the full derivation and the empirical layout checks it
+depends on.
+
+**Validated 2026-09-03:** the null-op self-test produced byte-identical output on three
+archives up to 752 MB `[verified-numerically 2026-09-03, n=3 archives]`. The real recorded
+edit (§7's `CR_Debug_1stPerson` state-list rewrite) applied to a scratch copy of
+`DataPC.forge`, then checked by decompressing and diffing every datafile in the whole
+archive against the original: 29 of 30 byte-identical, the touched one differing at exactly
+the intended 4 bytes, zero checksum failures `[verified-numerically 2026-09-03, n=1
+production edit, full-archive diff]`. Full logs:
+`dev-archive/recon/2026-09-03-repacker-validation/`.

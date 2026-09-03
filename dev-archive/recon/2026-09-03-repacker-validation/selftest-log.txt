@@ -1,0 +1,26 @@
+forge_write.py validation record - 2026-09-03, /pd, dev PC. Game not launched.
+======================================================================
+
+=== verify-layout: DataPC.forge (has Game Bootstrap) ===
+PASS: 30 entries, layout formula holds exactly, padding is all zero
+
+=== selftest-noop: DataPC.forge (64.5MB, 30 entries) ===
+null-op target: datafile='BlackTexture' offset=0x0 bytes=01002000
+layout verified: 30 entries, layout formula holds exactly, padding is all zero
+datafile 'BlackTexture': payload 142 -> 142 bytes (delta +0)
+wrote C:\Users\Tefa\AppData\Local\Temp\DataPC.forge.selftest-noop.tmp (64552960 bytes, +0 vs source)
+PASS: patched output is byte-identical to the source (64552960 bytes)
+
+=== selftest-noop: DataPC_Default.forge (3.6MB, 4 entries) ===
+null-op target: datafile='Default_LU' offset=0xa8402 bytes=c3e2b0b8
+layout verified: 4 entries, layout formula holds exactly, padding is all zero
+datafile 'Default_LU': payload 1768982 -> 1768982 bytes (delta +0)
+wrote C:\Users\Tefa\AppData\Local\Temp\DataPC_Default.forge.selftest-noop.tmp (3637248 bytes, +0 vs source)
+PASS: patched output is byte-identical to the source (3637248 bytes)
+
+=== selftest-noop: DataPC_HC.forge (752MB, 28 entries) ===
+null-op target: datafile='HC6_HugeCavern_FAKE_LU' offset=0x0 bytes=0100720d
+layout verified: 28 entries, layout formula holds exactly, padding is all zero
+datafile 'HC6_HugeCavern_FAKE_LU': payload 110 -> 110 bytes (delta +0)
+wrote C:\Users\Tefa\AppData\Local\Temp\DataPC_HC.forge.selftest-noop.tmp (752451584 bytes, +0 vs source)
+PASS: patched output is byte-identical to the source (752451584 bytes)

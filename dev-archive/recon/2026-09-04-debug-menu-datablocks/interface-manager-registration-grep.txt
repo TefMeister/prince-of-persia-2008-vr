@@ -1,0 +1,16 @@
+== forge.py blocks --match "Game Bootstrap" --type "StartMenuDebug_m|DebugMenuHandler_m|MainPauseMenuHandler_m|PauseMenuHandler_m" --exe PrinceOfPersia_Launcher.exe DataPC.forge
+== DataPC.forge [28] Game Bootstrap: 81237123 bytes -> 9684 datablocks
+      31  81358011         94  StartMenuDebug_m                 
+      32  96e4804d        125  PauseMenuHandler_m               
+      33  96e48031        290  MainPauseMenuHandler_m           
+      40  96e48045         91  DebugMenuHandler_m               
+
+== forge.py grep --value 0x96e48045 --value 0x81358011 --match "Game Bootstrap" --exe PrinceOfPersia_Launcher.exe DataPC.forge
+0x96e48045 LE: DataPC.forge [28] Game Bootstrap @0x142
+0x96e48045 LE: DataPC.forge [28] Game Bootstrap @0x401a8 in datablock 11 InterfaceManager 'Interface Manager' (+0x62)
+0x96e48045 LE: DataPC.forge [28] Game Bootstrap @0x43067 in datablock 40 DebugMenuHandler_m '' (+0xd)
+0x81358011 LE: DataPC.forge [28] Game Bootstrap @0xfa
+0x81358011 LE: DataPC.forge [28] Game Bootstrap @0x40184 in datablock 11 InterfaceManager 'Interface Manager' (+0x3e)
+0x81358011 LE: DataPC.forge [28] Game Bootstrap @0x42736 in datablock 31 StartMenuDebug_m '' (+0xd)
+grep 0x96e48045: 3 hit(s)
+grep 0x81358011: 3 hit(s)

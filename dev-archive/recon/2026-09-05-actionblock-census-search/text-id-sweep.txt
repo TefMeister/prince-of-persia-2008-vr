@@ -1,0 +1,74 @@
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x1f051f in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x4e6)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x1f2a0e in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x29d5)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x1f57b8 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x577f)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x1f710c in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x70d3)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x1f8160 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x8127)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x1fa19f in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0xa166)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x1fc68e in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0xc655)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x1ff438 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0xf3ff)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x200d8c in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x10d53)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x201de0 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x11da7)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x204013 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x13fda)
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' DataPC.forge [28] Game Bootstrap @0x20647c in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x16443)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x1f0521 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x4e8)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x1f2a10 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x29d7)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x1f57ba in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x5781)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x1f710e in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x70d5)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x1f8162 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x8129)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x1fa1a1 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0xa168)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x1fc690 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0xc657)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x1ff43a in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0xf401)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x200d8e in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x10d55)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x201de2 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x11da9)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x204015 in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x13fdc)
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' DataPC.forge [28] Game Bootstrap @0x20647e in block 421 MagmaMgbFile 'MagmaInGame_MGB' (+0x16445)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xabc6c in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x2b19)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xac0f5 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x2fa2)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xac209 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x30b6)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xac86b in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x3718)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xacc5b in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x3b08)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xad155 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x4002)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xad269 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x4116)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xad6f9 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x45a6)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xae027 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x4ed4)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xae7df in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x568c)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xaeb53 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x5a00)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' DataPC.forge [28] Game Bootstrap @0xb0b4c in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x79f9)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xabc6e in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x2b1b)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xac0f7 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x2fa4)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xac20b in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x30b8)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xac86d in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x371a)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xacc5d in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x3b0a)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xad157 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x4004)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xad26b in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x4118)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xad6fb in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x45a8)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xae029 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x4ed6)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xae7e1 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x568e)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xaeb55 in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x5a02)
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' DataPC.forge [28] Game Bootstrap @0xb0b4e in block 419 MagmaMgbFile 'MagmaCommon_MGB' (+0x79fb)
+
+-- totals --
+TARGET StartMenuDebug_m  as '0x81358011'                 0
+TARGET StartMenuDebug_m  as '0x81358011'                 0
+TARGET StartMenuDebug_m  as '81358011'                   0
+TARGET StartMenuDebug_m  as '81358011'                   0
+TARGET DebugMenuHandler_m  as '0x96e48045'               0
+TARGET DebugMenuHandler_m  as '0x96E48045'               0
+TARGET DebugMenuHandler_m  as '96e48045'                 0
+TARGET DebugMenuHandler_m  as '96E48045'                 0
+TARGET CheatMenuMagma_m  as '0x96e48049'                 0
+TARGET CheatMenuMagma_m  as '0x96E48049'                 0
+TARGET CheatMenuMagma_m  as '96e48049'                   0
+TARGET CheatMenuMagma_m  as '96E48049'                   0
+control MainPauseMenuHandler_m  as '0x96e48031'          0
+control MainPauseMenuHandler_m  as '0x96E48031'          0
+control MainPauseMenuHandler_m  as '96e48031'            0
+control MainPauseMenuHandler_m  as '96E48031'            0
+control MagmaCommon_MGB (text form known to be used)  as '0x081b8052' 274
+control MagmaCommon_MGB (text form known to be used)  as '0x081B8052' 0
+control MagmaCommon_MGB (text form known to be used)  as '081b8052' 274
+control MagmaCommon_MGB (text form known to be used)  as '081B8052' 0
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081b804f' 2390
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '0x081B804F' 0
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081b804f' 2390
+control MagmaFonts_MGB (text form seen at MagmaCommon_MGB+0x2b19)  as '081B804F' 0

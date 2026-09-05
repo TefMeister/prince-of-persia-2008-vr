@@ -1,0 +1,2465 @@
+archive	datafile_index	datafile	block_index	block_id	size	name	n_ids_referenced
+DataPC.forge	28	Game Bootstrap	4626	64c3404e	694	GLO_BG_CINE_004_PrLo	5
+DataPC.forge	28	Game Bootstrap	4627	64c34048	372	GLO_BG_CINE_003_PrLo	3
+DataPC.forge	28	Game Bootstrap	4628	64c34042	372	GLO_BG_CINE_002_PrLo	3
+DataPC.forge	28	Game Bootstrap	4629	64c34034	1016	GLO_BG_CINE_001_PrLo	7
+DataPC.forge	28	Game Bootstrap	4648	721547f7	10026	ODD_World_Heal	63
+DataPC.forge	28	Game Bootstrap	4649	721547f6	7294	ODD_World_Companion	46
+DataPC.forge	28	Game Bootstrap	4650	721547f4	5679	ODD_World_Ally	36
+DataPC.forge	28	Game Bootstrap	4651	721547f8	3108	ODD_World_Strangers	20
+DataPC.forge	28	Game Bootstrap	6026	64c34058	1016	GLO_BG_CINE_005_PrLo	7
+DataPC.forge	28	Game Bootstrap	6045	67b14062	2788	ODD_GLO_SODD_003_PrLo	19
+DataPC.forge	28	Game Bootstrap	6226	67b140ac	695	ODD_GLO_SODD_006_PrLo	5
+DataPC.forge	28	Game Bootstrap	6227	67b140a2	695	ODD_GLO_SODD_005_PrLo	5
+DataPC.forge	28	Game Bootstrap	6228	67b14086	2144	ODD_GLO_SODD_004_PrLo	14
+DataPC.forge	28	Game Bootstrap	6229	67b1405c	373	ODD_GLO_SODD_002_PrLo	3
+DataPC.forge	28	Game Bootstrap	6230	67b1404e	1017	ODD_GLO_SODD_001_PrLo	7
+DataPC.forge	28	Game Bootstrap	6231	721547f5	3909	ODD_World_Gates	25
+DataPC.forge	28	Game Bootstrap	6933	88a5c0ee	1333	SE_HC6_002_PrLo	9
+DataPC.forge	28	Game Bootstrap	6934	8ab94844	528	SE_LR6_002_PrLo	4
+DataPC.forge	28	Game Bootstrap	6935	4d34c104	201	SE_RC6_002	2
+DataPC.forge	28	Game Bootstrap	8200	25f54012	21678	AI_Morphs	134
+DataPC_DE.forge	2	DE1_A_LU	312	2ac40172	60	CIN_DE1_Intro_Scene__DELETE_ME	0
+DataPC_DE.forge	2	DE1_A_LU	313	22f48129	6325	CIN_DE1_002_PrLo	38
+DataPC_DE.forge	2	DE1_A_LU	314	23dec015	1815	CIN_DE1_002_Gu	11
+DataPC_DE.forge	2	DE1_A_LU	315	30abc031	3267	SE_DE1_Generic_Lo	20
+DataPC_DE.forge	2	DE1_A_LU	316	13e5c106	367	SE_DE1_003_PrLo	2
+DataPC_DE.forge	2	DE1_A_LU	317	13e5c113	850	SE_DE1_004_PrLo	5
+DataPC_DE.forge	2	DE1_A_LU	318	55898156	3102	SE_DE1_004_Gu	19
+DataPC_DE.forge	2	DE1_A_LU	319	a5fd800e	852	SE_DE1_Generic_gu	5
+DataPC_DE.forge	2	DE1_A_LU	761	afbec004	2671	Human_Fight_MiniGame_Guard	16
+DataPC_DE.forge	2	DE1_A_LU	762	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_DE.forge	2	DE1_A_LU	998	cb96c038	1241	Guard_Movement	42
+DataPC_DE.forge	2	DE1_A_LU	999	d9cdc000	2921	Guard_Attacks	20
+DataPC_DE.forge	2	DE1_A_LU	1000	e89c8456	9692	Guard_Blocks	61
+DataPC_DE.forge	2	DE1_A_LU	1001	9e9541bd	2393	Guard_Minigames	14
+DataPC_DE.forge	3	DE3_Terrace_LU	622	22f4816f	4554	CIN_DE3_001_PrLo	29
+DataPC_DE.forge	3	DE3_Terrace_LU	628	13e5c17b	3909	SE_DE3_001_PrLo	25
+DataPC_DE.forge	3	DE3_Terrace_LU	650	5231ba2d	690	CIN_VIS_005_PrLo	5
+DataPC_DE.forge	3	DE3_Terrace_LU	651	5589816b	689	SE_DE3_024_PrLo	5
+DataPC_DE.forge	3	DE3_Terrace_LU	652	233140f4	2139	CIN_DE3_011_PrLo	14
+DataPC_DE.forge	3	DE3_Terrace_LU	680	233140dc	1675	CIN_DE3_005_PrLo	11
+DataPC_DE.forge	3	DE3_Terrace_LU	682	55898005	1332	CIN_DE3_005_Ki	9
+DataPC_DE.forge	3	DE3_Terrace_LU	692	22f4819b	1334	CIN_DE3_006_PrLo	9
+DataPC_DE.forge	3	DE3_Terrace_LU	696	30abc031	3267	SE_DE1_Generic_Lo	21
+DataPC_DE.forge	3	DE3_Terrace_LU	697	40355428	215	DE3_DuringMK2Fight_Elika	2
+DataPC_DE.forge	3	DE3_Terrace_LU	698	55898006	527	CIN_DE3_006_Ki	4
+DataPC_DE.forge	3	DE3_Terrace_LU	703	55898014	690	CIN_DE3_014_PrLo	5
+DataPC_DE.forge	3	DE3_Terrace_LU	704	13e5c203	2782	SE_DE3_020_PrLo	18
+DataPC_DE.forge	3	DE3_Terrace_LU	705	55898009	688	CIN_DE3_014_Ki	5
+DataPC_DE.forge	3	DE3_Terrace_LU	713	13e5c1b9	5358	SE_DE3_008_PrLo	34
+DataPC_DE.forge	3	DE3_Terrace_LU	717	92f28043	1978	CIN_VIS_001_PrLo	13
+DataPC_DE.forge	3	DE3_Terrace_LU	718	92f2807e	1495	CIN_VIS_004_PrLo	10
+DataPC_DE.forge	3	DE3_Terrace_LU	719	92f28064	2622	CIN_VIS_003_PrLo	17
+DataPC_DE.forge	3	DE3_Terrace_LU	727	22f48197	2944	CIN_DE3_004_PrLo	19
+DataPC_DE.forge	3	DE3_Terrace_LU	728	55898004	1815	CIN_DE3_004_Ki	12
+DataPC_DE.forge	3	DE3_Terrace_LU	735	55898013	1012	CIN_DE3_013_PrLo	7
+DataPC_DE.forge	3	DE3_Terrace_LU	736	37330000	1012	CIN_CLR_002_PrLo	7
+DataPC_DE.forge	3	DE3_Terrace_LU	737	480c00e8	366	CIN_DE3_013_Ki	3
+DataPC_DE.forge	3	DE3_Terrace_LU	743	22f48181	2300	CIN_DE3_002_PrLo	15
+DataPC_DE.forge	3	DE3_Terrace_LU	744	13e5c1f3	528	SE_DE3_015_PrLo	4
+DataPC_DE.forge	3	DE3_Terrace_LU	759	52670011	204	SE_DE3_022_Ki	2
+DataPC_DE.forge	3	DE3_Terrace_LU	763	92f28052	1978	CIN_VIS_002_PrLo	13
+DataPC_DE.forge	3	DE3_Terrace_LU	782	5267000f	204	SE_DE3_020_Ki	2
+DataPC_DE.forge	3	DE3_Terrace_LU	803	5589816c	1011	SE_DE3_029_PrLo	7
+DataPC_DE.forge	3	DE3_Terrace_LU	889	13e5c23b	850	SE_DE3_026_PrLo	6
+DataPC_DE.forge	3	DE3_Terrace_LU	890	13e5c223	2138	SE_DE3_021_PrLo	14
+DataPC_DE.forge	3	DE3_Terrace_LU	1739	52e0031d	12873	Human_Fight_ComplexAttack_MourningKing	58
+DataPC_DE.forge	3	DE3_Terrace_LU	1740	a9d3810c	4920	Human_Fight_MiniGame_MourningKing	18
+DataPC_DE.forge	3	DE3_Terrace_LU	1741	c832de81	8315	Human_Fight_MiniGame	33
+DataPC_DE.forge	3	DE3_Terrace_LU	1742	57148475	912	Human_Fight_State_MourningKing	7
+DataPC_DE.forge	3	DE3_Terrace_LU	1743	db0480d6	2982	Human_Fight_State	21
+DataPC_DE.forge	3	DE3_Terrace_LU	2191	5171405e	1574	MourningKingCor_Mouvement	45
+DataPC_DE.forge	3	DE3_Terrace_LU	2192	51714069	3915	MourningKingCor_State	25
+DataPC_DE.forge	3	DE3_Terrace_LU	2193	52e002b0	10391	MourningKingCor_Attacks	73
+DataPC_DE.forge	3	DE3_Terrace_LU	2194	52e002b1	3728	MourningKingCor_ComplexAttacks	29
+DataPC_DE.forge	3	DE3_Terrace_LU	2195	52e002b2	28036	MourningKingCor_Blocks	172
+DataPC_DE.forge	3	DE3_Terrace_LU	2196	548540f2	1492	MourningKingCor_Deflect	11
+DataPC_DE.forge	3	DE3_Terrace_LU	2197	5b09c4a9	2563	MourningKingCor_Minigame	16
+DataPC_DE.forge	4	DE2_LU	575	13e5c175	1011	SE_DE2_003_PrLo	6
+DataPC_DE.forge	4	DE2_LU	576	13e5c17b	3909	SE_DE3_001_PrLo	24
+DataPC_DE.forge	4	DE2_LU	577	30abc031	3267	SE_DE1_Generic_Lo	20
+DataPC_DE.forge	4	DE2_LU	596	55898012	1334	CIN_DE3_012_PrLo	8
+DataPC_DE.forge	4	DE2_LU	597	92f28043	1978	CIN_VIS_001_PrLo	12
+DataPC_DE.forge	4	DE2_LU	849	13e5c157	2943	SE_DE2_002_PrLo	18
+DataPC_DE.forge	4	DE2_LU	850	17204123	687	SE_DE2_001_Gu	4
+DataPC_DE.forge	6	DE1_B_LU	335	13e5c11f	1333	SE_DE1_005_PrLo	8
+DataPC_DE.forge	6	DE1_B_LU	336	5589815e	1009	SE_DE1_005_Gu	6
+DataPC_DE.forge	6	DE1_B_LU	337	22f48143	851	CIN_DE1_003_PrLo	5
+DataPC_DE.forge	6	DE1_B_LU	338	30abc031	3267	SE_DE1_Generic_Lo	20
+DataPC_DE.forge	6	DE1_B_LU	339	55898156	3102	SE_DE1_004_Gu	19
+DataPC_DE.forge	6	DE1_B_LU	348	22f48149	2300	CIN_DE1_004_PrLo	14
+DataPC_DE.forge	6	DE1_B_LU	353	23dec01b	849	CIN_DE1_004_Gu	5
+DataPC_DE.forge	6	DE1_B_LU	354	52a58016	848	SE_DE1_008_Ki	5
+DataPC_DE.forge	6	DE1_B_LU	355	52a58017	687	SE_DE1_008_Gu	4
+DataPC_DE.forge	6	DE1_B_LU	356	13e5c127	528	SE_DE1_008_PrLo	3
+DataPC_DE.forge	6	DE1_B_LU	371	22f48157	2461	CIN_DE1_005_PrLo	15
+DataPC_DE.forge	6	DE1_B_LU	372	23dec01f	849	CIN_DE1_005_Gu	5
+DataPC_DE.forge	6	DE1_B_LU	373	55898158	526	SE_DE1_010_Gu	3
+DataPC_DE.forge	6	DE1_B_LU	851	afbec004	2671	Human_Fight_MiniGame_Guard	16
+DataPC_DE.forge	6	DE1_B_LU	852	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_DE.forge	6	DE1_B_LU	889	52e0031d	12873	Human_Fight_ComplexAttack_MourningKing	57
+DataPC_DE.forge	6	DE1_B_LU	890	a9d3810c	4920	Human_Fight_MiniGame_MourningKing	17
+DataPC_DE.forge	6	DE1_B_LU	891	57148475	912	Human_Fight_State_MourningKing	6
+DataPC_DE.forge	6	DE1_B_LU	892	db0480d6	2982	Human_Fight_State	20
+DataPC_DE.forge	6	DE1_B_LU	1092	cb96c038	1241	Guard_Movement	42
+DataPC_DE.forge	6	DE1_B_LU	1093	d9cdc000	2921	Guard_Attacks	20
+DataPC_DE.forge	6	DE1_B_LU	1094	e89c8456	9692	Guard_Blocks	61
+DataPC_DE.forge	6	DE1_B_LU	1095	9e9541bd	2393	Guard_Minigames	14
+DataPC_DE.forge	6	DE1_B_LU	1296	5171405e	1574	MourningKingCor_Mouvement	44
+DataPC_DE.forge	6	DE1_B_LU	1297	51714069	3915	MourningKingCor_State	24
+DataPC_DE.forge	6	DE1_B_LU	1298	52e002b0	10391	MourningKingCor_Attacks	72
+DataPC_DE.forge	6	DE1_B_LU	1299	52e002b1	3728	MourningKingCor_ComplexAttacks	28
+DataPC_DE.forge	6	DE1_B_LU	1300	52e002b2	28036	MourningKingCor_Blocks	171
+DataPC_DE.forge	6	DE1_B_LU	1301	548540f2	1492	MourningKingCor_Deflect	10
+DataPC_DE.forge	6	DE1_B_LU	1302	5b09c4a9	2563	MourningKingCor_Minigame	15
+DataPC_DE.forge	7	DE1_C_LU	207	13e5c143	1013	SE_DE1_011_PrLoGu	6
+DataPC_DE.forge	7	DE1_C_LU	210	17204123	687	SE_DE2_001_Gu	4
+DataPC_DE.forge	7	DE1_C_LU	221	13e5c12d	1977	SE_DE1_010_PrLo	12
+DataPC_DE.forge	7	DE1_C_LU	222	52234008	851	CIN_DE1_006_LoPr	5
+DataPC_DE.forge	7	DE1_C_LU	223	51848026	368	CIN_DE1_010_PrLo	2
+DataPC_DE.forge	7	DE1_C_LU	224	13e5c14d	1494	SE_DE1_012_PrLo	9
+DataPC_DE.forge	7	DE1_C_LU	225	5184802c	366	CIN_DE1_010_Gu	2
+DataPC_DE.forge	7	DE1_C_LU	226	55898158	526	SE_DE1_010_Gu	3
+DataPC_DE.forge	7	DE1_C_LU	227	5223400f	849	CIN_DE1_006_Gu	5
+DataPC_DE.forge	7	DE1_C_LU	228	a5fd800e	852	SE_DE1_Generic_gu	5
+DataPC_DE.forge	7	DE1_C_LU	235	13e5c157	2943	SE_DE2_002_PrLo	18
+DataPC_DE.forge	7	DE1_C_LU	236	52ab4612	1009	SE_DE2_002_Gu	6
+DataPC_DE.forge	7	DE1_C_LU	244	22f48169	1012	CIN_DE2_001_PrLo	6
+DataPC_DE.forge	7	DE1_C_LU	245	52e98033	1010	CIN_DE2_001_Ki	6
+DataPC_DE.forge	7	DE1_C_LU	246	52a58016	848	SE_DE1_008_Ki	5
+DataPC_DE.forge	7	DE1_C_LU	594	afbec004	2671	Human_Fight_MiniGame_Guard	16
+DataPC_DE.forge	7	DE1_C_LU	595	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_DE.forge	7	DE1_C_LU	622	52e0031d	12873	Human_Fight_ComplexAttack_MourningKing	57
+DataPC_DE.forge	7	DE1_C_LU	623	a9d3810c	4920	Human_Fight_MiniGame_MourningKing	17
+DataPC_DE.forge	7	DE1_C_LU	624	57148475	912	Human_Fight_State_MourningKing	6
+DataPC_DE.forge	7	DE1_C_LU	625	db0480d6	2982	Human_Fight_State	20
+DataPC_DE.forge	7	DE1_C_LU	785	cb96c038	1241	Guard_Movement	42
+DataPC_DE.forge	7	DE1_C_LU	786	d9cdc000	2921	Guard_Attacks	20
+DataPC_DE.forge	7	DE1_C_LU	787	e89c8456	9692	Guard_Blocks	61
+DataPC_DE.forge	7	DE1_C_LU	788	9e9541bd	2393	Guard_Minigames	14
+DataPC_DE.forge	7	DE1_C_LU	984	5171405e	1574	MourningKingCor_Mouvement	44
+DataPC_DE.forge	7	DE1_C_LU	985	51714069	3915	MourningKingCor_State	24
+DataPC_DE.forge	7	DE1_C_LU	986	52e002b0	10391	MourningKingCor_Attacks	72
+DataPC_DE.forge	7	DE1_C_LU	987	52e002b1	3728	MourningKingCor_ComplexAttacks	28
+DataPC_DE.forge	7	DE1_C_LU	988	52e002b2	28036	MourningKingCor_Blocks	171
+DataPC_DE.forge	7	DE1_C_LU	989	548540f2	1492	MourningKingCor_Deflect	10
+DataPC_DE.forge	7	DE1_C_LU	990	5b09c4a9	2563	MourningKingCor_Minigame	15
+DataPC_DE.forge	8	Tutorial_Dash_LU	143	13e5c1f7	1172	SE_DE3_018_PrLo	7
+DataPC_DE.forge	9	Tutorial_Grapple_LU	109	13e5c1f7	1172	SE_DE3_018_PrLo	7
+DataPC_DE.forge	10	Tutorial_FlyBeam_LU	110	13e5c1f7	1172	SE_DE3_018_PrLo	7
+DataPC_DE.forge	11	Tutorial_Rebound_LU	107	13e5c1f7	1172	SE_DE3_018_PrLo	7
+DataPC_DE.forge	12	DE3A_TempleCorridor_LU	178	13e5c1eb	850	SE_DE3_013_PrLo	5
+DataPC_DE.forge	12	DE3A_TempleCorridor_LU	179	13e5c1dd	1172	SE_DE3_012_PrLo	7
+DataPC_DE.forge	12	DE3A_TempleCorridor_LU	190	13e5c1a1	1011	SE_DE3_002_PrLo	6
+DataPC_DE.forge	12	DE3A_TempleCorridor_LU	191	13e5c1ab	689	SE_DE3_003_PrLo	4
+DataPC_DE.forge	12	DE3A_TempleCorridor_LU	196	13e5c1b5	367	SE_DE3_007_PrLo	2
+DataPC_DE.forge	15	DE3C_Temple_LU	632	13e5c1cd	1494	SE_DE3_010_PrLo	9
+DataPC_DE.forge	15	DE3C_Temple_LU	633	55898169	1814	SE_DE3_008_Ki	11
+DataPC_DE.forge	15	DE3C_Temple_LU	634	70700719	362	SE_DE3_004	2
+DataPC_DE.forge	15	DE3C_Temple_LU	639	13e5c1b9	5358	SE_DE3_008_PrLo	33
+DataPC_DE.forge	15	DE3C_Temple_LU	640	9da5801e	1653	SE_DE3_008_Gu	10
+DataPC_DE.forge	15	DE3C_Temple_LU	658	51bbc05c	848	SE_DE3_008_Mx	4
+DataPC_DE.forge	15	DE3C_Temple_LU	664	13e5c23b	850	SE_DE3_026_PrLo	5
+DataPC_DE.forge	15	DE3C_Temple_LU	682	22f481a7	1334	CIN_DE3_010_PrLo	8
+DataPC_DE.forge	15	DE3C_Temple_LU	708	6a6045a8	1494	SE_DE3_032_PrLo	9
+DataPC_DE.forge	15	DE3C_Temple_LU	709	52670013	526	SE_DE3_032_Ki	3
+DataPC_DE.forge	15	DE3C_Temple_LU	710	78bb4018	528	SE_DE3_032_KiCo	3
+DataPC_DE.forge	15	DE3C_Temple_LU	731	55898011	690	CIN_DE3_009_PrLo	4
+DataPC_DE.forge	15	DE3C_Temple_LU	733	6bd9423e	205	CIN_DE3_009_Ar	1
+DataPC_DE.forge	15	DE3C_Temple_LU	762	22f4819f	1656	CIN_DE3_007_PrLo	10
+DataPC_DE.forge	15	DE3C_Temple_LU	764	55898007	1493	CIN_DE3_007_Ki	9
+DataPC_DE.forge	15	DE3C_Temple_LU	766	30abc031	3267	SE_DE1_Generic_Lo	20
+DataPC_DE.forge	15	DE3C_Temple_LU	778	22f481a3	1016	CIN_DE3_008_015_PrLo	6
+DataPC_DE.forge	15	DE3C_Temple_LU	779	55898008	370	CIN_DE3_008_015_Ki	2
+DataPC_DE.forge	15	DE3C_Temple_LU	780	51030033	529	CIN_DE3_015_KiCo	3
+DataPC_DE.forge	15	DE3C_Temple_LU	782	ba84c294	370	CIN_DE3_008_015_Ar	2
+DataPC_DE.forge	15	DE3C_Temple_LU	784	e1ac41f7	209	SE_DE3_FGtoIdle_Lo	1
+DataPC_DE.forge	15	DE3C_Temple_LU	1010	13e5c1c9	528	SE_DE3_009_PrLo	3
+DataPC_DE.forge	15	DE3C_Temple_LU	1911	52e0031d	12873	Human_Fight_ComplexAttack_MourningKing	57
+DataPC_DE.forge	15	DE3C_Temple_LU	1912	a9d3810c	4920	Human_Fight_MiniGame_MourningKing	17
+DataPC_DE.forge	15	DE3C_Temple_LU	1913	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_DE.forge	15	DE3C_Temple_LU	1914	57148475	912	Human_Fight_State_MourningKing	6
+DataPC_DE.forge	15	DE3C_Temple_LU	1915	db0480d6	2982	Human_Fight_State	20
+DataPC_DE.forge	15	DE3C_Temple_LU	2100	afbec004	2671	Human_Fight_MiniGame_Guard	16
+DataPC_DE.forge	15	DE3C_Temple_LU	2422	866a40a5	3108	Ahriman_ActionBlock	19
+DataPC_DE.forge	15	DE3C_Temple_LU	2423	6fa14013	875	Ahriman_FertileGroundHealing_ActionBlock	5
+DataPC_DE.forge	15	DE3C_Temple_LU	2470	5171405e	1574	MourningKingCor_Mouvement	44
+DataPC_DE.forge	15	DE3C_Temple_LU	2471	51714069	3915	MourningKingCor_State	24
+DataPC_DE.forge	15	DE3C_Temple_LU	2472	52e002b0	10391	MourningKingCor_Attacks	72
+DataPC_DE.forge	15	DE3C_Temple_LU	2473	52e002b1	3728	MourningKingCor_ComplexAttacks	28
+DataPC_DE.forge	15	DE3C_Temple_LU	2474	52e002b2	28036	MourningKingCor_Blocks	171
+DataPC_DE.forge	15	DE3C_Temple_LU	2475	548540f2	1492	MourningKingCor_Deflect	10
+DataPC_DE.forge	15	DE3C_Temple_LU	2476	5b09c4a9	2563	MourningKingCor_Minigame	15
+DataPC_DE.forge	15	DE3C_Temple_LU	2735	cb96c038	1241	Guard_Movement	42
+DataPC_DE.forge	15	DE3C_Temple_LU	2736	d9cdc000	2921	Guard_Attacks	20
+DataPC_DE.forge	15	DE3C_Temple_LU	2737	e89c8456	9692	Guard_Blocks	61
+DataPC_DE.forge	15	DE3C_Temple_LU	2738	9e9541bd	2393	Guard_Minigames	14
+DataPC_DE.forge	27	DE3C_Doors_LU	63	22f481a7	1334	CIN_DE3_010_PrLo	8
+DataPC_DE.forge	27	DE3C_Doors_LU	64	233140f4	2139	CIN_DE3_011_PrLo	13
+DataPC_HC.forge	2	HC1_LeftTower_LU	1061	5be14f0f	1012	CIN_HC1_003_PrLo	6
+DataPC_HC.forge	2	HC1_LeftTower_LU	1062	8b0b0004	366	CIN_HC1_003_Co	2
+DataPC_HC.forge	2	HC1_LeftTower_LU	1070	5be14f21	1173	CIN_HC1_006_PrLo	7
+DataPC_HC.forge	2	HC1_LeftTower_LU	1072	5be14f27	849	CIN_HC1_006_Co	5
+DataPC_HC.forge	2	HC1_LeftTower_LU	1077	5be14f2b	851	CIN_HC1_007_PrLo	5
+DataPC_HC.forge	2	HC1_LeftTower_LU	1078	5be14f31	366	CIN_HC1_007_Co	2
+DataPC_HC.forge	2	HC1_LeftTower_LU	1079	5be14f06	851	CIN_HC1_002_PrLo	5
+DataPC_HC.forge	2	HC1_LeftTower_LU	1080	8ac48004	528	SE_HC1_013_PrLo	3
+DataPC_HC.forge	2	HC1_LeftTower_LU	1081	88ff8051	526	SE_HC1_018_Co	3
+DataPC_HC.forge	2	HC1_LeftTower_LU	1082	8ac4800d	689	SE_HC1_019_PrLo	4
+DataPC_HC.forge	2	HC1_LeftTower_LU	1083	88ff8053	1009	SE_HC1_019_Co	6
+DataPC_HC.forge	2	HC1_LeftTower_LU	1084	8ac48007	528	SE_HC1_014_PrLo	3
+DataPC_HC.forge	2	HC1_LeftTower_LU	1089	5be14f15	851	CIN_HC1_004_PrLo	5
+DataPC_HC.forge	2	HC1_LeftTower_LU	1090	88ff8049	366	CIN_HC1_004_Co	2
+DataPC_HC.forge	2	HC1_LeftTower_LU	1091	8ac48010	528	SE_HC1_021_PrLo	3
+DataPC_HC.forge	2	HC1_LeftTower_LU	1092	8ac48013	1494	SE_HC1_022_PrLo	9
+DataPC_HC.forge	2	HC1_LeftTower_LU	1093	46838166	1333	SE_HC1_023_PrLo	8
+DataPC_HC.forge	2	HC1_LeftTower_LU	1094	604b03a6	1170	SE_HC1_023_Co	7
+DataPC_HC.forge	2	HC1_LeftTower_LU	1108	5be14f35	2300	CIN_HC1_008_PrLo	14
+DataPC_HC.forge	2	HC1_LeftTower_LU	2194	4f41c0ac	11368	Human_Fight_ComplexAttack_Concubine	50
+DataPC_HC.forge	2	HC1_LeftTower_LU	2195	4f41c0ad	11943	Human_Fight_MiniGame_Concubine	49
+DataPC_HC.forge	2	HC1_LeftTower_LU	2196	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_HC.forge	2	HC1_LeftTower_LU	2197	53cc4026	909	Human_Fight_State_Concubine	6
+DataPC_HC.forge	2	HC1_LeftTower_LU	2198	db0480d6	2982	Human_Fight_State	20
+DataPC_HC.forge	2	HC1_LeftTower_LU	2550	3e96d6aa	2025	Concubine_Movement	46
+DataPC_HC.forge	2	HC1_LeftTower_LU	2551	3e96d6ab	10385	Concubine_Attacks	72
+DataPC_HC.forge	2	HC1_LeftTower_LU	2552	4f41c085	3610	Concubine_ComplexAttacks	26
+DataPC_HC.forge	2	HC1_LeftTower_LU	2553	4f41c08a	3105	Concubine_States	19
+DataPC_HC.forge	2	HC1_LeftTower_LU	2554	4f41c096	5342	Concubine_Minigames	33
+DataPC_HC.forge	2	HC1_LeftTower_LU	2555	53958123	1486	Concubine_Deflect	10
+DataPC_HC.forge	2	HC1_LeftTower_LU	2556	86aa06e1	28030	Concubine_Blocks	171
+DataPC_HC.forge	2	HC1_LeftTower_LU	2557	359a05d3	367	Concubine_Death	2
+DataPC_HC.forge	3	HC2_Pools_LU	843	8dcb8012	1334	CIN_HC2_004_PrLo	8
+DataPC_HC.forge	3	HC2_Pools_LU	856	8dcb8015	1495	CIN_HC2_005_PrLo	9
+DataPC_HC.forge	3	HC2_Pools_LU	861	8dcb8018	851	CIN_HC2_006_PrLo	5
+DataPC_HC.forge	3	HC2_Pools_LU	863	8dcb8021	205	CIN_HC2_006_Co	1
+DataPC_HC.forge	3	HC2_Pools_LU	864	8dcb800c	690	CIN_HC2_002_PrLo	4
+DataPC_HC.forge	3	HC2_Pools_LU	869	8dcb800f	1334	CIN_HC2_003_PrLo	8
+DataPC_HC.forge	3	HC2_Pools_LU	870	8e108017	528	SE_HC2_015_PrLo	3
+DataPC_HC.forge	3	HC2_Pools_LU	871	8e108016	528	SE_HC2_014_PrLo	3
+DataPC_HC.forge	3	HC2_Pools_LU	872	604b03ae	848	SE_HC2_026_Co	5
+DataPC_HC.forge	3	HC2_Pools_LU	879	8dcb801b	2139	CIN_HC2_007_PrLo	11
+DataPC_HC.forge	3	HC2_Pools_LU	880	8dcb8023	527	CIN_HC2_007_Co	2
+DataPC_HC.forge	3	HC2_Pools_LU	887	8dcb801e	1978	CIN_HC2_008_PrLo	12
+DataPC_HC.forge	3	HC2_Pools_LU	1147	8e10801e	367	SE_HC2_022_PrLo	2
+DataPC_HC.forge	3	HC2_Pools_LU	1238	2775c014	848	Human_Healing	5
+DataPC_HC.forge	3	HC2_Pools_LU	1909	4f41c0ac	11368	Human_Fight_ComplexAttack_Concubine	50
+DataPC_HC.forge	3	HC2_Pools_LU	1910	4f41c0ad	11943	Human_Fight_MiniGame_Concubine	49
+DataPC_HC.forge	3	HC2_Pools_LU	1911	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_HC.forge	3	HC2_Pools_LU	1912	53cc4026	909	Human_Fight_State_Concubine	6
+DataPC_HC.forge	3	HC2_Pools_LU	1913	db0480d6	2982	Human_Fight_State	20
+DataPC_HC.forge	3	HC2_Pools_LU	2285	3e96d6aa	2025	Concubine_Movement	46
+DataPC_HC.forge	3	HC2_Pools_LU	2286	3e96d6ab	10385	Concubine_Attacks	72
+DataPC_HC.forge	3	HC2_Pools_LU	2287	4f41c085	3610	Concubine_ComplexAttacks	26
+DataPC_HC.forge	3	HC2_Pools_LU	2288	4f41c08a	3105	Concubine_States	19
+DataPC_HC.forge	3	HC2_Pools_LU	2289	4f41c096	5342	Concubine_Minigames	33
+DataPC_HC.forge	3	HC2_Pools_LU	2290	53958123	1486	Concubine_Deflect	10
+DataPC_HC.forge	3	HC2_Pools_LU	2291	86aa06e1	28030	Concubine_Blocks	171
+DataPC_HC.forge	3	HC2_Pools_LU	2292	359a05d3	367	Concubine_Death	2
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	646	5a6ec000	368	CIN_HC3_001_PrLo	2
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	648	5a80c048	366	CIN_HC3_001_Co	2
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	656	5a80c036	690	CIN_HC3_009_PrLo	4
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	660	5a80c064	366	CIN_HC3_009_Co	2
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	666	5a80c00e	851	CIN_HC3_002_PrLo	5
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	667	5a80c04c	366	CIN_HC3_002_Co	2
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	672	5a80c011	1334	CIN_HC3_003_PrLo	8
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	673	5a80c050	688	CIN_HC3_003_Co	3
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	678	5a80c018	690	CIN_HC3_004_PrLo	4
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	683	5a80c054	205	CIN_HC3_004_Co	1
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	690	5a80c03c	1656	CIN_HC3_010_PrLo	10
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	696	5a80c02a	851	CIN_HC3_007_PrLo	5
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	699	5a80c05c	688	CIN_HC3_007_Co	4
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	703	5a80c030	1656	CIN_HC3_008_PrLo	10
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	704	5a80c060	527	CIN_HC3_008_Co	3
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	708	5a80c01e	1173	CIN_HC3_005_PrLo	7
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	709	5a80c058	527	CIN_HC3_005_Co	3
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	710	5a99800a	526	SE_HC3_021_Co	3
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	711	5a998016	1170	SE_HC3_031_Co	7
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	902	2775c014	848	Human_Healing	5
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1397	4f41c0ac	11368	Human_Fight_ComplexAttack_Concubine	50
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1398	4f41c0ad	11943	Human_Fight_MiniGame_Concubine	49
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1399	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1400	53cc4026	909	Human_Fight_State_Concubine	6
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1401	db0480d6	2982	Human_Fight_State	20
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1692	3e96d6aa	2025	Concubine_Movement	46
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1693	3e96d6ab	10385	Concubine_Attacks	72
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1694	4f41c085	3610	Concubine_ComplexAttacks	26
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1695	4f41c08a	3105	Concubine_States	19
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1696	4f41c096	5342	Concubine_Minigames	33
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1697	53958123	1486	Concubine_Deflect	10
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1698	86aa06e1	28030	Concubine_Blocks	171
+DataPC_HC.forge	4	HC3_Castle_LAIR_LU	1699	359a05d3	367	Concubine_Death	2
+DataPC_HC.forge	5	HC4_CentralPeak_LU	997	8c758108	1012	CIN_HC4_011_PrLo	6
+DataPC_HC.forge	5	HC4_CentralPeak_LU	999	8c75813e	688	CIN_HC4_011_Co	4
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1004	8c7580fe	1012	CIN_HC4_001_PrLo	6
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1005	8c7580ff	529	CIN_HC4_002_PrLo	3
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1009	8c758103	529	CIN_HC4_006_PrLo	3
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1010	8c758138	688	CIN_HC4_006_Co	4
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1015	8c758100	690	CIN_HC4_003_PrLo	4
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1016	8c758137	688	CIN_HC4_003_Co	4
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1017	8c7581d0	1975	SE_HC4_015_Co	12
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1020	8c758102	2622	CIN_HC4_005_PrLo	16
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1036	8c758109	851	CIN_HC4_012_PrLo	5
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1037	8c75813f	366	CIN_HC4_012_Co	2
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1038	8c7581d3	1009	SE_HC4_023_Co	6
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1055	4ae29807	1817	CIN_HC4_020_PrLo	11
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1060	8c758110	1495	CIN_HC4_019_PrLo	9
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1065	4ca1c569	689	SE_HC4_029_PrLo	4
+DataPC_HC.forge	5	HC4_CentralPeak_LU	1066	8c75810c	1334	CIN_HC4_015_PrLo	8
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2366	4f41c0ac	11368	Human_Fight_ComplexAttack_Concubine	50
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2367	4f41c0ad	11943	Human_Fight_MiniGame_Concubine	49
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2368	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2369	53cc4026	909	Human_Fight_State_Concubine	6
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2370	db0480d6	2982	Human_Fight_State	20
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2782	3e96d6aa	2025	Concubine_Movement	46
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2783	3e96d6ab	10385	Concubine_Attacks	72
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2784	4f41c085	3610	Concubine_ComplexAttacks	26
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2785	4f41c08a	3105	Concubine_States	19
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2786	4f41c096	5342	Concubine_Minigames	33
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2787	53958123	1486	Concubine_Deflect	10
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2788	86aa06e1	28030	Concubine_Blocks	171
+DataPC_HC.forge	5	HC4_CentralPeak_LU	2789	359a05d3	367	Concubine_Death	2
+DataPC_HC.forge	6	HC5_RightTower_LU	1078	8a45800a	851	CIN_HC5_001_PrLo	5
+DataPC_HC.forge	6	HC5_RightTower_LU	1079	8a45800f	851	CIN_HC5_002_PrLo	5
+DataPC_HC.forge	6	HC5_RightTower_LU	1084	8a458012	1173	CIN_HC5_006_PrLo	7
+DataPC_HC.forge	6	HC5_RightTower_LU	1086	8a458015	688	CIN_HC5_006_Co	4
+DataPC_HC.forge	6	HC5_RightTower_LU	1092	8a458017	1012	CIN_HC5_007_PrLo	6
+DataPC_HC.forge	6	HC5_RightTower_LU	1093	8a45801a	527	CIN_HC5_007_Co	3
+DataPC_HC.forge	6	HC5_RightTower_LU	1097	4ca1c479	1817	CIN_HC5_003_PrLo	11
+DataPC_HC.forge	6	HC5_RightTower_LU	1098	604b0493	1170	SE_HC5_015_Co	7
+DataPC_HC.forge	6	HC5_RightTower_LU	1099	8a8f4004	528	SE_HC5_016_PrLo	3
+DataPC_HC.forge	6	HC5_RightTower_LU	1100	604b049b	687	SE_HC5_019_Co	4
+DataPC_HC.forge	6	HC5_RightTower_LU	1105	8a45801c	1817	CIN_HC5_008_PrLo	11
+DataPC_HC.forge	6	HC5_RightTower_LU	1371	8a8f4009	1172	SE_HC5_017_PrLo	7
+DataPC_HC.forge	6	HC5_RightTower_LU	1434	2775c014	848	Human_Healing	5
+DataPC_HC.forge	6	HC5_RightTower_LU	2164	4f41c0ac	11368	Human_Fight_ComplexAttack_Concubine	50
+DataPC_HC.forge	6	HC5_RightTower_LU	2165	4f41c0ad	11943	Human_Fight_MiniGame_Concubine	49
+DataPC_HC.forge	6	HC5_RightTower_LU	2166	c832de81	8315	Human_Fight_MiniGame	33
+DataPC_HC.forge	6	HC5_RightTower_LU	2167	53cc4026	909	Human_Fight_State_Concubine	6
+DataPC_HC.forge	6	HC5_RightTower_LU	2168	db0480d6	2982	Human_Fight_State	20
+DataPC_HC.forge	6	HC5_RightTower_LU	2571	3e96d6aa	2025	Concubine_Movement	46
+DataPC_HC.forge	6	HC5_RightTower_LU	2572	3e96d6ab	10385	Concubine_Attacks	72
+DataPC_HC.forge	6	HC5_RightTower_LU	2573	4f41c085	3610	Concubine_ComplexAttacks	26
+DataPC_HC.forge	6	HC5_RightTower_LU	2574	4f41c08a	3105	Concubine_States	19
+DataPC_HC.forge	6	HC5_RightTower_LU	2575	4f41c096	5342	Concubine_Minigames	34
+DataPC_HC.forge	6	HC5_RightTower_LU	2576	53958123	1486	Concubine_Deflect	10
+DataPC_HC.forge	6	HC5_RightTower_LU	2577	86aa06e1	28030	Concubine_Blocks	171
+DataPC_HC.forge	6	HC5_RightTower_LU	2578	359a05d3	367	Concubine_Death	2
+DataPC_HC.forge	7	HC6_HugeCavern_LU	869	88a5c1d2	1495	CIN_HC6_003_PrLo	9
+DataPC_HC.forge	7	HC6_HugeCavern_LU	873	8e2341aa	366	CIN_HC6_003_Co	2
+DataPC_HC.forge	7	HC6_HugeCavern_LU	874	88a5c1ce	690	CIN_HC6_002_PrLo	4
+DataPC_HC.forge	7	HC6_HugeCavern_LU	880	88a5c2c6	850	SE_HC6_021_PrLo	5
+DataPC_HC.forge	7	HC6_HugeCavern_LU	881	908b4135	367	SE_HC6_022_PrLo	2
+DataPC_HC.forge	7	HC6_HugeCavern_LU	882	908b414f	365	SE_HC6_022_Co	2
+DataPC_HC.forge	7	HC6_HugeCavern_LU	883	908b414e	687	SE_HC6_021_Co	4
+DataPC_HC.forge	7	HC6_HugeCavern_LU	888	8e2341a3	529	CIN_HC6_004_PrLo	3
+DataPC_HC.forge	7	HC6_HugeCavern_LU	890	8e2341ac	527	CIN_HC6_004_Co	3
+DataPC_HC.forge	7	HC6_HugeCavern_LU	891	88a5c2b2	1172	SE_HC6_015_PrLo	7
+DataPC_HC.forge	7	HC6_HugeCavern_LU	892	908b414b	365	SE_HC6_015_Co	2
+DataPC_HC.forge	7	HC6_HugeCavern_LU	897	88a5c138	689	SE_HC6_020_PrLo	4
+DataPC_HC.forge	7	HC6_HugeCavern_LU	908	88a5c1e8	1656	CIN_HC6_007_PrLo	10
+DataPC_HC.forge	7	HC6_HugeCavern_LU	909	88a5c1dc	1012	CIN_HC6_005_PrLo	6
+DataPC_HC.forge	7	HC6_HugeCavern_LU	910	558980bd	1817	CIN_LR6_008_PrLo	11
+DataPC_HC.forge	7	HC6_HugeCavern_LU	911	8e2341ae	527	CIN_HC6_005_Co	3
+DataPC_HC.forge	7	HC6_HugeCavern_LU	912	604b04b1	848	SE_HC6_023_Co	5
+DataPC_HC.forge	7	HC6_HugeCavern_LU	919	88a5c1c8	1173	CIN_HC6_001_PrLo	7
+DataPC_HC.forge	7	HC6_HugeCavern_LU	920	88a5c1f6	2139	CIN_HC6_008_PrLo	13
+DataPC_HC.forge	7	HC6_HugeCavern_LU	924	88a5c202	1012	CIN_HC6_009_PrLo	6
+DataPC_HC.forge	7	HC6_HugeCavern_LU	925	2775c014	848	Human_Healing	5
+DataPC_HC.forge	7	HC6_HugeCavern_LU	929	88a5c208	1817	CIN_HC6_010_PrLo	11
+DataPC_HC.forge	7	HC6_HugeCavern_LU	1913	4f41c0ac	11368	Human_Fight_ComplexAttack_Concubine	50
+DataPC_HC.forge	7	HC6_HugeCavern_LU	1914	4f41c0ad	11943	Human_Fight_MiniGame_Concubine	49
+DataPC_HC.forge	7	HC6_HugeCavern_LU	1915	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_HC.forge	7	HC6_HugeCavern_LU	1916	53cc4026	909	Human_Fight_State_Concubine	6
+DataPC_HC.forge	7	HC6_HugeCavern_LU	1917	db0480d6	2982	Human_Fight_State	20
+DataPC_HC.forge	7	HC6_HugeCavern_LU	2280	3e96d6aa	2025	Concubine_Movement	46
+DataPC_HC.forge	7	HC6_HugeCavern_LU	2281	3e96d6ab	10385	Concubine_Attacks	72
+DataPC_HC.forge	7	HC6_HugeCavern_LU	2282	4f41c085	3610	Concubine_ComplexAttacks	26
+DataPC_HC.forge	7	HC6_HugeCavern_LU	2283	4f41c08a	3105	Concubine_States	19
+DataPC_HC.forge	7	HC6_HugeCavern_LU	2284	4f41c096	5342	Concubine_Minigames	33
+DataPC_HC.forge	7	HC6_HugeCavern_LU	2285	53958123	1486	Concubine_Deflect	10
+DataPC_HC.forge	7	HC6_HugeCavern_LU	2286	86aa06e1	28030	Concubine_Blocks	171
+DataPC_HC.forge	7	HC6_HugeCavern_LU	2287	359a05d3	367	Concubine_Death	2
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1021	5589801b	1173	CIN_LR1_001_PrLo	7
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1026	56e18000	1494	SE_LR1_013_PrLo	9
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1036	5589801d	851	CIN_LR1_003_PrLo	5
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1038	55898026	205	CIN_LR1_003_Wa	1
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1046	55898020	1012	CIN_LR1_006_PrLo	6
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1047	55898029	527	CIN_LR1_006_Wa	3
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1056	55898023	1656	CIN_LR1_009_PrLo	10
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1058	5a43c119	527	CIN_LR1_009_Wa	3
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1059	55898021	529	CIN_LR1_007_PrLo	3
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1060	56e18001	1333	SE_LR1_015_PrLo	8
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1061	5a43c13b	687	SE_LR1_015_Wa	4
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1065	8ab946aa	528	SE_LR1_026_PrLo	3
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1070	56e18003	367	SE_LR1_020_PrLo	2
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1073	56e18004	689	SE_LR1_021_PrLo	4
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1079	56e18005	850	SE_LR1_023_PrLo	5
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1088	56e18002	689	SE_LR1_018_PrLo	4
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1100	55898024	1012	CIN_LR1_010_PrLo	6
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1101	57030009	205	CIN_LR1_010_Wa	1
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1110	a71c80e9	706	CIN_LR1_ArriveinCirculation_PrLo	4
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1117	55898025	1817	CIN_LR1_011_PrLo	11
+DataPC_LR.forge	2	LR1_TowerExterior_LU	1525	2775c014	848	Human_Healing	5
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2213	c5c7400b	5363	Human_Fight_attacks_BigDefense	33
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2214	238601ea	13385	Human_Fight_ComplexAttack_BigDefense	59
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2215	ad0b8062	8405	Human_Fight_ComplexAttack_BigDefense_Weapon	33
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2216	0ed940f3	15692	Human_Fight_MiniGame_BigDefense	61
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2217	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2218	0060809e	1658	Human_Fight_State_BigDefense	11
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2219	db0480d6	2982	Human_Fight_State	20
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2650	b8c64010	1564	BigDef_Movement	44
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2651	b8c64012	4844	BigDef_Attacks	33
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2652	b8c64013	9948	BigDef_Blocks	64
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2653	23860006	3328	BigDef_States	19
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2654	23860130	3815	BigDef_ComplexAttacks	28
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2655	00a14000	6258	BigDef_Minigames	40
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2656	05aec005	470	BigDef_Counter	3
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2657	16934f65	1057	BigDef_Deflect	7
+DataPC_LR.forge	2	LR1_TowerExterior_LU	2658	ad0b8009	2787	BigDef_ComplexWeapon	17
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1020	5589803d	851	CIN_LR2_001_PrLo	5
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1021	55898041	1499	CIN_LR2_003-005_PrLo	8
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1022	536480a8	850	SE_LR2_019_PrLo	5
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1030	55898043	1334	CIN_LR2_007_PrLo	8
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1032	55898046	205	CIN_LR2_007_Wa	1
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1038	55898044	1173	CIN_LR2_008_PrLo	7
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1039	6c0f8006	205	CIN_LR2_008_Wa	1
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1040	8ab94737	1655	SE_LR2_021_PrLo	10
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1041	5a43c148	687	SE_LR2_021_Wa	4
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1051	55898045	1334	CIN_LR2_009_PrLo	8
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1411	2775c014	848	Human_Healing	5
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1857	c5c7400b	5363	Human_Fight_attacks_BigDefense	33
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1858	238601ea	13385	Human_Fight_ComplexAttack_BigDefense	59
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1859	ad0b8062	8405	Human_Fight_ComplexAttack_BigDefense_Weapon	33
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1860	0ed940f3	15692	Human_Fight_MiniGame_BigDefense	61
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1861	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1862	0060809e	1658	Human_Fight_State_BigDefense	11
+DataPC_LR.forge	3	LR2_TowerInterior_LU	1863	db0480d6	2982	Human_Fight_State	20
+DataPC_LR.forge	3	LR2_TowerInterior_LU	2199	b8c64010	1564	BigDef_Movement	44
+DataPC_LR.forge	3	LR2_TowerInterior_LU	2200	b8c64012	4844	BigDef_Attacks	33
+DataPC_LR.forge	3	LR2_TowerInterior_LU	2201	b8c64013	9948	BigDef_Blocks	64
+DataPC_LR.forge	3	LR2_TowerInterior_LU	2202	23860006	3328	BigDef_States	19
+DataPC_LR.forge	3	LR2_TowerInterior_LU	2203	23860130	3815	BigDef_ComplexAttacks	28
+DataPC_LR.forge	3	LR2_TowerInterior_LU	2204	00a14000	6258	BigDef_Minigames	40
+DataPC_LR.forge	3	LR2_TowerInterior_LU	2205	05aec005	470	BigDef_Counter	3
+DataPC_LR.forge	3	LR2_TowerInterior_LU	2206	16934f65	1057	BigDef_Deflect	7
+DataPC_LR.forge	3	LR2_TowerInterior_LU	2207	ad0b8009	2787	BigDef_ComplexWeapon	17
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	297	55898053	2622	CIN_LR3_003_PrLo	16
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	300	5589805a	527	CIN_LR3_003_Wa	3
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	317	55898052	1334	CIN_LR3_002_PrLo	9
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	320	55898059	527	CIN_LR3_002_Wa	3
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	338	55898055	2139	CIN_LR3_005_PrLo	13
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	344	5589805c	849	CIN_LR3_005_Wa	5
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	345	56e18014	1172	SE_LR3_013_PrLo	7
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	346	56e18016	687	SE_LR3_013_Wa	4
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	349	8ab947a8	1494	SE_LR3_017_PrLo	9
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	350	5a43c169	1653	SE_LR3_017_Wa	10
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	354	55898056	851	CIN_LR3_006_PrLo	5
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	355	8ab947aa	850	SE_LR3_019_PrLo	5
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	477	2775c014	848	Human_Healing	5
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	951	c5c7400b	5363	Human_Fight_attacks_BigDefense	33
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	952	238601ea	13385	Human_Fight_ComplexAttack_BigDefense	59
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	953	ad0b8062	8405	Human_Fight_ComplexAttack_BigDefense_Weapon	33
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	954	0ed940f3	15692	Human_Fight_MiniGame_BigDefense	61
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	955	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	956	0060809e	1658	Human_Fight_State_BigDefense	11
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	957	db0480d6	2982	Human_Fight_State	20
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	1286	b8c64010	1564	BigDef_Movement	44
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	1287	b8c64012	4844	BigDef_Attacks	33
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	1288	b8c64013	9948	BigDef_Blocks	64
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	1289	23860006	3328	BigDef_States	19
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	1290	23860130	3815	BigDef_ComplexAttacks	28
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	1291	00a14000	6258	BigDef_Minigames	40
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	1292	05aec005	470	BigDef_Counter	3
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	1293	16934f65	1057	BigDef_Deflect	7
+DataPC_LR.forge	4	LR3_SinkingTower_LAIR_LU	1294	ad0b8009	2787	BigDef_ComplexWeapon	17
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1039	5589808d	1173	CIN_LR4_001_PrLo	7
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1044	55898090	368	CIN_LR4_004_PrLo	2
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1045	5a43c122	205	CIN_LR4_004_Wa	1
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1058	55898091	1012	CIN_LR4_005_PrLo	6
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1060	55898093	528	SE_LR4_012_PrLo	3
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1061	8ab947db	850	SE_LR4_014_PrLo	5
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1062	5a43c174	526	SE_LR4_014_Wa	3
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1071	a71c80ea	706	CIN_LR4_ArriveinCirculation_PrLo	4
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1072	55898092	2300	CIN_LR4_006_PrLo	14
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1425	2775c014	848	Human_Healing	5
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1841	c5c7400b	5363	Human_Fight_attacks_BigDefense	33
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1842	238601ea	13385	Human_Fight_ComplexAttack_BigDefense	59
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1843	ad0b8062	8405	Human_Fight_ComplexAttack_BigDefense_Weapon	33
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1844	0ed940f3	15692	Human_Fight_MiniGame_BigDefense	61
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1845	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1846	0060809e	1658	Human_Fight_State_BigDefense	11
+DataPC_LR.forge	5	LR4_TowerExterior_LU	1847	db0480d6	2982	Human_Fight_State	20
+DataPC_LR.forge	5	LR4_TowerExterior_LU	2172	b8c64010	1564	BigDef_Movement	44
+DataPC_LR.forge	5	LR4_TowerExterior_LU	2173	b8c64012	4844	BigDef_Attacks	33
+DataPC_LR.forge	5	LR4_TowerExterior_LU	2174	b8c64013	9948	BigDef_Blocks	64
+DataPC_LR.forge	5	LR4_TowerExterior_LU	2175	23860006	3328	BigDef_States	19
+DataPC_LR.forge	5	LR4_TowerExterior_LU	2176	23860130	3815	BigDef_ComplexAttacks	28
+DataPC_LR.forge	5	LR4_TowerExterior_LU	2177	00a14000	6258	BigDef_Minigames	40
+DataPC_LR.forge	5	LR4_TowerExterior_LU	2178	05aec005	470	BigDef_Counter	3
+DataPC_LR.forge	5	LR4_TowerExterior_LU	2179	16934f65	1057	BigDef_Deflect	7
+DataPC_LR.forge	5	LR4_TowerExterior_LU	2180	ad0b8009	2787	BigDef_ComplexWeapon	17
+DataPC_LR.forge	6	LR5_Maze_LU	1216	5589806c	690	CIN_LR5_002_PrLo	4
+DataPC_LR.forge	6	LR5_Maze_LU	1217	5aca010d	528	SE_LR5_012_PrLo	3
+DataPC_LR.forge	6	LR5_Maze_LU	1225	5589806e	1173	CIN_LR5_004_PrLo	7
+DataPC_LR.forge	6	LR5_Maze_LU	1226	55898077	366	CIN_LR5_004_Wa	2
+DataPC_LR.forge	6	LR5_Maze_LU	1232	55898071	368	CIN_LR5_007_PrLo	2
+DataPC_LR.forge	6	LR5_Maze_LU	1233	8ab9480b	528	SE_LR5_019_PrLo	3
+DataPC_LR.forge	6	LR5_Maze_LU	1234	5589807a	205	CIN_LR5_007_Wa	1
+DataPC_LR.forge	6	LR5_Maze_LU	1235	5124404e	204	SE_LR5_019_Wa	1
+DataPC_LR.forge	6	LR5_Maze_LU	1243	55898070	690	CIN_LR5_006_PrLo	4
+DataPC_LR.forge	6	LR5_Maze_LU	1245	55898079	205	CIN_LR5_006_Wa	1
+DataPC_LR.forge	6	LR5_Maze_LU	1247	5589807b	205	CIN_LR5_008_Wa	1
+DataPC_LR.forge	6	LR5_Maze_LU	1248	8ab9480e	206	SE_LR5_022_PrLo	1
+DataPC_LR.forge	6	LR5_Maze_LU	1249	68e78005	209	LR5_WarriorLooping	1
+DataPC_LR.forge	6	LR5_Maze_LU	1256	55898076	1012	CIN_LR5_012_PrLo	6
+DataPC_LR.forge	6	LR5_Maze_LU	1257	55898051	1173	CIN_LR3_001_PrLo	7
+DataPC_LR.forge	6	LR5_Maze_LU	1265	55898072	2139	CIN_LR5_008_PrLo	13
+DataPC_LR.forge	6	LR5_Maze_LU	1632	2775c014	848	Human_Healing	5
+DataPC_LR.forge	6	LR5_Maze_LU	2223	c5c7400b	5363	Human_Fight_attacks_BigDefense	33
+DataPC_LR.forge	6	LR5_Maze_LU	2224	238601ea	13385	Human_Fight_ComplexAttack_BigDefense	59
+DataPC_LR.forge	6	LR5_Maze_LU	2225	ad0b8062	8405	Human_Fight_ComplexAttack_BigDefense_Weapon	33
+DataPC_LR.forge	6	LR5_Maze_LU	2226	0ed940f3	15692	Human_Fight_MiniGame_BigDefense	61
+DataPC_LR.forge	6	LR5_Maze_LU	2227	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_LR.forge	6	LR5_Maze_LU	2228	0060809e	1658	Human_Fight_State_BigDefense	11
+DataPC_LR.forge	6	LR5_Maze_LU	2229	db0480d6	2982	Human_Fight_State	20
+DataPC_LR.forge	6	LR5_Maze_LU	2563	b8c64010	1564	BigDef_Movement	44
+DataPC_LR.forge	6	LR5_Maze_LU	2564	b8c64012	4844	BigDef_Attacks	33
+DataPC_LR.forge	6	LR5_Maze_LU	2565	b8c64013	9948	BigDef_Blocks	64
+DataPC_LR.forge	6	LR5_Maze_LU	2566	23860006	3328	BigDef_States	19
+DataPC_LR.forge	6	LR5_Maze_LU	2567	23860130	3815	BigDef_ComplexAttacks	28
+DataPC_LR.forge	6	LR5_Maze_LU	2568	00a14000	6258	BigDef_Minigames	40
+DataPC_LR.forge	6	LR5_Maze_LU	2569	05aec005	470	BigDef_Counter	3
+DataPC_LR.forge	6	LR5_Maze_LU	2570	16934f65	1057	BigDef_Deflect	7
+DataPC_LR.forge	6	LR5_Maze_LU	2571	ad0b8009	2787	BigDef_ComplexWeapon	17
+DataPC_LR.forge	7	LR6_MountainGate_LU	735	558980b7	690	CIN_LR6_002_PrLo	4
+DataPC_LR.forge	7	LR6_MountainGate_LU	736	558980c2	205	CIN_LR6_002_Wa	1
+DataPC_LR.forge	7	LR6_MountainGate_LU	738	4eb00000	204	SE_LR6_017_Wa	1
+DataPC_LR.forge	7	LR6_MountainGate_LU	741	8ab9484d	206	SE_LR6_020_PrLo	1
+DataPC_LR.forge	7	LR6_MountainGate_LU	742	8ab9484c	206	SE_LR6_019_PrLo	1
+DataPC_LR.forge	7	LR6_MountainGate_LU	743	8ab9484b	367	SE_LR6_018_PrLo	2
+DataPC_LR.forge	7	LR6_MountainGate_LU	745	56e1801e	204	SE_LR6_014_Wa	1
+DataPC_LR.forge	7	LR6_MountainGate_LU	749	558980ba	1012	CIN_LR6_005_PrLo	6
+DataPC_LR.forge	7	LR6_MountainGate_LU	750	558980c5	527	CIN_LR6_005_Wa	3
+DataPC_LR.forge	7	LR6_MountainGate_LU	761	558980bb	851	CIN_LR6_006_PrLo	5
+DataPC_LR.forge	7	LR6_MountainGate_LU	762	558980bd	1817	CIN_LR6_008_PrLo	11
+DataPC_LR.forge	7	LR6_MountainGate_LU	763	8ab9484f	1816	SE_LR6_022_PrLo	11
+DataPC_LR.forge	7	LR6_MountainGate_LU	764	5a43c179	526	SE_LR6_022_Wa	3
+DataPC_LR.forge	7	LR6_MountainGate_LU	769	8ab94849	850	SE_LR6_016_PrLo	5
+DataPC_LR.forge	7	LR6_MountainGate_LU	776	56e18020	204	SE_LR6_016_Wa	1
+DataPC_LR.forge	7	LR6_MountainGate_LU	777	3a7411a8	526	SE_LR6_XXX_Bd	3
+DataPC_LR.forge	7	LR6_MountainGate_LU	782	8ab9484a	689	SE_LR6_017_PrLo	4
+DataPC_LR.forge	7	LR6_MountainGate_LU	783	56e1801f	204	SE_LR6_015_Wa	1
+DataPC_LR.forge	7	LR6_MountainGate_LU	784	558980be	2139	CIN_LR6_009_PrLo	13
+DataPC_LR.forge	7	LR6_MountainGate_LU	789	558980bf	1012	CIN_LR6_010_PrLo	6
+DataPC_LR.forge	7	LR6_MountainGate_LU	793	2775c014	848	Human_Healing	5
+DataPC_LR.forge	7	LR6_MountainGate_LU	794	558980c0	1173	CIN_LR6_011_PrLo	7
+DataPC_LR.forge	7	LR6_MountainGate_LU	1607	c5c7400b	5363	Human_Fight_attacks_BigDefense	33
+DataPC_LR.forge	7	LR6_MountainGate_LU	1608	238601ea	13385	Human_Fight_ComplexAttack_BigDefense	59
+DataPC_LR.forge	7	LR6_MountainGate_LU	1609	ad0b8062	8405	Human_Fight_ComplexAttack_BigDefense_Weapon	33
+DataPC_LR.forge	7	LR6_MountainGate_LU	1610	0ed940f3	15692	Human_Fight_MiniGame_BigDefense	61
+DataPC_LR.forge	7	LR6_MountainGate_LU	1611	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_LR.forge	7	LR6_MountainGate_LU	1612	0060809e	1658	Human_Fight_State_BigDefense	11
+DataPC_LR.forge	7	LR6_MountainGate_LU	1613	db0480d6	2982	Human_Fight_State	20
+DataPC_LR.forge	7	LR6_MountainGate_LU	1963	b8c64010	1564	BigDef_Movement	44
+DataPC_LR.forge	7	LR6_MountainGate_LU	1964	b8c64012	4844	BigDef_Attacks	33
+DataPC_LR.forge	7	LR6_MountainGate_LU	1965	b8c64013	9948	BigDef_Blocks	64
+DataPC_LR.forge	7	LR6_MountainGate_LU	1966	23860006	3328	BigDef_States	19
+DataPC_LR.forge	7	LR6_MountainGate_LU	1967	23860130	3815	BigDef_ComplexAttacks	28
+DataPC_LR.forge	7	LR6_MountainGate_LU	1968	00a14000	6258	BigDef_Minigames	40
+DataPC_LR.forge	7	LR6_MountainGate_LU	1969	05aec005	470	BigDef_Counter	3
+DataPC_LR.forge	7	LR6_MountainGate_LU	1970	16934f65	1057	BigDef_Deflect	7
+DataPC_LR.forge	7	LR6_MountainGate_LU	1971	ad0b8009	2787	BigDef_ComplexWeapon	17
+DataPC_LR.forge	11	LR35_LavaPillar_LU	680	55898057	1495	CIN_LR3_007_PrLo	9
+DataPC_OB.forge	2	OB1_Machinery_LU	983	272b4184	528	SE_OB1_012_PrLo	3
+DataPC_OB.forge	2	OB1_Machinery_LU	985	4c0f004f	365	SE_OB1_012_Al	2
+DataPC_OB.forge	2	OB1_Machinery_LU	999	272b4196	1977	SE_OB1_014_PrLo	12
+DataPC_OB.forge	2	OB1_Machinery_LU	1007	5589809c	1331	SE_OB1_014_Al	8
+DataPC_OB.forge	2	OB1_Machinery_LU	1008	2c8700ce	851	CIN_OB1_003_PrLo	5
+DataPC_OB.forge	2	OB1_Machinery_LU	1013	272b4170	1333	SE_OB1_008_PrLo	8
+DataPC_OB.forge	2	OB1_Machinery_LU	1022	2c8700dd	1012	CIN_OB1_007_PrLo	6
+DataPC_OB.forge	2	OB1_Machinery_LU	1024	272b4188	1977	SE_OB1_013_PrLo	12
+DataPC_OB.forge	2	OB1_Machinery_LU	1025	5589809b	1170	SE_OB1_013_Al	7
+DataPC_OB.forge	2	OB1_Machinery_LU	1026	272b4180	367	SE_OB1_010_PrLo	2
+DataPC_OB.forge	2	OB1_Machinery_LU	1027	56e1803d	528	SE_OB6_004_PrLo	3
+DataPC_OB.forge	2	OB1_Machinery_LU	1335	2775c014	848	Human_Healing	5
+DataPC_OB.forge	2	OB1_Machinery_LU	2228	1060c28d	12182	Human_Fight_ComplexAttack_Alchemist	43
+DataPC_OB.forge	2	OB1_Machinery_LU	2229	44ad00f5	13873	Human_Fight_MiniGame_Alchemist	53
+DataPC_OB.forge	2	OB1_Machinery_LU	2230	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_OB.forge	2	OB1_Machinery_LU	2231	1be7c08e	909	Human_Fight_State_Alchemist	6
+DataPC_OB.forge	2	OB1_Machinery_LU	2232	db0480d6	2982	Human_Fight_State	20
+DataPC_OB.forge	2	OB1_Machinery_LU	2608	04bbc1b7	2211	Alchemist_Movement	48
+DataPC_OB.forge	2	OB1_Machinery_LU	2609	04bbc242	3426	Alchemist_State	21
+DataPC_OB.forge	2	OB1_Machinery_LU	2610	0e6c01b5	28030	Alchemist_Blocks	171
+DataPC_OB.forge	2	OB1_Machinery_LU	2611	1060c27c	3378	Alchemist_ComplexAttacks	21
+DataPC_OB.forge	2	OB1_Machinery_LU	2612	131e81f4	10811	Alchemist_Attacks	75
+DataPC_OB.forge	2	OB1_Machinery_LU	2613	44ad00cd	5238	Alchemist_Minigames	32
+DataPC_OB.forge	2	OB1_Machinery_LU	2614	4dfb8045	1060	Alchemist_Deflect	7
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1019	558980d6	851	CIN_OB2_001_PrLo	5
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1036	558980d9	1817	CIN_OB2_004_PrLo	11
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1044	558980db	529	CIN_OB2_006_PrLo	3
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1046	558980e5	527	CIN_OB2_006_Al	3
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1055	558980dc	1495	CIN_OB2_007_PrLo	9
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1057	558980e6	205	CIN_OB2_007_Al	1
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1058	558980da	690	CIN_OB2_005_PrLo	4
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1059	512b0006	1172	SE_OB2_020_PrLo	7
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1060	558980ea	367	SE_OB2_018_PrLo	2
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1061	512b0007	850	SE_OB2_022_PrLo	5
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1062	512b0008	528	SE_OB2_024_PrLo	3
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1063	558980e7	528	SE_OB2_013_PrLo	3
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1064	558980ec	1333	SE_OB2_030_PrLo	8
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1065	5589809c	1331	SE_OB1_014_Al	8
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1074	558980e2	1817	CIN_OB2_013_PrLo	11
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1079	558980e1	1817	CIN_OB2_012_PrLo	11
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1084	558980dd	1173	CIN_OB2_008_PrLo	7
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	1447	2775c014	848	Human_Healing	5
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2483	1060c28d	12182	Human_Fight_ComplexAttack_Alchemist	44
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2484	44ad00f5	13873	Human_Fight_MiniGame_Alchemist	53
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2485	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2486	1be7c08e	909	Human_Fight_State_Alchemist	6
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2487	db0480d6	2982	Human_Fight_State	20
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2922	04bbc1b7	2211	Alchemist_Movement	48
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2923	04bbc242	3426	Alchemist_State	21
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2924	0e6c01b5	28030	Alchemist_Blocks	171
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2925	1060c27c	3378	Alchemist_ComplexAttacks	21
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2926	131e81f4	10811	Alchemist_Attacks	75
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2927	44ad00cd	5238	Alchemist_Minigames	32
+DataPC_OB.forge	3	OB2_ObservatoryEntrance_LU	2928	4dfb8045	1060	Alchemist_Deflect	7
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	381	55898107	851	CIN_OB3_004_PrLo	5
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	384	5589810d	205	CIN_OB3_004_Al	1
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	400	55898108	690	CIN_OB3_005_PrLo	4
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	401	55898109	1495	CIN_OB3_006_PrLo	9
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	405	5589810e	527	CIN_OB3_005_Al	3
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	406	5589810f	205	CIN_OB3_006_Al	1
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	409	55898104	1012	CIN_OB3_001_PrLo	6
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	413	5589810a	366	CIN_OB3_001_Al	2
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	426	55898105	851	CIN_OB3_002_PrLo	5
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	428	5589810b	205	CIN_OB3_002_Al	1
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	431	50f48006	1333	SE_OB3_019_PrLo	8
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	432	4f28c010	1331	SE_OB3_019_Al	8
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	433	4ed58010	5034	SE_OB3_015_Al	31
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	434	50e04006	1172	SE_OB3_015_PrLo	7
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	538	2775c014	848	Human_Healing	5
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1051	1060c28d	12182	Human_Fight_ComplexAttack_Alchemist	43
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1052	44ad00f5	13873	Human_Fight_MiniGame_Alchemist	53
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1053	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1054	1be7c08e	909	Human_Fight_State_Alchemist	6
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1055	db0480d6	2982	Human_Fight_State	20
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1395	04bbc1b7	2211	Alchemist_Movement	48
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1396	04bbc242	3426	Alchemist_State	21
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1397	0e6c01b5	28030	Alchemist_Blocks	171
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1398	1060c27c	3378	Alchemist_ComplexAttacks	21
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1399	131e81f4	10811	Alchemist_Attacks	75
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1400	44ad00cd	5238	Alchemist_Minigames	32
+DataPC_OB.forge	4	OB3_ObservatoryTopLair_LU	1401	4dfb8045	1060	Alchemist_Deflect	7
+DataPC_OB.forge	5	OB4_Balloons_LU	797	2c8700e8	690	CIN_OB4_002_PrLo	4
+DataPC_OB.forge	5	OB4_Balloons_LU	798	5589811d	205	CIN_OB4_002_Al	1
+DataPC_OB.forge	5	OB4_Balloons_LU	799	2c8700e4	851	CIN_OB4_001_PrLo	5
+DataPC_OB.forge	5	OB4_Balloons_LU	800	5589811c	205	CIN_OB4_001_Al	1
+DataPC_OB.forge	5	OB4_Balloons_LU	807	2c8700e9	690	CIN_OB4_003_PrLo	4
+DataPC_OB.forge	5	OB4_Balloons_LU	809	2c8700ea	690	CIN_OB4_004_PrLo	4
+DataPC_OB.forge	5	OB4_Balloons_LU	810	56e18024	528	SE_OB4_014_PrLo	3
+DataPC_OB.forge	5	OB4_Balloons_LU	819	2ca48053	1012	CIN_OB4_005_PrLo	6
+DataPC_OB.forge	5	OB4_Balloons_LU	821	55898120	527	CIN_OB4_005_Al	3
+DataPC_OB.forge	5	OB4_Balloons_LU	832	2ca4805b	1656	CIN_OB4_006_PrLo	10
+DataPC_OB.forge	5	OB4_Balloons_LU	834	55898121	205	CIN_OB4_006_Al	1
+DataPC_OB.forge	5	OB4_Balloons_LU	835	83be04b3	367	SE_OB4_023_PrLo	2
+DataPC_OB.forge	5	OB4_Balloons_LU	836	5cbb41a7	2941	SE_OB4_023_Al	18
+DataPC_OB.forge	5	OB4_Balloons_LU	840	4e768000	1173	CIN_OB4_007_PrLo	7
+DataPC_OB.forge	5	OB4_Balloons_LU	1131	484200ac	689	SE_OB4_022_PrLo	5
+DataPC_OB.forge	5	OB4_Balloons_LU	1158	272b41aa	689	SE_OB4_015_PrLo	4
+DataPC_OB.forge	5	OB4_Balloons_LU	1175	2775c014	848	Human_Healing	5
+DataPC_OB.forge	5	OB4_Balloons_LU	1916	1060c28d	12182	Human_Fight_ComplexAttack_Alchemist	44
+DataPC_OB.forge	5	OB4_Balloons_LU	1917	44ad00f5	13873	Human_Fight_MiniGame_Alchemist	53
+DataPC_OB.forge	5	OB4_Balloons_LU	1918	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_OB.forge	5	OB4_Balloons_LU	1919	1be7c08e	909	Human_Fight_State_Alchemist	6
+DataPC_OB.forge	5	OB4_Balloons_LU	1920	db0480d6	2982	Human_Fight_State	20
+DataPC_OB.forge	5	OB4_Balloons_LU	2250	04bbc1b7	2211	Alchemist_Movement	48
+DataPC_OB.forge	5	OB4_Balloons_LU	2251	04bbc242	3426	Alchemist_State	21
+DataPC_OB.forge	5	OB4_Balloons_LU	2252	0e6c01b5	28030	Alchemist_Blocks	171
+DataPC_OB.forge	5	OB4_Balloons_LU	2253	1060c27c	3378	Alchemist_ComplexAttacks	21
+DataPC_OB.forge	5	OB4_Balloons_LU	2254	131e81f4	10811	Alchemist_Attacks	75
+DataPC_OB.forge	5	OB4_Balloons_LU	2255	44ad00cd	5238	Alchemist_Minigames	32
+DataPC_OB.forge	5	OB4_Balloons_LU	2256	4dfb8045	1060	Alchemist_Deflect	7
+DataPC_OB.forge	6	OB5_Pump_LU	637	55898128	1334	CIN_OB5_001_PrLo	8
+DataPC_OB.forge	6	OB5_Pump_LU	644	5589812a	1012	CIN_OB5_003_PrLo	7
+DataPC_OB.forge	6	OB5_Pump_LU	646	5589812d	205	CIN_OB5_003_Al	1
+DataPC_OB.forge	6	OB5_Pump_LU	652	5589812b	851	CIN_OB5_004_PrLo	5
+DataPC_OB.forge	6	OB5_Pump_LU	654	4d61cc6c	205	CIN_OB5_004_Al	1
+DataPC_OB.forge	6	OB5_Pump_LU	655	48d6c035	528	SE_OB5_016_PrLo	3
+DataPC_OB.forge	6	OB5_Pump_LU	656	49128000	1170	SE_OB5_016_Al	7
+DataPC_OB.forge	6	OB5_Pump_LU	657	56e1803d	528	SE_OB6_004_PrLo	3
+DataPC_OB.forge	6	OB5_Pump_LU	661	5589812c	1173	CIN_OB5_005_PrLo	7
+DataPC_OB.forge	6	OB5_Pump_LU	926	2775c014	848	Human_Healing	5
+DataPC_OB.forge	6	OB5_Pump_LU	1482	1060c28d	12182	Human_Fight_ComplexAttack_Alchemist	43
+DataPC_OB.forge	6	OB5_Pump_LU	1483	44ad00f5	13873	Human_Fight_MiniGame_Alchemist	53
+DataPC_OB.forge	6	OB5_Pump_LU	1484	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_OB.forge	6	OB5_Pump_LU	1485	1be7c08e	909	Human_Fight_State_Alchemist	6
+DataPC_OB.forge	6	OB5_Pump_LU	1486	db0480d6	2982	Human_Fight_State	20
+DataPC_OB.forge	6	OB5_Pump_LU	1826	04bbc1b7	2211	Alchemist_Movement	48
+DataPC_OB.forge	6	OB5_Pump_LU	1827	04bbc242	3426	Alchemist_State	21
+DataPC_OB.forge	6	OB5_Pump_LU	1828	0e6c01b5	28030	Alchemist_Blocks	171
+DataPC_OB.forge	6	OB5_Pump_LU	1829	1060c27c	3378	Alchemist_ComplexAttacks	21
+DataPC_OB.forge	6	OB5_Pump_LU	1830	131e81f4	10811	Alchemist_Attacks	75
+DataPC_OB.forge	6	OB5_Pump_LU	1831	44ad00cd	5238	Alchemist_Minigames	32
+DataPC_OB.forge	6	OB5_Pump_LU	1832	4dfb8045	1060	Alchemist_Deflect	7
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1017	55898135	851	CIN_OB6_002_PrLo	5
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1023	55898137	1173	CIN_OB6_004_PrLo	7
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1024	55898140	205	CIN_OB6_004_Al	1
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1035	55898138	1495	CIN_OB6_005_PrLo	9
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1038	55898141	205	CIN_OB6_005_Al	1
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1052	55898139	1495	CIN_OB6_006_PrLo	9
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1053	5589813b	1656	CIN_OB6_008_PrLo	10
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1054	558980bd	1817	CIN_LR6_008_PrLo	11
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1055	55898142	205	CIN_OB6_006_Al	1
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1056	56e18041	528	SE_OB6_019_PrLo	3
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1057	56e18040	528	SE_OB6_018_PrLo	3
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1058	56e18042	1172	SE_OB6_020_PrLo	7
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1059	4bf94031	1009	SE_OB6_020_Al	6
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1060	56e1803d	528	SE_OB6_004_PrLo	3
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1061	5589813c	2139	CIN_OB6_009_PrLo	13
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1065	5589813d	1012	CIN_OB6_010_PrLo	6
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1066	5589813e	529	CIN_OB6_011_PrLo	3
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1070	5589813f	851	CIN_OB6_012_PrLo	5
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1366	56e1803f	689	SE_OB6_017_PrLo	4
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	1367	56e1803e	850	SE_OB6_016_PrLo	5
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2227	1060c28d	12182	Human_Fight_ComplexAttack_Alchemist	43
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2228	44ad00f5	13873	Human_Fight_MiniGame_Alchemist	53
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2229	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2230	1be7c08e	909	Human_Fight_State_Alchemist	6
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2231	db0480d6	2982	Human_Fight_State	20
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2629	04bbc1b7	2211	Alchemist_Movement	48
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2630	04bbc242	3426	Alchemist_State	21
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2631	0e6c01b5	28030	Alchemist_Blocks	171
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2632	1060c27c	3378	Alchemist_ComplexAttacks	21
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2633	131e81f4	10811	Alchemist_Attacks	75
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2634	44ad00cd	5238	Alchemist_Minigames	32
+DataPC_OB.forge	7	OB6_NaturalBowl_LU	2635	4dfb8045	1060	Alchemist_Deflect	7
+DataPC_POP0WORLD.forge	2	MissionLU_DE3A_TempleCorridor_Act1	21	13e5c1eb	850	SE_DE3_013_PrLo	5
+DataPC_POP0WORLD.forge	2	MissionLU_DE3A_TempleCorridor_Act1	22	13e5c1dd	1172	SE_DE3_012_PrLo	7
+DataPC_POP0WORLD.forge	2	MissionLU_DE3A_TempleCorridor_Act1	33	13e5c1a1	1011	SE_DE3_002_PrLo	6
+DataPC_POP0WORLD.forge	2	MissionLU_DE3A_TempleCorridor_Act1	34	13e5c1ab	689	SE_DE3_003_PrLo	4
+DataPC_POP0WORLD.forge	2	MissionLU_DE3A_TempleCorridor_Act1	39	13e5c1b5	367	SE_DE3_007_PrLo	2
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	32	5be14f0f	1012	CIN_HC1_003_PrLo	6
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	33	8b0b0004	366	CIN_HC1_003_Co	2
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	41	5be14f21	1173	CIN_HC1_006_PrLo	7
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	43	5be14f27	849	CIN_HC1_006_Co	5
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	48	5be14f2b	851	CIN_HC1_007_PrLo	5
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	49	5be14f31	366	CIN_HC1_007_Co	2
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	50	5be14f06	851	CIN_HC1_002_PrLo	5
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	53	5be14f35	2300	CIN_HC1_008_PrLo	14
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	54	8ac48004	528	SE_HC1_013_PrLo	3
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	55	88ff8051	526	SE_HC1_018_Co	3
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	56	8ac4800d	689	SE_HC1_019_PrLo	4
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	57	88ff8053	1009	SE_HC1_019_Co	6
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	58	8ac48007	528	SE_HC1_014_PrLo	3
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	63	5be14f15	851	CIN_HC1_004_PrLo	5
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	64	88ff8049	366	CIN_HC1_004_Co	2
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	65	8ac48010	528	SE_HC1_021_PrLo	3
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	66	8ac48013	1494	SE_HC1_022_PrLo	9
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	67	46838166	1333	SE_HC1_023_PrLo	8
+DataPC_POP0WORLD.forge	4	MissionLU_HC1_LeftTower_Act2	68	604b03a6	1170	SE_HC1_023_Co	7
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	30	8dcb8012	1334	CIN_HC2_004_PrLo	8
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	43	8dcb8015	1495	CIN_HC2_005_PrLo	9
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	48	8dcb8018	851	CIN_HC2_006_PrLo	5
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	50	8dcb8021	205	CIN_HC2_006_Co	1
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	51	8dcb800c	690	CIN_HC2_002_PrLo	4
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	56	8dcb800f	1334	CIN_HC2_003_PrLo	8
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	61	8dcb801e	1978	CIN_HC2_008_PrLo	12
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	62	8e108017	528	SE_HC2_015_PrLo	3
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	63	8e108016	528	SE_HC2_014_PrLo	3
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	64	604b03ae	848	SE_HC2_026_Co	5
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	70	8dcb801b	2139	CIN_HC2_007_PrLo	11
+DataPC_POP0WORLD.forge	5	MissionLU_HC2_Pools_Act2	71	8dcb8023	527	CIN_HC2_007_Co	2
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	22	5a6ec000	368	CIN_HC3_001_PrLo	2
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	24	5a80c048	366	CIN_HC3_001_Co	2
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	32	5a80c036	690	CIN_HC3_009_PrLo	4
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	36	5a80c064	366	CIN_HC3_009_Co	2
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	42	5a80c00e	851	CIN_HC3_002_PrLo	5
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	43	5a80c04c	366	CIN_HC3_002_Co	2
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	48	5a80c011	1334	CIN_HC3_003_PrLo	8
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	49	5a80c050	688	CIN_HC3_003_Co	3
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	54	5a80c018	690	CIN_HC3_004_PrLo	4
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	59	5a80c054	205	CIN_HC3_004_Co	1
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	66	5a80c03c	1656	CIN_HC3_010_PrLo	10
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	72	5a80c02a	851	CIN_HC3_007_PrLo	5
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	75	5a80c05c	688	CIN_HC3_007_Co	4
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	79	5a80c030	1656	CIN_HC3_008_PrLo	10
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	80	5a80c060	527	CIN_HC3_008_Co	3
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	84	5a80c01e	1173	CIN_HC3_005_PrLo	7
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	85	5a80c058	527	CIN_HC3_005_Co	3
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	86	5a99800a	526	SE_HC3_021_Co	3
+DataPC_POP0WORLD.forge	6	MissionLU_HC3_Castle_LAIR_Act2	87	5a998016	1170	SE_HC3_031_Co	7
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	32	8c758108	1012	CIN_HC4_011_PrLo	6
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	34	8c75813e	688	CIN_HC4_011_Co	4
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	39	8c7580fe	1012	CIN_HC4_001_PrLo	6
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	40	8c7580ff	529	CIN_HC4_002_PrLo	3
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	44	8c758103	529	CIN_HC4_006_PrLo	3
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	45	8c758138	688	CIN_HC4_006_Co	4
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	50	8c758100	690	CIN_HC4_003_PrLo	4
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	51	8c758137	688	CIN_HC4_003_Co	4
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	52	8c7581d0	1975	SE_HC4_015_Co	12
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	58	4ca1c569	689	SE_HC4_029_PrLo	4
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	59	8c75810c	1334	CIN_HC4_015_PrLo	8
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	60	8c758102	2622	CIN_HC4_005_PrLo	16
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	76	8c758109	851	CIN_HC4_012_PrLo	5
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	77	8c75813f	366	CIN_HC4_012_Co	2
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	78	8c7581d3	1009	SE_HC4_023_Co	6
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	95	4ae29807	1817	CIN_HC4_020_PrLo	11
+DataPC_POP0WORLD.forge	7	MissionLU_HC4_CentralPeak_Act2	100	8c758110	1495	CIN_HC4_019_PrLo	9
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	22	8a45800a	851	CIN_HC5_001_PrLo	5
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	23	8a45800f	851	CIN_HC5_002_PrLo	5
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	28	8a458012	1173	CIN_HC5_006_PrLo	7
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	30	8a458015	688	CIN_HC5_006_Co	4
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	36	8a458017	1012	CIN_HC5_007_PrLo	6
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	37	8a45801a	527	CIN_HC5_007_Co	3
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	41	8a45801c	1817	CIN_HC5_008_PrLo	11
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	45	4ca1c479	1817	CIN_HC5_003_PrLo	11
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	46	604b0493	1170	SE_HC5_015_Co	7
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	47	8a8f4004	528	SE_HC5_016_PrLo	3
+DataPC_POP0WORLD.forge	8	MissionLU_HC5_RightTower_Act2	48	604b049b	687	SE_HC5_019_Co	4
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	32	88a5c1d2	1495	CIN_HC6_003_PrLo	9
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	36	8e2341aa	366	CIN_HC6_003_Co	2
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	37	88a5c1ce	690	CIN_HC6_002_PrLo	4
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	43	88a5c2c6	850	SE_HC6_021_PrLo	5
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	44	908b4135	367	SE_HC6_022_PrLo	2
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	45	908b414f	365	SE_HC6_022_Co	2
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	46	908b414e	687	SE_HC6_021_Co	4
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	51	8e2341a3	529	CIN_HC6_004_PrLo	3
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	53	8e2341ac	527	CIN_HC6_004_Co	3
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	54	88a5c2b2	1172	SE_HC6_015_PrLo	7
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	55	908b414b	365	SE_HC6_015_Co	2
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	60	88a5c138	689	SE_HC6_020_PrLo	4
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	71	88a5c1e8	1656	CIN_HC6_007_PrLo	10
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	72	88a5c1dc	1012	CIN_HC6_005_PrLo	6
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	73	558980bd	1817	CIN_LR6_008_PrLo	11
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	74	8e2341ae	527	CIN_HC6_005_Co	3
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	75	604b04b1	848	SE_HC6_023_Co	5
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	83	88a5c1c8	1173	CIN_HC6_001_PrLo	7
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	84	88a5c1f6	2139	CIN_HC6_008_PrLo	13
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	88	88a5c202	1012	CIN_HC6_009_PrLo	6
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	89	2775c014	848	Human_Healing	5
+DataPC_POP0WORLD.forge	9	MissionLU_HC6_HugeCavern_Act2	93	88a5c208	1817	CIN_HC6_010_PrLo	11
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	33	5589801b	1173	CIN_LR1_001_PrLo	7
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	38	56e18000	1494	SE_LR1_013_PrLo	9
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	48	5589801d	851	CIN_LR1_003_PrLo	5
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	50	55898026	205	CIN_LR1_003_Wa	1
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	58	55898020	1012	CIN_LR1_006_PrLo	6
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	59	55898029	527	CIN_LR1_006_Wa	3
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	68	55898023	1656	CIN_LR1_009_PrLo	10
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	70	5a43c119	527	CIN_LR1_009_Wa	3
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	71	55898021	529	CIN_LR1_007_PrLo	3
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	72	56e18001	1333	SE_LR1_015_PrLo	8
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	73	5a43c13b	687	SE_LR1_015_Wa	4
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	77	8ab946aa	528	SE_LR1_026_PrLo	3
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	82	56e18003	367	SE_LR1_020_PrLo	2
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	85	56e18004	689	SE_LR1_021_PrLo	4
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	91	56e18005	850	SE_LR1_023_PrLo	5
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	100	56e18002	689	SE_LR1_018_PrLo	4
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	107	55898025	1817	CIN_LR1_011_PrLo	11
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	119	55898024	1012	CIN_LR1_010_PrLo	6
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	120	57030009	205	CIN_LR1_010_Wa	1
+DataPC_POP0WORLD.forge	11	MissionLU_LR1_TowerExterior_Act2	129	a71c80e9	706	CIN_LR1_ArriveinCirculation_PrLo	4
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	20	5589803d	851	CIN_LR2_001_PrLo	5
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	21	55898041	1499	CIN_LR2_003-005_PrLo	8
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	22	536480a8	850	SE_LR2_019_PrLo	5
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	30	55898043	1334	CIN_LR2_007_PrLo	8
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	32	55898046	205	CIN_LR2_007_Wa	1
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	42	55898045	1334	CIN_LR2_009_PrLo	8
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	48	55898044	1173	CIN_LR2_008_PrLo	7
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	49	6c0f8006	205	CIN_LR2_008_Wa	1
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	50	8ab94737	1655	SE_LR2_021_PrLo	10
+DataPC_POP0WORLD.forge	12	MissionLU_LR2_TowerInterior_Act2	51	5a43c148	687	SE_LR2_021_Wa	4
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	14	55898053	2622	CIN_LR3_003_PrLo	16
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	17	5589805a	527	CIN_LR3_003_Wa	3
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	34	55898052	1334	CIN_LR3_002_PrLo	8
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	37	55898059	527	CIN_LR3_002_Wa	3
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	55	55898055	2139	CIN_LR3_005_PrLo	13
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	61	5589805c	849	CIN_LR3_005_Wa	5
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	62	56e18014	1172	SE_LR3_013_PrLo	7
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	63	56e18016	687	SE_LR3_013_Wa	4
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	66	8ab947a8	1494	SE_LR3_017_PrLo	9
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	67	5a43c169	1653	SE_LR3_017_Wa	10
+DataPC_POP0WORLD.forge	13	MissionLU_LR3_SinkingTower_LAIR_Act2	71	55898056	851	CIN_LR3_006_PrLo	5
+DataPC_POP0WORLD.forge	14	MissionLU_LR4_TowerExterior_Act2	15	5589808d	1173	CIN_LR4_001_PrLo	7
+DataPC_POP0WORLD.forge	14	MissionLU_LR4_TowerExterior_Act2	16	55898092	2300	CIN_LR4_006_PrLo	14
+DataPC_POP0WORLD.forge	14	MissionLU_LR4_TowerExterior_Act2	25	55898090	368	CIN_LR4_004_PrLo	2
+DataPC_POP0WORLD.forge	14	MissionLU_LR4_TowerExterior_Act2	26	5a43c122	205	CIN_LR4_004_Wa	1
+DataPC_POP0WORLD.forge	14	MissionLU_LR4_TowerExterior_Act2	39	55898091	1012	CIN_LR4_005_PrLo	6
+DataPC_POP0WORLD.forge	14	MissionLU_LR4_TowerExterior_Act2	41	55898093	528	SE_LR4_012_PrLo	3
+DataPC_POP0WORLD.forge	14	MissionLU_LR4_TowerExterior_Act2	42	8ab947db	850	SE_LR4_014_PrLo	5
+DataPC_POP0WORLD.forge	14	MissionLU_LR4_TowerExterior_Act2	43	5a43c174	526	SE_LR4_014_Wa	3
+DataPC_POP0WORLD.forge	14	MissionLU_LR4_TowerExterior_Act2	52	a71c80ea	706	CIN_LR4_ArriveinCirculation_PrLo	4
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	18	5589806c	690	CIN_LR5_002_PrLo	4
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	19	5aca010d	528	SE_LR5_012_PrLo	3
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	27	5589806e	1173	CIN_LR5_004_PrLo	7
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	28	55898077	366	CIN_LR5_004_Wa	2
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	34	55898071	368	CIN_LR5_007_PrLo	2
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	35	8ab9480b	528	SE_LR5_019_PrLo	3
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	36	5589807a	205	CIN_LR5_007_Wa	1
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	37	5124404e	204	SE_LR5_019_Wa	1
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	45	55898070	690	CIN_LR5_006_PrLo	4
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	47	55898079	205	CIN_LR5_006_Wa	1
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	54	55898072	2139	CIN_LR5_008_PrLo	13
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	56	5589807b	205	CIN_LR5_008_Wa	1
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	57	8ab9480e	206	SE_LR5_022_PrLo	1
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	58	68e78005	209	LR5_WarriorLooping	1
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	65	55898076	1012	CIN_LR5_012_PrLo	6
+DataPC_POP0WORLD.forge	15	MissionLU_LR5_Maze_Act2	66	55898051	1173	CIN_LR3_001_PrLo	7
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	17	558980b7	690	CIN_LR6_002_PrLo	4
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	18	558980c2	205	CIN_LR6_002_Wa	1
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	20	4eb00000	204	SE_LR6_017_Wa	1
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	23	8ab9484d	206	SE_LR6_020_PrLo	1
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	24	8ab9484c	206	SE_LR6_019_PrLo	1
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	25	8ab9484b	367	SE_LR6_018_PrLo	2
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	27	56e1801e	204	SE_LR6_014_Wa	1
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	31	558980ba	1012	CIN_LR6_005_PrLo	6
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	32	558980c5	527	CIN_LR6_005_Wa	3
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	43	558980bb	851	CIN_LR6_006_PrLo	5
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	44	558980bd	1817	CIN_LR6_008_PrLo	11
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	45	8ab9484f	1816	SE_LR6_022_PrLo	11
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	46	5a43c179	526	SE_LR6_022_Wa	3
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	51	8ab94849	850	SE_LR6_016_PrLo	5
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	58	56e18020	204	SE_LR6_016_Wa	1
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	59	3a7411a8	526	SE_LR6_XXX_Bd	3
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	64	8ab9484a	689	SE_LR6_017_PrLo	4
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	65	56e1801f	204	SE_LR6_015_Wa	1
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	66	558980be	2139	CIN_LR6_009_PrLo	13
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	71	558980bf	1012	CIN_LR6_010_PrLo	6
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	75	2775c014	848	Human_Healing	5
+DataPC_POP0WORLD.forge	16	MissionLU_LR6_MountainGate_Act2	76	558980c0	1173	CIN_LR6_011_PrLo	7
+DataPC_POP0WORLD.forge	17	MissionLU_LR35_LavaPillar_Act2	16	55898057	1495	CIN_LR3_007_PrLo	9
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	53	4cd856cb	1491	CIN_RC1_LoPr	9
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	54	4d34c18a	1651	CIN_RC1_004	10
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	55	4bef0066	523	SE_RC1_012	3
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	64	507e8107	846	CIN_RC1_003	5
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	65	4cd856cf	201	CIN_RC1_Hu	1
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	71	4cd856b7	3744	SE_RC1_LoPr	22
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	72	72cc0054	362	SE_RC1_026	2
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	73	4cd856c9	522	SE_RC1_Hu	2
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	74	4d34c186	202	CIN_RC1_002	1
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	75	23758147	362	SE_RC5_002	2
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	80	4d34c036	201	SE_RC1_014	1
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	81	4d34c03c	362	SE_RC1_016	2
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	89	77814063	3100	CIN_RC1_008	19
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	94	77814056	1168	CIN_RC1_006	7
+DataPC_POP0WORLD.forge	18	MissionLU_RC1_Windmill_Act2	95	7781405d	685	CIN_RC1_007	4
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	32	4e6c4017	1813	CIN_RC2_LoPr	11
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	33	a59c4004	205	CIN_RC2_004_Hu	1
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	38	5e8f001e	689	SE_RC2_019_PrLo	4
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	39	4c0dc080	201	SE_RC2_019	1
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	40	4faa4026	361	SE_RC2_hu	2
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	45	4d34c1a8	2778	CIN_RC2_005	17
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	57	4d34c1a0	2134	CIN_RC2_003	13
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	58	5e9c8e36	205	CIN_RC2_003_Hu	1
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	60	4d34c076	201	SE_RC2_020	1
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	61	4c0dc088	362	SE_RC2_023	2
+DataPC_POP0WORLD.forge	19	MissionLU_RC2_GuardTower_Act2	64	7bae0010	201	SE_RC2_002	1
+DataPC_POP0WORLD.forge	20	MissionLU_RC3_Arena_LAIR_Act2	12	4bef0034	362	SE_RC3_012	2
+DataPC_POP0WORLD.forge	20	MissionLU_RC3_Arena_LAIR_Act2	13	47030008	522	SE_RC3_Hu	3
+DataPC_POP0WORLD.forge	20	MissionLU_RC3_Arena_LAIR_Act2	21	7781408b	1007	CIN_RC3_001	6
+DataPC_POP0WORLD.forge	20	MissionLU_RC3_Arena_LAIR_Act2	22	4fa74069	1006	CIN_RC3_Hu	6
+DataPC_POP0WORLD.forge	20	MissionLU_RC3_Arena_LAIR_Act2	27	4bef003e	845	SE_RC3_016	5
+DataPC_POP0WORLD.forge	20	MissionLU_RC3_Arena_LAIR_Act2	34	77814093	1007	CIN_RC3_002	6
+DataPC_POP0WORLD.forge	20	MissionLU_RC3_Arena_LAIR_Act2	47	4d34c1de	1651	CIN_RC3_003	10
+DataPC_POP0WORLD.forge	21	MissionLU_RC4_Terrace_Act2	20	4d34c1da	851	CIN_RC4_003_PrLo	5
+DataPC_POP0WORLD.forge	21	MissionLU_RC4_Terrace_Act2	21	51b98000	205	CIN_RC4_003_Hu	1
+DataPC_POP0WORLD.forge	21	MissionLU_RC4_Terrace_Act2	29	4d34c1f2	1329	CIN_RC4_004	8
+DataPC_POP0WORLD.forge	21	MissionLU_RC4_Terrace_Act2	30	39454000	366	CIN_RC4_004_Hu	2
+DataPC_POP0WORLD.forge	21	MissionLU_RC4_Terrace_Act2	35	4d34c1f8	1495	CIN_RC4_005_PrLo	9
+DataPC_POP0WORLD.forge	21	MissionLU_RC4_Terrace_Act2	36	4d34c0d8	845	SE_RC4_014	5
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	18	23758147	362	SE_RC5_002	2
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	29	23758159	845	SE_RC5_023	5
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	30	202c409d	1437	SE_RC5	8
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	31	2375815d	523	SE_RC5_024	3
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	32	c76ccdcb	1653	Hunter_Se_RC5	10
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	42	23758150	523	SE_RC5_015	3
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	47	23758157	201	SE_RC5_021	1
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	53	23758153	523	SE_RC5_018	3
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	61	2375814e	201	SE_RC5_013	1
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	62	2375814b	523	SE_RC5_012	3
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	65	23758160	523	SE_RC5_025	3
+DataPC_POP0WORLD.forge	22	MissionLU_RC5_Petra_Act2	70	2775c014	848	Human_Healing	5
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	26	4d34c252	1656	CIN_RC6_006_PrLo	10
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	27	558980bd	1817	CIN_LR6_008_PrLo	11
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	28	4eee8003	366	CIN_RC6_005_Hu	2
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	35	47988000	851	CIN_RC6_004_PrLo	5
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	36	a7bc8000	205	CIN_RC6_004_Hu	1
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	37	4d34c244	685	CIN_RC6_002	4
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	38	48c84f48	4871	SE_RC6_PrLo	28
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	42	558980ec	1333	SE_OB2_030_PrLo	8
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	48	4d34c258	2134	CIN_RC6_007	13
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	49	4d34c262	1007	CIN_RC6_008	6
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	50	4d34c268	1168	CIN_RC6_009	7
+DataPC_POP0WORLD.forge	23	MissionLU_RC6_CityGate_Act2	53	2775c014	848	Human_Healing	5
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	24	272b4184	528	SE_OB1_012_PrLo	3
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	26	4c0f004f	365	SE_OB1_012_Al	2
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	40	272b4196	1977	SE_OB1_014_PrLo	12
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	48	5589809c	1331	SE_OB1_014_Al	8
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	49	2c8700ce	851	CIN_OB1_003_PrLo	5
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	54	272b4170	1333	SE_OB1_008_PrLo	8
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	63	2c8700dd	1012	CIN_OB1_007_PrLo	6
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	65	272b4188	1977	SE_OB1_013_PrLo	12
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	66	5589809b	1170	SE_OB1_013_Al	7
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	67	272b4180	367	SE_OB1_010_PrLo	2
+DataPC_POP0WORLD.forge	25	MissionLU_OB1_Machinery_Act2	68	56e1803d	528	SE_OB6_004_PrLo	3
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	32	558980d6	851	CIN_OB2_001_PrLo	5
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	49	558980d9	1817	CIN_OB2_004_PrLo	11
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	57	558980db	529	CIN_OB2_006_PrLo	3
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	59	558980e5	527	CIN_OB2_006_Al	3
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	68	558980dc	1495	CIN_OB2_007_PrLo	9
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	70	558980e6	205	CIN_OB2_007_Al	1
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	71	558980da	690	CIN_OB2_005_PrLo	4
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	75	558980dd	1173	CIN_OB2_008_PrLo	7
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	76	512b0006	1172	SE_OB2_020_PrLo	7
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	77	558980ea	367	SE_OB2_018_PrLo	2
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	78	512b0007	850	SE_OB2_022_PrLo	5
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	79	512b0008	528	SE_OB2_024_PrLo	3
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	80	558980e7	528	SE_OB2_013_PrLo	3
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	81	558980ec	1333	SE_OB2_030_PrLo	8
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	82	5589809c	1331	SE_OB1_014_Al	8
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	91	558980e2	1817	CIN_OB2_013_PrLo	11
+DataPC_POP0WORLD.forge	26	MissionLU_OB2_ObservatoryEntrance_Act2	96	558980e1	1817	CIN_OB2_012_PrLo	11
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	19	55898107	851	CIN_OB3_004_PrLo	5
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	22	5589810d	205	CIN_OB3_004_Al	1
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	38	55898108	690	CIN_OB3_005_PrLo	4
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	39	55898109	1495	CIN_OB3_006_PrLo	9
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	43	5589810e	527	CIN_OB3_005_Al	3
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	44	5589810f	205	CIN_OB3_006_Al	1
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	47	55898104	1012	CIN_OB3_001_PrLo	6
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	51	5589810a	366	CIN_OB3_001_Al	2
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	64	55898105	851	CIN_OB3_002_PrLo	5
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	66	5589810b	205	CIN_OB3_002_Al	1
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	69	50f48006	1333	SE_OB3_019_PrLo	8
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	70	4f28c010	1331	SE_OB3_019_Al	8
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	71	4ed58010	5034	SE_OB3_015_Al	31
+DataPC_POP0WORLD.forge	27	MissionLU_OB3_ObservatoryTopLair_Act2	72	50e04006	1172	SE_OB3_015_PrLo	7
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	21	2c8700e8	690	CIN_OB4_002_PrLo	4
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	22	5589811d	205	CIN_OB4_002_Al	1
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	23	2c8700e4	851	CIN_OB4_001_PrLo	5
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	24	5589811c	205	CIN_OB4_001_Al	1
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	31	2c8700e9	690	CIN_OB4_003_PrLo	4
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	33	2c8700ea	690	CIN_OB4_004_PrLo	4
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	34	56e18024	528	SE_OB4_014_PrLo	3
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	43	2ca48053	1012	CIN_OB4_005_PrLo	6
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	45	55898120	527	CIN_OB4_005_Al	3
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	56	2ca4805b	1656	CIN_OB4_006_PrLo	10
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	58	55898121	205	CIN_OB4_006_Al	1
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	62	4e768000	1173	CIN_OB4_007_PrLo	7
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	63	83be04b3	367	SE_OB4_023_PrLo	2
+DataPC_POP0WORLD.forge	28	MissionLU_OB4_Balloons_Act2	64	5cbb41a7	2941	SE_OB4_023_Al	18
+DataPC_POP0WORLD.forge	29	MissionLU_OB5_Pump_Act2	18	55898128	1334	CIN_OB5_001_PrLo	8
+DataPC_POP0WORLD.forge	29	MissionLU_OB5_Pump_Act2	25	5589812a	1012	CIN_OB5_003_PrLo	6
+DataPC_POP0WORLD.forge	29	MissionLU_OB5_Pump_Act2	27	5589812d	205	CIN_OB5_003_Al	1
+DataPC_POP0WORLD.forge	29	MissionLU_OB5_Pump_Act2	33	5589812b	851	CIN_OB5_004_PrLo	5
+DataPC_POP0WORLD.forge	29	MissionLU_OB5_Pump_Act2	35	4d61cc6c	205	CIN_OB5_004_Al	1
+DataPC_POP0WORLD.forge	29	MissionLU_OB5_Pump_Act2	39	5589812c	1173	CIN_OB5_005_PrLo	7
+DataPC_POP0WORLD.forge	29	MissionLU_OB5_Pump_Act2	40	48d6c035	528	SE_OB5_016_PrLo	3
+DataPC_POP0WORLD.forge	29	MissionLU_OB5_Pump_Act2	41	49128000	1170	SE_OB5_016_Al	7
+DataPC_POP0WORLD.forge	29	MissionLU_OB5_Pump_Act2	42	56e1803d	528	SE_OB6_004_PrLo	3
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	19	55898135	851	CIN_OB6_002_PrLo	5
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	25	55898137	1173	CIN_OB6_004_PrLo	7
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	26	55898140	205	CIN_OB6_004_Al	1
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	37	55898138	1495	CIN_OB6_005_PrLo	9
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	40	55898141	205	CIN_OB6_005_Al	1
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	54	55898139	1495	CIN_OB6_006_PrLo	9
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	55	5589813b	1656	CIN_OB6_008_PrLo	10
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	56	558980bd	1817	CIN_LR6_008_PrLo	11
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	57	55898142	205	CIN_OB6_006_Al	1
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	58	56e18041	528	SE_OB6_019_PrLo	3
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	59	56e18040	528	SE_OB6_018_PrLo	3
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	60	56e18042	1172	SE_OB6_020_PrLo	7
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	61	4bf94031	1009	SE_OB6_020_Al	6
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	62	56e1803d	528	SE_OB6_004_PrLo	3
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	63	5589813c	2139	CIN_OB6_009_PrLo	13
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	67	5589813d	1012	CIN_OB6_010_PrLo	6
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	68	5589813e	529	CIN_OB6_011_PrLo	3
+DataPC_POP0WORLD.forge	30	MissionLU_OB6_NaturalBowl_Act2	72	5589813f	851	CIN_OB6_012_PrLo	5
+DataPC_POP0WORLD.forge	31	MissionLU_DE1_A_Act1	45	2ac40172	60	CIN_DE1_Intro_Scene__DELETE_ME	0
+DataPC_POP0WORLD.forge	31	MissionLU_DE1_A_Act1	46	22f48129	6325	CIN_DE1_002_PrLo	38
+DataPC_POP0WORLD.forge	31	MissionLU_DE1_A_Act1	47	23dec015	1815	CIN_DE1_002_Gu	11
+DataPC_POP0WORLD.forge	31	MissionLU_DE1_A_Act1	48	30abc031	3267	SE_DE1_Generic_Lo	20
+DataPC_POP0WORLD.forge	31	MissionLU_DE1_A_Act1	49	13e5c106	367	SE_DE1_003_PrLo	2
+DataPC_POP0WORLD.forge	31	MissionLU_DE1_A_Act1	50	13e5c113	850	SE_DE1_004_PrLo	5
+DataPC_POP0WORLD.forge	31	MissionLU_DE1_A_Act1	51	55898156	3102	SE_DE1_004_Gu	19
+DataPC_POP0WORLD.forge	31	MissionLU_DE1_A_Act1	52	a5fd800e	852	SE_DE1_Generic_gu	5
+DataPC_POP0WORLD.forge	32	MissionLU_DE3C_Temple_Act1	11	13e5c1cd	1494	SE_DE3_010_PrLo	9
+DataPC_POP0WORLD.forge	32	MissionLU_DE3C_Temple_Act1	12	55898169	1814	SE_DE3_008_Ki	11
+DataPC_POP0WORLD.forge	32	MissionLU_DE3C_Temple_Act1	13	70700719	362	SE_DE3_004	2
+DataPC_POP0WORLD.forge	32	MissionLU_DE3C_Temple_Act1	18	13e5c1b9	5358	SE_DE3_008_PrLo	33
+DataPC_POP0WORLD.forge	32	MissionLU_DE3C_Temple_Act1	19	9da5801e	1653	SE_DE3_008_Gu	10
+DataPC_POP0WORLD.forge	32	MissionLU_DE3C_Temple_Act1	37	51bbc05c	848	SE_DE3_008_Mx	4
+DataPC_POP0WORLD.forge	32	MissionLU_DE3C_Temple_Act1	43	13e5c23b	850	SE_DE3_026_PrLo	5
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	56	22f481a7	1334	CIN_DE3_010_PrLo	8
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	78	6a6045a8	1494	SE_DE3_032_PrLo	9
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	79	52670013	526	SE_DE3_032_Ki	3
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	80	78bb4018	528	SE_DE3_032_KiCo	3
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	103	55898011	690	CIN_DE3_009_PrLo	4
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	105	6bd9423e	205	CIN_DE3_009_Ar	1
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	134	22f4819f	1656	CIN_DE3_007_PrLo	10
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	137	55898007	1493	CIN_DE3_007_Ki	9
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	140	30abc031	3267	SE_DE1_Generic_Lo	20
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	152	22f481a3	1016	CIN_DE3_008_015_PrLo	6
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	153	55898008	370	CIN_DE3_008_015_Ki	2
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	154	51030033	529	CIN_DE3_015_KiCo	3
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	156	ba84c294	370	CIN_DE3_008_015_Ar	2
+DataPC_POP0WORLD.forge	33	MissionLU_DE3C_Temple_Act3	158	e1ac41f7	209	SE_DE3_FGtoIdle_Lo	1
+DataPC_POP0WORLD.forge	34	MissionLU_DE3C_Doors_Act3	3	233140f4	2139	CIN_DE3_011_PrLo	13
+DataPC_POP0WORLD.forge	35	MissionLU_DE3_Terrace_Act1	34	22f4816f	4554	CIN_DE3_001_PrLo	28
+DataPC_POP0WORLD.forge	35	MissionLU_DE3_Terrace_Act1	40	13e5c17b	3909	SE_DE3_001_PrLo	24
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	24	233140dc	1675	CIN_DE3_005_PrLo	10
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	26	55898005	1332	CIN_DE3_005_Ki	8
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	38	22f4819b	1334	CIN_DE3_006_PrLo	8
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	42	30abc031	3267	SE_DE1_Generic_Lo	20
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	43	40355428	215	DE3_DuringMK2Fight_Elika	1
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	44	55898006	527	CIN_DE3_006_Ki	3
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	49	55898014	690	CIN_DE3_014_PrLo	4
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	50	13e5c203	2782	SE_DE3_020_PrLo	17
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	51	55898009	688	CIN_DE3_014_Ki	4
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	59	13e5c1b9	5358	SE_DE3_008_PrLo	33
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	64	92f28043	1978	CIN_VIS_001_PrLo	12
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	65	92f2807e	1495	CIN_VIS_004_PrLo	9
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	66	92f28064	2622	CIN_VIS_003_PrLo	16
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	75	22f48197	2944	CIN_DE3_004_PrLo	18
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	76	55898004	1815	CIN_DE3_004_Ki	11
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	84	55898013	1012	CIN_DE3_013_PrLo	6
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	85	37330000	1012	CIN_CLR_002_PrLo	6
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	86	480c00e8	366	CIN_DE3_013_Ki	2
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	92	22f48181	2300	CIN_DE3_002_PrLo	14
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	93	13e5c1f3	528	SE_DE3_015_PrLo	3
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	108	52670011	204	SE_DE3_022_Ki	1
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	112	92f28052	1978	CIN_VIS_002_PrLo	12
+DataPC_POP0WORLD.forge	36	MissionLU_DE3_Terrace_Act2	131	5267000f	204	SE_DE3_020_Ki	1
+DataPC_POP0WORLD.forge	37	MissionLU_DE3_Terrace_Act3	24	5231ba2d	690	CIN_VIS_005_PrLo	4
+DataPC_POP0WORLD.forge	37	MissionLU_DE3_Terrace_Act3	25	5589816b	689	SE_DE3_024_PrLo	4
+DataPC_POP0WORLD.forge	37	MissionLU_DE3_Terrace_Act3	26	233140f4	2139	CIN_DE3_011_PrLo	13
+DataPC_POP0WORLD.forge	38	MissionLU_DE2_Act1	9	13e5c175	1011	SE_DE2_003_PrLo	6
+DataPC_POP0WORLD.forge	38	MissionLU_DE2_Act1	10	13e5c17b	3909	SE_DE3_001_PrLo	24
+DataPC_POP0WORLD.forge	38	MissionLU_DE2_Act1	11	30abc031	3267	SE_DE1_Generic_Lo	20
+DataPC_POP0WORLD.forge	39	MissionLU_DE2_Act2	20	55898012	1334	CIN_DE3_012_PrLo	8
+DataPC_POP0WORLD.forge	39	MissionLU_DE2_Act2	21	92f28043	1978	CIN_VIS_001_PrLo	12
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	15	13e5c11f	1333	SE_DE1_005_PrLo	8
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	16	5589815e	1009	SE_DE1_005_Gu	6
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	17	22f48143	851	CIN_DE1_003_PrLo	5
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	18	30abc031	3267	SE_DE1_Generic_Lo	20
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	19	55898156	3102	SE_DE1_004_Gu	19
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	28	22f48149	2300	CIN_DE1_004_PrLo	14
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	33	23dec01b	849	CIN_DE1_004_Gu	5
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	34	52a58016	848	SE_DE1_008_Ki	5
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	35	52a58017	687	SE_DE1_008_Gu	4
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	36	13e5c127	528	SE_DE1_008_PrLo	3
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	51	22f48157	2461	CIN_DE1_005_PrLo	15
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	52	23dec01f	849	CIN_DE1_005_Gu	5
+DataPC_POP0WORLD.forge	40	MissionLU_DE1_B_Act1	53	55898158	526	SE_DE1_010_Gu	3
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	9	13e5c143	1013	SE_DE1_011_PrLoGu	6
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	13	17204123	687	SE_DE2_001_Gu	4
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	24	13e5c12d	1977	SE_DE1_010_PrLo	12
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	25	52234008	851	CIN_DE1_006_LoPr	5
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	26	51848026	368	CIN_DE1_010_PrLo	2
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	27	13e5c14d	1494	SE_DE1_012_PrLo	9
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	28	5184802c	366	CIN_DE1_010_Gu	2
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	29	55898158	526	SE_DE1_010_Gu	3
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	30	5223400f	849	CIN_DE1_006_Gu	5
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	31	a5fd800e	852	SE_DE1_Generic_gu	5
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	38	13e5c157	2943	SE_DE2_002_PrLo	18
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	39	52ab4612	1009	SE_DE2_002_Gu	6
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	47	22f48169	1012	CIN_DE2_001_PrLo	6
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	48	52e98033	1010	CIN_DE2_001_Ki	6
+DataPC_POP0WORLD.forge	41	MissionLU_DE1_C_Act1	49	52a58016	848	SE_DE1_008_Ki	5
+DataPC_RC.forge	2	RC1_Windmill_LU	1165	4cd856cb	1491	CIN_RC1_LoPr	9
+DataPC_RC.forge	2	RC1_Windmill_LU	1166	4d34c18a	1651	CIN_RC1_004	10
+DataPC_RC.forge	2	RC1_Windmill_LU	1167	4bef0066	523	SE_RC1_012	3
+DataPC_RC.forge	2	RC1_Windmill_LU	1176	507e8107	846	CIN_RC1_003	5
+DataPC_RC.forge	2	RC1_Windmill_LU	1177	4cd856cf	201	CIN_RC1_Hu	1
+DataPC_RC.forge	2	RC1_Windmill_LU	1183	4cd856b7	3744	SE_RC1_LoPr	22
+DataPC_RC.forge	2	RC1_Windmill_LU	1184	72cc0054	362	SE_RC1_026	2
+DataPC_RC.forge	2	RC1_Windmill_LU	1185	4cd856c9	522	SE_RC1_Hu	2
+DataPC_RC.forge	2	RC1_Windmill_LU	1186	4d34c186	202	CIN_RC1_002	1
+DataPC_RC.forge	2	RC1_Windmill_LU	1187	23758147	362	SE_RC5_002	2
+DataPC_RC.forge	2	RC1_Windmill_LU	1192	4d34c036	201	SE_RC1_014	1
+DataPC_RC.forge	2	RC1_Windmill_LU	1193	4d34c03c	362	SE_RC1_016	2
+DataPC_RC.forge	2	RC1_Windmill_LU	1201	77814063	3100	CIN_RC1_008	19
+DataPC_RC.forge	2	RC1_Windmill_LU	1206	77814056	1168	CIN_RC1_006	7
+DataPC_RC.forge	2	RC1_Windmill_LU	1207	7781405d	685	CIN_RC1_007	4
+DataPC_RC.forge	2	RC1_Windmill_LU	1653	4bef0076	201	SE_RC1_023	1
+DataPC_RC.forge	2	RC1_Windmill_LU	1656	4bef006e	362	SE_RC1_019	2
+DataPC_RC.forge	2	RC1_Windmill_LU	1721	23758160	523	SE_RC5_025	3
+DataPC_RC.forge	2	RC1_Windmill_LU	2318	596c0016	12164	Human_Fight_ComplexAttack	43
+DataPC_RC.forge	2	RC1_Windmill_LU	2319	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_RC.forge	2	RC1_Windmill_LU	2320	db0480d6	2982	Human_Fight_State	20
+DataPC_RC.forge	2	RC1_Windmill_LU	2710	28620457	340	Hunter_Ground	6
+DataPC_RC.forge	2	RC1_Windmill_LU	2711	8f49c369	1572	Hunter_FreeMove	50
+DataPC_RC.forge	2	RC1_Windmill_LU	2712	293ec754	2076	hunter_fight_counter	14
+DataPC_RC.forge	2	RC1_Windmill_LU	2713	1e708f2f	687	Hunter_taunts	4
+DataPC_RC.forge	2	RC1_Windmill_LU	2714	1e709329	629	Hunter_death	4
+DataPC_RC.forge	2	RC1_Windmill_LU	2715	8f49cd1f	1820	Hunter_Fight_Attack	11
+DataPC_RC.forge	2	RC1_Windmill_LU	2716	bb5ba084	208	Hunter_apparition	1
+DataPC_RC.forge	2	RC1_Windmill_LU	2717	c793c709	20305	Hunter_Fight_Blocks	127
+DataPC_RC.forge	2	RC1_Windmill_LU	2718	c832de76	2674	Hunter_Fight_MiniGame	17
+DataPC_RC.forge	2	RC1_Windmill_LU	2719	e179d565	8791	Hunter_Fight_manning	54
+DataPC_RC.forge	2	RC1_Windmill_LU	2720	18e34004	209	Hunter_Fight_Intro	1
+DataPC_RC.forge	2	RC1_Windmill_LU	2721	54bf0080	203	SE_RC5_08_Hu	1
+DataPC_RC.forge	2	RC1_Windmill_LU	2722	5a2c4ff0	201	FPP_CIN_07	1
+DataPC_RC.forge	2	RC1_Windmill_LU	2723	596c0003	4420	Hunter_Fight_ComplexAttack	22
+DataPC_RC.forge	2	RC1_Windmill_LU	2724	5d638006	198	FPP_CIN	1
+DataPC_RC.forge	2	RC1_Windmill_LU	2725	62794053	211	FPP_Fight_Combo_Demo	1
+DataPC_RC.forge	2	RC1_Windmill_LU	2726	6dcf525b	324	FPP_Hunter_Taunt_add	1
+DataPC_RC.forge	2	RC1_Windmill_LU	2727	aedb0210	10167	Hunter_COMBO_test	71
+DataPC_RC.forge	2	RC1_Windmill_LU	2728	db0480af	3601	Hunter_Fight_State	21
+DataPC_RC.forge	2	RC1_Windmill_LU	2729	9aa683da	1063	Hunter_Fight_Deflect	7
+DataPC_RC.forge	2	RC1_Windmill_LU	2730	c76ccdcb	1653	Hunter_Se_RC5	10
+DataPC_RC.forge	2	RC1_Windmill_LU	2731	2487001e	201	E3_demo_hu	1
+DataPC_RC.forge	2	RC1_Windmill_LU	2732	36e80032	368	Hunter_Fight_End	2
+DataPC_RC.forge	3	RC2_GuardTower_LU	801	4e6c4017	1813	CIN_RC2_LoPr	11
+DataPC_RC.forge	3	RC2_GuardTower_LU	802	a59c4004	205	CIN_RC2_004_Hu	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	807	5e8f001e	689	SE_RC2_019_PrLo	4
+DataPC_RC.forge	3	RC2_GuardTower_LU	808	4c0dc080	201	SE_RC2_019	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	809	4faa4026	361	SE_RC2_hu	2
+DataPC_RC.forge	3	RC2_GuardTower_LU	820	4d34c1a0	2134	CIN_RC2_003	13
+DataPC_RC.forge	3	RC2_GuardTower_LU	821	5e9c8e36	205	CIN_RC2_003_Hu	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	823	4d34c076	201	SE_RC2_020	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	824	4c0dc088	362	SE_RC2_023	2
+DataPC_RC.forge	3	RC2_GuardTower_LU	832	4d34c1a8	2778	CIN_RC2_005	17
+DataPC_RC.forge	3	RC2_GuardTower_LU	833	7bae0010	201	SE_RC2_002	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	1142	2775c014	848	Human_Healing	5
+DataPC_RC.forge	3	RC2_GuardTower_LU	1159	4d34c06e	201	SE_RC2_015	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	1701	596c0016	12164	Human_Fight_ComplexAttack	43
+DataPC_RC.forge	3	RC2_GuardTower_LU	1702	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_RC.forge	3	RC2_GuardTower_LU	1703	db0480d6	2982	Human_Fight_State	20
+DataPC_RC.forge	3	RC2_GuardTower_LU	2052	28620457	340	Hunter_Ground	6
+DataPC_RC.forge	3	RC2_GuardTower_LU	2053	8f49c369	1572	Hunter_FreeMove	50
+DataPC_RC.forge	3	RC2_GuardTower_LU	2054	293ec754	2076	hunter_fight_counter	14
+DataPC_RC.forge	3	RC2_GuardTower_LU	2055	1e708f2f	687	Hunter_taunts	4
+DataPC_RC.forge	3	RC2_GuardTower_LU	2056	1e709329	629	Hunter_death	4
+DataPC_RC.forge	3	RC2_GuardTower_LU	2057	8f49cd1f	1820	Hunter_Fight_Attack	11
+DataPC_RC.forge	3	RC2_GuardTower_LU	2058	bb5ba084	208	Hunter_apparition	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	2059	c793c709	20305	Hunter_Fight_Blocks	127
+DataPC_RC.forge	3	RC2_GuardTower_LU	2060	c832de76	2674	Hunter_Fight_MiniGame	17
+DataPC_RC.forge	3	RC2_GuardTower_LU	2061	e179d565	8791	Hunter_Fight_manning	54
+DataPC_RC.forge	3	RC2_GuardTower_LU	2062	18e34004	209	Hunter_Fight_Intro	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	2063	54bf0080	203	SE_RC5_08_Hu	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	2064	5a2c4ff0	201	FPP_CIN_07	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	2065	596c0003	4420	Hunter_Fight_ComplexAttack	22
+DataPC_RC.forge	3	RC2_GuardTower_LU	2066	5d638006	198	FPP_CIN	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	2067	62794053	211	FPP_Fight_Combo_Demo	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	2068	6dcf525b	324	FPP_Hunter_Taunt_add	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	2069	aedb0210	10167	Hunter_COMBO_test	71
+DataPC_RC.forge	3	RC2_GuardTower_LU	2070	db0480af	3601	Hunter_Fight_State	21
+DataPC_RC.forge	3	RC2_GuardTower_LU	2071	9aa683da	1063	Hunter_Fight_Deflect	7
+DataPC_RC.forge	3	RC2_GuardTower_LU	2072	c76ccdcb	1653	Hunter_Se_RC5	10
+DataPC_RC.forge	3	RC2_GuardTower_LU	2073	2487001e	201	E3_demo_hu	1
+DataPC_RC.forge	3	RC2_GuardTower_LU	2074	36e80032	368	Hunter_Fight_End	2
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	445	4bef0034	362	SE_RC3_012	2
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	446	47030008	522	SE_RC3_Hu	3
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	454	7781408b	1007	CIN_RC3_001	6
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	455	4fa74069	1006	CIN_RC3_Hu	6
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	460	4bef003e	845	SE_RC3_016	5
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	466	77814093	1007	CIN_RC3_002	6
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	479	4d34c1de	1651	CIN_RC3_003	10
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1080	596c0016	12164	Human_Fight_ComplexAttack	43
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1081	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1082	db0480d6	2982	Human_Fight_State	20
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1374	28620457	340	Hunter_Ground	6
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1375	8f49c369	1572	Hunter_FreeMove	50
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1376	293ec754	2076	hunter_fight_counter	14
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1377	1e708f2f	687	Hunter_taunts	4
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1378	1e709329	629	Hunter_death	4
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1379	8f49cd1f	1820	Hunter_Fight_Attack	11
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1380	bb5ba084	208	Hunter_apparition	1
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1381	c793c709	20305	Hunter_Fight_Blocks	127
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1382	c832de76	2674	Hunter_Fight_MiniGame	17
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1383	e179d565	8791	Hunter_Fight_manning	54
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1384	18e34004	209	Hunter_Fight_Intro	1
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1385	54bf0080	203	SE_RC5_08_Hu	1
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1386	5a2c4ff0	201	FPP_CIN_07	1
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1387	596c0003	4420	Hunter_Fight_ComplexAttack	22
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1388	5d638006	198	FPP_CIN	1
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1389	62794053	211	FPP_Fight_Combo_Demo	1
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1390	6dcf525b	324	FPP_Hunter_Taunt_add	1
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1391	aedb0210	10167	Hunter_COMBO_test	71
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1392	db0480af	3601	Hunter_Fight_State	21
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1393	9aa683da	1063	Hunter_Fight_Deflect	7
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1394	c76ccdcb	1653	Hunter_Se_RC5	10
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1395	2487001e	201	E3_demo_hu	1
+DataPC_RC.forge	4	RC3_Arena_LAIR_LU	1396	36e80032	368	Hunter_Fight_End	2
+DataPC_RC.forge	5	RC4_Terrace_LU	627	4d34c1da	851	CIN_RC4_003_PrLo	5
+DataPC_RC.forge	5	RC4_Terrace_LU	628	51b98000	205	CIN_RC4_003_Hu	1
+DataPC_RC.forge	5	RC4_Terrace_LU	636	4d34c1f2	1329	CIN_RC4_004	8
+DataPC_RC.forge	5	RC4_Terrace_LU	637	39454000	366	CIN_RC4_004_Hu	2
+DataPC_RC.forge	5	RC4_Terrace_LU	638	4d34c0d8	845	SE_RC4_014	5
+DataPC_RC.forge	5	RC4_Terrace_LU	643	4d34c1f8	1495	CIN_RC4_005_PrLo	9
+DataPC_RC.forge	5	RC4_Terrace_LU	1271	596c0016	12164	Human_Fight_ComplexAttack	43
+DataPC_RC.forge	5	RC4_Terrace_LU	1272	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_RC.forge	5	RC4_Terrace_LU	1273	db0480d6	2982	Human_Fight_State	20
+DataPC_RC.forge	5	RC4_Terrace_LU	1584	28620457	340	Hunter_Ground	6
+DataPC_RC.forge	5	RC4_Terrace_LU	1585	8f49c369	1572	Hunter_FreeMove	50
+DataPC_RC.forge	5	RC4_Terrace_LU	1586	293ec754	2076	hunter_fight_counter	14
+DataPC_RC.forge	5	RC4_Terrace_LU	1587	1e708f2f	687	Hunter_taunts	4
+DataPC_RC.forge	5	RC4_Terrace_LU	1588	1e709329	629	Hunter_death	4
+DataPC_RC.forge	5	RC4_Terrace_LU	1589	8f49cd1f	1820	Hunter_Fight_Attack	11
+DataPC_RC.forge	5	RC4_Terrace_LU	1590	bb5ba084	208	Hunter_apparition	1
+DataPC_RC.forge	5	RC4_Terrace_LU	1591	c793c709	20305	Hunter_Fight_Blocks	127
+DataPC_RC.forge	5	RC4_Terrace_LU	1592	c832de76	2674	Hunter_Fight_MiniGame	17
+DataPC_RC.forge	5	RC4_Terrace_LU	1593	e179d565	8791	Hunter_Fight_manning	54
+DataPC_RC.forge	5	RC4_Terrace_LU	1594	18e34004	209	Hunter_Fight_Intro	1
+DataPC_RC.forge	5	RC4_Terrace_LU	1595	54bf0080	203	SE_RC5_08_Hu	1
+DataPC_RC.forge	5	RC4_Terrace_LU	1596	5a2c4ff0	201	FPP_CIN_07	1
+DataPC_RC.forge	5	RC4_Terrace_LU	1597	596c0003	4420	Hunter_Fight_ComplexAttack	22
+DataPC_RC.forge	5	RC4_Terrace_LU	1598	5d638006	198	FPP_CIN	1
+DataPC_RC.forge	5	RC4_Terrace_LU	1599	62794053	211	FPP_Fight_Combo_Demo	1
+DataPC_RC.forge	5	RC4_Terrace_LU	1600	6dcf525b	324	FPP_Hunter_Taunt_add	1
+DataPC_RC.forge	5	RC4_Terrace_LU	1601	aedb0210	10167	Hunter_COMBO_test	71
+DataPC_RC.forge	5	RC4_Terrace_LU	1602	db0480af	3601	Hunter_Fight_State	21
+DataPC_RC.forge	5	RC4_Terrace_LU	1603	9aa683da	1063	Hunter_Fight_Deflect	7
+DataPC_RC.forge	5	RC4_Terrace_LU	1604	c76ccdcb	1653	Hunter_Se_RC5	10
+DataPC_RC.forge	5	RC4_Terrace_LU	1605	2487001e	201	E3_demo_hu	1
+DataPC_RC.forge	5	RC4_Terrace_LU	1606	36e80032	368	Hunter_Fight_End	2
+DataPC_RC.forge	6	RC5_Petra_LU	824	23758147	362	SE_RC5_002	2
+DataPC_RC.forge	6	RC5_Petra_LU	835	23758159	845	SE_RC5_023	5
+DataPC_RC.forge	6	RC5_Petra_LU	836	202c409d	1437	SE_RC5	8
+DataPC_RC.forge	6	RC5_Petra_LU	837	2375815d	523	SE_RC5_024	3
+DataPC_RC.forge	6	RC5_Petra_LU	838	c76ccdcb	1653	Hunter_Se_RC5	10
+DataPC_RC.forge	6	RC5_Petra_LU	848	23758150	523	SE_RC5_015	3
+DataPC_RC.forge	6	RC5_Petra_LU	853	23758157	201	SE_RC5_021	1
+DataPC_RC.forge	6	RC5_Petra_LU	859	23758153	523	SE_RC5_018	3
+DataPC_RC.forge	6	RC5_Petra_LU	867	2375814e	201	SE_RC5_013	1
+DataPC_RC.forge	6	RC5_Petra_LU	868	2375814b	523	SE_RC5_012	3
+DataPC_RC.forge	6	RC5_Petra_LU	871	23758160	523	SE_RC5_025	3
+DataPC_RC.forge	6	RC5_Petra_LU	876	2775c014	848	Human_Healing	5
+DataPC_RC.forge	6	RC5_Petra_LU	1736	596c0016	12164	Human_Fight_ComplexAttack	43
+DataPC_RC.forge	6	RC5_Petra_LU	1737	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_RC.forge	6	RC5_Petra_LU	1738	db0480d6	2982	Human_Fight_State	20
+DataPC_RC.forge	6	RC5_Petra_LU	2070	28620457	340	Hunter_Ground	6
+DataPC_RC.forge	6	RC5_Petra_LU	2071	8f49c369	1572	Hunter_FreeMove	50
+DataPC_RC.forge	6	RC5_Petra_LU	2072	293ec754	2076	hunter_fight_counter	14
+DataPC_RC.forge	6	RC5_Petra_LU	2073	1e708f2f	687	Hunter_taunts	4
+DataPC_RC.forge	6	RC5_Petra_LU	2074	1e709329	629	Hunter_death	4
+DataPC_RC.forge	6	RC5_Petra_LU	2075	8f49cd1f	1820	Hunter_Fight_Attack	11
+DataPC_RC.forge	6	RC5_Petra_LU	2076	bb5ba084	208	Hunter_apparition	1
+DataPC_RC.forge	6	RC5_Petra_LU	2077	c793c709	20305	Hunter_Fight_Blocks	127
+DataPC_RC.forge	6	RC5_Petra_LU	2078	c832de76	2674	Hunter_Fight_MiniGame	17
+DataPC_RC.forge	6	RC5_Petra_LU	2079	e179d565	8791	Hunter_Fight_manning	54
+DataPC_RC.forge	6	RC5_Petra_LU	2080	18e34004	209	Hunter_Fight_Intro	1
+DataPC_RC.forge	6	RC5_Petra_LU	2081	54bf0080	203	SE_RC5_08_Hu	1
+DataPC_RC.forge	6	RC5_Petra_LU	2082	5a2c4ff0	201	FPP_CIN_07	1
+DataPC_RC.forge	6	RC5_Petra_LU	2083	596c0003	4420	Hunter_Fight_ComplexAttack	22
+DataPC_RC.forge	6	RC5_Petra_LU	2084	5d638006	198	FPP_CIN	1
+DataPC_RC.forge	6	RC5_Petra_LU	2085	62794053	211	FPP_Fight_Combo_Demo	1
+DataPC_RC.forge	6	RC5_Petra_LU	2086	6dcf525b	324	FPP_Hunter_Taunt_add	1
+DataPC_RC.forge	6	RC5_Petra_LU	2087	aedb0210	10167	Hunter_COMBO_test	71
+DataPC_RC.forge	6	RC5_Petra_LU	2088	db0480af	3601	Hunter_Fight_State	21
+DataPC_RC.forge	6	RC5_Petra_LU	2089	9aa683da	1063	Hunter_Fight_Deflect	7
+DataPC_RC.forge	6	RC5_Petra_LU	2090	2487001e	201	E3_demo_hu	1
+DataPC_RC.forge	6	RC5_Petra_LU	2091	36e80032	368	Hunter_Fight_End	2
+DataPC_RC.forge	7	RC6_CityGate_LU	777	4d34c252	1656	CIN_RC6_006_PrLo	10
+DataPC_RC.forge	7	RC6_CityGate_LU	778	558980bd	1817	CIN_LR6_008_PrLo	11
+DataPC_RC.forge	7	RC6_CityGate_LU	779	4eee8003	366	CIN_RC6_005_Hu	2
+DataPC_RC.forge	7	RC6_CityGate_LU	786	47988000	851	CIN_RC6_004_PrLo	5
+DataPC_RC.forge	7	RC6_CityGate_LU	787	a7bc8000	205	CIN_RC6_004_Hu	1
+DataPC_RC.forge	7	RC6_CityGate_LU	788	4d34c244	685	CIN_RC6_002	4
+DataPC_RC.forge	7	RC6_CityGate_LU	789	48c84f48	4871	SE_RC6_PrLo	28
+DataPC_RC.forge	7	RC6_CityGate_LU	793	558980ec	1333	SE_OB2_030_PrLo	8
+DataPC_RC.forge	7	RC6_CityGate_LU	799	4d34c258	2134	CIN_RC6_007	13
+DataPC_RC.forge	7	RC6_CityGate_LU	800	4d34c262	1007	CIN_RC6_008	6
+DataPC_RC.forge	7	RC6_CityGate_LU	801	4d34c268	1168	CIN_RC6_009	7
+DataPC_RC.forge	7	RC6_CityGate_LU	804	2775c014	848	Human_Healing	5
+DataPC_RC.forge	7	RC6_CityGate_LU	1630	596c0016	12164	Human_Fight_ComplexAttack	43
+DataPC_RC.forge	7	RC6_CityGate_LU	1631	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_RC.forge	7	RC6_CityGate_LU	1632	db0480d6	2982	Human_Fight_State	20
+DataPC_RC.forge	7	RC6_CityGate_LU	2002	28620457	340	Hunter_Ground	6
+DataPC_RC.forge	7	RC6_CityGate_LU	2003	8f49c369	1572	Hunter_FreeMove	50
+DataPC_RC.forge	7	RC6_CityGate_LU	2004	293ec754	2076	hunter_fight_counter	14
+DataPC_RC.forge	7	RC6_CityGate_LU	2005	1e708f2f	687	Hunter_taunts	4
+DataPC_RC.forge	7	RC6_CityGate_LU	2006	1e709329	629	Hunter_death	4
+DataPC_RC.forge	7	RC6_CityGate_LU	2007	8f49cd1f	1820	Hunter_Fight_Attack	11
+DataPC_RC.forge	7	RC6_CityGate_LU	2008	bb5ba084	208	Hunter_apparition	1
+DataPC_RC.forge	7	RC6_CityGate_LU	2009	c793c709	20305	Hunter_Fight_Blocks	127
+DataPC_RC.forge	7	RC6_CityGate_LU	2010	c832de76	2674	Hunter_Fight_MiniGame	17
+DataPC_RC.forge	7	RC6_CityGate_LU	2011	e179d565	8791	Hunter_Fight_manning	54
+DataPC_RC.forge	7	RC6_CityGate_LU	2012	18e34004	209	Hunter_Fight_Intro	1
+DataPC_RC.forge	7	RC6_CityGate_LU	2013	54bf0080	203	SE_RC5_08_Hu	1
+DataPC_RC.forge	7	RC6_CityGate_LU	2014	5a2c4ff0	201	FPP_CIN_07	1
+DataPC_RC.forge	7	RC6_CityGate_LU	2015	596c0003	4420	Hunter_Fight_ComplexAttack	22
+DataPC_RC.forge	7	RC6_CityGate_LU	2016	5d638006	198	FPP_CIN	1
+DataPC_RC.forge	7	RC6_CityGate_LU	2017	62794053	211	FPP_Fight_Combo_Demo	1
+DataPC_RC.forge	7	RC6_CityGate_LU	2018	6dcf525b	324	FPP_Hunter_Taunt_add	1
+DataPC_RC.forge	7	RC6_CityGate_LU	2019	aedb0210	10167	Hunter_COMBO_test	71
+DataPC_RC.forge	7	RC6_CityGate_LU	2020	db0480af	3601	Hunter_Fight_State	21
+DataPC_RC.forge	7	RC6_CityGate_LU	2021	9aa683da	1063	Hunter_Fight_Deflect	7
+DataPC_RC.forge	7	RC6_CityGate_LU	2022	c76ccdcb	1653	Hunter_Se_RC5	10
+DataPC_RC.forge	7	RC6_CityGate_LU	2023	2487001e	201	E3_demo_hu	1
+DataPC_RC.forge	7	RC6_CityGate_LU	2024	36e80032	368	Hunter_Fight_End	2
+DataPC_RC.forge	13	RC56_KingsRoad_LU	688	596c0016	12164	Human_Fight_ComplexAttack	43
+DataPC_RC.forge	13	RC56_KingsRoad_LU	689	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_RC.forge	13	RC56_KingsRoad_LU	690	db0480d6	2982	Human_Fight_State	20
+DataPC_RC.forge	13	RC56_KingsRoad_LU	899	28620457	340	Hunter_Ground	6
+DataPC_RC.forge	13	RC56_KingsRoad_LU	900	8f49c369	1572	Hunter_FreeMove	50
+DataPC_RC.forge	13	RC56_KingsRoad_LU	901	293ec754	2076	hunter_fight_counter	14
+DataPC_RC.forge	13	RC56_KingsRoad_LU	902	1e708f2f	687	Hunter_taunts	4
+DataPC_RC.forge	13	RC56_KingsRoad_LU	903	1e709329	629	Hunter_death	4
+DataPC_RC.forge	13	RC56_KingsRoad_LU	904	8f49cd1f	1820	Hunter_Fight_Attack	11
+DataPC_RC.forge	13	RC56_KingsRoad_LU	905	bb5ba084	208	Hunter_apparition	1
+DataPC_RC.forge	13	RC56_KingsRoad_LU	906	c793c709	20305	Hunter_Fight_Blocks	127
+DataPC_RC.forge	13	RC56_KingsRoad_LU	907	c832de76	2674	Hunter_Fight_MiniGame	17
+DataPC_RC.forge	13	RC56_KingsRoad_LU	908	e179d565	8791	Hunter_Fight_manning	54
+DataPC_RC.forge	13	RC56_KingsRoad_LU	909	18e34004	209	Hunter_Fight_Intro	1
+DataPC_RC.forge	13	RC56_KingsRoad_LU	910	54bf0080	203	SE_RC5_08_Hu	1
+DataPC_RC.forge	13	RC56_KingsRoad_LU	911	5a2c4ff0	201	FPP_CIN_07	1
+DataPC_RC.forge	13	RC56_KingsRoad_LU	912	596c0003	4420	Hunter_Fight_ComplexAttack	22
+DataPC_RC.forge	13	RC56_KingsRoad_LU	913	5d638006	198	FPP_CIN	1
+DataPC_RC.forge	13	RC56_KingsRoad_LU	914	62794053	211	FPP_Fight_Combo_Demo	1
+DataPC_RC.forge	13	RC56_KingsRoad_LU	915	6dcf525b	324	FPP_Hunter_Taunt_add	1
+DataPC_RC.forge	13	RC56_KingsRoad_LU	916	aedb0210	10167	Hunter_COMBO_test	71
+DataPC_RC.forge	13	RC56_KingsRoad_LU	917	db0480af	3601	Hunter_Fight_State	21
+DataPC_RC.forge	13	RC56_KingsRoad_LU	918	9aa683da	1063	Hunter_Fight_Deflect	7
+DataPC_RC.forge	13	RC56_KingsRoad_LU	919	c76ccdcb	1653	Hunter_Se_RC5	10
+DataPC_RC.forge	13	RC56_KingsRoad_LU	920	2487001e	201	E3_demo_hu	1
+DataPC_RC.forge	13	RC56_KingsRoad_LU	921	36e80032	368	Hunter_Fight_End	2
+DataPC_lod.forge	1		145	22f481a7	1334	CIN_DE3_010_PrLo	8
+DataPC_lod.forge	1		149	233140f4	2139	CIN_DE3_011_PrLo	13
+DataPC_lod.forge	1		151	13e5c1f7	1172	SE_DE3_018_PrLo	7
+DataPC_lod.forge	34		7	83be0522	1655	SE_OB6_013_PrLo	10
+DataPC_lod.forge	35		6	8ab94847	1494	SE_LR6_013_PrLo	9
+DataPC_lod.forge	36		6	88a5c10a	1494	SE_HC6_013_PrLo	9
+DataPC_lod.forge	37		7	6d3880e0	2299	SE_RC2_024_PrLo	14
+DataPC_lod.forge	55		5	a9c202ab	9237	ODD_NoMoreInfo_Companions_PrLo	57
+DataPC_lod.forge	56		5	a9c202aa	6499	ODD_NoMoreInfo_Strangers_PrLo	40
+DataPC_lod.forge	57		5	a9c202a9	11807	ODD_NoMoreInfo_Ally_PrLo	73
+DataPC_lod.forge	58	Prince_Sot	72	0005d499	39122	HumanGround	326
+DataPC_lod.forge	58	Prince_Sot	73	00f38d44	15177	HumanInAir	86
+DataPC_lod.forge	58	Prince_Sot	74	00f38d58	24228	HumanWalling	182
+DataPC_lod.forge	58	Prince_Sot	75	20404059	6039	HumanGripFall	23
+DataPC_lod.forge	58	Prince_Sot	76	27eec009	2546	Human_Duel	11
+DataPC_lod.forge	58	Prince_Sot	77	0106c5eb	58291	HumanLedge	332
+DataPC_lod.forge	58	Prince_Sot	78	010f19e3	364	Human_Pushed	2
+DataPC_lod.forge	58	Prince_Sot	79	012184b8	23363	HumanNarrowObject	154
+DataPC_lod.forge	58	Prince_Sot	80	2e7297d9	6928	HumanAutoActions	29
+DataPC_lod.forge	58	Prince_Sot	81	4ebb031a	8830	HumanVines	72
+DataPC_lod.forge	58	Prince_Sot	82	1e708882	5117	Human_Fight_blocks	35
+DataPC_lod.forge	58	Prince_Sot	83	293ec393	7549	Human_Fight_strafe	191
+DataPC_lod.forge	58	Prince_Sot	84	6dc4b1ea	4222	HumanSaveMe	25
+DataPC_lod.forge	58	Prince_Sot	85	8a763baf	859	Human_Expression	0
+DataPC_lod.forge	58	Prince_Sot	86	9ba7ef61	1982	Mask	4
+DataPC_lod.forge	58	Prince_Sot	87	8f49cf49	41739	Human_Fight_attacks	241
+DataPC_lod.forge	58	Prince_Sot	88	c63cdae0	1198	Human_MiniGame_Healing	7
+DataPC_lod.forge	58	Prince_Sot	89	c793d114	1293	Human_Fight_Hurt	10
+DataPC_lod.forge	58	Prince_Sot	90	da3d7086	4757	HumanWeapon	26
+DataPC_lod.forge	58	Prince_Sot	91	e5dcc2f2	16848	HumanMagic	123
+DataPC_lod.forge	58	Prince_Sot	92	e179d53f	10527	Human_Fight_Manning	69
+DataPC_lod.forge	58	Prince_Sot	93	bb5baf0c	16981	Patterns	27
+DataPC_lod.forge	58	Prince_Sot	94	bb5baf27	1025	Lover_Compas	4
+DataPC_lod.forge	58	Prince_Sot	95	199cc1ac	2782	HumanProjection	18
+DataPC_lod.forge	58	Prince_Sot	96	61ac82a0	5172	HumanWalling_Grips	90
+DataPC_lod.forge	58	Prince_Sot	97	587c80b4	45	AutoTransitions	0
+DataPC_lod.forge	58	Prince_Sot	98	5bb60001	1871	Human_Fight_End	9
+DataPC_lod.forge	58	Prince_Sot	99	673ec0e2	369	Human_Fight_Sword	2
+DataPC_lod.forge	58	Prince_Sot	100	8a950001	3638	HumanSlide	20
+DataPC_lod.forge	58	Prince_Sot	101	8e8103e4	6544	HumanPole	39
+DataPC_lod.forge	58	Prince_Sot	102	abf0c001	2750	HumanLever	14
+DataPC_lod.forge	58	Prince_Sot	103	ae57413d	41	Test_Strafe	1
+DataPC_lod.forge	58	Prince_Sot	104	afc80003	6007	ODD_General	16
+DataPC_lod.forge	58	Prince_Sot	105	b2e0008d	6435	HumanRoofing	40
+DataPC_lod.forge	58	Prince_Sot	106	d9db0008	2421	Pr_Moods_GooGas	9
+DataPC_lod.forge	58	Prince_Sot	107	0e758001	1983	Human_Fight_Countered	12
+DataPC_lod.forge	58	Prince_Sot	108	cf81000a	4555	Human_SafeEntries	28
+DataPC_lod.forge	58	Prince_Sot	109	c5ef51f5	6917	HumanIdle	13
+DataPC_lod.forge	58	Prince_Sot	110	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	58	Prince_Sot	111	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	58	Prince_Sot	112	237580fb	363	ODD_RC5_007	2
+DataPC_lod.forge	58	Prince_Sot	113	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	58	Prince_Sot	114	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	58	Prince_Sot	115	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	58	Prince_Sot	116	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	58	Prince_Sot	117	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	58	Prince_Sot	118	23758119	363	ODD_RC5_020	2
+DataPC_lod.forge	58	Prince_Sot	119	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	58	Prince_Sot	120	23758145	1328	SE_RC5_001	8
+DataPC_lod.forge	58	Prince_Sot	121	23758147	362	SE_RC5_002	2
+DataPC_lod.forge	58	Prince_Sot	122	23758149	684	SE_RC5_008	4
+DataPC_lod.forge	58	Prince_Sot	123	2375814b	523	SE_RC5_012	3
+DataPC_lod.forge	58	Prince_Sot	124	2375814e	201	SE_RC5_013	1
+DataPC_lod.forge	58	Prince_Sot	125	23758153	523	SE_RC5_018	4
+DataPC_lod.forge	58	Prince_Sot	126	23758157	201	SE_RC5_021	1
+DataPC_lod.forge	58	Prince_Sot	127	2375815d	523	SE_RC5_024	3
+DataPC_lod.forge	58	Prince_Sot	128	23758160	523	SE_RC5_025	3
+DataPC_lod.forge	58	Prince_Sot	129	23f6c068	201	SE_RC5_010	1
+DataPC_lod.forge	58	Prince_Sot	130	d775800a	9866	Human_Avoidance	61
+DataPC_lod.forge	58	Prince_Sot	131	17f0c299	33701	Human_SafeEntry_Ground	212
+DataPC_lod.forge	58	Prince_Sot	132	17fe8aa7	18082	Human_SafeEntry_Beam	113
+DataPC_lod.forge	58	Prince_Sot	133	18c5800a	2620	ElikaStepAside	16
+DataPC_lod.forge	58	Prince_Sot	134	1d0b4120	7568	Human_Column	34
+DataPC_lod.forge	58	Prince_Sot	135	2314c0bd	1340	Human_SafeEntry_Column	8
+DataPC_lod.forge	58	Prince_Sot	136	2ad5c00c	2077	Human_GraphRules	7
+DataPC_lod.forge	58	Prince_Sot	137	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	58	Prince_Sot	138	8ff40007	687	Human_Injured	4
+DataPC_lod.forge	58	Prince_Sot	139	92160007	543	Human_MiniGame_ActivationPlate	3
+DataPC_lod.forge	58	Prince_Sot	140	9d5b84b0	2308	Human_SafeEntry_Hangwall	14
+DataPC_lod.forge	58	Prince_Sot	141	9d5b84b1	3762	Human_SafeEntry_VerticalCrack	23
+DataPC_lod.forge	58	Prince_Sot	142	9d5b84b2	15188	Human_SafeEntry_Hangfree	94
+DataPC_lod.forge	58	Prince_Sot	143	ba486d1d	4413	Human_SafeEntry_VerticalCrack_NoIdle	27
+DataPC_lod.forge	58	Prince_Sot	144	ba486d28	3603	Human_SafeEntry_Hangwall_NoIdle	22
+DataPC_lod.forge	58	Prince_Sot	145	cbdf4015	4078	HumanWalling_RingSwitch	25
+DataPC_lod.forge	58	Prince_Sot	146	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	59	Prince	84	0005d499	39122	HumanGround	326
+DataPC_lod.forge	59	Prince	85	00f38d44	15177	HumanInAir	86
+DataPC_lod.forge	59	Prince	86	00f38d58	24228	HumanWalling	182
+DataPC_lod.forge	59	Prince	87	20404059	6039	HumanGripFall	23
+DataPC_lod.forge	59	Prince	88	27eec009	2546	Human_Duel	11
+DataPC_lod.forge	59	Prince	89	0106c5eb	58291	HumanLedge	332
+DataPC_lod.forge	59	Prince	90	010f19e3	364	Human_Pushed	2
+DataPC_lod.forge	59	Prince	91	012184b8	23363	HumanNarrowObject	154
+DataPC_lod.forge	59	Prince	92	2e7297d9	6928	HumanAutoActions	29
+DataPC_lod.forge	59	Prince	93	4ebb031a	8830	HumanVines	72
+DataPC_lod.forge	59	Prince	94	1e708882	5117	Human_Fight_blocks	35
+DataPC_lod.forge	59	Prince	95	293ec393	7549	Human_Fight_strafe	191
+DataPC_lod.forge	59	Prince	96	6dc4b1ea	4222	HumanSaveMe	25
+DataPC_lod.forge	59	Prince	97	8a763baf	859	Human_Expression	0
+DataPC_lod.forge	59	Prince	98	9ba7ef61	1982	Mask	4
+DataPC_lod.forge	59	Prince	99	8f49cf49	41739	Human_Fight_attacks	241
+DataPC_lod.forge	59	Prince	100	c63cdae0	1198	Human_MiniGame_Healing	7
+DataPC_lod.forge	59	Prince	101	c793d114	1293	Human_Fight_Hurt	10
+DataPC_lod.forge	59	Prince	102	da3d7086	4757	HumanWeapon	26
+DataPC_lod.forge	59	Prince	103	e5dcc2f2	16848	HumanMagic	123
+DataPC_lod.forge	59	Prince	104	e179d53f	10527	Human_Fight_Manning	69
+DataPC_lod.forge	59	Prince	105	bb5baf0c	16981	Patterns	27
+DataPC_lod.forge	59	Prince	106	bb5baf27	1025	Lover_Compas	4
+DataPC_lod.forge	59	Prince	107	199cc1ac	2782	HumanProjection	18
+DataPC_lod.forge	59	Prince	108	61ac82a0	5172	HumanWalling_Grips	90
+DataPC_lod.forge	59	Prince	109	587c80b4	45	AutoTransitions	0
+DataPC_lod.forge	59	Prince	110	5bb60001	1871	Human_Fight_End	9
+DataPC_lod.forge	59	Prince	111	673ec0e2	369	Human_Fight_Sword	2
+DataPC_lod.forge	59	Prince	112	8a950001	3638	HumanSlide	20
+DataPC_lod.forge	59	Prince	113	8e8103e4	6544	HumanPole	39
+DataPC_lod.forge	59	Prince	114	abf0c001	2750	HumanLever	14
+DataPC_lod.forge	59	Prince	115	ae57413d	41	Test_Strafe	1
+DataPC_lod.forge	59	Prince	116	afc80003	6007	ODD_General	16
+DataPC_lod.forge	59	Prince	117	b2e0008d	6435	HumanRoofing	40
+DataPC_lod.forge	59	Prince	118	d9db0008	2421	Pr_Moods_GooGas	9
+DataPC_lod.forge	59	Prince	119	0e758001	1983	Human_Fight_Countered	12
+DataPC_lod.forge	59	Prince	120	cf81000a	4555	Human_SafeEntries	28
+DataPC_lod.forge	59	Prince	121	c5ef51f5	6917	HumanIdle	13
+DataPC_lod.forge	59	Prince	122	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	59	Prince	123	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	59	Prince	124	237580fb	363	ODD_RC5_007	2
+DataPC_lod.forge	59	Prince	125	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	59	Prince	126	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	59	Prince	127	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	59	Prince	128	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	59	Prince	129	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	59	Prince	130	23758119	363	ODD_RC5_020	2
+DataPC_lod.forge	59	Prince	131	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	59	Prince	132	23758145	1328	SE_RC5_001	8
+DataPC_lod.forge	59	Prince	133	23758147	362	SE_RC5_002	2
+DataPC_lod.forge	59	Prince	134	23758149	684	SE_RC5_008	4
+DataPC_lod.forge	59	Prince	135	2375814b	523	SE_RC5_012	3
+DataPC_lod.forge	59	Prince	136	2375814e	201	SE_RC5_013	1
+DataPC_lod.forge	59	Prince	137	23758153	523	SE_RC5_018	4
+DataPC_lod.forge	59	Prince	138	23758157	201	SE_RC5_021	1
+DataPC_lod.forge	59	Prince	139	2375815d	523	SE_RC5_024	3
+DataPC_lod.forge	59	Prince	140	23758160	523	SE_RC5_025	3
+DataPC_lod.forge	59	Prince	141	23f6c068	201	SE_RC5_010	1
+DataPC_lod.forge	59	Prince	142	d775800a	9866	Human_Avoidance	61
+DataPC_lod.forge	59	Prince	143	17f0c299	33701	Human_SafeEntry_Ground	212
+DataPC_lod.forge	59	Prince	144	17fe8aa7	18082	Human_SafeEntry_Beam	113
+DataPC_lod.forge	59	Prince	145	18c5800a	2620	ElikaStepAside	16
+DataPC_lod.forge	59	Prince	146	1d0b4120	7568	Human_Column	34
+DataPC_lod.forge	59	Prince	147	2314c0bd	1340	Human_SafeEntry_Column	8
+DataPC_lod.forge	59	Prince	148	2ad5c00c	2077	Human_GraphRules	7
+DataPC_lod.forge	59	Prince	149	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	59	Prince	150	8ff40007	687	Human_Injured	4
+DataPC_lod.forge	59	Prince	151	92160007	543	Human_MiniGame_ActivationPlate	3
+DataPC_lod.forge	59	Prince	152	9d5b84b0	2308	Human_SafeEntry_Hangwall	14
+DataPC_lod.forge	59	Prince	153	9d5b84b1	3762	Human_SafeEntry_VerticalCrack	23
+DataPC_lod.forge	59	Prince	154	9d5b84b2	15188	Human_SafeEntry_Hangfree	94
+DataPC_lod.forge	59	Prince	155	ba486d1d	4413	Human_SafeEntry_VerticalCrack_NoIdle	27
+DataPC_lod.forge	59	Prince	156	ba486d28	3603	Human_SafeEntry_Hangwall_NoIdle	22
+DataPC_lod.forge	59	Prince	157	cbdf4015	4078	HumanWalling_RingSwitch	25
+DataPC_lod.forge	59	Prince	158	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	60	Prince_FGF	75	0005d499	39122	HumanGround	326
+DataPC_lod.forge	60	Prince_FGF	76	00f38d44	15177	HumanInAir	86
+DataPC_lod.forge	60	Prince_FGF	77	00f38d58	24228	HumanWalling	182
+DataPC_lod.forge	60	Prince_FGF	78	20404059	6039	HumanGripFall	23
+DataPC_lod.forge	60	Prince_FGF	79	27eec009	2546	Human_Duel	11
+DataPC_lod.forge	60	Prince_FGF	80	0106c5eb	58291	HumanLedge	332
+DataPC_lod.forge	60	Prince_FGF	81	010f19e3	364	Human_Pushed	2
+DataPC_lod.forge	60	Prince_FGF	82	012184b8	23363	HumanNarrowObject	154
+DataPC_lod.forge	60	Prince_FGF	83	2e7297d9	6928	HumanAutoActions	29
+DataPC_lod.forge	60	Prince_FGF	84	4ebb031a	8830	HumanVines	72
+DataPC_lod.forge	60	Prince_FGF	85	1e708882	5117	Human_Fight_blocks	35
+DataPC_lod.forge	60	Prince_FGF	86	293ec393	7549	Human_Fight_strafe	191
+DataPC_lod.forge	60	Prince_FGF	87	6dc4b1ea	4222	HumanSaveMe	25
+DataPC_lod.forge	60	Prince_FGF	88	8a763baf	859	Human_Expression	0
+DataPC_lod.forge	60	Prince_FGF	89	9ba7ef61	1982	Mask	4
+DataPC_lod.forge	60	Prince_FGF	90	8f49cf49	41739	Human_Fight_attacks	241
+DataPC_lod.forge	60	Prince_FGF	91	c63cdae0	1198	Human_MiniGame_Healing	7
+DataPC_lod.forge	60	Prince_FGF	92	c793d114	1293	Human_Fight_Hurt	10
+DataPC_lod.forge	60	Prince_FGF	93	da3d7086	4757	HumanWeapon	26
+DataPC_lod.forge	60	Prince_FGF	94	e5dcc2f2	16848	HumanMagic	123
+DataPC_lod.forge	60	Prince_FGF	95	e179d53f	10527	Human_Fight_Manning	69
+DataPC_lod.forge	60	Prince_FGF	96	bb5baf0c	16981	Patterns	27
+DataPC_lod.forge	60	Prince_FGF	97	bb5baf27	1025	Lover_Compas	4
+DataPC_lod.forge	60	Prince_FGF	98	199cc1ac	2782	HumanProjection	18
+DataPC_lod.forge	60	Prince_FGF	99	61ac82a0	5172	HumanWalling_Grips	90
+DataPC_lod.forge	60	Prince_FGF	100	587c80b4	45	AutoTransitions	0
+DataPC_lod.forge	60	Prince_FGF	101	5bb60001	1871	Human_Fight_End	9
+DataPC_lod.forge	60	Prince_FGF	102	673ec0e2	369	Human_Fight_Sword	2
+DataPC_lod.forge	60	Prince_FGF	103	8a950001	3638	HumanSlide	20
+DataPC_lod.forge	60	Prince_FGF	104	8e8103e4	6544	HumanPole	39
+DataPC_lod.forge	60	Prince_FGF	105	abf0c001	2750	HumanLever	14
+DataPC_lod.forge	60	Prince_FGF	106	ae57413d	41	Test_Strafe	1
+DataPC_lod.forge	60	Prince_FGF	107	afc80003	6007	ODD_General	16
+DataPC_lod.forge	60	Prince_FGF	108	b2e0008d	6435	HumanRoofing	40
+DataPC_lod.forge	60	Prince_FGF	109	d9db0008	2421	Pr_Moods_GooGas	9
+DataPC_lod.forge	60	Prince_FGF	110	0e758001	1983	Human_Fight_Countered	12
+DataPC_lod.forge	60	Prince_FGF	111	cf81000a	4555	Human_SafeEntries	28
+DataPC_lod.forge	60	Prince_FGF	112	c5ef51f5	6917	HumanIdle	13
+DataPC_lod.forge	60	Prince_FGF	113	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	60	Prince_FGF	114	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	60	Prince_FGF	115	237580fb	363	ODD_RC5_007	2
+DataPC_lod.forge	60	Prince_FGF	116	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	60	Prince_FGF	117	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	60	Prince_FGF	118	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	60	Prince_FGF	119	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	60	Prince_FGF	120	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	60	Prince_FGF	121	23758119	363	ODD_RC5_020	2
+DataPC_lod.forge	60	Prince_FGF	122	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	60	Prince_FGF	123	23758145	1328	SE_RC5_001	8
+DataPC_lod.forge	60	Prince_FGF	124	23758147	362	SE_RC5_002	2
+DataPC_lod.forge	60	Prince_FGF	125	23758149	684	SE_RC5_008	4
+DataPC_lod.forge	60	Prince_FGF	126	2375814b	523	SE_RC5_012	3
+DataPC_lod.forge	60	Prince_FGF	127	2375814e	201	SE_RC5_013	1
+DataPC_lod.forge	60	Prince_FGF	128	23758153	523	SE_RC5_018	4
+DataPC_lod.forge	60	Prince_FGF	129	23758157	201	SE_RC5_021	1
+DataPC_lod.forge	60	Prince_FGF	130	2375815d	523	SE_RC5_024	3
+DataPC_lod.forge	60	Prince_FGF	131	23758160	523	SE_RC5_025	3
+DataPC_lod.forge	60	Prince_FGF	132	23f6c068	201	SE_RC5_010	1
+DataPC_lod.forge	60	Prince_FGF	133	d775800a	9866	Human_Avoidance	61
+DataPC_lod.forge	60	Prince_FGF	134	17f0c299	33701	Human_SafeEntry_Ground	212
+DataPC_lod.forge	60	Prince_FGF	135	17fe8aa7	18082	Human_SafeEntry_Beam	113
+DataPC_lod.forge	60	Prince_FGF	136	18c5800a	2620	ElikaStepAside	16
+DataPC_lod.forge	60	Prince_FGF	137	1d0b4120	7568	Human_Column	34
+DataPC_lod.forge	60	Prince_FGF	138	2314c0bd	1340	Human_SafeEntry_Column	8
+DataPC_lod.forge	60	Prince_FGF	139	2ad5c00c	2077	Human_GraphRules	7
+DataPC_lod.forge	60	Prince_FGF	140	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	60	Prince_FGF	141	8ff40007	687	Human_Injured	4
+DataPC_lod.forge	60	Prince_FGF	142	92160007	543	Human_MiniGame_ActivationPlate	3
+DataPC_lod.forge	60	Prince_FGF	143	9d5b84b0	2308	Human_SafeEntry_Hangwall	14
+DataPC_lod.forge	60	Prince_FGF	144	9d5b84b1	3762	Human_SafeEntry_VerticalCrack	23
+DataPC_lod.forge	60	Prince_FGF	145	9d5b84b2	15188	Human_SafeEntry_Hangfree	94
+DataPC_lod.forge	60	Prince_FGF	146	ba486d1d	4413	Human_SafeEntry_VerticalCrack_NoIdle	27
+DataPC_lod.forge	60	Prince_FGF	147	ba486d28	3603	Human_SafeEntry_Hangwall_NoIdle	22
+DataPC_lod.forge	60	Prince_FGF	148	cbdf4015	4078	HumanWalling_RingSwitch	25
+DataPC_lod.forge	60	Prince_FGF	149	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	61	Altair	80	0005d499	39122	HumanGround	326
+DataPC_lod.forge	61	Altair	81	00f38d44	15177	HumanInAir	86
+DataPC_lod.forge	61	Altair	82	00f38d58	24228	HumanWalling	182
+DataPC_lod.forge	61	Altair	83	20404059	6039	HumanGripFall	23
+DataPC_lod.forge	61	Altair	84	27eec009	2546	Human_Duel	11
+DataPC_lod.forge	61	Altair	85	0106c5eb	58291	HumanLedge	332
+DataPC_lod.forge	61	Altair	86	010f19e3	364	Human_Pushed	2
+DataPC_lod.forge	61	Altair	87	012184b8	23363	HumanNarrowObject	154
+DataPC_lod.forge	61	Altair	88	2e7297d9	6928	HumanAutoActions	29
+DataPC_lod.forge	61	Altair	89	4ebb031a	8830	HumanVines	72
+DataPC_lod.forge	61	Altair	90	1e708882	5117	Human_Fight_blocks	35
+DataPC_lod.forge	61	Altair	91	293ec393	7549	Human_Fight_strafe	191
+DataPC_lod.forge	61	Altair	92	6dc4b1ea	4222	HumanSaveMe	25
+DataPC_lod.forge	61	Altair	93	8a763baf	859	Human_Expression	0
+DataPC_lod.forge	61	Altair	94	9ba7ef61	1982	Mask	4
+DataPC_lod.forge	61	Altair	95	8f49cf49	41739	Human_Fight_attacks	241
+DataPC_lod.forge	61	Altair	96	c63cdae0	1198	Human_MiniGame_Healing	7
+DataPC_lod.forge	61	Altair	97	c793d114	1293	Human_Fight_Hurt	10
+DataPC_lod.forge	61	Altair	98	da3d7086	4757	HumanWeapon	26
+DataPC_lod.forge	61	Altair	99	e5dcc2f2	16848	HumanMagic	123
+DataPC_lod.forge	61	Altair	100	e179d53f	10527	Human_Fight_Manning	69
+DataPC_lod.forge	61	Altair	101	bb5baf0c	16981	Patterns	27
+DataPC_lod.forge	61	Altair	102	bb5baf27	1025	Lover_Compas	4
+DataPC_lod.forge	61	Altair	103	199cc1ac	2782	HumanProjection	18
+DataPC_lod.forge	61	Altair	104	61ac82a0	5172	HumanWalling_Grips	90
+DataPC_lod.forge	61	Altair	105	587c80b4	45	AutoTransitions	0
+DataPC_lod.forge	61	Altair	106	5bb60001	1871	Human_Fight_End	9
+DataPC_lod.forge	61	Altair	107	673ec0e2	369	Human_Fight_Sword	2
+DataPC_lod.forge	61	Altair	108	8a950001	3638	HumanSlide	20
+DataPC_lod.forge	61	Altair	109	8e8103e4	6544	HumanPole	39
+DataPC_lod.forge	61	Altair	110	abf0c001	2750	HumanLever	14
+DataPC_lod.forge	61	Altair	111	ae57413d	41	Test_Strafe	1
+DataPC_lod.forge	61	Altair	112	afc80003	6007	ODD_General	16
+DataPC_lod.forge	61	Altair	113	b2e0008d	6435	HumanRoofing	40
+DataPC_lod.forge	61	Altair	114	d9db0008	2421	Pr_Moods_GooGas	9
+DataPC_lod.forge	61	Altair	115	0e758001	1983	Human_Fight_Countered	12
+DataPC_lod.forge	61	Altair	116	cf81000a	4555	Human_SafeEntries	28
+DataPC_lod.forge	61	Altair	117	c5ef51f5	6917	HumanIdle	13
+DataPC_lod.forge	61	Altair	118	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	61	Altair	119	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	61	Altair	120	237580fb	363	ODD_RC5_007	2
+DataPC_lod.forge	61	Altair	121	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	61	Altair	122	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	61	Altair	123	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	61	Altair	124	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	61	Altair	125	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	61	Altair	126	23758119	363	ODD_RC5_020	2
+DataPC_lod.forge	61	Altair	127	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	61	Altair	128	23758145	1328	SE_RC5_001	8
+DataPC_lod.forge	61	Altair	129	23758147	362	SE_RC5_002	2
+DataPC_lod.forge	61	Altair	130	23758149	684	SE_RC5_008	4
+DataPC_lod.forge	61	Altair	131	2375814b	523	SE_RC5_012	3
+DataPC_lod.forge	61	Altair	132	2375814e	201	SE_RC5_013	1
+DataPC_lod.forge	61	Altair	133	23758153	523	SE_RC5_018	4
+DataPC_lod.forge	61	Altair	134	23758157	201	SE_RC5_021	1
+DataPC_lod.forge	61	Altair	135	2375815d	523	SE_RC5_024	3
+DataPC_lod.forge	61	Altair	136	23758160	523	SE_RC5_025	3
+DataPC_lod.forge	61	Altair	137	23f6c068	201	SE_RC5_010	1
+DataPC_lod.forge	61	Altair	138	d775800a	9866	Human_Avoidance	61
+DataPC_lod.forge	61	Altair	139	17f0c299	33701	Human_SafeEntry_Ground	212
+DataPC_lod.forge	61	Altair	140	17fe8aa7	18082	Human_SafeEntry_Beam	113
+DataPC_lod.forge	61	Altair	141	18c5800a	2620	ElikaStepAside	16
+DataPC_lod.forge	61	Altair	142	1d0b4120	7568	Human_Column	34
+DataPC_lod.forge	61	Altair	143	2314c0bd	1340	Human_SafeEntry_Column	8
+DataPC_lod.forge	61	Altair	144	2ad5c00c	2077	Human_GraphRules	7
+DataPC_lod.forge	61	Altair	145	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	61	Altair	146	8ff40007	687	Human_Injured	4
+DataPC_lod.forge	61	Altair	147	92160007	543	Human_MiniGame_ActivationPlate	3
+DataPC_lod.forge	61	Altair	148	9d5b84b0	2308	Human_SafeEntry_Hangwall	14
+DataPC_lod.forge	61	Altair	149	9d5b84b1	3762	Human_SafeEntry_VerticalCrack	23
+DataPC_lod.forge	61	Altair	150	9d5b84b2	15188	Human_SafeEntry_Hangfree	94
+DataPC_lod.forge	61	Altair	151	ba486d1d	4413	Human_SafeEntry_VerticalCrack_NoIdle	27
+DataPC_lod.forge	61	Altair	152	ba486d28	3603	Human_SafeEntry_Hangwall_NoIdle	22
+DataPC_lod.forge	61	Altair	153	cbdf4015	4078	HumanWalling_RingSwitch	25
+DataPC_lod.forge	61	Altair	154	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	62	Lover	74	0005d499	39122	HumanGround	326
+DataPC_lod.forge	62	Lover	75	00f38d44	15177	HumanInAir	86
+DataPC_lod.forge	62	Lover	76	00f38d58	24228	HumanWalling	182
+DataPC_lod.forge	62	Lover	77	20404059	6039	HumanGripFall	23
+DataPC_lod.forge	62	Lover	78	27eec009	2546	Human_Duel	11
+DataPC_lod.forge	62	Lover	79	0106c5eb	58291	HumanLedge	332
+DataPC_lod.forge	62	Lover	80	010f19e3	364	Human_Pushed	2
+DataPC_lod.forge	62	Lover	81	012184b8	23363	HumanNarrowObject	154
+DataPC_lod.forge	62	Lover	82	2e7297d9	6928	HumanAutoActions	29
+DataPC_lod.forge	62	Lover	83	4ebb031a	8830	HumanVines	72
+DataPC_lod.forge	62	Lover	84	1e708882	5117	Human_Fight_blocks	35
+DataPC_lod.forge	62	Lover	85	293ec393	7549	Human_Fight_strafe	191
+DataPC_lod.forge	62	Lover	86	6dc4b1ea	4222	HumanSaveMe	25
+DataPC_lod.forge	62	Lover	87	8a763baf	859	Human_Expression	0
+DataPC_lod.forge	62	Lover	88	9ba7ef61	1982	Mask	4
+DataPC_lod.forge	62	Lover	89	8f49cf49	41739	Human_Fight_attacks	241
+DataPC_lod.forge	62	Lover	90	c63cdae0	1198	Human_MiniGame_Healing	7
+DataPC_lod.forge	62	Lover	91	c793d114	1293	Human_Fight_Hurt	10
+DataPC_lod.forge	62	Lover	92	da3d7086	4757	HumanWeapon	26
+DataPC_lod.forge	62	Lover	93	e5dcc2f2	16848	HumanMagic	123
+DataPC_lod.forge	62	Lover	94	e179d53f	10527	Human_Fight_Manning	69
+DataPC_lod.forge	62	Lover	95	bb5baf0c	16981	Patterns	27
+DataPC_lod.forge	62	Lover	96	bb5baf27	1025	Lover_Compas	4
+DataPC_lod.forge	62	Lover	97	199cc1ac	2782	HumanProjection	18
+DataPC_lod.forge	62	Lover	98	61ac82a0	5172	HumanWalling_Grips	90
+DataPC_lod.forge	62	Lover	99	587c80b4	45	AutoTransitions	0
+DataPC_lod.forge	62	Lover	100	5bb60001	1871	Human_Fight_End	9
+DataPC_lod.forge	62	Lover	101	673ec0e2	369	Human_Fight_Sword	2
+DataPC_lod.forge	62	Lover	102	8a950001	3638	HumanSlide	20
+DataPC_lod.forge	62	Lover	103	8e8103e4	6544	HumanPole	39
+DataPC_lod.forge	62	Lover	104	abf0c001	2750	HumanLever	14
+DataPC_lod.forge	62	Lover	105	ae57413d	41	Test_Strafe	1
+DataPC_lod.forge	62	Lover	106	afc80003	6007	ODD_General	16
+DataPC_lod.forge	62	Lover	107	b2e0008d	6435	HumanRoofing	40
+DataPC_lod.forge	62	Lover	108	d9db0008	2421	Pr_Moods_GooGas	9
+DataPC_lod.forge	62	Lover	109	0e758001	1983	Human_Fight_Countered	12
+DataPC_lod.forge	62	Lover	110	cf81000a	4555	Human_SafeEntries	28
+DataPC_lod.forge	62	Lover	111	c5ef51f5	6917	HumanIdle	13
+DataPC_lod.forge	62	Lover	112	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	62	Lover	113	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	62	Lover	114	237580fb	363	ODD_RC5_007	2
+DataPC_lod.forge	62	Lover	115	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	62	Lover	116	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	62	Lover	117	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	62	Lover	118	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	62	Lover	119	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	62	Lover	120	23758119	363	ODD_RC5_020	2
+DataPC_lod.forge	62	Lover	121	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	62	Lover	122	23758145	1328	SE_RC5_001	8
+DataPC_lod.forge	62	Lover	123	23758147	362	SE_RC5_002	2
+DataPC_lod.forge	62	Lover	124	23758149	684	SE_RC5_008	4
+DataPC_lod.forge	62	Lover	125	2375814b	523	SE_RC5_012	3
+DataPC_lod.forge	62	Lover	126	2375814e	201	SE_RC5_013	1
+DataPC_lod.forge	62	Lover	127	23758153	523	SE_RC5_018	4
+DataPC_lod.forge	62	Lover	128	23758157	201	SE_RC5_021	1
+DataPC_lod.forge	62	Lover	129	2375815d	523	SE_RC5_024	3
+DataPC_lod.forge	62	Lover	130	23758160	523	SE_RC5_025	3
+DataPC_lod.forge	62	Lover	131	23f6c068	201	SE_RC5_010	1
+DataPC_lod.forge	62	Lover	132	d775800a	9866	Human_Avoidance	61
+DataPC_lod.forge	62	Lover	133	17f0c299	33701	Human_SafeEntry_Ground	212
+DataPC_lod.forge	62	Lover	134	17fe8aa7	18082	Human_SafeEntry_Beam	113
+DataPC_lod.forge	62	Lover	135	18c5800a	2620	ElikaStepAside	16
+DataPC_lod.forge	62	Lover	136	1d0b4120	7568	Human_Column	34
+DataPC_lod.forge	62	Lover	137	2314c0bd	1340	Human_SafeEntry_Column	8
+DataPC_lod.forge	62	Lover	138	2ad5c00c	2077	Human_GraphRules	7
+DataPC_lod.forge	62	Lover	139	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	62	Lover	140	8ff40007	687	Human_Injured	4
+DataPC_lod.forge	62	Lover	141	92160007	543	Human_MiniGame_ActivationPlate	3
+DataPC_lod.forge	62	Lover	142	9d5b84b0	2308	Human_SafeEntry_Hangwall	14
+DataPC_lod.forge	62	Lover	143	9d5b84b1	3762	Human_SafeEntry_VerticalCrack	23
+DataPC_lod.forge	62	Lover	144	9d5b84b2	15188	Human_SafeEntry_Hangfree	94
+DataPC_lod.forge	62	Lover	145	ba486d1d	4413	Human_SafeEntry_VerticalCrack_NoIdle	27
+DataPC_lod.forge	62	Lover	146	ba486d28	3603	Human_SafeEntry_Hangwall_NoIdle	22
+DataPC_lod.forge	62	Lover	147	cbdf4015	4078	HumanWalling_RingSwitch	25
+DataPC_lod.forge	62	Lover	148	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	63	Lover_ILLUSION	71	0005d499	39122	HumanGround	326
+DataPC_lod.forge	63	Lover_ILLUSION	72	00f38d44	15177	HumanInAir	86
+DataPC_lod.forge	63	Lover_ILLUSION	73	00f38d58	24228	HumanWalling	182
+DataPC_lod.forge	63	Lover_ILLUSION	74	20404059	6039	HumanGripFall	23
+DataPC_lod.forge	63	Lover_ILLUSION	75	27eec009	2546	Human_Duel	11
+DataPC_lod.forge	63	Lover_ILLUSION	76	0106c5eb	58291	HumanLedge	332
+DataPC_lod.forge	63	Lover_ILLUSION	77	010f19e3	364	Human_Pushed	2
+DataPC_lod.forge	63	Lover_ILLUSION	78	012184b8	23363	HumanNarrowObject	154
+DataPC_lod.forge	63	Lover_ILLUSION	79	2e7297d9	6928	HumanAutoActions	29
+DataPC_lod.forge	63	Lover_ILLUSION	80	4ebb031a	8830	HumanVines	72
+DataPC_lod.forge	63	Lover_ILLUSION	81	1e708882	5117	Human_Fight_blocks	35
+DataPC_lod.forge	63	Lover_ILLUSION	82	293ec393	7549	Human_Fight_strafe	191
+DataPC_lod.forge	63	Lover_ILLUSION	83	6dc4b1ea	4222	HumanSaveMe	25
+DataPC_lod.forge	63	Lover_ILLUSION	84	8a763baf	859	Human_Expression	0
+DataPC_lod.forge	63	Lover_ILLUSION	85	9ba7ef61	1982	Mask	4
+DataPC_lod.forge	63	Lover_ILLUSION	86	8f49cf49	41739	Human_Fight_attacks	241
+DataPC_lod.forge	63	Lover_ILLUSION	87	c63cdae0	1198	Human_MiniGame_Healing	7
+DataPC_lod.forge	63	Lover_ILLUSION	88	c793d114	1293	Human_Fight_Hurt	10
+DataPC_lod.forge	63	Lover_ILLUSION	89	da3d7086	4757	HumanWeapon	26
+DataPC_lod.forge	63	Lover_ILLUSION	90	e5dcc2f2	16848	HumanMagic	123
+DataPC_lod.forge	63	Lover_ILLUSION	91	e179d53f	10527	Human_Fight_Manning	69
+DataPC_lod.forge	63	Lover_ILLUSION	92	bb5baf0c	16981	Patterns	27
+DataPC_lod.forge	63	Lover_ILLUSION	93	bb5baf27	1025	Lover_Compas	4
+DataPC_lod.forge	63	Lover_ILLUSION	94	199cc1ac	2782	HumanProjection	18
+DataPC_lod.forge	63	Lover_ILLUSION	95	61ac82a0	5172	HumanWalling_Grips	90
+DataPC_lod.forge	63	Lover_ILLUSION	96	587c80b4	45	AutoTransitions	0
+DataPC_lod.forge	63	Lover_ILLUSION	97	5bb60001	1871	Human_Fight_End	9
+DataPC_lod.forge	63	Lover_ILLUSION	98	673ec0e2	369	Human_Fight_Sword	2
+DataPC_lod.forge	63	Lover_ILLUSION	99	8a950001	3638	HumanSlide	20
+DataPC_lod.forge	63	Lover_ILLUSION	100	8e8103e4	6544	HumanPole	39
+DataPC_lod.forge	63	Lover_ILLUSION	101	abf0c001	2750	HumanLever	14
+DataPC_lod.forge	63	Lover_ILLUSION	102	ae57413d	41	Test_Strafe	1
+DataPC_lod.forge	63	Lover_ILLUSION	103	afc80003	6007	ODD_General	16
+DataPC_lod.forge	63	Lover_ILLUSION	104	b2e0008d	6435	HumanRoofing	40
+DataPC_lod.forge	63	Lover_ILLUSION	105	d9db0008	2421	Pr_Moods_GooGas	9
+DataPC_lod.forge	63	Lover_ILLUSION	106	0e758001	1983	Human_Fight_Countered	12
+DataPC_lod.forge	63	Lover_ILLUSION	107	cf81000a	4555	Human_SafeEntries	28
+DataPC_lod.forge	63	Lover_ILLUSION	108	c5ef51f5	6917	HumanIdle	13
+DataPC_lod.forge	63	Lover_ILLUSION	109	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	63	Lover_ILLUSION	110	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	63	Lover_ILLUSION	111	237580fb	363	ODD_RC5_007	2
+DataPC_lod.forge	63	Lover_ILLUSION	112	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	63	Lover_ILLUSION	113	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	63	Lover_ILLUSION	114	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	63	Lover_ILLUSION	115	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	63	Lover_ILLUSION	116	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	63	Lover_ILLUSION	117	23758119	363	ODD_RC5_020	2
+DataPC_lod.forge	63	Lover_ILLUSION	118	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	63	Lover_ILLUSION	119	23758145	1328	SE_RC5_001	8
+DataPC_lod.forge	63	Lover_ILLUSION	120	23758147	362	SE_RC5_002	2
+DataPC_lod.forge	63	Lover_ILLUSION	121	23758149	684	SE_RC5_008	4
+DataPC_lod.forge	63	Lover_ILLUSION	122	2375814b	523	SE_RC5_012	3
+DataPC_lod.forge	63	Lover_ILLUSION	123	2375814e	201	SE_RC5_013	1
+DataPC_lod.forge	63	Lover_ILLUSION	124	23758153	523	SE_RC5_018	4
+DataPC_lod.forge	63	Lover_ILLUSION	125	23758157	201	SE_RC5_021	1
+DataPC_lod.forge	63	Lover_ILLUSION	126	2375815d	523	SE_RC5_024	3
+DataPC_lod.forge	63	Lover_ILLUSION	127	23758160	523	SE_RC5_025	3
+DataPC_lod.forge	63	Lover_ILLUSION	128	23f6c068	201	SE_RC5_010	1
+DataPC_lod.forge	63	Lover_ILLUSION	129	d775800a	9866	Human_Avoidance	61
+DataPC_lod.forge	63	Lover_ILLUSION	130	17f0c299	33701	Human_SafeEntry_Ground	212
+DataPC_lod.forge	63	Lover_ILLUSION	131	17fe8aa7	18082	Human_SafeEntry_Beam	113
+DataPC_lod.forge	63	Lover_ILLUSION	132	18c5800a	2620	ElikaStepAside	16
+DataPC_lod.forge	63	Lover_ILLUSION	133	1d0b4120	7568	Human_Column	34
+DataPC_lod.forge	63	Lover_ILLUSION	134	2314c0bd	1340	Human_SafeEntry_Column	8
+DataPC_lod.forge	63	Lover_ILLUSION	135	2ad5c00c	2077	Human_GraphRules	7
+DataPC_lod.forge	63	Lover_ILLUSION	136	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	63	Lover_ILLUSION	137	8ff40007	687	Human_Injured	4
+DataPC_lod.forge	63	Lover_ILLUSION	138	92160007	543	Human_MiniGame_ActivationPlate	3
+DataPC_lod.forge	63	Lover_ILLUSION	139	9d5b84b0	2308	Human_SafeEntry_Hangwall	14
+DataPC_lod.forge	63	Lover_ILLUSION	140	9d5b84b1	3762	Human_SafeEntry_VerticalCrack	23
+DataPC_lod.forge	63	Lover_ILLUSION	141	9d5b84b2	15188	Human_SafeEntry_Hangfree	94
+DataPC_lod.forge	63	Lover_ILLUSION	142	ba486d1d	4413	Human_SafeEntry_VerticalCrack_NoIdle	27
+DataPC_lod.forge	63	Lover_ILLUSION	143	ba486d28	3603	Human_SafeEntry_Hangwall_NoIdle	22
+DataPC_lod.forge	63	Lover_ILLUSION	144	cbdf4015	4078	HumanWalling_RingSwitch	25
+DataPC_lod.forge	63	Lover_ILLUSION	145	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	64	Farah	65	0005d499	39122	HumanGround	326
+DataPC_lod.forge	64	Farah	66	00f38d44	15177	HumanInAir	86
+DataPC_lod.forge	64	Farah	67	00f38d58	24228	HumanWalling	182
+DataPC_lod.forge	64	Farah	68	20404059	6039	HumanGripFall	23
+DataPC_lod.forge	64	Farah	69	27eec009	2546	Human_Duel	11
+DataPC_lod.forge	64	Farah	70	0106c5eb	58291	HumanLedge	332
+DataPC_lod.forge	64	Farah	71	010f19e3	364	Human_Pushed	2
+DataPC_lod.forge	64	Farah	72	012184b8	23363	HumanNarrowObject	154
+DataPC_lod.forge	64	Farah	73	2e7297d9	6928	HumanAutoActions	29
+DataPC_lod.forge	64	Farah	74	4ebb031a	8830	HumanVines	72
+DataPC_lod.forge	64	Farah	75	1e708882	5117	Human_Fight_blocks	35
+DataPC_lod.forge	64	Farah	76	293ec393	7549	Human_Fight_strafe	191
+DataPC_lod.forge	64	Farah	77	6dc4b1ea	4222	HumanSaveMe	25
+DataPC_lod.forge	64	Farah	78	8a763baf	859	Human_Expression	0
+DataPC_lod.forge	64	Farah	79	9ba7ef61	1982	Mask	4
+DataPC_lod.forge	64	Farah	80	8f49cf49	41739	Human_Fight_attacks	241
+DataPC_lod.forge	64	Farah	81	c63cdae0	1198	Human_MiniGame_Healing	7
+DataPC_lod.forge	64	Farah	82	c793d114	1293	Human_Fight_Hurt	10
+DataPC_lod.forge	64	Farah	83	da3d7086	4757	HumanWeapon	26
+DataPC_lod.forge	64	Farah	84	e5dcc2f2	16848	HumanMagic	123
+DataPC_lod.forge	64	Farah	85	e179d53f	10527	Human_Fight_Manning	69
+DataPC_lod.forge	64	Farah	86	bb5baf0c	16981	Patterns	27
+DataPC_lod.forge	64	Farah	87	bb5baf27	1025	Lover_Compas	4
+DataPC_lod.forge	64	Farah	88	199cc1ac	2782	HumanProjection	18
+DataPC_lod.forge	64	Farah	89	61ac82a0	5172	HumanWalling_Grips	90
+DataPC_lod.forge	64	Farah	90	587c80b4	45	AutoTransitions	0
+DataPC_lod.forge	64	Farah	91	5bb60001	1871	Human_Fight_End	9
+DataPC_lod.forge	64	Farah	92	673ec0e2	369	Human_Fight_Sword	2
+DataPC_lod.forge	64	Farah	93	8a950001	3638	HumanSlide	20
+DataPC_lod.forge	64	Farah	94	8e8103e4	6544	HumanPole	39
+DataPC_lod.forge	64	Farah	95	abf0c001	2750	HumanLever	14
+DataPC_lod.forge	64	Farah	96	ae57413d	41	Test_Strafe	1
+DataPC_lod.forge	64	Farah	97	afc80003	6007	ODD_General	16
+DataPC_lod.forge	64	Farah	98	b2e0008d	6435	HumanRoofing	40
+DataPC_lod.forge	64	Farah	99	d9db0008	2421	Pr_Moods_GooGas	9
+DataPC_lod.forge	64	Farah	100	0e758001	1983	Human_Fight_Countered	12
+DataPC_lod.forge	64	Farah	101	cf81000a	4555	Human_SafeEntries	28
+DataPC_lod.forge	64	Farah	102	c5ef51f5	6917	HumanIdle	13
+DataPC_lod.forge	64	Farah	103	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	64	Farah	104	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	64	Farah	105	237580fb	363	ODD_RC5_007	2
+DataPC_lod.forge	64	Farah	106	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	64	Farah	107	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	64	Farah	108	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	64	Farah	109	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	64	Farah	110	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	64	Farah	111	23758119	363	ODD_RC5_020	2
+DataPC_lod.forge	64	Farah	112	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	64	Farah	113	23758145	1328	SE_RC5_001	8
+DataPC_lod.forge	64	Farah	114	23758147	362	SE_RC5_002	2
+DataPC_lod.forge	64	Farah	115	23758149	684	SE_RC5_008	4
+DataPC_lod.forge	64	Farah	116	2375814b	523	SE_RC5_012	3
+DataPC_lod.forge	64	Farah	117	2375814e	201	SE_RC5_013	1
+DataPC_lod.forge	64	Farah	118	23758153	523	SE_RC5_018	4
+DataPC_lod.forge	64	Farah	119	23758157	201	SE_RC5_021	1
+DataPC_lod.forge	64	Farah	120	2375815d	523	SE_RC5_024	3
+DataPC_lod.forge	64	Farah	121	23758160	523	SE_RC5_025	3
+DataPC_lod.forge	64	Farah	122	23f6c068	201	SE_RC5_010	1
+DataPC_lod.forge	64	Farah	123	d775800a	9866	Human_Avoidance	61
+DataPC_lod.forge	64	Farah	124	17f0c299	33701	Human_SafeEntry_Ground	212
+DataPC_lod.forge	64	Farah	125	17fe8aa7	18082	Human_SafeEntry_Beam	113
+DataPC_lod.forge	64	Farah	126	18c5800a	2620	ElikaStepAside	16
+DataPC_lod.forge	64	Farah	127	1d0b4120	7568	Human_Column	34
+DataPC_lod.forge	64	Farah	128	2314c0bd	1340	Human_SafeEntry_Column	8
+DataPC_lod.forge	64	Farah	129	2ad5c00c	2077	Human_GraphRules	7
+DataPC_lod.forge	64	Farah	130	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	64	Farah	131	8ff40007	687	Human_Injured	4
+DataPC_lod.forge	64	Farah	132	92160007	543	Human_MiniGame_ActivationPlate	3
+DataPC_lod.forge	64	Farah	133	9d5b84b0	2308	Human_SafeEntry_Hangwall	14
+DataPC_lod.forge	64	Farah	134	9d5b84b1	3762	Human_SafeEntry_VerticalCrack	23
+DataPC_lod.forge	64	Farah	135	9d5b84b2	15188	Human_SafeEntry_Hangfree	94
+DataPC_lod.forge	64	Farah	136	ba486d1d	4413	Human_SafeEntry_VerticalCrack_NoIdle	27
+DataPC_lod.forge	64	Farah	137	ba486d28	3603	Human_SafeEntry_Hangwall_NoIdle	22
+DataPC_lod.forge	64	Farah	138	cbdf4015	4078	HumanWalling_RingSwitch	25
+DataPC_lod.forge	64	Farah	139	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	65	Elika_FGF 	83	0005d499	39122	HumanGround	326
+DataPC_lod.forge	65	Elika_FGF 	84	00f38d44	15177	HumanInAir	86
+DataPC_lod.forge	65	Elika_FGF 	85	00f38d58	24228	HumanWalling	182
+DataPC_lod.forge	65	Elika_FGF 	86	20404059	6039	HumanGripFall	23
+DataPC_lod.forge	65	Elika_FGF 	87	27eec009	2546	Human_Duel	11
+DataPC_lod.forge	65	Elika_FGF 	88	0106c5eb	58291	HumanLedge	332
+DataPC_lod.forge	65	Elika_FGF 	89	010f19e3	364	Human_Pushed	2
+DataPC_lod.forge	65	Elika_FGF 	90	012184b8	23363	HumanNarrowObject	154
+DataPC_lod.forge	65	Elika_FGF 	91	2e7297d9	6928	HumanAutoActions	29
+DataPC_lod.forge	65	Elika_FGF 	92	4ebb031a	8830	HumanVines	72
+DataPC_lod.forge	65	Elika_FGF 	93	1e708882	5117	Human_Fight_blocks	35
+DataPC_lod.forge	65	Elika_FGF 	94	293ec393	7549	Human_Fight_strafe	191
+DataPC_lod.forge	65	Elika_FGF 	95	6dc4b1ea	4222	HumanSaveMe	25
+DataPC_lod.forge	65	Elika_FGF 	96	8a763baf	859	Human_Expression	0
+DataPC_lod.forge	65	Elika_FGF 	97	9ba7ef61	1982	Mask	4
+DataPC_lod.forge	65	Elika_FGF 	98	8f49cf49	41739	Human_Fight_attacks	241
+DataPC_lod.forge	65	Elika_FGF 	99	c63cdae0	1198	Human_MiniGame_Healing	7
+DataPC_lod.forge	65	Elika_FGF 	100	c793d114	1293	Human_Fight_Hurt	10
+DataPC_lod.forge	65	Elika_FGF 	101	da3d7086	4757	HumanWeapon	26
+DataPC_lod.forge	65	Elika_FGF 	102	e5dcc2f2	16848	HumanMagic	123
+DataPC_lod.forge	65	Elika_FGF 	103	e179d53f	10527	Human_Fight_Manning	69
+DataPC_lod.forge	65	Elika_FGF 	104	bb5baf0c	16981	Patterns	27
+DataPC_lod.forge	65	Elika_FGF 	105	bb5baf27	1025	Lover_Compas	4
+DataPC_lod.forge	65	Elika_FGF 	106	199cc1ac	2782	HumanProjection	18
+DataPC_lod.forge	65	Elika_FGF 	107	61ac82a0	5172	HumanWalling_Grips	90
+DataPC_lod.forge	65	Elika_FGF 	108	587c80b4	45	AutoTransitions	0
+DataPC_lod.forge	65	Elika_FGF 	109	5bb60001	1871	Human_Fight_End	9
+DataPC_lod.forge	65	Elika_FGF 	110	673ec0e2	369	Human_Fight_Sword	2
+DataPC_lod.forge	65	Elika_FGF 	111	8a950001	3638	HumanSlide	20
+DataPC_lod.forge	65	Elika_FGF 	112	8e8103e4	6544	HumanPole	39
+DataPC_lod.forge	65	Elika_FGF 	113	abf0c001	2750	HumanLever	14
+DataPC_lod.forge	65	Elika_FGF 	114	ae57413d	41	Test_Strafe	1
+DataPC_lod.forge	65	Elika_FGF 	115	afc80003	6007	ODD_General	16
+DataPC_lod.forge	65	Elika_FGF 	116	b2e0008d	6435	HumanRoofing	40
+DataPC_lod.forge	65	Elika_FGF 	117	d9db0008	2421	Pr_Moods_GooGas	9
+DataPC_lod.forge	65	Elika_FGF 	118	0e758001	1983	Human_Fight_Countered	12
+DataPC_lod.forge	65	Elika_FGF 	119	cf81000a	4555	Human_SafeEntries	28
+DataPC_lod.forge	65	Elika_FGF 	120	c5ef51f5	6917	HumanIdle	13
+DataPC_lod.forge	65	Elika_FGF 	121	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	65	Elika_FGF 	122	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	65	Elika_FGF 	123	237580fb	363	ODD_RC5_007	2
+DataPC_lod.forge	65	Elika_FGF 	124	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	65	Elika_FGF 	125	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	65	Elika_FGF 	126	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	65	Elika_FGF 	127	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	65	Elika_FGF 	128	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	65	Elika_FGF 	129	23758119	363	ODD_RC5_020	2
+DataPC_lod.forge	65	Elika_FGF 	130	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	65	Elika_FGF 	131	23758145	1328	SE_RC5_001	8
+DataPC_lod.forge	65	Elika_FGF 	132	23758147	362	SE_RC5_002	2
+DataPC_lod.forge	65	Elika_FGF 	133	23758149	684	SE_RC5_008	4
+DataPC_lod.forge	65	Elika_FGF 	134	2375814b	523	SE_RC5_012	3
+DataPC_lod.forge	65	Elika_FGF 	135	2375814e	201	SE_RC5_013	1
+DataPC_lod.forge	65	Elika_FGF 	136	23758153	523	SE_RC5_018	4
+DataPC_lod.forge	65	Elika_FGF 	137	23758157	201	SE_RC5_021	1
+DataPC_lod.forge	65	Elika_FGF 	138	2375815d	523	SE_RC5_024	3
+DataPC_lod.forge	65	Elika_FGF 	139	23758160	523	SE_RC5_025	3
+DataPC_lod.forge	65	Elika_FGF 	140	23f6c068	201	SE_RC5_010	1
+DataPC_lod.forge	65	Elika_FGF 	141	d775800a	9866	Human_Avoidance	61
+DataPC_lod.forge	65	Elika_FGF 	142	17f0c299	33701	Human_SafeEntry_Ground	212
+DataPC_lod.forge	65	Elika_FGF 	143	17fe8aa7	18082	Human_SafeEntry_Beam	113
+DataPC_lod.forge	65	Elika_FGF 	144	18c5800a	2620	ElikaStepAside	16
+DataPC_lod.forge	65	Elika_FGF 	145	1d0b4120	7568	Human_Column	34
+DataPC_lod.forge	65	Elika_FGF 	146	2314c0bd	1340	Human_SafeEntry_Column	8
+DataPC_lod.forge	65	Elika_FGF 	147	2ad5c00c	2077	Human_GraphRules	7
+DataPC_lod.forge	65	Elika_FGF 	148	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	65	Elika_FGF 	149	8ff40007	687	Human_Injured	4
+DataPC_lod.forge	65	Elika_FGF 	150	92160007	543	Human_MiniGame_ActivationPlate	3
+DataPC_lod.forge	65	Elika_FGF 	151	9d5b84b0	2308	Human_SafeEntry_Hangwall	14
+DataPC_lod.forge	65	Elika_FGF 	152	9d5b84b1	3762	Human_SafeEntry_VerticalCrack	23
+DataPC_lod.forge	65	Elika_FGF 	153	9d5b84b2	15188	Human_SafeEntry_Hangfree	94
+DataPC_lod.forge	65	Elika_FGF 	154	ba486d1d	4413	Human_SafeEntry_VerticalCrack_NoIdle	27
+DataPC_lod.forge	65	Elika_FGF 	155	ba486d28	3603	Human_SafeEntry_Hangwall_NoIdle	22
+DataPC_lod.forge	65	Elika_FGF 	156	cbdf4015	4078	HumanWalling_RingSwitch	25
+DataPC_lod.forge	65	Elika_FGF 	157	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	66	Monster_X_Defensive	10	41034257	1516	Human_Fight_ComplexAttack_Gen	9
+DataPC_lod.forge	66	Monster_X_Defensive	11	239780c0	8688	Human_Fight_Minigame_Gen	32
+DataPC_lod.forge	66	Monster_X_Defensive	12	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_lod.forge	66	Monster_X_Defensive	13	41034261	477	Human_Fight_State_Gen	3
+DataPC_lod.forge	66	Monster_X_Defensive	14	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	66	Monster_X_Defensive	48	2bca4138	1244	MonsterX_Movement	42
+DataPC_lod.forge	66	Monster_X_Defensive	49	2bca413e	9106	MonsterX_Attacks	63
+DataPC_lod.forge	66	Monster_X_Defensive	50	2bca413f	44	MonsterX_Intro	0
+DataPC_lod.forge	66	Monster_X_Defensive	51	2c3fc02f	478	MonsterX_CounterAttack	3
+DataPC_lod.forge	66	Monster_X_Defensive	52	2c754011	206	MonsterX_Taunts	1
+DataPC_lod.forge	66	Monster_X_Defensive	53	2c754012	3305	MonsterX_Minigames	20
+DataPC_lod.forge	66	Monster_X_Defensive	54	2c754033	2621	MonsterX_States	16
+DataPC_lod.forge	66	Monster_X_Defensive	55	2c75403f	1060	MonsterX_Deflects	7
+DataPC_lod.forge	66	Monster_X_Defensive	56	2c754040	697	MonsterX_ComplexAttacks	4
+DataPC_lod.forge	66	Monster_X_Defensive	57	2dee800d	27707	MonsterX_Blocks	171
+DataPC_lod.forge	66	Monster_X_Defensive	58	59f30b89	527	MonsterX_Death	3
+DataPC_lod.forge	67	Monster_X_Goo	10	41034257	1516	Human_Fight_ComplexAttack_Gen	9
+DataPC_lod.forge	67	Monster_X_Goo	11	239780c0	8688	Human_Fight_Minigame_Gen	32
+DataPC_lod.forge	67	Monster_X_Goo	12	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_lod.forge	67	Monster_X_Goo	13	41034261	477	Human_Fight_State_Gen	3
+DataPC_lod.forge	67	Monster_X_Goo	14	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	67	Monster_X_Goo	48	2bca4138	1244	MonsterX_Movement	42
+DataPC_lod.forge	67	Monster_X_Goo	49	2bca413e	9106	MonsterX_Attacks	63
+DataPC_lod.forge	67	Monster_X_Goo	50	2bca413f	44	MonsterX_Intro	0
+DataPC_lod.forge	67	Monster_X_Goo	51	2c3fc02f	478	MonsterX_CounterAttack	3
+DataPC_lod.forge	67	Monster_X_Goo	52	2c754011	206	MonsterX_Taunts	1
+DataPC_lod.forge	67	Monster_X_Goo	53	2c754012	3305	MonsterX_Minigames	20
+DataPC_lod.forge	67	Monster_X_Goo	54	2c754033	2621	MonsterX_States	16
+DataPC_lod.forge	67	Monster_X_Goo	55	2c75403f	1060	MonsterX_Deflects	7
+DataPC_lod.forge	67	Monster_X_Goo	56	2c754040	697	MonsterX_ComplexAttacks	4
+DataPC_lod.forge	67	Monster_X_Goo	57	2dee800d	27707	MonsterX_Blocks	171
+DataPC_lod.forge	67	Monster_X_Goo	58	59f30b89	527	MonsterX_Death	3
+DataPC_lod.forge	68	Monster_X_Normal	12	41034257	1516	Human_Fight_ComplexAttack_Gen	9
+DataPC_lod.forge	68	Monster_X_Normal	13	239780c0	8688	Human_Fight_Minigame_Gen	32
+DataPC_lod.forge	68	Monster_X_Normal	14	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_lod.forge	68	Monster_X_Normal	47	2bca4138	1244	MonsterX_Movement	42
+DataPC_lod.forge	68	Monster_X_Normal	48	2bca413e	9106	MonsterX_Attacks	63
+DataPC_lod.forge	68	Monster_X_Normal	49	2bca413f	44	MonsterX_Intro	0
+DataPC_lod.forge	68	Monster_X_Normal	50	2c3fc02f	478	MonsterX_CounterAttack	3
+DataPC_lod.forge	68	Monster_X_Normal	51	2c754011	206	MonsterX_Taunts	1
+DataPC_lod.forge	68	Monster_X_Normal	52	2c754012	3305	MonsterX_Minigames	20
+DataPC_lod.forge	68	Monster_X_Normal	53	2c754033	2621	MonsterX_States	16
+DataPC_lod.forge	68	Monster_X_Normal	54	2c75403f	1060	MonsterX_Deflects	7
+DataPC_lod.forge	68	Monster_X_Normal	55	2c754040	697	MonsterX_ComplexAttacks	4
+DataPC_lod.forge	68	Monster_X_Normal	56	2dee800d	27707	MonsterX_Blocks	171
+DataPC_lod.forge	68	Monster_X_Normal	57	59f30b89	527	MonsterX_Death	3
+DataPC_lod.forge	69	Monster_X_Offensive	10	41034257	1516	Human_Fight_ComplexAttack_Gen	9
+DataPC_lod.forge	69	Monster_X_Offensive	11	239780c0	8688	Human_Fight_Minigame_Gen	32
+DataPC_lod.forge	69	Monster_X_Offensive	12	c832de81	8315	Human_Fight_MiniGame	32
+DataPC_lod.forge	69	Monster_X_Offensive	13	41034261	477	Human_Fight_State_Gen	3
+DataPC_lod.forge	69	Monster_X_Offensive	14	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	69	Monster_X_Offensive	47	2bca4138	1244	MonsterX_Movement	42
+DataPC_lod.forge	69	Monster_X_Offensive	48	2bca413e	9106	MonsterX_Attacks	63
+DataPC_lod.forge	69	Monster_X_Offensive	49	2bca413f	44	MonsterX_Intro	0
+DataPC_lod.forge	69	Monster_X_Offensive	50	2c3fc02f	478	MonsterX_CounterAttack	3
+DataPC_lod.forge	69	Monster_X_Offensive	51	2c754011	206	MonsterX_Taunts	1
+DataPC_lod.forge	69	Monster_X_Offensive	52	2c754012	3305	MonsterX_Minigames	20
+DataPC_lod.forge	69	Monster_X_Offensive	53	2c754033	2621	MonsterX_States	16
+DataPC_lod.forge	69	Monster_X_Offensive	54	2c75403f	1060	MonsterX_Deflects	7
+DataPC_lod.forge	69	Monster_X_Offensive	55	2c754040	697	MonsterX_ComplexAttacks	4
+DataPC_lod.forge	69	Monster_X_Offensive	56	2dee800d	27707	MonsterX_Blocks	171
+DataPC_lod.forge	69	Monster_X_Offensive	57	59f30b89	527	MonsterX_Death	3
+DataPC_lod.forge	70	Jade	75	0005d499	39122	HumanGround	326
+DataPC_lod.forge	70	Jade	76	00f38d44	15177	HumanInAir	86
+DataPC_lod.forge	70	Jade	77	00f38d58	24228	HumanWalling	182
+DataPC_lod.forge	70	Jade	78	20404059	6039	HumanGripFall	23
+DataPC_lod.forge	70	Jade	79	27eec009	2546	Human_Duel	11
+DataPC_lod.forge	70	Jade	80	0106c5eb	58291	HumanLedge	332
+DataPC_lod.forge	70	Jade	81	010f19e3	364	Human_Pushed	2
+DataPC_lod.forge	70	Jade	82	012184b8	23363	HumanNarrowObject	154
+DataPC_lod.forge	70	Jade	83	2e7297d9	6928	HumanAutoActions	29
+DataPC_lod.forge	70	Jade	84	4ebb031a	8830	HumanVines	72
+DataPC_lod.forge	70	Jade	85	1e708882	5117	Human_Fight_blocks	35
+DataPC_lod.forge	70	Jade	86	293ec393	7549	Human_Fight_strafe	191
+DataPC_lod.forge	70	Jade	87	6dc4b1ea	4222	HumanSaveMe	25
+DataPC_lod.forge	70	Jade	88	8a763baf	859	Human_Expression	0
+DataPC_lod.forge	70	Jade	89	9ba7ef61	1982	Mask	4
+DataPC_lod.forge	70	Jade	90	8f49cf49	41739	Human_Fight_attacks	241
+DataPC_lod.forge	70	Jade	91	c63cdae0	1198	Human_MiniGame_Healing	7
+DataPC_lod.forge	70	Jade	92	c793d114	1293	Human_Fight_Hurt	10
+DataPC_lod.forge	70	Jade	93	da3d7086	4757	HumanWeapon	26
+DataPC_lod.forge	70	Jade	94	e5dcc2f2	16848	HumanMagic	123
+DataPC_lod.forge	70	Jade	95	e179d53f	10527	Human_Fight_Manning	69
+DataPC_lod.forge	70	Jade	96	bb5baf0c	16981	Patterns	27
+DataPC_lod.forge	70	Jade	97	bb5baf27	1025	Lover_Compas	4
+DataPC_lod.forge	70	Jade	98	199cc1ac	2782	HumanProjection	18
+DataPC_lod.forge	70	Jade	99	61ac82a0	5172	HumanWalling_Grips	90
+DataPC_lod.forge	70	Jade	100	587c80b4	45	AutoTransitions	0
+DataPC_lod.forge	70	Jade	101	5bb60001	1871	Human_Fight_End	9
+DataPC_lod.forge	70	Jade	102	673ec0e2	369	Human_Fight_Sword	2
+DataPC_lod.forge	70	Jade	103	8a950001	3638	HumanSlide	20
+DataPC_lod.forge	70	Jade	104	8e8103e4	6544	HumanPole	39
+DataPC_lod.forge	70	Jade	105	abf0c001	2750	HumanLever	14
+DataPC_lod.forge	70	Jade	106	ae57413d	41	Test_Strafe	1
+DataPC_lod.forge	70	Jade	107	afc80003	6007	ODD_General	16
+DataPC_lod.forge	70	Jade	108	b2e0008d	6435	HumanRoofing	40
+DataPC_lod.forge	70	Jade	109	d9db0008	2421	Pr_Moods_GooGas	9
+DataPC_lod.forge	70	Jade	110	0e758001	1983	Human_Fight_Countered	12
+DataPC_lod.forge	70	Jade	111	cf81000a	4555	Human_SafeEntries	28
+DataPC_lod.forge	70	Jade	112	c5ef51f5	6917	HumanIdle	13
+DataPC_lod.forge	70	Jade	113	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	70	Jade	114	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	70	Jade	115	237580fb	363	ODD_RC5_007	2
+DataPC_lod.forge	70	Jade	116	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	70	Jade	117	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	70	Jade	118	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	70	Jade	119	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	70	Jade	120	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	70	Jade	121	23758119	363	ODD_RC5_020	2
+DataPC_lod.forge	70	Jade	122	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	70	Jade	123	23758145	1328	SE_RC5_001	8
+DataPC_lod.forge	70	Jade	124	23758147	362	SE_RC5_002	2
+DataPC_lod.forge	70	Jade	125	23758149	684	SE_RC5_008	4
+DataPC_lod.forge	70	Jade	126	2375814b	523	SE_RC5_012	3
+DataPC_lod.forge	70	Jade	127	2375814e	201	SE_RC5_013	1
+DataPC_lod.forge	70	Jade	128	23758153	523	SE_RC5_018	4
+DataPC_lod.forge	70	Jade	129	23758157	201	SE_RC5_021	1
+DataPC_lod.forge	70	Jade	130	2375815d	523	SE_RC5_024	3
+DataPC_lod.forge	70	Jade	131	23758160	523	SE_RC5_025	3
+DataPC_lod.forge	70	Jade	132	23f6c068	201	SE_RC5_010	1
+DataPC_lod.forge	70	Jade	133	d775800a	9866	Human_Avoidance	61
+DataPC_lod.forge	70	Jade	134	17f0c299	33701	Human_SafeEntry_Ground	212
+DataPC_lod.forge	70	Jade	135	17fe8aa7	18082	Human_SafeEntry_Beam	113
+DataPC_lod.forge	70	Jade	136	18c5800a	2620	ElikaStepAside	16
+DataPC_lod.forge	70	Jade	137	1d0b4120	7568	Human_Column	34
+DataPC_lod.forge	70	Jade	138	2314c0bd	1340	Human_SafeEntry_Column	8
+DataPC_lod.forge	70	Jade	139	2ad5c00c	2077	Human_GraphRules	7
+DataPC_lod.forge	70	Jade	140	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	70	Jade	141	8ff40007	687	Human_Injured	4
+DataPC_lod.forge	70	Jade	142	92160007	543	Human_MiniGame_ActivationPlate	3
+DataPC_lod.forge	70	Jade	143	9d5b84b0	2308	Human_SafeEntry_Hangwall	14
+DataPC_lod.forge	70	Jade	144	9d5b84b1	3762	Human_SafeEntry_VerticalCrack	23
+DataPC_lod.forge	70	Jade	145	9d5b84b2	15188	Human_SafeEntry_Hangfree	94
+DataPC_lod.forge	70	Jade	146	ba486d1d	4413	Human_SafeEntry_VerticalCrack_NoIdle	27
+DataPC_lod.forge	70	Jade	147	ba486d28	3603	Human_SafeEntry_Hangwall_NoIdle	22
+DataPC_lod.forge	70	Jade	148	cbdf4015	4078	HumanWalling_RingSwitch	25
+DataPC_lod.forge	70	Jade	149	db0480d6	2982	Human_Fight_State	20
+DataPC_lod.forge	76		9	88a5c202	1012	CIN_HC6_009_PrLo	6
+DataPC_lod.forge	76		10	88a5c1f6	2139	CIN_HC6_008_PrLo	13
+DataPC_lod.forge	76		11	8e2341ac	527	CIN_HC6_004_Co	3
+DataPC_lod.forge	76		12	88a5c1ce	690	CIN_HC6_002_PrLo	4
+DataPC_lod.forge	77		7	4ca1c47b	207	CIN_HC5_005_PrLo	1
+DataPC_lod.forge	77		8	4ca1c479	1817	CIN_HC5_003_PrLo	11
+DataPC_lod.forge	77		9	8a45800a	851	CIN_HC5_001_PrLo	5
+DataPC_lod.forge	78		14	5a80c030	1656	CIN_HC3_008_PrLo	10
+DataPC_lod.forge	78		15	5a80c060	527	CIN_HC3_008_Co	3
+DataPC_lod.forge	78		16	5a80c024	851	CIN_HC3_006_PrLo	5
+DataPC_lod.forge	78		17	5a80c01e	1173	CIN_HC3_005_PrLo	7
+DataPC_lod.forge	78		18	5a80c058	527	CIN_HC3_005_Co	3
+DataPC_lod.forge	78		19	5a80c050	688	CIN_HC3_003_Co	3
+DataPC_lod.forge	78		20	5a80c011	1334	CIN_HC3_003_PrLo	8
+DataPC_lod.forge	78		21	5a80c00e	851	CIN_HC3_002_PrLo	5
+DataPC_lod.forge	78		22	5a80c04c	366	CIN_HC3_002_Co	2
+DataPC_lod.forge	78		23	5a80c048	366	CIN_HC3_001_Co	2
+DataPC_lod.forge	79		5	8c7580fe	1012	CIN_HC4_001_PrLo	6
+DataPC_lod.forge	79		6	8c758110	1495	CIN_HC4_019_PrLo	9
+DataPC_lod.forge	80		5	8dcb801b	2139	CIN_HC2_007_PrLo	11
+DataPC_lod.forge	80		6	8dcb8007	1173	CIN_HC2_001_PrLo	7
+DataPC_lod.forge	81		5	5be14f1b	529	CIN_HC1_005_PrLo	3
+DataPC_lod.forge	81		6	5be14f03	1173	CIN_HC1_001_PrLo	7
+DataPC_lod.forge	82		9	5589813d	1012	CIN_OB6_010_PrLo	6
+DataPC_lod.forge	82		10	55898139	1495	CIN_OB6_006_PrLo	9
+DataPC_lod.forge	82		11	55898138	1495	CIN_OB6_005_PrLo	9
+DataPC_lod.forge	82		12	55898135	851	CIN_OB6_002_PrLo	5
+DataPC_lod.forge	83		7	5589812b	851	CIN_OB5_004_PrLo	5
+DataPC_lod.forge	83		8	5589812a	1012	CIN_OB5_003_PrLo	6
+DataPC_lod.forge	83		9	55898128	1334	CIN_OB5_001_PrLo	8
+DataPC_lod.forge	84		11	2ca4805b	1656	CIN_OB4_006_PrLo	10
+DataPC_lod.forge	84		12	2ca48053	1012	CIN_OB4_005_PrLo	6
+DataPC_lod.forge	84		13	55898120	527	CIN_OB4_005_Al	3
+DataPC_lod.forge	84		14	2c8700ea	690	CIN_OB4_004_PrLo	4
+DataPC_lod.forge	84		15	2c8700e9	690	CIN_OB4_003_PrLo	4
+DataPC_lod.forge	84		16	2c8700e4	851	CIN_OB4_001_PrLo	5
+DataPC_lod.forge	85		5	55898107	851	CIN_OB3_004_PrLo	5
+DataPC_lod.forge	85		6	55898105	851	CIN_OB3_002_PrLo	5
+DataPC_lod.forge	86		14	558980e2	1817	CIN_OB2_013_PrLo	11
+DataPC_lod.forge	86		15	558980e1	1817	CIN_OB2_012_PrLo	11
+DataPC_lod.forge	86		16	558980da	690	CIN_OB2_005_PrLo	4
+DataPC_lod.forge	86		17	558980d9	1817	CIN_OB2_004_PrLo	11
+DataPC_lod.forge	86		18	558980d8	529	CIN_OB2_003_PrLo	3
+DataPC_lod.forge	86		19	558980d6	851	CIN_OB2_001_PrLo	5
+DataPC_lod.forge	87		7	2c8700dc	690	CIN_OB1_006_PrLo	4
+DataPC_lod.forge	87		8	2c8700ce	851	CIN_OB1_003_PrLo	5
+DataPC_lod.forge	87		9	2c8700ba	1656	CIN_OB1_001_PrLo	10
+DataPC_lod.forge	88		8	558980bf	1012	CIN_LR6_010_PrLo	6
+DataPC_lod.forge	88		9	558980c5	527	CIN_LR6_005_Wa	3
+DataPC_lod.forge	88		10	558980ba	1012	CIN_LR6_005_PrLo	6
+DataPC_lod.forge	88		11	558980b7	690	CIN_LR6_002_PrLo	4
+DataPC_lod.forge	89		3	5589806c	690	CIN_LR5_002_PrLo	4
+DataPC_lod.forge	90		3	5589808d	1173	CIN_LR4_001_PrLo	7
+DataPC_lod.forge	91		5	536480a8	850	SE_LR2_019_PrLo	5
+DataPC_lod.forge	91		6	5589803d	851	CIN_LR2_001_PrLo	5
+DataPC_lod.forge	92		7	5589802b	366	CIN_LR1_008_Wa	2
+DataPC_lod.forge	92		8	55898022	529	CIN_LR1_008_PrLo	3
+DataPC_lod.forge	92		9	5589801e	1173	CIN_LR1_004_PrLo	7
+DataPC_lod.forge	92		10	5589801b	1173	CIN_LR1_001_PrLo	7
+DataPC_lod.forge	93		9	4d34c262	1007	CIN_RC6_008	6
+DataPC_lod.forge	93		10	4d34c258	2134	CIN_RC6_007	13
+DataPC_lod.forge	93		11	47988000	851	CIN_RC6_004_PrLo	5
+DataPC_lod.forge	93		12	4d34c244	685	CIN_RC6_002	4
+DataPC_lod.forge	95		5	4d34c1f2	1329	CIN_RC4_004	8
+DataPC_lod.forge	95		6	4d34c1ea	524	CIN_RC4_001	3
+DataPC_lod.forge	96		13	4c0dc07c	362	SE_RC2_013	2
+DataPC_lod.forge	96		15	4d34c1a0	2134	CIN_RC2_003	13
+DataPC_lod.forge	96		17	4d34c198	524	CIN_RC2_001	3
+DataPC_lod.forge	96		18	7bae0010	201	SE_RC2_002	1
+DataPC_lod.forge	97		14	7781405d	685	CIN_RC1_007	4
+DataPC_lod.forge	97		15	77814063	3100	CIN_RC1_008	19
+DataPC_lod.forge	97		16	77814056	1168	CIN_RC1_006	7
+DataPC_lod.forge	97		17	507e8107	846	CIN_RC1_003	5
+DataPC_lod.forge	97		18	4bef0072	684	SE_RC1_021	4
+DataPC_lod.forge	97		19	4d34c182	363	CIN_RC1_001	2
+DataPC_lod.forge	98		13	9dab4013	529	CIN_DE3_019_PrLo	3
+DataPC_lod.forge	98		14	6a6045a6	528	SE_DE3_028_PrLo	3
+DataPC_lod.forge	98		15	55898013	1012	CIN_DE3_013_PrLo	6
+DataPC_lod.forge	98		16	55898006	527	CIN_DE3_006_Ki	3
+DataPC_lod.forge	98		19	22f4819b	1334	CIN_DE3_006_PrLo	8
+DataPC_lod.forge	98		20	22f4818f	1173	CIN_DE3_003_PrLo	7
+DataPC_lod.forge	98		21	55898012	1334	CIN_DE3_012_PrLo	8
+DataPC_lod.forge	99		3	52e98033	1010	CIN_DE2_001_Ki	6
+DataPC_lod.forge	99		4	22f48169	1012	CIN_DE2_001_PrLo	6
+DataPC_lod.forge	124		33	88a5c14e	367	SE_HC6_027_PrLo	2
+DataPC_lod.forge	124		34	88a5c152	689	SE_HC6_028_PrLo	4
+DataPC_lod.forge	124		35	88a5c142	528	SE_HC6_024_PrLo	3
+DataPC_lod.forge	124		36	88a5c13e	206	SE_HC6_023_PrLo	1
+DataPC_lod.forge	124		37	604b04b1	848	SE_HC6_023_Co	5
+DataPC_lod.forge	124		38	88a5c132	367	SE_HC6_019_PrLo	2
+DataPC_lod.forge	124		39	604b04a9	365	SE_HC6_019_Co	2
+DataPC_lod.forge	124		40	88a5c124	1333	SE_HC6_017_PrLo	8
+DataPC_lod.forge	124		41	88a5c11a	1011	SE_HC6_016_PrLo	6
+DataPC_lod.forge	124		42	88a5c0f8	2299	SE_HC6_003_PrLo	14
+DataPC_lod.forge	125		22	4ca1c63e	1494	SE_HC5_022_PrLo	9
+DataPC_lod.forge	125		23	4ca1c63d	689	SE_HC5_021_PrLo	4
+DataPC_lod.forge	125		24	4ca1c63c	528	SE_HC5_020_PrLo	3
+DataPC_lod.forge	125		25	4ca1c63b	1011	SE_HC5_014_PrLo	6
+DataPC_lod.forge	125		26	4ca1c63a	367	SE_HC5_013_PrLo	2
+DataPC_lod.forge	125		27	4ca1c638	367	SE_HC5_006_PrLo	2
+DataPC_lod.forge	125		28	4ca1c637	689	SE_HC5_003_PrLo	4
+DataPC_lod.forge	126		52	4ca1c56a	528	SE_HC4_030_PrLo	3
+DataPC_lod.forge	126		53	4ca1c569	689	SE_HC4_029_PrLo	4
+DataPC_lod.forge	126		54	4ca1c568	206	SE_HC4_028_PrLo	1
+DataPC_lod.forge	126		55	4ca1c567	528	SE_HC4_026_PrLo	3
+DataPC_lod.forge	126		56	4ca1c566	850	SE_HC4_025_PrLo	5
+DataPC_lod.forge	126		57	4ca1c565	528	SE_HC4_024_PrLo	3
+DataPC_lod.forge	126		58	4ca1c564	1494	SE_HC4_022_PrLo	9
+DataPC_lod.forge	126		59	4ca1c563	528	SE_HC4_019_PrLo	3
+DataPC_lod.forge	126		60	4ca1c562	2138	SE_HC4_016_PrLo	13
+DataPC_lod.forge	126		61	4ca1c561	689	SE_HC4_014_PrLo	4
+DataPC_lod.forge	126		62	4ca1c560	1494	SE_HC4_013_PrLo	9
+DataPC_lod.forge	126		63	4ca1c55e	367	SE_HC4_006_PrLo	2
+DataPC_lod.forge	126		64	4ca1c55d	1977	SE_HC4_003_PrLo	12
+DataPC_lod.forge	127		45	4ca1c4c7	1333	SE_HC3_033_PrLo	8
+DataPC_lod.forge	127		46	4ca1c4c6	689	SE_HC3_032_PrLo	4
+DataPC_lod.forge	127		47	4ca1c4c5	1494	SE_HC3_030_PrLo	9
+DataPC_lod.forge	127		48	604b03fa	365	SE_HC3_030_Co	2
+DataPC_lod.forge	127		49	4ca1c4c4	2460	SE_HC3_025_PrLo	15
+DataPC_lod.forge	127		50	4ca1c4c3	689	SE_HC3_023_PrLo	4
+DataPC_lod.forge	127		51	4ca1c4c2	850	SE_HC3_022_PrLo	5
+DataPC_lod.forge	127		52	4ca1c4c1	689	SE_HC3_020_PrLo	4
+DataPC_lod.forge	127		53	4ca1c4c0	1172	SE_HC3_019_PrLo	7
+DataPC_lod.forge	127		54	604b03c6	365	SE_HC3_019_Co	2
+DataPC_lod.forge	127		55	4ca1c4bf	689	SE_HC3_013_PrLo	4
+DataPC_lod.forge	128		37	476202dd	1011	SE_HC2_028_PrLo	6
+DataPC_lod.forge	128		38	476202d7	367	SE_HC2_027_PrLo	2
+DataPC_lod.forge	128		39	476202c7	1172	SE_HC2_026_PrLo	7
+DataPC_lod.forge	128		40	604b03ae	848	SE_HC2_026_Co	5
+DataPC_lod.forge	128		41	476202bd	367	SE_HC2_024_PrLo	2
+DataPC_lod.forge	128		42	476202ad	1172	SE_HC2_023_PrLo	7
+DataPC_lod.forge	128		43	47620251	3748	SE_HC2_016_PrLo	23
+DataPC_lod.forge	128		44	47620244	528	SE_HC2_013_PrLo	3
+DataPC_lod.forge	128		45	47620236	528	SE_HC2_006_PrLo	3
+DataPC_lod.forge	128		46	8e108015	1172	SE_HC2_002_PrLo	7
+DataPC_lod.forge	129		37	465b8156	206	SE_HC1_026_PrLo	1
+DataPC_lod.forge	129		38	465b8140	3909	SE_HC1_025_PrLo	24
+DataPC_lod.forge	129		39	465b8138	1011	SE_HC1_024_PrLo	6
+DataPC_lod.forge	129		40	46838166	1333	SE_HC1_023_PrLo	8
+DataPC_lod.forge	129		41	604b03a6	1170	SE_HC1_023_Co	7
+DataPC_lod.forge	129		42	465b8126	1655	SE_HC1_017_PrLo	10
+DataPC_lod.forge	129		43	465b811e	1011	SE_HC1_015_PrLo	6
+DataPC_lod.forge	129		44	465b8114	528	SE_HC1_006_PrLo	3
+DataPC_lod.forge	129		45	465b8106	1816	SE_HC1_003_PrLo	11
+DataPC_lod.forge	130		16	83be0526	367	SE_OB6_024_PrLo	2
+DataPC_lod.forge	130		17	83be0525	1333	SE_OB6_023_PrLo	8
+DataPC_lod.forge	130		18	83be0524	367	SE_OB6_021_PrLo	2
+DataPC_lod.forge	130		19	56e18042	1172	SE_OB6_020_PrLo	7
+DataPC_lod.forge	130		20	83be0523	528	SE_OB6_015_PrLo	3
+DataPC_lod.forge	131		26	83be04f2	689	SE_OB5_018_PrLo	4
+DataPC_lod.forge	131		27	83be04f1	367	SE_OB5_017_PrLo	2
+DataPC_lod.forge	131		28	56e18034	1011	SE_OB5_015_PrLo	6
+DataPC_lod.forge	131		29	83be04f0	1011	SE_OB5_013_PrLo	6
+DataPC_lod.forge	131		30	83be04ee	689	SE_OB5_006_PrLo	4
+DataPC_lod.forge	131		31	83be04ed	2138	SE_OB5_003_PrLo	13
+DataPC_lod.forge	132		25	83be04b4	528	SE_OB4_024_PrLo	3
+DataPC_lod.forge	132		26	83be04af	206	SE_OB4_011_PrLo	1
+DataPC_lod.forge	132		27	272b41b0	1172	SE_OB4_018_PrLo	7
+DataPC_lod.forge	132		28	83be04b1	689	SE_OB4_020_PrLo	4
+DataPC_lod.forge	132		29	83be04b2	689	SE_OB4_021_PrLo	4
+DataPC_lod.forge	132		30	83be04b0	206	SE_OB4_013_PrLo	1
+DataPC_lod.forge	132		31	83be04ad	528	SE_OB4_006_PrLo	3
+DataPC_lod.forge	132		32	83be04ac	1011	SE_OB4_003_PrLo	6
+DataPC_lod.forge	133		17	83be0474	1655	SE_OB3_021_PrLo	10
+DataPC_lod.forge	133		18	50f48006	1333	SE_OB3_019_PrLo	8
+DataPC_lod.forge	133		19	4f28c010	1331	SE_OB3_019_Al	8
+DataPC_lod.forge	133		20	83be0472	1333	SE_OB3_017_PrLo	8
+DataPC_lod.forge	133		21	50e04006	1172	SE_OB3_015_PrLo	7
+DataPC_lod.forge	133		22	83be0470	689	SE_OB3_013_PrLo	4
+DataPC_lod.forge	134		45	83be0451	206	SE_OB2_033_PrLo	1
+DataPC_lod.forge	134		46	83be0450	528	SE_OB2_032_PrLo	3
+DataPC_lod.forge	134		47	83be044f	528	SE_OB2_031_PrLo	3
+DataPC_lod.forge	134		48	558980ec	1333	SE_OB2_030_PrLo	8
+DataPC_lod.forge	134		49	5589809c	1331	SE_OB1_014_Al	8
+DataPC_lod.forge	134		50	83be044e	689	SE_OB2_029_PrLo	4
+DataPC_lod.forge	134		51	83be044d	689	SE_OB2_027_PrLo	4
+DataPC_lod.forge	134		52	83be044c	206	SE_OB2_026_PrLo	1
+DataPC_lod.forge	134		53	83be044b	206	SE_OB2_025_PrLo	1
+DataPC_lod.forge	134		54	83be044a	206	SE_OB2_023_PrLo	1
+DataPC_lod.forge	134		55	83be0449	206	SE_OB2_021_PrLo	1
+DataPC_lod.forge	134		56	83be041f	1172	SE_OB2_019_PrLo	7
+DataPC_lod.forge	134		57	83be041e	367	SE_OB2_017_PrLo	2
+DataPC_lod.forge	134		58	83be041d	1172	SE_OB2_015_PrLo	7
+DataPC_lod.forge	134		59	83be041b	367	SE_OB2_006_PrLo	2
+DataPC_lod.forge	134		60	83be041a	1494	SE_OB2_003_PrLo	9
+DataPC_lod.forge	135		22	83be0407	1816	SE_OB1_016_PrLo	11
+DataPC_lod.forge	135		23	83be0406	1172	SE_OB1_015_PrLo	7
+DataPC_lod.forge	135		24	83be03fd	367	SE_OB1_009_PrLo	2
+DataPC_lod.forge	135		25	83be03fb	367	SE_OB1_006_PrLo	2
+DataPC_lod.forge	135		26	83be03fa	206	SE_OB1_005_PrLo	1
+DataPC_lod.forge	136		27	8ab94855	689	SE_LR6_028_PrLo	4
+DataPC_lod.forge	136		28	8ab94853	3426	SE_LR6_026_PrLo	21
+DataPC_lod.forge	136		29	8ab94852	1333	SE_LR6_025_PrLo	8
+DataPC_lod.forge	136		30	8ab9484f	1816	SE_LR6_022_PrLo	11
+DataPC_lod.forge	136		31	8ab94846	528	SE_LR6_005_PrLo	3
+DataPC_lod.forge	137		30	8ab9480f	367	SE_LR5_023_PrLo	2
+DataPC_lod.forge	137		31	8ab9480c	1011	SE_LR5_020_PrLo	6
+DataPC_lod.forge	137		32	8ab9480a	1172	SE_LR5_017_PrLo	7
+DataPC_lod.forge	137		33	8ab94808	1494	SE_LR5_013_PrLo	9
+DataPC_lod.forge	137		34	8ab94806	206	SE_LR5_006_PrLo	1
+DataPC_lod.forge	137		35	8ab94805	1816	SE_LR5_003_PrLo	11
+DataPC_lod.forge	138		25	8ab947de	1011	SE_LR4_017_PrLo	6
+DataPC_lod.forge	138		26	8ab947dd	367	SE_LR4_016_PrLo	2
+DataPC_lod.forge	138		27	8ab947dc	689	SE_LR4_015_PrLo	4
+DataPC_lod.forge	138		28	8ab947db	850	SE_LR4_014_PrLo	5
+DataPC_lod.forge	138		29	5a43c174	526	SE_LR4_014_Wa	3
+DataPC_lod.forge	138		30	8ab947da	1333	SE_LR4_013_PrLo	8
+DataPC_lod.forge	138		31	8ab947d7	367	SE_LR4_003_PrLo	2
+DataPC_lod.forge	138		32	8ab947d8	528	SE_LR4_006_PrLo	3
+DataPC_lod.forge	139		16	8ab947ab	206	SE_LR3_020_PrLo	1
+DataPC_lod.forge	139		17	8ab947a9	850	SE_LR3_018_PrLo	5
+DataPC_lod.forge	139		18	56e18015	1655	SE_LR3_014_PrLo	10
+DataPC_lod.forge	139		19	8ab947a6	528	SE_LR3_010_PrLo	3
+DataPC_lod.forge	140		54	8ab9473a	1816	SE_LR2_024_PrLo	11
+DataPC_lod.forge	140		55	8ab94739	367	SE_LR2_023_PrLo	2
+DataPC_lod.forge	140		56	8ab94737	1655	SE_LR2_021_PrLo	10
+DataPC_lod.forge	140		57	8ab94735	1172	SE_LR2_018_PrLo	7
+DataPC_lod.forge	140		58	8ab94736	1816	SE_LR2_020_PrLo	11
+DataPC_lod.forge	140		59	8ab94734	850	SE_LR2_017_PrLo	5
+DataPC_lod.forge	140		60	8ab94732	1011	SE_LR2_015_PrLo	6
+DataPC_lod.forge	140		61	8ab94733	3748	SE_LR2_016_PrLo	23
+DataPC_lod.forge	140		62	8ab94731	689	SE_LR2_014_PrLo	4
+DataPC_lod.forge	140		63	8ab9472f	367	SE_LR2_009_PrLo	2
+DataPC_lod.forge	140		64	8ab9472d	367	SE_LR2_006_PrLo	2
+DataPC_lod.forge	140		65	8ab9472c	1655	SE_LR2_003_PrLo	10
+DataPC_lod.forge	141		36	8ab946a9	1172	SE_LR1_024_PrLo	7
+DataPC_lod.forge	141		37	8ab946a8	367	SE_LR1_022_PrLo	2
+DataPC_lod.forge	141		38	8ab946a7	1655	SE_LR1_019_PrLo	10
+DataPC_lod.forge	141		39	8ab946a6	689	SE_LR1_017_PrLo	4
+DataPC_lod.forge	141		42	5a43c13b	687	SE_LR1_015_Wa	4
+DataPC_lod.forge	141		43	56e18001	1333	SE_LR1_015_PrLo	8
+DataPC_lod.forge	141		44	8ab946a3	367	SE_LR1_006_PrLo	2
+DataPC_lod.forge	141		45	8ab946a2	689	SE_LR1_003_PrLo	4
+DataPC_lod.forge	142		13	5627c083	689	SE_RC6_021_PrLo	4
+DataPC_lod.forge	142		14	5627c070	1333	SE_RC6_019_PrLo	8
+DataPC_lod.forge	142		15	6d3880ea	689	SE_RC6_017_PrLo	4
+DataPC_lod.forge	142		16	5627c058	689	SE_RC6_003_PrLo	4
+DataPC_lod.forge	143		35	357a80dd	363	ODD_RC5_026	2
+DataPC_lod.forge	143		36	2375811b	202	ODD_RC5_022	1
+DataPC_lod.forge	143		37	23758114	846	ODD_RC5_019	5
+DataPC_lod.forge	143		38	2375810c	1490	ODD_RC5_017	9
+DataPC_lod.forge	143		39	23758106	1168	ODD_RC5_016	7
+DataPC_lod.forge	143		40	23758100	846	ODD_RC5_014	5
+DataPC_lod.forge	143		41	237580fd	524	ODD_RC5_009	3
+DataPC_lod.forge	143		42	237580f8	685	ODD_RC5_006	4
+DataPC_lod.forge	143		43	237580f5	524	ODD_RC5_003	3
+DataPC_lod.forge	144		23	6d3880e9	1333	SE_RC4_019_PrLo	8
+DataPC_lod.forge	144		24	6d3880e8	689	SE_RC4_018_PrLo	4
+DataPC_lod.forge	144		25	6d3880e7	367	SE_RC4_017_PrLo	2
+DataPC_lod.forge	144		26	6d3880e6	528	SE_RC4_016_PrLo	3
+DataPC_lod.forge	144		27	6d3880e5	1333	SE_RC4_013_PrLo	8
+DataPC_lod.forge	144		28	6d3880e4	367	SE_RC4_006_PrLo	2
+DataPC_lod.forge	145		16	6d3880e3	1011	SE_RC3_018_PrLo	6
+DataPC_lod.forge	145		17	6d3880e2	850	SE_RC3_014_PrLo	5
+DataPC_lod.forge	145		18	6d3880e1	1011	SE_RC3_011_PrLo	6
+DataPC_lod.forge	146		26	6d3880df	1977	SE_RC2_018_PrLo	12
+DataPC_lod.forge	146		27	6d3880de	2299	SE_RC2_016_PrLo	14
+DataPC_lod.forge	146		29	6d3880dd	528	SE_RC2_014_PrLo	3
+DataPC_lod.forge	146		30	6d3880dc	528	SE_RC2_007_PrLo	3
+DataPC_lod.forge	146		31	6d3880db	528	SE_RC2_003_PrLo	3
+DataPC_lod.forge	147		37	4bef007a	684	SE_RC1_025	4
+DataPC_lod.forge	147		38	6d3880da	689	SE_RC1_024_PrLo	4
+DataPC_lod.forge	147		39	6d3880d9	1494	SE_RC1_022_PrLo	9
+DataPC_lod.forge	147		40	6d3880d8	1494	SE_RC1_020_PrLo	9
+DataPC_lod.forge	147		41	6d3880d7	2460	SE_RC1_017_PrLo	15
+DataPC_lod.forge	147		42	6d3880d6	528	SE_RC1_013_PrLo	3
+DataPC_lod.forge	147		43	6d3880d5	367	SE_RC1_006_PrLo	2
+DataPC_lod.forge	147		44	6d3880d4	689	SE_RC1_003_PrLo	4
+DataPC_lod.forge	148		57	6af7c005	689	SE_DE3_056_PrLo	4
+DataPC_lod.forge	148		58	6af7c004	689	SE_DE3_055_PrLo	4
+DataPC_lod.forge	148		59	6af7c002	367	SE_DE3_046_PrLo	2
+DataPC_lod.forge	148		60	6a6046ac	4714	SE_DE3_041_PrLo	29
+DataPC_lod.forge	148		61	6a6045a9	528	SE_DE3_033_PrLo	3
+DataPC_lod.forge	148		62	6a60458f	689	SE_DE3_023_PrLo	4
+DataPC_lod.forge	148		63	6a6045a7	2299	SE_DE3_030_PrLo	14
+DataPC_lod.forge	148		64	13e5c203	2782	SE_DE3_020_PrLo	17
+DataPC_lod.forge	148		65	6a604580	528	SE_DE3_011_PrLo	3
+DataPC_lod.forge	148		66	13e5c1b9	5358	SE_DE3_008_PrLo	33
+DataPC_lod.forge	148		67	13e5c1b1	689	SE_DE3_006_PrLo	4
+DataPC_lod.forge	148		68	6a604570	850	SE_DE3_005_PrLo	5
+DataPC_lod.forge	148		69	13e5c17b	3909	SE_DE3_001_PrLo	24
+DataPC_lod.forge	149		8	6a60455b	1333	SE_DE2_004_PrLo	8
+DataPC_lod.forge	150		35	6a604553	1172	SE_DE1_013_PrLo	7
+DataPC_lod.forge	150		36	71c2402e	687	SE_DE1_013_Gu	0
+DataPC_lod.forge	150		39	13e5c127	528	SE_DE1_008_PrLo	3
+DataPC_lod.forge	150		40	6a604544	1333	SE_DE1_007_PrLo	8
+DataPC_lod.forge	150		41	6a604543	1011	SE_DE1_006_PrLo	6
+DataPC_lod.forge	150		42	6a60452e	1494	SE_DE1_001_PrLo	9
+DataPC_lod.forge	151		66	6a6045aa	6002	SE_DE3_034_PrLo	37
+DataPC_lod.forge	152		48	6af7c003	3587	SE_DE3_050_PrLo	22
+DataPC_lod.forge	152		49	6af7c001	1816	SE_DE3_045_PrLo	11
+DataPC_lod.forge	152		50	6af7c000	9222	SE_DE3_042_PrLo	57
+DataPC_lod.forge	152		51	6a60458e	528	SE_DE3_019_PrLo	3
+DataPC_lod.forge	152		52	6a604583	367	SE_DE3_017_PrLo	2
+DataPC_lod.forge	152		53	6a604582	367	SE_DE3_016_PrLo	2
+DataPC_lod.forge	152		54	6a604590	2299	SE_DE3_027_PrLo	14
+DataPC_lod.forge	152		55	6a604581	528	SE_DE3_014_PrLo	3
+DataPC_lod.forge	153		14	13e5c157	2943	SE_DE2_002_PrLo	18
+DataPC_lod.forge	153		15	52ab4612	1009	SE_DE2_002_Gu	6
+DataPC_lod.forge	153		16	6a60455c	1816	SE_DE2_005_PrLo	11
+DataPC_lod.forge	153		17	6af7c006	689	SE_DE3_057_PrLo	4

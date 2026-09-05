@@ -1,0 +1,118 @@
+estate-wide ActionBlock census + reference search  (read-only, game not launched)
+archives scanned: 18
+needles: 22 id values (3 target, 19 control) x 2 byte orders, 7 strings x 2 encodings
+ActionBlock type hash = 0xef82fce4 = crc32('ActionBlock')
+
+== DataPC.forge                       datafiles=   30 ActionBlocks=   20  (    2s, 0.09 GB decompressed)
+== DataPC_DE.forge                    datafiles=   28 ActionBlocks=  178  (   22s, 0.80 GB decompressed)
+== DataPC_Default.forge               datafiles=    4 ActionBlocks=    0  (   22s, 0.81 GB decompressed)
+== DataPC_Ext.forge                   datafiles=    1 ActionBlocks=    0  (   22s, 0.81 GB decompressed)
+== DataPC_HC.forge                    datafiles=   28 ActionBlocks=  183  (   49s, 1.82 GB decompressed)
+== DataPC_JCT.forge                   datafiles=   39 ActionBlocks=    0  (   59s, 2.21 GB decompressed)
+== DataPC_LR.forge                    datafiles=   28 ActionBlocks=  191  (   89s, 3.33 GB decompressed)
+== DataPC_OB.forge                    datafiles=   29 ActionBlocks=  164  (  117s, 4.36 GB decompressed)
+== DataPC_POP0WORLD.forge             datafiles=   43 ActionBlocks=  431  (  141s, 5.14 GB decompressed)
+== DataPC_POP0WORLD_Ext.forge         datafiles=    1 ActionBlocks=    0  (  141s, 5.14 GB decompressed)
+== DataPC_RC.forge                    datafiles=   28 ActionBlocks=  249  (  172s, 6.27 GB decompressed)
+== DataPC_StreamedSounds.forge        datafiles= 1687 ActionBlocks=    0  (  183s, 6.83 GB decompressed)
+== DataPC_StreamedSoundsEng.forge     datafiles= 6260 ActionBlocks=    0  (  185s, 7.00 GB decompressed)
+== DataPC_StreamedSoundsFre.forge     datafiles= 6260 ActionBlocks=    0  (  188s, 7.15 GB decompressed)
+== DataPC_StreamedSoundsGer.forge     datafiles= 6260 ActionBlocks=    0  (  191s, 7.32 GB decompressed)
+== DataPC_StreamedSoundsIta.forge     datafiles= 6260 ActionBlocks=    0  (  194s, 7.48 GB decompressed)
+== DataPC_StreamedSoundsSpa.forge     datafiles= 6260 ActionBlocks=    0  (  197s, 7.64 GB decompressed)
+== DataPC_lod.forge                   datafiles=  155 ActionBlocks= 1048  (  246s, 9.28 GB decompressed)
+
+TOTALS: archives=18 datafiles=33401 decompressed=9279242190 bytes (9.28 GB) in 246s
+ActionBlocks enumerated: 2464  (8563296 bytes)
+datafiles not chunked: 33000 ; decompress failures: 0 ; datablock-split failures: 0
+
+-- CONTROL A: how many datablock ids each ActionBlock's bytes contain
+   ActionBlocks referencing >=1 other datablock id: 2439 of 2464 (99.0%)
+     0 ids:    25 ActionBlocks
+     1 ids:   218 ActionBlocks
+     2 ids:   191 ActionBlocks
+     3 ids:   239 ActionBlocks
+     4 ids:   205 ActionBlocks
+     5 ids:   174 ActionBlocks
+     6 ids:   114 ActionBlocks
+     7 ids:   142 ActionBlocks
+     8 ids:    89 ActionBlocks
+     9 ids:    85 ActionBlocks
+    10 ids:    64 ActionBlocks
+    11 ids:    72 ActionBlocks
+    12 ids:    26 ActionBlocks
+    13 ids:    34 ActionBlocks
+    14 ids:    44 ActionBlocks
+   examples:
+     DataPC.forge [28] Game Bootstrap block 4626 'GLO_BG_CINE_004_PrLo' -> 5 ids, e.g. 0015cc7b:BodyPartTemplate, 64b7c00f:Animation, 64b7c012:Animation, 64c3401e:Animation
+     DataPC.forge [28] Game Bootstrap block 4627 'GLO_BG_CINE_003_PrLo' -> 3 ids, e.g. 0015cc7b:BodyPartTemplate, 64b7c00c:Animation, 64c3401a:Animation
+     DataPC.forge [28] Game Bootstrap block 4628 'GLO_BG_CINE_002_PrLo' -> 3 ids, e.g. 0015cc7b:BodyPartTemplate, 64b7c009:Animation, 64c34016:Animation
+     DataPC.forge [28] Game Bootstrap block 4629 'GLO_BG_CINE_001_PrLo' -> 7 ids, e.g. 0015cc7b:BodyPartTemplate, 64b7c000:Animation, 64b7c003:Animation, 64b7c006:Animation
+     DataPC.forge [28] Game Bootstrap block 4648 'ODD_World_Heal' -> 63 ids, e.g. 0015cc7b:BodyPartTemplate, 71fe00f0:Animation, 71fe00f4:Animation, 71fe00f8:Animation
+     DataPC.forge [28] Game Bootstrap block 4649 'ODD_World_Companion' -> 46 ids, e.g. 0015cc7b:BodyPartTemplate, 71fe0094:Animation, 71fe0098:Animation, 71fe009c:Animation
+     DataPC.forge [28] Game Bootstrap block 4650 'ODD_World_Ally' -> 36 ids, e.g. 0015cc7b:BodyPartTemplate, 71fe0000:Animation, 71fe0004:Animation, 71fe0008:Animation
+     DataPC.forge [28] Game Bootstrap block 4651 'ODD_World_Strangers' -> 20 ids, e.g. 0015cc7b:BodyPartTemplate, 71fe0178:Animation, 71fe017c:Animation, 71fe0180:Animation
+     DataPC.forge [28] Game Bootstrap block 6026 'GLO_BG_CINE_005_PrLo' -> 7 ids, e.g. 0015cc7b:BodyPartTemplate, 64b7c015:Animation, 64b7c018:Animation, 64b7c01b:Animation
+     DataPC.forge [28] Game Bootstrap block 6045 'ODD_GLO_SODD_003_PrLo' -> 19 ids, e.g. 0015cc7b:BodyPartTemplate, 76000000:SoundBao, 8f7d0010:Animation, 8f7d0014:Animation
+     DataPC.forge [28] Game Bootstrap block 6226 'ODD_GLO_SODD_006_PrLo' -> 5 ids, e.g. 0015cc7b:BodyPartTemplate, 8f7d0058:Animation, 8f7d005c:Animation, 8f7d00b4:Animation
+     DataPC.forge [28] Game Bootstrap block 6227 'ODD_GLO_SODD_005_PrLo' -> 5 ids, e.g. 0015cc7b:BodyPartTemplate, 8f7d0050:Animation, 8f7d0054:Animation, 8f7d00ac:Animation
+
+-- NEEDLE RESULTS (hits anywhere / of those, hits inside an ActionBlock)
+   TARGET-ID   0x81358011 StartMenuDebug_m/P_MainMenuDebug                   7 hits,    0 in ActionBlocks
+   TARGET-ID   0x81358011 StartMenuDebug_m/P_MainMenuDebug [BE]              7 hits,    0 in ActionBlocks
+   TARGET-ID   0x96e48045 DebugMenuHandler_m/P_PauseMenuDebug                3 hits,    0 in ActionBlocks
+   TARGET-ID   0x96e48045 DebugMenuHandler_m/P_PauseMenuDebug [BE]           0 hits,    0 in ActionBlocks
+   TARGET-ID   0x96e48049 CheatMenuMagma_m/P_CheatMenuDebug                  3 hits,    0 in ActionBlocks
+   TARGET-ID   0x96e48049 CheatMenuMagma_m/P_CheatMenuDebug [BE]             0 hits,    0 in ActionBlocks
+   control-id  0x96e48031 MainPauseMenuHandler_m/P_PauseMenu                 4 hits,    0 in ActionBlocks
+   control-id  0x96e48031 MainPauseMenuHandler_m/P_PauseMenu [BE]            1 hits,    0 in ActionBlocks
+   control-id  0x96e4804d PauseMenuHandler_m                                 3 hits,    0 in ActionBlocks
+   control-id  0x96e4804d PauseMenuHandler_m [BE]                            0 hits,    0 in ActionBlocks
+   control-id  0x96e4802d OptionsMenuHandler_m/P_PauseOptions                3 hits,    0 in ActionBlocks
+   control-id  0x96e4802d OptionsMenuHandler_m/P_PauseOptions [BE]           0 hits,    0 in ActionBlocks
+   control-id  0x96e48035 SaveGameMenuHandler_m/P_PauseSave                  3 hits,    0 in ActionBlocks
+   control-id  0x96e48035 SaveGameMenuHandler_m/P_PauseSave [BE]             0 hits,    0 in ActionBlocks
+   control-id  0x96e48039 DisplayOptionsMenuHandler_m                        3 hits,    0 in ActionBlocks
+   control-id  0x96e48039 DisplayOptionsMenuHandler_m [BE]                   0 hits,    0 in ActionBlocks
+   control-id  0x96e4804e SoundOptionsMenuHandler_m                          3 hits,    0 in ActionBlocks
+   control-id  0x96e4804e SoundOptionsMenuHandler_m [BE]                     1 hits,    0 in ActionBlocks
+   control-id  0x96e4803d ControlsMenuHandler_m                              3 hits,    0 in ActionBlocks
+   control-id  0x96e4803d ControlsMenuHandler_m [BE]                         7 hits,    0 in ActionBlocks
+   control-id  0x96e48041 CombosListMenuHandler_m                            3 hits,    0 in ActionBlocks
+   control-id  0x96e48041 CombosListMenuHandler_m [BE]                       0 hits,    0 in ActionBlocks
+   control-id  0x3ccac026 PreGameMainMenuHandler_m/P_MainMenu                3 hits,    0 in ActionBlocks
+   control-id  0x3ccac026 PreGameMainMenuHandler_m/P_MainMenu [BE]           0 hits,    0 in ActionBlocks
+   control-id  0x3ccac022 StartMenuE3Handler_m/P_SplashPage                  4 hits,    0 in ActionBlocks
+   control-id  0x3ccac022 StartMenuE3Handler_m/P_SplashPage [BE]             0 hits,    0 in ActionBlocks
+   control-id  0x3ccac02a PreGameMenuHandler_m                               7 hits,    0 in ActionBlocks
+   control-id  0x3ccac02a PreGameMenuHandler_m [BE]                          0 hits,    0 in ActionBlocks
+   control-id  0x149f4000 TutorialMenuHandler_m/P_Tutorial                  29 hits,    0 in ActionBlocks
+   control-id  0x149f4000 TutorialMenuHandler_m/P_Tutorial [BE]              2 hits,    0 in ActionBlocks
+   control-id  0x81358015 HudMenuHandler_m/P_HUD                             3 hits,    0 in ActionBlocks
+   control-id  0x81358015 HudMenuHandler_m/P_HUD [BE]                        0 hits,    0 in ActionBlocks
+   control-id  0xca3a0004 MapMenuHandler_m/P_Map                             6 hits,    0 in ActionBlocks
+   control-id  0xca3a0004 MapMenuHandler_m/P_Map [BE]                        1 hits,    0 in ActionBlocks
+   control-id  0xa106c000 TCRMenuHandler_m/P_AlertTCR                       13 hits,    0 in ActionBlocks
+   control-id  0xa106c000 TCRMenuHandler_m/P_AlertTCR [BE]                  22 hits,    0 in ActionBlocks
+   control-id  0x2c2e4005 DownloadableContentMenuHandler_m                   4 hits,    0 in ActionBlocks
+   control-id  0x2c2e4005 DownloadableContentMenuHandler_m [BE]              0 hits,    0 in ActionBlocks
+   control-id  0x081b8052 MagmaMgbFile MagmaCommon_MGB (the debug menus' UI file)     16 hits,    0 in ActionBlocks
+   control-id  0x081b8052 MagmaMgbFile MagmaCommon_MGB (the debug menus' UI file) [BE]      1 hits,    0 in ActionBlocks
+   control-id  0x082ac02a MagmaMgbFile MagmaInGame_MGB (the normal pause menu's UI file)     10 hits,    0 in ActionBlocks
+   control-id  0x082ac02a MagmaMgbFile MagmaInGame_MGB (the normal pause menu's UI file) [BE]      1 hits,    0 in ActionBlocks
+   control-id  0x00000808 InterfaceManager 'Interface Manager'            6010 hits,    0 in ActionBlocks
+   control-id  0x00000808 InterfaceManager 'Interface Manager' [BE]       2951 hits,    6 in ActionBlocks
+   TARGET-STR  str 'P_MainMenuDebug'                                         1 hits,    0 in ActionBlocks
+   TARGET-STR  str 'P_MainMenuDebug' [utf16]                                 0 hits,    0 in ActionBlocks
+   TARGET-STR  str 'P_PauseMenuDebug'                                        1 hits,    0 in ActionBlocks
+   TARGET-STR  str 'P_PauseMenuDebug' [utf16]                                0 hits,    0 in ActionBlocks
+   TARGET-STR  str 'P_CheatMenuDebug'                                        1 hits,    0 in ActionBlocks
+   TARGET-STR  str 'P_CheatMenuDebug' [utf16]                                0 hits,    0 in ActionBlocks
+   control-str str 'P_PauseMenu'                                             2 hits,    0 in ActionBlocks
+   control-str str 'P_PauseMenu' [utf16]                                     0 hits,    0 in ActionBlocks
+   control-str str 'P_MainMenu'                                              2 hits,    0 in ActionBlocks
+   control-str str 'P_MainMenu' [utf16]                                      0 hits,    0 in ActionBlocks
+   TARGET-STR  str 'MenuDebug'                                               4 hits,    0 in ActionBlocks
+   TARGET-STR  str 'MenuDebug' [utf16]                                       0 hits,    0 in ActionBlocks
+   TARGET-STR  str 'DebugMenu'                                               0 hits,    0 in ActionBlocks
+   TARGET-STR  str 'DebugMenu' [utf16]                                       0 hits,    0 in ActionBlocks

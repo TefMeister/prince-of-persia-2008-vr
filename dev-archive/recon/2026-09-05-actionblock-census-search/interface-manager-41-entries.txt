@@ -1,0 +1,66 @@
+InterfaceManager id=00000808 count=41  (body starts +0x1e)
+   0  a108001d  MagmaMenuHandler_m                   
+   1  81358021  MagmaMenuHandler_m                   
+   2  a1080019  MagmaMenuHandler_m                   
+   3  a1080015  MagmaMenuHandler_m                   
+   4  a1080011  MagmaMenuHandler_m                   
+   5  81358011  StartMenuDebug_m                     
+   6  96e4804d  PauseMenuHandler_m                   
+   7  96e48031  MainPauseMenuHandler_m               
+   8  96e4802d  OptionsMenuHandler_m                 
+   9  96e48035  SaveGameMenuHandler_m                
+  10  96e48039  DisplayOptionsMenuHandler_m          
+  11  96e4804e  SoundOptionsMenuHandler_m            
+  12  96e4803d  ControlsMenuHandler_m                
+  13  96e48041  CombosListMenuHandler_m              
+  14  96e48045  DebugMenuHandler_m                   
+  15  3ccac02a  PreGameMenuHandler_m                 
+  16  3ccac026  PreGameMainMenuHandler_m             
+  17  3ccac022  StartMenuE3Handler_m                 
+  18  47154008  FadeHandler_m                        
+  19  a106c000  TCRMenuHandler_m                     
+  20  da2400d9  MagmaMenuHandler_m                   
+  21  a106c00d  PreGameOptionsMenuHandler_m          
+  22  a1080001  PreGameDisplayOptionsMenuHandler_m   
+  23  a1080005  PreGameSoundOptionsMenuHandler_m     
+  24  a1080009  PreGameControlsMenuHandler_m         
+  25  a108000d  PreGameCombosListMenuHandler_m       
+  26  a186c0cc  MagmaMenuHandler_m                   
+  27  149f4000  TutorialMenuHandler_m                
+  28  81358015  HudMenuHandler_m                     
+  29  ca3a0004  MapMenuHandler_m                     
+  30  96e48049  CheatMenuMagma_m                     
+  31  a1320000  PreGameLoadGameMenuHandler_m         
+  32  a1320004  PreGameLoadingScreenMenuHandler_m    
+  33  0b0f4004  PreGameExtrasMenuHandler_m           
+  34  0b0f4008  PreGameArtGalleryMenuHandler_m       
+  35  0b0f400c  PreGameSkinManagerMenuHandler_m      
+  36  5e92d4db  SaveGameIconHandler_m                
+  37  5e92c043  MagmaMenuHandler_m                   
+  38  7dd340e0  MagmaMenuHandler_m                   
+  39  7dd340e4  PreGameCreditsMenuHandler_m          
+  40  2c2e4005  DownloadableContentMenuHandler_m     
+tail after table (+0xce): 000004000000020000
+
+== MagmaMgbFile blocks in Game Bootstrap
+  block   414 id=04678001 size=    45432 name='LocMagmaIngame_MGB'
+  block   415 id=081b804f size=    18908 name='MagmaFonts_MGB'
+  block   416 id=04df0001 size=    67429 name='LocMagmaMap_MGB'
+  block   417 id=04ad0001 size=   133613 name='LocMagmaPregame_MGB'
+  block   418 id=8f87c001 size=    70429 name='LocMagmaTCR_MGB'
+  block   419 id=081b8052 size=  1338945 name='MagmaCommon_MGB'
+  block   421 id=082ac02a size=   481321 name='MagmaInGame_MGB'
+  block   430 id=9f4ec01f size=   671302 name='MagmaPregame_MGB'
+  block   431 id=07768001 size=   277774 name='MagmaHUD_MGB'
+  block   432 id=a0e24001 size=   315435 name='LocMagmaTutorials_MGB'
+  block   433 id=89cbc004 size=   818742 name='MagmaMap_MGB'
+  block   490 id=7887c001 size=    30573 name='MagmaSaving_MGB'
+  block   491 id=5e92c009 size=    25922 name='MagmaMapTextures_MGB'
+  block   492 id=68c24001 size=    24433 name='LocMagmaCredits_MGB'
+  block   493 id=7eb1c003 size=   360526 name='MagmaCredits_MGB'
+
+== every block whose type name contains Magma
+  CheatMenuMagma_m               1
+  MagmaMenuHandler_m             9
+  MagmaMftFile                   5
+  MagmaMgbFile                   15

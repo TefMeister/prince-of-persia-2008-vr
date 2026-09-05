@@ -35,6 +35,28 @@ through an `ActionBlock` (2,464 estate-wide) not yet searched. Evidence:
 `dev-archive/recon/2026-09-04-debug-menu-datablocks/`; write-up:
 `modding-notes/2026-09-04b-debug-menu-screens-confirmed-in-pc-data.md`.
 
+**✅ 2026-09-05 (`/pd`, no launch) — the `ActionBlock` hypothesis above is CLOSED, and the menu
+handler layout is decoded.** The estate-wide `ActionBlock` census was searched exhaustively: 18
+archives, 33,401 datafiles, 9.28 GB decompressed, **2,464 `ActionBlock`s — matching the
+independent 2026-09-02 `type-census.tsv` count exactly** — and **neither debug-menu id appears in
+any of them**, in either byte order or as an ASCII text id. `[verified-numerically 2026-09-05,
+n=2,464, 0 hits]` **Nor does any of the 19 ordinary menu-handler ids used as controls**, so the
+two systems simply do not reference each other. Controls that make the negative evidence: 2,439 of
+2,464 `ActionBlock`s (99.0%) DO carry other datablocks' raw ids and were detected by the same
+scan; the text-form sweep found the `MagmaCommon_MGB` id 274 times and the `MagmaFonts_MGB` id
+2,390 times. **The structural reason:** every menu-handler datablock is just
+`{u32 own id; u32 typeHash; u32 MagmaMgbFile id; u32 nameLen; char screenName[]}` — a binding of a
+screen name to a Magma UI file, with no field for an action list or a state name.
+`[verified-numerically 2026-09-05, n=39 handler blocks]` All three debug screens
+(`P_MainMenuDebug`, `P_PauseMenuDebug`, and a **third, newly identified: `CheatMenuMagma_m` /
+`P_CheatMenuDebug`**, entry 30 of the 41-entry registry) bind to `MagmaCommon_MGB` (block 419,
+1,338,945 bytes). **So the item→`CGST_DebugMode` link is in the Magma UI file or in the C++
+handler class, not in data lists** — the exe carries the three class names in its reflection table
+but none of the `P_*` screen names, and the MGB carries no `P_*` string in ASCII or UTF-16LE.
+`[inferred-static 2026-09-05]` Evidence:
+`dev-archive/recon/2026-09-05-actionblock-census-search/`; write-up:
+`modding-notes/2026-09-05-the-actionblock-census-searched-menus-and-actionblocks-never-meet.md`.
+
 ## 4. DRM / anti-debug & injection foothold
 - DRM (CEG/Denuvo/GOG/none); launch-time-debugger behaviour: **Reconciled, 2026-08-25 — appears genuinely DRM-free, on two rounds of evidence.** Initial static pass found no Denuvo/SecuROM/StarForce/Uplay strings. External-research then flagged a real, specific reason to double-check: the 2008 **retail boxed** PC release was famously, publicly made DRM-free (widely covered contemporary press — Ubisoft removed disc-check protection entirely), but digital/downloadable versions weren't confirmed part of that move, and this console-generation's PC ports commonly carried **StarForce** (a kernel-driver-based DRM, architecturally very different from Denuvo — also flagged as having known compatibility problems on modern Windows independent of anti-piracy concerns). **Follow-up check on the actually-installed Steam build, specifically for StarForce**: no `*starforce*`/`*sfdrv*`/`*.sys`/`*protection*` files anywhere in the install directory, no StarForce Windows service installed, no StarForce-related strings anywhere in the exe (broadened search beyond the first pass). **Conclusion: this Steam release appears to have shipped DRM-free, consistent with the retail precedent** — not airtight certainty (no debugger has been attached live yet, unlike Mad Max where live testing was what actually settled the equivalent question), but two independent negative checks plus a real historical precedent make this well-supported.
 - Attach workflow that works: not yet tested live, but no static evidence predicts a block this time — genuinely different starting expectation than Mad Max going into its first live test.
@@ -386,6 +408,12 @@ submission path — see that project's §9 for the D3D9-vs-D3D9Ex bridge problem
 - Frame-capture method; where images land: not yet investigated.
 
 ## 11. Dead ends & false leads (save future time)
+- **`ActionBlock`s are NOT how menus are wired — don't search them for a menu id again
+  (2026-09-05).** The whole 2,464-block census was swept for all 19 menu-handler ids, in both byte
+  orders and as ASCII text ids: zero hits, against controls showing 99.0% of `ActionBlock`s do
+  carry datablock ids and that text-form ids are found 2,664 times. `ActionBlock`s hold
+  cutscene/animation lists (`Animation`, `BodyPartTemplate`, `SoundBao`); the menu system is a
+  separate graph reached only through `InterfaceManager`. `[verified-numerically 2026-09-05]`
 - **`GraphRuleBook "MENU RuleBook"` and its children are the menu open/close visual-FX graph, not
   the debug-state entry (2026-09-04).** `MENU RuleBook` → `Menu InGame` / `Menu NavigationMap` →
   `FXRule`s literally named `Entering Menu` / `Leaving Menu`, referenced from `FXGraph 'FX Graph'`.

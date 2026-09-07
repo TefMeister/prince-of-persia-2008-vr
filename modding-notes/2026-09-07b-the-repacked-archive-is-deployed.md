@@ -124,3 +124,63 @@ something impossible, repack, relaunch.
   priority field would have been wasted work
 
 This costs one repack and one launch, and it is worth more than trying (a) blind.
+
+
+---
+
+# ✅✅ RESOLVED, SAME DAY — THE EDIT WORKS. IT GIVES A FREE DEBUG CAMERA.
+
+The `RESULT` section above is **superseded**. It said the edit did not produce a first-person
+camera and read the camera as unchanged. That reading was taken **standing still**, and it was
+wrong.
+
+Tefa took the controls in the loaded save and reported:
+
+> *"movement keys move BOTH the camera freely around, i can go up in the sky or through the walls,
+> but they also move prince still, so normal gameplay is impossible right now as camera is not
+> locked to Prince. the characterless camera is just you panning the camera away so far that
+> prince just dissapears from view."*
+
+`[verified-live 2026-09-07, n=1, observed by Tefa at the controls]` Evidence:
+`dev-archive/recon/2026-09-07-camera-after-load/6-FREE-CAMERA-CONFIRMED-top-down-on-prince.png`
+— the camera parked high above the Prince, who is a small figure far below. No third-person camera
+in this game produces that.
+
+## The result, stated plainly
+
+**Rewriting `CR_Debug_1stPerson`'s state list to `(309, 309, 309)` takes over the camera in normal
+gameplay, with no code patch of any kind.** The 2026-09-02 plan works, through pure data, and the
+repacker was the only thing that was ever missing.
+
+What it yields is a **free / detached camera**:
+
+| behaviour | consequence |
+| --- | --- |
+| camera flies freely — sky, through walls | a usable flycam for VR recon, immediately |
+| the same keys still drive the Prince | camera and character move together |
+| camera is not locked to the Prince | **normal play is impossible on this build** |
+
+⚠️ So this build is a **modding build, not a playable one.** Reverting is one file copy:
+`copy DataPC.forge.bak-2026-09-07-pre-debugcam DataPC.forge`.
+
+## My two wrong readings, and the lesson
+
+1. **"The edit did nothing"** — standing still is the one state where a free camera happens to sit
+   in a plausible third-person position.
+2. **"A character-less camera"** — that was me flying the camera away from him.
+
+Both frames were real; both interpretations were mine and both were wrong. **A still frame cannot
+distinguish a locked camera from a free one.** The discriminating action is to *move the camera and
+see whether the subject stays* — which a human at the controls settled in seconds, after I had
+spent several captures on it.
+
+## What is open now — a much better problem than this morning's
+
+- **Which rule is actually winning?** `CR_Debug_1stPerson`'s recorded states were `188
+  CGST_DebugMode, 189 CGST_DebugModeFPSCamera, 309`, but the behaviour is a ghost/free cam, which
+  is what `CR_Debug_GhostCam` (`188, 309, 309`) sounds like. Either this rule's *execution* is a
+  free camera in this build, or opening the gate let a different rule win. `[hypothesis]`
+- **Locking the camera to the Prince's head** is the remaining step to the North Star — and it is
+  now a **data** question against a validated repacker, not a code question.
+- The old "raise its priority" half of the mod may be unnecessary: the rule is evidently already
+  winning.

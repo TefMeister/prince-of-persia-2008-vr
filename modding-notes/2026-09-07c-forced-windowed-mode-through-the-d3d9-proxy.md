@@ -269,6 +269,67 @@ is that **the title screen is most likely waiting on XInput**, i.e. a gamepad, w
 what a console port of this vintage would do. That is now the leading hypothesis and it is cheap
 to test: an XInput pad (real or emulated) at the title screen either advances it or does not.
 
+## 6d. ADDENDUM 3 — the gamepad hypothesis was RIGHT, the control passed, and the injection point is now known
+
+Tefa plugged in a **DualSense with Steam Input** and the title screen advanced immediately.
+`[verified-live 2026-09-07, n=1]` **The title screen wants a gamepad** — that was the leading
+hypothesis in §6c and it is confirmed. A console port of this vintage, exactly as suspected.
+
+**That also delivered the positive control §6c said was missing**, and it passes:
+
+```
+SetCooperativeLevel [GUID_SysMouse]    flags=0x6  [NONEXCLUSIVE FOREGROUND]
+Acquire             [GUID_SysMouse]    -> 0x00000000
+SetCooperativeLevel [GUID_SysKeyboard] flags=0x16 [NONEXCLUSIVE FOREGROUND NOWINKEY]
+Acquire             [GUID_SysKeyboard] -> 0x00000000
+GetDeviceState #2   [GUID_SysKeyboard] cb=256 -> 0x00000000
+… #100 … #1000 … #10000 … #15000
+```
+
+So the device-level hooks **do** fire, the slot indices **are** right, and §6c's title-screen
+result stands on its own feet: **the title screen genuinely never polls DirectInput**, while
+gameplay polls the keyboard at roughly **200 Hz**.
+
+⚠️ **And it retroactively invalidates the original SendInput test.** Every injected-input attempt
+on 2026-09-07 was made at the **title screen — the one place in the game that reads no input at
+all.** That negative had no power to produce a positive and was worthless as evidence. It has now
+been re-run properly.
+
+### The re-run, and it is a clean controlled negative this time
+
+Game verified foreground; keyboard acquired **NONEXCLUSIVE**; polling at ~200 Hz; a key held down
+via `SendInput` for **22 seconds**, spanning four logged samples:
+
+```
+keys currently down: 0    (baseline)
+keys currently down: 0    <- while W was held
+keys currently down: 0    <- while W was held
+keys currently down: 0    <- while W was held
+```
+
+**`SendInput` keyboard injection does not reach this game's DirectInput device state.**
+`[verified-live 2026-09-07, n=1, with the control the first attempt lacked]` Notably this is *not*
+the usual exclusive-acquisition explanation — the device is `NONEXCLUSIVE`, where injection would
+normally be seen. Why it still fails is unexplained, and is now **uninteresting**, because:
+
+### ⭐ The dead end is actually the injection point
+
+We are already inside `IDirectInputDevice8::GetDeviceState`, hooked, logging, called ~200 times a
+second with a **256-byte keyboard array**. Full keyboard automation does not need Windows input
+injection at all — it needs **eight lines in the hook we have already written**: on return, set
+`state[DIK_*] |= 0x80` for whatever keys the harness wants held.
+
+That is a proxy change, compile-verifiable, needing no launch to build:
+
+- an atomic 256-byte "virtual key state" the harness sets from outside (a file, a named pipe, or a
+  simple keyboard-message window in the proxy)
+- OR'd into the array the game receives, after the real call
+- it cannot be blocked by focus, UIPI, or whatever is eating `SendInput`, because it happens
+  **inside the game's own read path**
+
+The mouse device is right there too (`cb=20`, `DIMOUSESTATE`), so camera control comes with it —
+which is the one that matters for VR recon.
+
 ## 7. Not established
 
 - **Whether the first-person camera edit did anything.** Gameplay was never reached, because of

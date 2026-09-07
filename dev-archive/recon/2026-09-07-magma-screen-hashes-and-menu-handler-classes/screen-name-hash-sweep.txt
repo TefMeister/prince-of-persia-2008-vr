@@ -1,0 +1,34 @@
+Screen names are stored in Magma .MGB UI files as CRC32 little-endian, not as text.
+Source: DataPC.forge -> 'Game Bootstrap' -> MagmaMgbFile datablocks, bodies only.
+Generated 2026-09-07 by /pd. No game launched.
+
+screen name                   crc32 |   Common   InGame   Pregame   Fonts
+P_PauseMenu              0xab726231 |        0       36         0       0   positive control - ordinary in-game pause menu
+P_MainMenu               0x9da62dfb |        0        0        36       0   positive control - ordinary pregame main menu
+P_Options                0x9ab9a8d7 |        0        0        36       0   positive control - ordinary options screen
+P_PauseMenuDebug         0xba8c1f01 |       60        0         0       0   TARGET - DebugMenuHandler_m
+P_MainMenuDebug          0xd9c2ab89 |       24        0         0       0   TARGET - StartMenuDebug_m
+P_CheatMenuDebug         0x1524767e |       60        0         0       0   TARGET - CheatMenuMagma_m
+P_ZzzNotARealScreen      0xd5e51b33 |        0        0         0       0   negative control
+P_PauseMenuDebugX        0xc00f8ac2 |        0        0         0       0   negative control
+P_QuuxMenu               0xbe971180 |        0        0         0       0   negative control
+
+Each screen's hash occurs ONLY in the MGB its menu-handler datablock binds to.
+(P_PauseMenu -> MagmaInGame_MGB; the three debug screens -> MagmaCommon_MGB; both
+ bindings independently recorded 2026-09-04b from the datablock bodies.)
+
+Per-section counts - every MGB holds 12 MAGMA sections:
+  P_PauseMenuDebug   total= 60  per-section=[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  P_CheatMenuDebug   total= 60  per-section=[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  P_MainMenuDebug    total= 24  per-section=[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  P_PauseMenu        total= 36  per-section=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+
+WARNING: occurrence count is NOT item count. P_PauseMenu, a screen with many
+visible entries, occurs only 3x per section. These are references to the screen,
+not its contents. The item list is NOT enumerated by this work.
+
+Language/platform tags surviving in section padding (authoring-tool residue):
+  MagmaCommon_MGB.bin    languages ['CZE', 'FRE', 'GER', 'RUS'] platforms ['PC', 'XBOX360']
+  MagmaInGame_MGB.bin    languages -                            platforms -
+  MagmaPregame_MGB.bin   languages -                            platforms -
+  MagmaFonts_MGB.bin     languages -                            platforms -

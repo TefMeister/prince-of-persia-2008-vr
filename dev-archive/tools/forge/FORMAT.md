@@ -184,6 +184,46 @@ resolve to `PopStateRuleCondition`, `PopCharacterGraphStateDescription`,
 `BooleanRuleCondition`, `CameraExecution`, `CameraHolder`,
 `CameraTransitionSpecification`, `MarketingCameraCondition`.
 
+## 6b. Magma UI files (`MagmaMgbFile`) — container shape and the name hash
+
+Added 2026-09-07 (`/pd`, no launch).
+
+A `MagmaMgbFile` datablock body is:
+
+```
+u8  0
+u32 id                 -- the datablock's own id, repeated
+u32 typeHash
+u32 sectionCount       -- 12 in every MGB examined
+u32 ...
+u32 sectionPayloadSize
+"MAGMA"                -- ASCII magic, at payload +0x20
+```
+
+The **12 sections are language/platform variants** `[inferred-static 2026-09-07]`: only
+`MagmaCommon_MGB` kept authoring-tool residue in its section padding, and it shows
+`<LANGUAGE>` `CZE`/`FRE`/`GER`/`RUS` with `<PLATFORM>` `PC`/`XBOX360`. The authoring format
+is XML; what survives in the padding is uninitialised buffer tail, not a parseable copy.
+
+**Screen and widget names inside an MGB are stored as CRC32 little-endian `u32`, never as
+text** — the same hash as §6. This is why an ASCII/UTF-16 search for `P_*` returns nothing.
+
+| screen | crc32 | found in | count |
+| --- | --- | --- | --- |
+| `P_PauseMenu` | `0xab726231` | `MagmaInGame_MGB` | 36 |
+| `P_MainMenu` | `0x9da62dfb` | `MagmaPregame_MGB` | 36 |
+| `P_PauseMenuDebug` | `0xba8c1f01` | `MagmaCommon_MGB` | 60 |
+| `P_MainMenuDebug` | `0xd9c2ab89` | `MagmaCommon_MGB` | 24 |
+| `P_CheatMenuDebug` | `0x1524767e` | `MagmaCommon_MGB` | 60 |
+
+Each appears **only** in the MGB its menu-handler datablock binds to, and three negative
+controls return zero. `[verified-numerically 2026-09-07, n=9 probes, 3 positive + 3 negative
+controls]` Widget names too: `crc32("List") = 0xe4fa5726`, 168 occurrences across four MGBs.
+
+⚠️ **Occurrence count is NOT item count.** `P_PauseMenu` has many visible entries and occurs
+3× per section. These are references to a screen, not its contents; the record graph that
+would enumerate a screen's items is not decoded.
+
 ## 7. How the character state machine is referenced in data
 
 **Not by hash.** The 313 `CGST_*` state hashes do not occur in any datablock outside

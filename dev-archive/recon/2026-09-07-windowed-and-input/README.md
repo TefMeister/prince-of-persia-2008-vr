@@ -29,3 +29,28 @@ The screen advanced because the title screen is an **attract/demo reel on an idl
 60-second no-input control demonstrated directly. Neither input route is demonstrated to work.
 Two cheap explanations are eliminated: focus is genuinely held by the game (checked from its own
 thread under `AttachThreadInput`), and UIPI is not blocking (both processes Medium integrity).
+
+## Later the same session — the camera test finally ran
+
+Tefa played through the opening cutscene by hand and handed back a live gameplay state.
+
+`gameplay-camera-still-third-person.png` — ordinary player-controlled gameplay (the
+"PRESS [SPACE] TO JUMP ON TO THE WALL" tutorial prompt is on screen), Prince standing still.
+**The camera is steady behind-the-shoulder third person.** Three captures a second apart show no
+flicker and no fighting between camera rules.
+
+The archive on disk was re-checked at the same moment and is **still patched** —
+`CR_Debug_1stPerson states = (309, 309, 309)` read back from the live install — so this is not
+Steam having silently restored the stock file.
+
+**So the state-list edit alone does NOT produce a first-person camera.** `[verified-live
+2026-09-07, n=1]`
+
+### A defect in `capture.ps1`, found by using it
+
+The first three "flicker" captures had **our own console window composited into the frame**:
+`BitBlt` reads the screen, so anything overlapping the game is captured, and PowerShell stole
+foreground as it ran. `capture.ps1` now verifies `GetForegroundWindow` really is the game before
+grabbing, retries up to 12 times, refuses rather than returning a contaminated image, and
+re-checks focus afterwards. The clean re-capture confirms the third-person reading, so no
+conclusion here rests on a contaminated frame.

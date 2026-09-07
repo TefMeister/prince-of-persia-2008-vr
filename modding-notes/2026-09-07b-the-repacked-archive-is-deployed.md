@@ -78,3 +78,49 @@ interesting ones and they are easy to confuse.
 Unchanged and unaffected. This route was always independent of it; 2026-09-07's earlier entry
 closed the hash channel and left item enumeration open, and none of that matters if the camera
 simply appears.
+
+---
+
+# RESULT (added 2026-09-07, same day) — the edit did NOT produce a first-person camera
+
+Tefa played through the opening by hand and handed back live gameplay. Read in ordinary
+player-controlled play (the "PRESS [SPACE] TO JUMP ON TO THE WALL" tutorial prompt on screen,
+Prince standing still):
+
+**The camera is steady behind-the-shoulder third person.** Three captures a second apart show no
+flicker and no fighting. `[verified-live 2026-09-07, n=1]` Evidence:
+`dev-archive/recon/2026-09-07-windowed-and-input/gameplay-camera-still-third-person.png`.
+
+**The archive was re-read from the live install at the same moment** and is still patched —
+`CR_Debug_1stPerson states = (309, 309, 309)` — so this is not Steam having restored the stock
+file. That alternative is eliminated, not assumed.
+
+## What this does and does not tell us
+
+The predicted "camera unchanged" outcome was **"eligible but losing to a higher-priority rule"**.
+That is the leading candidate *by design* — the recorded mod was always "rewrite the state list
+**and raise its priority**", and only the first half was ever done. But it is a candidate, not a
+conclusion, and two others fit the same observation:
+
+| possibility | the observation that would separate it |
+| --- | --- |
+| (a) the rule is eligible but **loses on priority** | locate and raise the priority field in the same datablock, repack, relaunch — first person appears |
+| (b) the state list is **not the only gate**: the camera executor needs the game genuinely in debug mode | (a) is tried and fails even at maximum priority |
+| (c) `CR_Debug_1stPerson` is **not wired to the player camera path** in retail at all | the control below comes back negative |
+
+## ⭐ The control that should run BEFORE (a) — does our archive edit reach the camera system at all?
+
+Everything above assumes the game reads camera rules from the archive we patched. That has never
+been demonstrated: **the edit changed nothing observable, which is exactly what a completely
+ignored edit also looks like.** A negative is only evidence if the test could have produced a
+positive.
+
+So: take a `CameraRule` that unquestionably runs in normal play, rewrite *its* state list to
+something impossible, repack, relaunch.
+
+- **the normal camera visibly breaks** ⇒ archive camera edits do reach the running game, the
+  pipeline works, and (a) is the right next move
+- **nothing changes** ⇒ our edits are not reaching the camera system, (c) is live, and raising a
+  priority field would have been wasted work
+
+This costs one repack and one launch, and it is worth more than trying (a) blind.

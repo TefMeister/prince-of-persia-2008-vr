@@ -174,6 +174,54 @@ So the two cheapest explanations — wrong focus, and integrity-level blocking �
 The second is the most informative and costs one proxy rebuild, since we already own `d3d9.dll`
 and could add a `dinput8.dll` proxy beside it.
 
+## 6b. ADDENDUM — the import table answers it, and the answer is DirectInput8 + XInput
+
+Read straight out of the unpacked exe's import directory, so this costs no launch and is not a
+guess. `[verified-numerically 2026-09-07]`
+
+**What the game imports for input:**
+
+| DLL | symbols |
+| --- | --- |
+| `DINPUT8.dll` | `DirectInput8Create` — and nothing else |
+| `XINPUT1_3.dll` | ordinals **2, 3, 4** = `XInputGetState`, `XInputSetState`, `XInputGetCapabilities` |
+
+**What it does NOT import, which is the load-bearing half:**
+
+`GetAsyncKeyState`, `GetKeyboardState`, `GetKeyState`, `RegisterRawInputDevices`,
+`GetRawInputData`, `GetMessageA`, `MapVirtualKeyA`, `ToAscii` — **all absent.** The only
+message-pump symbol present is `PeekMessageA`, which is the pump itself, not key handling.
+
+**So this game takes keyboard input through DirectInput8 and gamepad input through XInput, and
+reads no key state from the Windows message queue at all.**
+
+That **explains the posted-message failure completely** rather than leaving it as a mystery:
+`PostMessage` could never have worked, because nothing in this binary reads keys from messages.
+It also retires hypothesis (3) from §6 — "input is ignored during the attract sequence
+specifically" is no longer needed to explain anything.
+
+It leaves the other two, now sharpened:
+
+- **DirectInput8 keyboard acquired exclusively.** DirectInput in exclusive mode reads the raw
+  device stream, which is a well-known reason `SendInput` injection is not seen. *Separating
+  observation:* the cooperative-level flags, which the logging proxy prints by name.
+- **The title screen polls only XInput.** Plausible for a console port of this vintage.
+  *Separating observation:* whether `GetDeviceState` is called at all on that screen.
+
+**Both are answered by one launch**, because the logging `dinput8.dll` proxy is now built and
+deployed (`staging/prince-of-persia-2008-vr/proxy-dinput8`, `[compile-verified 2026-09-07]`,
+PE32/i386, single export matching the exe's single import exactly). It forwards everything and
+only logs, so a negative stays trustworthy. Read `pop2008_dinput_log.txt` beside the exe:
+
+- **no log file at all** ⇒ `dinput8` never loaded, which would contradict the static import and
+  would itself be the finding
+- **`CreateDevice` with `GUID_SysKeyboard` + `SetCooperativeLevel … EXCLUSIVE`** ⇒ that is why
+  injection dies, and hooking `GetDeviceState` to overwrite the 256-byte key array is the way in
+- **`GetDeviceState` called every frame** ⇒ a clean, stable injection point
+- **only a joystick GUID, no keyboard device** ⇒ the screen wants a pad; try XInput emulation
+
+⚠️ Deployed but **not yet exercised** — the game was already running when it was built.
+
 ## 7. Not established
 
 - **Whether the first-person camera edit did anything.** Gameplay was never reached, because of

@@ -222,6 +222,53 @@ only logs, so a negative stays trustworthy. Read `pop2008_dinput_log.txt` beside
 
 ⚠️ Deployed but **not yet exercised** — the game was already running when it was built.
 
+## 6c. ADDENDUM 2 — the proxy ran, and the title screen never polls DirectInput at all
+
+Two launches, both driven end-to-end by automation (Steam URL, then `BM_CLICK` on the launcher's
+`'Launch the game!'` button — that route is now `[verified-live 2026-09-07, n=2]`).
+
+**A defect in the proxy, found by using it, before any conclusion was drawn from it.** The first
+build hooked only the *first* device created — and this game creates the **mouse** first, so the
+keyboard was never instrumented. Fixed to register every device and store originals per vtable.
+With the fix, all devices turn out to share **one** vtable, so a single patch covers them.
+
+**The result, over 75+ seconds sitting at the title screen:**
+
+```
+DirectInput8Create version=0x800 -> 0x00000000
+hooked IDirectInput8::CreateDevice (slot 3)
+  device: GUID_SysMouse       x2
+  device: GUID_SysKeyboard    x2
+  device: (joystick/pad instances) x8
+  hooked a NEW device vtable (1 total)
+```
+
+…and then **nothing**. No `SetCooperativeLevel`, no `Acquire`, no `GetDeviceState`, no
+`GetDeviceData`. The game **enumerates and creates** DirectInput devices, including the keyboard,
+and never polls them. `[verified-live 2026-09-07, n=1 launch, 75 s at the title screen]`
+
+### ⚠️ The weakness in that claim, stated plainly
+
+**There is no positive control that the device-level hooks fire at all.** The `CreateDevice` hook
+demonstrably works, so the interface-level patch is proven — but if the four device slot indices
+were wrong, the log would look exactly like this. The slots used are the standard
+`IDirectInputDevice8` layout (`Acquire` 7, `GetDeviceState` 9, `GetDeviceData` 10,
+`SetCooperativeLevel` 13), but "standard and believed correct" is not the same as "observed
+firing".
+
+**Get that control before building on this.** The cheapest one: reach gameplay (a human can, we
+cannot) with this build deployed and see whether the calls appear. If they appear in gameplay and
+not at the title screen, the hooks are fine and the title screen genuinely does not poll. If they
+never appear anywhere, suspect the slot indices first, not the game.
+
+### What it means either way
+
+Combined with the import table — `DirectInput8Create` and XInput `GetState`/`SetState`/
+`GetCapabilities`, and **no** message-queue or `GetAsyncKeyState`-family key reading — the picture
+is that **the title screen is most likely waiting on XInput**, i.e. a gamepad, which is exactly
+what a console port of this vintage would do. That is now the leading hypothesis and it is cheap
+to test: an XInput pad (real or emulated) at the title screen either advances it or does not.
+
 ## 7. Not established
 
 - **Whether the first-person camera edit did anything.** Gameplay was never reached, because of

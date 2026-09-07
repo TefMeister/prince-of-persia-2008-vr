@@ -456,6 +456,65 @@ submission path — see that project's §9 for the D3D9-vs-D3D9Ex bridge problem
 | `/startupmenu:on\|off` | toggle the startup menu | same source — `off` may allow skipping straight into gameplay |
 | `/localbigfile` | unconfirmed, likely a local-vs-streamed `.forge` data flag | same source |
 
+
+**✅ 2026-09-07 (`/lm`, no launch) — the COMPLETE switch table, and there is no windowed switch.**
+The table above was read from the exe's own *default* command-line string. The **whole pool** is
+now read from a Steamless-unpacked copy: **97 switch-shaped names** in one contiguous `.rdata` run
+around file offset `0x929640`. `[verified-numerically 2026-09-07, n=97]`
+
+```
+ambience ambiencepads ambiencerandomfxs ambient3dsounds audioevents autoprofile autoprofileworst
+consoleout customphysmemalloc darespy dataservice default defaultallocator dialog dl272 dl283 edge
+fardist fast fixedfov flushdiskcache full gfxassert gpuprofiler head heartbeat help importforge
+invertcamerahorizontalaxis invertcameraverticalaxis language lightmode loadingrange loadondemand
+localbigfile logtime maxthread memall memdebug memdebugfreequeuemaxalloc memdebugfreequeuesize
+memgearstats memgeartracker meminfodump memlog memtag memtypestats memvalidate memworldstats
+mission missions missiontemproot msaa music neardist nochangeworld noconsole nodiskcaching
+noindirectlight none normal noscimitaroutput nosound nosoundchangelistprotection postfx profilerout
+propagation ps3floodmeminfo quit revert sanitycheck sfx shadows skipmips soundengine soundinstances
+soundsystemdebug startanvil startpos startupmenu sync syncsound tcmalloc testmission
+testmissiontemproot testvideo transparency true turbodebug useptcoptim usesharedobjects volumeevents
+walkthrough walkthroughloading walkthroughsmoketest world worldarea
+```
+
+⚠️ **A name in this pool is a LEAD, not a live feature** — Enslaved ships console bindings for a
+console that is not there. Only the handful appearing in the exe's default command line have any
+independent evidence behind them. Worth trying first, for the North Star: **`fixedfov`**,
+`neardist`, `fardist` (projection levers), `help` (may print the table and confirm the syntax in
+one launch), `mission`/`startpos`/`world` (skip menu navigation), `quit` (self-close).
+
+**⛔️ There is NO windowed-mode switch, and no windowed setting anywhere.** Nothing display-related
+in the pool beyond `testvideo`/`msaa`/`shadows`/`postfx`/`fixedfov`/`fardist`/`neardist`; a
+whole-file case-insensitive search for `window` returns only Win32 import names, the literal
+`Windows`, and one non-switch `window`; the `HKCU` `Software\Ubisoft\Prince of Persia\1.0\Engine`
+key carries resolution/vsync/AA/quality and no fullscreen flag; and there is no config file under
+`Documents\My Games`, `AppData\Local` or `AppData\Roaming` (`DARE.INI` is audio only).
+`[verified-numerically 2026-09-07]` **Windowed mode therefore exists only through our own d3d9
+proxy**, which since 2026-09-07 hooks `IDirect3D9::CreateDevice` (vtable slot 16) and
+`IDirect3DDevice9::Reset` (slot 16) and forces `Windowed=TRUE`,
+`FullScreen_RefreshRateInHz=0`, `BackBufferFormat=D3DFMT_UNKNOWN`, then reframes the window to a
+titled, centred, non-resizable 1280x720. Controlled by `pop_vr.ini` beside the exe.
+`[verified-live 2026-09-07, n=1 launch]` — the game requests **1920x1080 fullscreen at refresh 60**
+(matching the registry exactly, an independent confirmation of that read) and receives a 1280x720
+windowed device; `CreateDevice` returns `D3D_OK`; the window measures 1286x749 outer with a client
+area of **exactly 1280x720**, `WS_POPUP` clear and `WS_CAPTION` set. Behind it: 18 numeric checks on
+the pure parameter munging and a PE32/i386 build with the export table intact. `Reset` is hooked but
+no `Reset` was observed, so alt-tab is still untested. Write-up:
+`modding-notes/2026-09-07c-forced-windowed-mode-through-the-d3d9-proxy.md`; evidence
+`dev-archive/recon/2026-09-07-windowed-and-input/`.
+
+**⛔️ INPUT AUTOMATION IS NOT SOLVED, and a same-session reading was withdrawn.** Neither `SendInput`
+scancodes nor posted `WM_KEYDOWN`/`WM_CHAR`/`WM_KEYUP` has been shown to reach this game. An early
+"PostMessage works" reading was wrong: **the title screen is an attract/demo reel on an idle timer**,
+proven by a 60-second no-input control that advanced it with nothing sent. `[disproved 2026-09-07]`
+Eliminated as explanations: focus (the game's own thread reports `GetFocus == GetActiveWindow ==` its
+window) and UIPI (both processes Medium integrity). Still open, most informative first: proxy
+`dinput8.dll` and see whether `DirectInput8Create`/`GetDeviceState` is called at all; try a gamepad;
+post keys at ~10 Hz across a whole attract cycle. **Two things that DO work:** the game must be
+started through Steam (a direct exe launch loads our proxy, then exits in 0.6 s without ever calling
+`Direct3DCreate9`), and the Ubisoft launcher dialog is an ordinary Win32 dialog whose
+`'Launch the game!'` button responds to `BM_CLICK`. `[verified-live 2026-09-07, n=1]`
+
 ## 10. Autonomous harness recipe (this game)
 - Launch to a known scene (commands used): untested, but the exe's own embedded default command line (`/world:POP0WORLD /fast /shadows:on /lightmode:normal /fardist:1500 /noconsole /bink:on /mission:pop0_root /startupmenu:on /localbigfile`) is a strong starting template — likely usable close to as-is via Steam launch options or a direct exe launch with args.
 - In-process input / camera drive method that worked: not yet investigated.

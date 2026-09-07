@@ -1,0 +1,4 @@
+[14:24:01.843] === prince-of-persia-2008-vr proxy d3d9.dll loaded, PID=28356 ===
+[14:24:01.844] config D:\Program Files (x86)\Steam\steamapps\common\Prince of Persia\pop_vr.ini: Windowed=1 WindowWidth=1280 WindowHeight=720
+[14:24:01.847] real d3d9.dll loaded from C:\Windows\system32\d3d9.dll; Direct3DCreate9=73904B20
+[14:24:02.418] === prince-of-persia-2008-vr proxy d3d9.dll unloading ===

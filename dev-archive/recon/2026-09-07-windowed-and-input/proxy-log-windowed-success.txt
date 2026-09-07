@@ -1,0 +1,13 @@
+[14:25:43.963] === prince-of-persia-2008-vr proxy d3d9.dll loaded, PID=22368 ===
+[14:25:43.964] config D:\Program Files (x86)\Steam\steamapps\common\Prince of Persia\pop_vr.ini: Windowed=1 WindowWidth=1280 WindowHeight=720
+[14:25:43.968] real d3d9.dll loaded from C:\Windows\system32\d3d9.dll; Direct3DCreate9=73F64B20
+[14:25:44.845] Direct3DCreate9 called: SDKVersion=0x20
+[14:25:44.972]   -> returned 03415A20
+[14:25:44.972]   hooked IDirect3D9::CreateDevice (slot 16), real=73C84DD0; windowed override ENABLED, 1280x720
+[14:25:45.009] IDirect3D9::CreateDevice adapter=0 type=1 hFocusWindow=006907AA flags=0x46
+[14:25:45.009]   requested: 1920x1080 fmt=22 windowed=0 refresh=60 swap=1 hDeviceWindow=00000000
+[14:25:45.010]   CreateDevice: forced windowed (windowed=1 refresh=1 format=1 size=1) -> 1280x720
+[14:25:45.010]   applied  : 1280x720 fmt=0 windowed=1 refresh=0 swap=1 hDeviceWindow=00000000
+[14:25:45.195]   CreateDevice -> 0x00000000 device=0CF7CC00
+[14:25:45.198]   window reframed: hwnd=006907AA ok=1 client=1280x720
+[14:25:45.198]   hooked IDirect3DDevice9::Reset (slot 16), real=73FE6500

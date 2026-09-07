@@ -62,6 +62,18 @@ the page contained the string. It came back in the page's own content, with surr
 (specific ship IDs, the progression-manager block, the tag_rules identifier) that a summarizer would
 not invent. That is why it is tagged `[reported]` and not `[hypothesis]`.
 
+## ⚠️ Overtaken by events, within the hour
+
+The `[USER]` row this topic was written to support **closed while this pass was running**: the board
+now records the repacked archive as **DEPLOYED** `[2026-09-07]`. So the "mild support for a pending
+decision" framing below is **moot** — the decision was made, and made the same way the sibling
+community works.
+
+That does not make the finding worthless, but it does change what it is for: it is now **corroboration
+after the fact** that the deployed route is the normal one for this engine family, and a small piece
+of context for whoever next reads a Game Bootstrap block. Nothing here should be cited as an argument
+for a decision that is already taken.
+
 ## The concrete next step
 
 None on its own — this does not unblock the `[PD]` row. Its only actionable content is a small

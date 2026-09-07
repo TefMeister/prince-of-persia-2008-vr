@@ -1,0 +1,55 @@
+[15:51:00.621] === pop dinput8 logging proxy loaded, PID=28280 ===
+[15:51:00.621] input injection shared block mapped ("Local\pop2008_vr_input"), enabled=0
+[15:51:00.621] real dinput8.dll loaded from C:\Windows\system32\dinput8.dll; DirectInput8Create=738233F0
+[15:51:01.147] DirectInput8Create version=0x800
+[15:51:01.160]   -> 0x00000000 iface=015D09D8
+[15:51:01.161]   hooked IDirectInput8::CreateDevice (slot 3)
+[15:51:01.369] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.369]   device: GUID_SysMouse {6F1D2B60-D5A0-11CF-BFC7-444553540000}
+[15:51:01.369]   hooked a NEW device vtable (1 total) via GUID_SysMouse
+[15:51:01.369] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.370]   device: GUID_SysMouse {6F1D2B60-D5A0-11CF-BFC7-444553540000}
+[15:51:01.370] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.370]   device: (other - joystick/pad or enumerated instance) {6F1D2B80-D5A0-11CF-BFC7-444553540000}
+[15:51:01.370] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.370]   device: (other - joystick/pad or enumerated instance) {6F1D2B81-D5A0-11CF-BFC7-444553540000}
+[15:51:01.370] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.370]   device: GUID_SysKeyboard {6F1D2B61-D5A0-11CF-BFC7-444553540000}
+[15:51:01.370] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.370]   device: GUID_SysKeyboard {6F1D2B61-D5A0-11CF-BFC7-444553540000}
+[15:51:01.371] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.371]   device: (other - joystick/pad or enumerated instance) {6F1D2B82-D5A0-11CF-BFC7-444553540000}
+[15:51:01.371] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.371]   device: (other - joystick/pad or enumerated instance) {6F1D2B83-D5A0-11CF-BFC7-444553540000}
+[15:51:01.378] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.378]   device: (other - joystick/pad or enumerated instance) {E42DD120-5C12-11F0-8001-444553540000}
+[15:51:01.385] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.385]   device: (other - joystick/pad or enumerated instance) {E434D600-5C12-11F0-8002-444553540000}
+[15:51:01.391] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.391]   device: (other - joystick/pad or enumerated instance) {E4374700-5C12-11F0-8003-444553540000}
+[15:51:01.398] IDirectInput8::CreateDevice -> 0x00000000
+[15:51:01.398]   device: (other - joystick/pad or enumerated instance) {E4374700-5C12-11F0-8004-444553540000}
+[15:51:42.762] SetCooperativeLevel [GUID_SysMouse] hwnd=00E60C7A flags=0x6 [NONEXCLUSIVE FOREGROUND ] -> 0x00000000
+[15:51:42.766] Acquire [GUID_SysMouse] -> 0x00000000
+[15:51:42.766] GetDeviceState #1 [GUID_SysMouse] cb=20 -> 0x00000000
+[15:51:42.767] SetCooperativeLevel [GUID_SysKeyboard] hwnd=00E60C7A flags=0x16 [NONEXCLUSIVE FOREGROUND NOWINKEY ] -> 0x00000000
+[15:51:42.767] Acquire [GUID_SysKeyboard] -> 0x00000000
+[15:51:42.767] GetDeviceState #2 [GUID_SysKeyboard] cb=256 -> 0x00000000  <-- 256-byte KEYBOARD state: this is the injection point
+[15:51:42.767]   keys currently down: 0
+[15:51:43.086] GetDeviceState #3 [GUID_SysMouse] cb=20 -> 0x00000000
+[15:51:43.086] GetDeviceState #4 [GUID_SysKeyboard] cb=256 -> 0x00000000  <-- 256-byte KEYBOARD state: this is the injection point
+[15:51:43.086]   keys currently down: 0
+[15:51:43.092] GetDeviceState #5 [GUID_SysMouse] cb=20 -> 0x00000000
+[15:51:43.092] GetDeviceState #6 [GUID_SysKeyboard] cb=256 -> 0x00000000  <-- 256-byte KEYBOARD state: this is the injection point
+[15:51:43.092]   keys currently down: 0
+[15:51:43.109] GetDeviceState #7 [GUID_SysMouse] cb=20 -> 0x00000000
+[15:51:43.109] GetDeviceState #8 [GUID_SysKeyboard] cb=256 -> 0x00000000  <-- 256-byte KEYBOARD state: this is the injection point
+[15:51:43.109]   keys currently down: 0
+[15:51:43.875] GetDeviceState #100 [GUID_SysKeyboard] cb=256 -> 0x00000000  <-- 256-byte KEYBOARD state: this is the injection point
+[15:51:43.875]   keys currently down: 0
+[15:51:51.375] GetDeviceState #1000 [GUID_SysKeyboard] cb=256 -> 0x00000000  <-- 256-byte KEYBOARD state: this is the injection point
+[15:51:51.375]   keys currently down: 0
+[15:52:25.604] GetDeviceState #5000 [GUID_SysKeyboard] cb=256 -> 0x00000000  <-- 256-byte KEYBOARD state: this is the injection point
+[15:52:25.604]   keys currently down: 1
+[15:53:10.778] GetDeviceState #10000 [GUID_SysKeyboard] cb=256 -> 0x00000000  <-- 256-byte KEYBOARD state: this is the injection point
+[15:53:10.778]   keys currently down: 0

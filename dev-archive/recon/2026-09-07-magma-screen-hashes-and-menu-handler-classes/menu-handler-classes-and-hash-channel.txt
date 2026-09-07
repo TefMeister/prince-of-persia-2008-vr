@@ -1,0 +1,56 @@
+Menu-handler class descriptors, vtables, and the state-hash channel.
+Read from a Steamless-unpacked COPY of PrinceOfPersia_Launcher.exe.
+Generated 2026-09-07 by /pd. No game launched. The unpacked exe is game
+content and is NOT committed; it regenerates with Steamless v3.1.0.5.
+
+== 1. Class descriptor layout, in .data ==
+  +0x00 char*  className
+  +0x04 u32    CRC32 of the BASE class name    (all five: 0xd13edf15 = MagmaMenuHandler_m)
+  +0x08 u32    CRC32 of THIS class name        (= the datablock typeHash)
+  +0x0c u32    instance size in bytes
+  +0x44 u32    0x7fff7fff
+  +0x48 void*  factory/allocator thunk in .text
+
+class                    descriptor  nameStr VA  size   factory     ctor        vtable      crc32(name)
+DebugMenuHandler_m       0x00e73d60  0x00d5c0fc  0x0a0  0x007123a0  0x0070d740  0x00d5ecf0  0x5345255f
+CheatMenuMagma_m         0x00e70160  0x00d5d700  0x0a0  0x0070e120  0x0070c140  0x00d5e040  0x83f1379f
+StartMenuDebug_m         0x00e7f208  0x00d65630  0x0a8  0x007b9cc0  0x007b5940  0x00d67fb8  0x23e9f1d2
+MainPauseMenuHandler_m   0x00e5e1a0  0x00d53968  0x0a0  0x006a56a0  0x006a3630  0x00d54478  0xfe00a964
+
+  crc32(className) reproduces descriptor +0x08 for all five classes tested
+  (the fifth, PauseMenuHandler_m, crc32=0xdd0c5f3a). n=5, zero mismatches.
+  Cross-check: three of these type hashes were already read out of the menu-handler
+  DATABLOCK bodies on 2026-09-04b - 0xfe00a964 (P_PauseMenu), 0x5345255f
+  (P_PauseMenuDebug), 0x23e9f1d2 (P_MainMenuDebug). All three agree.
+
+== 2. What the debug handler classes reference by name ==
+  Every 32-bit immediate in their class-specific vtable methods was resolved against
+  a CRC32 dictionary of 29,058 identifier strings from the unpacked exe. Exactly two
+  name hashes resolve across all of them:
+     0xe4fa5726 = 'List'             - vtable slot 48. MainPauseMenuHandler_m (the
+                                       ordinary pause menu) uses the SAME constant in
+                                       the SAME slot.
+     0x67a2c4c1 = 'IExecutionPolicy' - vtable slot 63, DebugMenuHandler_m only. A
+                                       generic engine interface, not a menu concept.
+  No state name, no per-item name, nothing debug-specific. The debug handlers
+  select a widget called 'List' and dispatch by index, exactly as the normal one does.
+
+== 3. The state-hash channel does not exist, in code or in UI data ==
+needle                         crc32        .text dec .text enc  all MGBs
+CGST_DebugMode                 0x861d663f         0         0         0   target
+CGST_DebugModeFPSCamera        0xa80488ab         0         0         0   target
+CGST_Idle                      0x407dc47e         0         0         0   POSITIVE CONTROL - runs constantly
+CGST_Ground                    0x06f4ecf7         0         0         0   POSITIVE CONTROL - runs constantly
+P_PauseMenuDebug               0xba8c1f01         0         0        60   screen name
+P_PauseMenu                    0xab726231         0         0        36   screen name
+List                           0xe4fa5726         9         0       168   POSITIVE CONTROL - known present in .text
+DebugMenuHandler_m             0x5345255f         5         0         0   POSITIVE CONTROL - known present in .text
+
+  The method is live: 'List' and 'DebugMenuHandler_m' are found 9 and 5 times in
+  decrypted .text and ZERO times in the same byte range of the shipped file - which
+  also demonstrates concretely why every pre-2026-09-03 .text scan was void.
+  CGST_Idle and CGST_Ground are states that unquestionably run in normal play, and
+  they are absent too. CONCLUSION: character states are not referenced by hash
+  ANYWHERE - not in code, not in the Magma UI files. Consistent with FORMAT.md 7,
+  which found data-side references are by ORDINAL. Ordinals are small integers and
+  are not searchable, so this closes the hash route and does not open another.

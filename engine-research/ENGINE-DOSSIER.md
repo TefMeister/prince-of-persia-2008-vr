@@ -57,6 +57,60 @@ but none of the `P_*` screen names, and the MGB carries no `P_*` string in ASCII
 `dev-archive/recon/2026-09-05-actionblock-census-search/`; write-up:
 `modding-notes/2026-09-05-the-actionblock-census-searched-menus-and-actionblocks-never-meet.md`.
 
+> **⚠️ AMENDED 2026-09-07 — "the MGB carries no `P_*` string" is true but was read too narrowly.**
+> The MGB *does* carry the screen names: as **CRC32 little-endian `u32`**, the same hash §6 of
+> `FORMAT.md` established for type names. `P_PauseMenuDebug` = `0xba8c1f01` occurs **60 times** in
+> `MagmaCommon_MGB` and nowhere else; `P_PauseMenu` = `0xab726231` occurs **36 times** in
+> `MagmaInGame_MGB` and nowhere else — i.e. **each screen's hash appears only in the MGB its own
+> handler datablock binds to**, which is the binding read above from the other side of the format.
+> Three negative controls return zero. Counts are exact multiples of the **12 `MAGMA` sections**
+> every MGB holds, and are flat per section. `[verified-numerically 2026-09-07, n=9 probes, 3
+> positive + 3 negative controls]` Widget names are hashed the same way — `crc32("List")` occurs
+> 168 times across the four MGBs. **This does NOT enumerate the menus' items**: occurrence count is
+> not item count (`P_PauseMenu`, a screen with many entries, occurs 3× per section). The
+> conclusion "the link is in the UI file or the C++ class" survives; what changes is that the UI
+> file is now addressable. Write-up:
+> `modding-notes/2026-09-07-screen-names-are-crc32-and-the-state-hash-channel-does-not-exist.md`.
+
+**✅ 2026-09-07 (`/pd`, no launch) — the menu-handler classes are decoded and the Magma container
+is mapped.**
+
+`MagmaMgbFile` body layout: a leading `u8 0`, then `{u32 id; u32 typeHash; u32 sectionCount; …;
+u32 sectionPayloadSize}`, with the ASCII magic **`MAGMA` at payload +0x20**. Every MGB examined
+holds **12 sections**, and `sectionCount` at +0x08 reads 12 in all four.
+`[verified-numerically 2026-09-07, n=4 files]` ⚠️ The 2026-09-05 row's "`MAGMA` magic at +0x30" is
+off by the datablock header; +0x20 is from the payload start. The sections are **language/platform
+variants** `[inferred-static 2026-09-07]` — only `MagmaCommon_MGB` kept authoring residue in its
+section padding, showing `<LANGUAGE>` `CZE`/`FRE`/`GER`/`RUS` and `<PLATFORM>` `PC`/`XBOX360`. The
+authoring format is **XML** (`<WIDGET>`, `<STAGE>`, `<POSITION>`, `<LOCALIZEDPROPERTIES>`),
+surviving only as a few hundred bytes of uninitialised buffer tail per section — residue, not a
+parseable copy.
+
+The class descriptor, in `.data` (from a Steamless-unpacked copy): `+0x00 char* className;
++0x04 u32 CRC32(base class name); +0x08 u32 CRC32(own class name) — this IS the datablock
+typeHash; +0x0c u32 instance size; +0x48 void* factory thunk`. All five menu classes tested
+reproduce `crc32(className)` at +0x08 with zero mismatches, and three of those hashes were already
+read out of the datablock bodies on 2026-09-04b — so **data-side and code-side type identity are
+now joined**. `[verified-numerically 2026-09-07, n=5]`
+
+| class | descriptor | factory | ctor | vtable |
+| --- | --- | --- | --- | --- |
+| `DebugMenuHandler_m` | `0x00E73D60` | `0x007123A0` | `0x0070D740` | `0x00D5ECF0` |
+| `CheatMenuMagma_m` | `0x00E70160` | `0x0070E120` | `0x0070C140` | `0x00D5E040` |
+| `StartMenuDebug_m` | `0x00E7F208` | `0x007B9CC0` | `0x007B5940` | `0x00D67FB8` |
+| `MainPauseMenuHandler_m` | `0x00E5E1A0` | `0x006A56A0` | `0x006A3630` | `0x00D54478` |
+
+All four derive from `MagmaMenuHandler_m` (`0xd13edf15`). **The debug handler classes carry no
+debug-specific name reference**: every 32-bit immediate in their class-specific vtable methods,
+resolved against a CRC32 dictionary of 29,058 exe identifier strings, yields exactly two names —
+`0xe4fa5726` = `List`, in vtable slot 48, *the same slot with the same constant* as the ordinary
+`MainPauseMenuHandler_m`; and `0x67a2c4c1` = `IExecutionPolicy` in slot 63 of `DebugMenuHandler_m`
+only, a generic engine interface rather than a menu concept. Neither is a state or item name. They
+select a widget called `List` and dispatch by index.
+`[inferred-static 2026-09-07]` — bounded by the dictionary, so a non-identifier-shaped name would
+be missed. ⚠️ **`DebugMenuHandler_m`'s class-name string: the 2026-09-05 row's `0x0095b2fc` is a
+FILE OFFSET.** The virtual address is **`0x00D5C0FC`**, in `.rdata`. `[measured 2026-09-07]`
+
 ## 4. DRM / anti-debug & injection foothold
 - DRM (CEG/Denuvo/GOG/none); launch-time-debugger behaviour: **Reconciled, 2026-08-25 — appears genuinely DRM-free, on two rounds of evidence.** Initial static pass found no Denuvo/SecuROM/StarForce/Uplay strings. External-research then flagged a real, specific reason to double-check: the 2008 **retail boxed** PC release was famously, publicly made DRM-free (widely covered contemporary press — Ubisoft removed disc-check protection entirely), but digital/downloadable versions weren't confirmed part of that move, and this console-generation's PC ports commonly carried **StarForce** (a kernel-driver-based DRM, architecturally very different from Denuvo — also flagged as having known compatibility problems on modern Windows independent of anti-piracy concerns). **Follow-up check on the actually-installed Steam build, specifically for StarForce**: no `*starforce*`/`*sfdrv*`/`*.sys`/`*protection*` files anywhere in the install directory, no StarForce Windows service installed, no StarForce-related strings anywhere in the exe (broadened search beyond the first pass). **Conclusion: this Steam release appears to have shipped DRM-free, consistent with the retail precedent** — not airtight certainty (no debugger has been attached live yet, unlike Mad Max where live testing was what actually settled the equivalent question), but two independent negative checks plus a real historical precedent make this well-supported.
 - Attach workflow that works: not yet tested live, but no static evidence predicts a block this time — genuinely different starting expectation than Mad Max going into its first live test.
@@ -408,6 +462,17 @@ submission path — see that project's §9 for the D3D9-vs-D3D9Ex bridge problem
 - Frame-capture method; where images land: not yet investigated.
 
 ## 11. Dead ends & false leads (save future time)
+- **⛔️ Searching for a `CGST_*` state by CRC32 hash is dead in CODE too, not just in data
+  (2026-09-07).** With `.text` decrypted, neither `CGST_DebugMode` (`0x861D663F`) nor
+  `CGST_DebugModeFPSCamera` (`0xA80488AB`) appears anywhere in it — **and neither do the positive
+  controls `CGST_Idle` and `CGST_Ground`, states that run every second of normal play.** Nor does
+  any of the four appear in any Magma UI file. The method is demonstrably live: `List`
+  (`0xE4FA5726`) and `DebugMenuHandler_m` (`0x5345255F`) are found 9 and 5 times in decrypted
+  `.text` and **zero times in the same byte range of the shipped file**. So **states are not
+  referenced by hash anywhere** — consistent with §7 of `FORMAT.md`, which found data-side
+  references are by **ordinal**. Ordinals are small integers and are not searchable, so this closes
+  a way to look without opening another. `[verified-numerically 2026-09-07]` The 2026-09-02
+  data-side `[disproved]` below is now matched on the code side; don't re-run either.
 - **`ActionBlock`s are NOT how menus are wired — don't search them for a menu id again
   (2026-09-05).** The whole 2,464-block census was swept for all 19 menu-handler ids, in both byte
   orders and as ASCII text ids: zero hits, against controls showing 99.0% of `ActionBlock`s do

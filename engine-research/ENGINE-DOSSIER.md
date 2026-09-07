@@ -520,6 +520,33 @@ started through Steam (a direct exe launch loads our proxy, then exits in 0.6 s 
 - In-process input / camera drive method that worked: not yet investigated.
 - Frame-capture method; where images land: not yet investigated.
 
+### ✅✅ THE CAMERA CAN BE TAKEN OVER FROM DATA ALONE — CONFIRMED IN GAME (2026-09-07)
+
+**Rewriting `CameraRule "CR_Debug_1stPerson"`'s state-condition list from
+`(188 CGST_DebugMode, 189 CGST_DebugModeFPSCamera, 309 CGST_Any)` to `(309, 309, 309)` in
+`DataPC.forge` takes over the camera in normal gameplay, with NO code patch.**
+`[verified-live 2026-09-07, n=1, observed by Tefa at the controls]`
+
+What it yields is a **free / detached camera**: it flies into the sky and through walls, the same
+keys still drive the Prince, and normal play is therefore impossible on that build. Evidence:
+`dev-archive/recon/2026-09-07-camera-after-load/`; write-up:
+`modding-notes/2026-09-07b-…` § RESOLVED.
+
+**This is the single most important structural fact about this game for the North Star:** the
+camera system is not merely data-driven in principle (§6, 2026-09-02) — an archive edit
+demonstrably overrides the live camera, and the repacker was the only missing piece.
+
+⚠️ **A still frame cannot tell a locked camera from a free one.** Two readings on 2026-09-07 were
+recorded wrongly from stills — "the edit did nothing" (taken standing still, the one state where a
+free camera sits in a plausible third-person spot) and "a character-less camera" (the observer had
+flown the camera away). The discriminating action is to **move the camera and see whether the
+subject stays in frame**.
+
+Open, and now a data question rather than a code one: **which rule is actually winning** (the
+behaviour is a ghost cam, which is what `CR_Debug_GhostCam` sounds like, yet `CR_Debug_1stPerson`
+is what was patched) `[hypothesis]`, and **how to lock the camera to the Prince's head**. The old
+"raise its priority" half of the mod looks unnecessary — the rule is evidently already winning.
+
 ## 11. Dead ends & false leads (save future time)
 - **⛔️ Searching for a `CGST_*` state by CRC32 hash is dead in CODE too, not just in data
   (2026-09-07).** With `.text` decrypted, neither `CGST_DebugMode` (`0x861D663F`) nor

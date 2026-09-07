@@ -59,6 +59,26 @@ CRC-32 values (zlib, poly `0xEDB88320`); `[hypothesis]` that this game uses the 
 | `CameraExecution` | 446306511 | `0x1A9A18CF` |
 | `CameraHolder` | 1022213160 | `0x3CEDBC28` |
 
+### ✅ I recomputed all five, and the scheme itself now verifies against three anchors
+
+Not relayed — computed here with zlib CRC-32 `[verified-numerically 2026-09-07]`. All five values
+above reproduce exactly, and three independent controls confirm the **scheme**, which is the part that
+actually matters:
+
+| control | computed | status |
+| --- | --- | --- |
+| `crc32("BuildTable")` | **585940579** | matches the documented value exactly |
+| `crc32("Mesh")` | **1096652136** | matches the documented value exactly |
+| `crc32("Bone")` | **2507411529 = `0x95741049`** | ⭐ exactly the hex type-ID filename observed in ACExplorer's AC Unity type readers |
+
+The third is the strongest: it was **not** a documented value to check against, it independently
+**explains an observed filename in a different game's tooling**. So "Anvil type IDs are CRC-32 of the
+ASCII type name" is now verified end to end rather than taken on report.
+
+⚠️ **What remains `[hypothesis]` is narrower than before, and worth stating precisely:** the scheme is
+established for the family; whether **this 2008 build** uses it is the open question, and that is what
+the test settles.
+
 **Matching even one against a record's type field converts the whole scheme into ground truth for
 us** — and if it holds, the same CRC-32 trick lets us **brute-force field names inside `CameraRule`
 from a wordlist** (`FollowTarget`, `Priority`, `Holder`, `Distance`, `Fov`, …). We already parse the

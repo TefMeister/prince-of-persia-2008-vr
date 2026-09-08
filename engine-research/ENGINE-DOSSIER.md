@@ -193,9 +193,9 @@ until restart, which would invalidate any input experiment silently.
   was patched to `(309,309,309)`. `[verified-numerically 2026-09-08]`
 - **Why a marketing camera flies under the movement keys:** `PadButtonReader` (56) and
   `PadAxisReader` (4) occur **only** inside `PopMarketingCamera` — **0 occurrences across the
-  other 481 camera datablocks**. It reads input and moves itself, over a character controller
+  other 879**. It reads input and moves itself, over a character controller
   that is still running, which is exactly the two-consumer behaviour Tefa described.
-  `[verified-numerically 2026-09-08, n=484 camera blocks]`
+  `[verified-numerically 2026-09-08, n=882 camera datablocks]`
 - **The follow camera class is `PopFreeRoamingCamera`** — 36 rules, incl.
   `Parent_Ground_CR → Parent Ground Cam`. ⚠️ "FreeRoaming" is the **player's** state, not the
   camera's freedom.

@@ -72,14 +72,14 @@ the camera we flew was `CAM FPS`. `[verified-numerically 2026-09-08]`
 Camera datablocks nest sub-objects as `<u16 seq><0x9009><u32 classHash>`, the class
 hash being the same CRC32 as a datablock `typeHash`. Counting them per class:
 
-| sub-object | `PopMarketingCamera` (3 blocks) | all other camera classes (481 blocks) |
+| sub-object | `PopMarketingCamera` (3 blocks) | all other camera classes (879 blocks) |
 | --- | --- | --- |
 | `PadButtonReader` | 56 | **0** |
 | `PadAxisReader` | 4 | **0** |
 | `BooleanAndReader` | 20 | **0** |
 | `AdditiveAndReader` / `MultiplicativeAndReader` | 4 / 6 | **0** |
 
-`[verified-numerically 2026-09-08, n=484 camera blocks]`
+`[verified-numerically 2026-09-08, n=882 camera datablocks]`
 
 **Only a marketing camera reads input directly.** That is a self-driving camera,
 and it matches Tefa's 2026-09-07 description exactly — *"movement keys move BOTH

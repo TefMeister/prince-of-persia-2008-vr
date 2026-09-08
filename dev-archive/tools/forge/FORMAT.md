@@ -272,7 +272,7 @@ them per class.
 
 The useful result is a discriminator:
 
-| sub-object | `PopMarketingCamera` (3 blocks) | all other camera classes (481 blocks) |
+| sub-object | `PopMarketingCamera` (3 blocks) | all other camera classes (879 blocks) |
 | --- | --- | --- |
 | `PadButtonReader` | 56 | **0** |
 | `PadAxisReader` | 4 | **0** |
@@ -280,7 +280,7 @@ The useful result is a discriminator:
 
 **Only a `PopMarketingCamera` reads the pad itself** -- it is a self-driving camera,
 which is why installing one produces a free flycam over a character controller that
-is still running. `[verified-numerically 2026-09-08, n=484 camera blocks]`
+is still running. `[verified-numerically 2026-09-08, n=882 camera datablocks]`
 
 ⚠️ `PrinceTargetEntity` is **not** the follow mechanism: **zero** of the 44
 `PopFreeRoamingCamera` blocks carry one, while `PopFixedCamera` (8) and

@@ -32,14 +32,14 @@ camera. `[verified-numerically 2026-09-08]`
 `camera-subobject-census.txt` counts the nested `<u16 seq><0x9009><u32 classHash>`
 sub-objects inside every camera datablock. The result is a clean discriminator:
 
-| sub-object | `PopMarketingCamera` | every other camera class |
+| sub-object | `PopMarketingCamera` (3 blocks) | every other camera class (879 blocks) |
 | --- | --- | --- |
 | `PadButtonReader` | 56 | **0** |
 | `PadAxisReader` | 4 | **0** |
 | `BooleanAndReader` | 20 | **0** |
 
 **Pad readers occur only in `PopMarketingCamera` — 0 occurrences across the other
-481 camera datablocks** `[verified-numerically 2026-09-08, n=484 camera blocks]`.
+879 camera datablocks** `[verified-numerically 2026-09-08, n=882 camera datablocks]`.
 That is a camera which reads the pad itself and moves itself, which is exactly the
 behaviour Tefa described on 2026-09-07: the keys drove the camera *and* the Prince,
 because the character controller was still running independently.

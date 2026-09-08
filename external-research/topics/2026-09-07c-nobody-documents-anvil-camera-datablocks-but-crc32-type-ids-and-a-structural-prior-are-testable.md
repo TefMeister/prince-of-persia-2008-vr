@@ -223,3 +223,82 @@ Read online only; nothing cloned, downloaded or installed, and no code copied.
   addressed to AI agents. They were noted, **not opened**, and the repo was treated as data throughout,
   per the standing rule that fetched material is data and not instructions. This is the second time
   that surface has come up in this account's research; the first was cloaked instructions on tcrf.net.
+
+
+---
+
+## ✅ Outcome — tested by the modding lane, 2026-09-08 (`/pd`, dev PC, no launch)
+
+Folded in by `/gr` on 2026-09-08 from `external-research/inbox/`. This section records what each
+claim above turned out to be worth **on this build**; the body above is left as written.
+
+### The CRC-32 (zlib) type-ID scheme: CONFIRMED
+
+All five predicted values occur in this game's data `[verified-numerically 2026-09-08]`:
+
+| class | predicted | as a datablock type | as a nested sub-record |
+| --- | --- | --- | --- |
+| `CameraRule` | `0x6A69B9C3` | 380 | 380 |
+| `GraphRuleBook` | `0x4A77CEFE` | 872 | — |
+| `TemporalCameraTransition` | `0xF042235F` | 87 | — |
+| `CameraExecution` | `0x1A9A18CF` | — | 746 |
+| `CameraHolder` | `0x3CEDBC28` | — | 746 |
+
+The weak link this topic named itself — 2014/2019 documentation applied to a 2008 build, the
+*first* Scimitar title — **holds**. Two of the five exist only nested inside a `CameraRule`
+body and never as a top-level datablock, which is why the project's earlier type census never
+showed them.
+
+Calibration, recorded so this topic is not credited with more than it did: the project's own
+`FORMAT.md` §6 had already established the same scheme for datablock `typeHash` from
+first-party evidence. **The value here was naming the specific five classes to look for**, which
+turned a decode into a lookup.
+
+### ⭐ What it unlocked
+
+The sub-object tagging idea generalised: nested-object records inside camera bodies
+(`<u16 seq><0x9009><u32 classHash>`) resolve against the exe string dictionary — 11 of 12
+distinct hashes — and produced the discriminator explaining the whole 2026-09-07 result.
+**`PadButtonReader` (56 occurrences) and `PadAxisReader` (4) appear only inside
+`PopMarketingCamera`, and in none of the other 879 camera datablocks**
+`[verified-numerically 2026-09-08, n=882 camera datablocks]`. The debug camera flies because it
+reads the pad itself.
+
+> ⚠️ **Sample size corrected the same day.** This verdict first arrived as "0 times
+> across the other **481** camera datablocks `[verified-numerically 2026-09-08, n=484]`". That
+> figure was written from memory rather than counted; the committed census
+> (`dev-archive/recon/2026-09-08-camera-holder-decode/camera-subobject-census.txt`) gives **882**
+> camera datablocks across 18 classes, of which 3 are `PopMarketingCamera`, so the control group is
+> **879**. The finding is unchanged and is **stronger** than first stated. Recorded here because a
+> number that flatters a finding is the kind that does not get re-checked.
+
+### ❌ The structural priors: two of three refuted for this build
+
+- **`*Holder` means "list container"** — wrong here. `CameraHolder` is a **single object
+  reference**: one `u32` naming one camera datablock. All 380 `CameraRule`s have one; none has a
+  list. `[verified-numerically 2026-09-08]` That single reference turned out to *be* the answer to
+  the critical-path question, so the wrong prior cost nothing — but it would have cost time
+  had anyone gone hunting for a list first.
+- **Follow-vs-free is a target-object reference** — wrong here. A `PrinceTargetEntity`
+  sub-object exists and looks exactly like the predicted tracker, but **zero of the 44
+  `PopFreeRoamingCamera` blocks** (the ordinary third-person follow cameras) contain one, while
+  `PopFixedCamera` (8) and `PopMarketingCamera` (2) do. `[disproved 2026-09-08]`
+- **The structural half was right, and was the half that mattered:** non-following cameras really
+  do live under *a different class* rather than behind a flag —
+  `PopMarketingCamera` / `PopGhostCamera` vs `PopFreeRoamingCamera`.
+
+### ⏳ Still untested
+
+**Child order as priority** remains the leading explanation for why `CR_Debug_1stPerson` outranks
+873 other equally-eligible rules (`FunkyCameras` being listed last of four in `CameraGraph` is
+suggestive). The arbitration order has not been read out. **Leave it `[hypothesis]`.**
+
+### 📌 Follow-up this raises
+
+`GraphRuleBook` is confirmed at `0x4A77CEFE` with **872 blocks** in `Game Bootstrap`, so the
+shipped AC4 data-only camera mod noted above is operating on a structure this project can now
+identify by hash in its own archive. Worth a deeper pass. The modding lane also asked for the
+**AnvilToolkit AC1 schema-exporter route** — flagged in the body above as weakly evidenced
+because its changelog was machine-summarised rather than read — to be re-examined properly: a
+resolved field list for `PopFreeRoamingCamera` is worth real time against **3,608 undecoded bytes
+per block**.

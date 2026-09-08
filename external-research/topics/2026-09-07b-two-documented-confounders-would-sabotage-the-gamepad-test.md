@@ -121,3 +121,22 @@ about our build or our machine, and none of it is first-party. Our own measureme
 table, the message-queue read, the DirectInput polling) are stronger and stand unchanged. What this
 topic changes is **the conditions under which the `[USER]` test should be run**, not what the test
 means.
+
+
+---
+
+## 👀 Outcome — reviewed, not yet exercised (2026-09-08)
+
+Folded in by `/gr` on 2026-09-08 from `external-research/inbox/`.
+
+Both confounders are **folded into the project's `ENGINE-DOSSIER.md` and cited** in the note
+covering the XInput proxy work. **No gamepad test has been run**, so neither has been observed
+first-hand on this game: both stay `[reported]`, and the project's own measurements would outrank
+them if the two ever disagreed.
+
+⚠️ **The `[USER]` gamepad row this topic was written to protect no longer exists.** It was
+deleted on 2026-09-07 under the standing "every install stays a dev build" rule. That does not
+retire the topic — the Steam Input "Forced Off" prerequisite and the Steam-overlay-kills-input
+hazard apply to *any* future pad test on this title, and the cost of learning them the hard way is
+the same as it ever was. It does mean **nothing is currently blocked on this**, so it is reference
+material rather than a pending action.

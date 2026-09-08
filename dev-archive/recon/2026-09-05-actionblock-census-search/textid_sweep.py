@@ -6,7 +6,7 @@ import os, re, sys, time
 sys.path.insert(0, r"C:\Users\TD3KX\github-backups-pd\prince-of-persia-2008-vr\dev-archive\tools\forge")
 import forge
 
-GAME = r"C:\Steam\steamapps\common\Prince of Persia"
+GAME = r"D:\SteamLibrary\steamapps\common\Prince of Persia"
 names = forge.TypeNames(os.path.join(GAME, "PrinceOfPersia_Launcher.exe"))
 OUT = sys.argv[1]
 

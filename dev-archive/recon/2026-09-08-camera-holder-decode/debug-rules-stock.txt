@@ -1,0 +1,28 @@
+### CR_Debug_GhostCam        id=c58f04b2  block=1003  body=144 bytes
+  +000  CameraRule                         obj=c58f04b2  tail[5]
+  +00d  PopStateRuleCondition              obj=c58f04e6  tail[6]
+  +01b  PopCharacterGraphStateDescription  obj=93378114  tail[16]
+          states = (309, 309, 309)   (309 = CGST_Any, the don-t-care sentinel)
+  +033  PopCharacterGraphStateDescription  obj=93378115  tail[26]
+          states = (188, 309, 309)   (309 = CGST_Any, the don-t-care sentinel)
+  +055  CameraExecution                    obj=aed0cc89  tail[9]
+  +066  CameraHolder                       obj=c0f7800a  tail[9]
+          tail+0  -> c0f7800b (PopGhostCamera 'CAM Ghost POP')
+  +077  CameraTransitionSpecification      obj=c0f7800c  tail[17]
+          tail+0  -> c0f7800d (TemporalCameraTransition 'DebugMode_Transition')
+          tail+8  -> c0f7800b (PopGhostCamera 'CAM Ghost POP')
+
+### CR_Debug_1stPerson       id=c58f050b  block=1004  body=144 bytes
+  +000  CameraRule                         obj=c58f050b  tail[5]
+  +00d  PopStateRuleCondition              obj=c58f050c  tail[6]
+  +01b  PopCharacterGraphStateDescription  obj=9337814a  tail[16]
+          states = (309, 309, 309)   (309 = CGST_Any, the don-t-care sentinel)
+  +033  PopCharacterGraphStateDescription  obj=9337814b  tail[26]
+          states = (188, 189, 309)   (309 = CGST_Any, the don-t-care sentinel)
+  +055  CameraExecution                    obj=aed0ce7d  tail[9]
+  +066  CameraHolder                       obj=c0f78032  tail[9]
+          tail+0  -> c0f78033 (PopMarketingCamera 'CAM FPS')
+  +077  CameraTransitionSpecification      obj=c0f78034  tail[17]
+          tail+0  -> c0f78035 (TemporalCameraTransition 'FPSCamera_Transition')
+          tail+8  -> c0f78033 (PopMarketingCamera 'CAM FPS')
+

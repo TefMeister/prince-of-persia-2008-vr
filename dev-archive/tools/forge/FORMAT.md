@@ -224,6 +224,69 @@ controls]` Widget names too: `crc32("List") = 0xe4fa5726`, 168 occurrences acros
 3× per section. These are references to a screen, not its contents; the record graph that
 would enumerate a screen's items is not decoded.
 
+## 6c. `CameraRule` bodies: the `CameraHolder` decides what the rule does
+
+Added 2026-09-08 (`/pd`, no launch). Tool: `camera_rules.py`.
+
+A `CameraRule` body is a flat sequence of sub-records, each
+`{u32 objectId; u32 classHash}` followed by a variable tail. **The records are not
+4-aligned** -- single filler bytes between them shift the alignment -- so a decoder
+must scan byte by byte for a recognised class hash rather than stride.
+
+Both debug rules have identical shape:
+
+```
++000  CameraRule                          the rule object itself
++00d  PopStateRuleCondition               the gate
++01b  PopCharacterGraphStateDescription   u32 count=3; u32 state[3]
++033  PopCharacterGraphStateDescription   u32 count=3; u32 state[3]   <- the patched half
++055  CameraExecution
++066  CameraHolder                        tail+0 = datablock id of the camera installed
++077  CameraTransitionSpecification       tail+0 = transition, tail+8 = the camera again
+```
+
+**`CameraHolder`'s first tail word is the whole behaviour switch.** It names one
+camera datablock, and the CLASS of that datablock is what the rule does. All 380
+`CameraRule`s in `Game Bootstrap` have exactly one `CameraHolder`; none has zero.
+`[verified-numerically 2026-09-08]`
+
+| class held | rules | role |
+| --- | --- | --- |
+| `PathAnimationCamera` | 237 | scripted moves |
+| `PopFixedCamera` | 63 | fixed viewpoints |
+| `PopFreeRoamingCamera` | 36 | **the ordinary traversal follow camera** |
+| `DuelStruggleCamera` / `DuelProjectionCamera` | 10 / 8 | combat |
+| `PopMarketingCamera` | 3 | the debug fly cams, incl. `CAM FPS` |
+| `PopGhostCamera` | 1 | `CR_Debug_GhostCam` |
+| 7 further classes | 1-4 each | healing, column, compass, fly-on-beam, ... |
+
+⚠️ `PopFreeRoamingCamera` describes the **player** roaming freely, not the camera.
+
+### Nested sub-objects: `<u16 seq><0x9009><u32 classHash>`
+
+Inside a camera datablock, nested objects are tagged with a sequence number, the
+constant `0x9009`, and a class hash -- the same CRC32-of-the-class-name used for a
+datablock `typeHash` (Sec 6), so the exe string dictionary resolves them: 11 of the
+12 distinct hashes across all camera blocks resolve. `camera_rules.py subs` counts
+them per class.
+
+The useful result is a discriminator:
+
+| sub-object | `PopMarketingCamera` (3 blocks) | all other camera classes (481 blocks) |
+| --- | --- | --- |
+| `PadButtonReader` | 56 | **0** |
+| `PadAxisReader` | 4 | **0** |
+| `BooleanAndReader` | 20 | **0** |
+
+**Only a `PopMarketingCamera` reads the pad itself** -- it is a self-driving camera,
+which is why installing one produces a free flycam over a character controller that
+is still running. `[verified-numerically 2026-09-08, n=484 camera blocks]`
+
+⚠️ `PrinceTargetEntity` is **not** the follow mechanism: **zero** of the 44
+`PopFreeRoamingCamera` blocks carry one, while `PopFixedCamera` (8) and
+`PopMarketingCamera` (2) do. It is a look-at target for cameras that aim at the
+Prince from elsewhere. `[disproved 2026-09-08]`
+
 ## 7. How the character state machine is referenced in data
 
 **Not by hash.** The 313 `CGST_*` state hashes do not occur in any datablock outside
@@ -255,6 +318,14 @@ python forge.py types    --exe PrinceOfPersia_Launcher.exe DataPC.forge
 python forge.py grep     --exe PrinceOfPersia_Launcher.exe --value 0xBC DataPC.forge
 python forge.py extract  --decompress --out <dir> --match "Game Bootstrap" DataPC.forge
 clang -O2 -shared -o lzo2a.dll lzo2a.c                 # optional, for speed
+```
+
+`camera_rules.py` decodes the camera graph on top of the same reader (see Sec 6c):
+
+```
+python camera_rules.py rules  --exe PrinceOfPersia_Launcher.exe                               --name "CR_Debug_" DataPC.forge   # sub-records, refs resolved
+python camera_rules.py census --exe PrinceOfPersia_Launcher.exe DataPC.forge  # class per rule
+python camera_rules.py subs   --exe PrinceOfPersia_Launcher.exe DataPC.forge  # nested sub-objects
 ```
 
 Read-only against the game folder. Never commit archives, extracted datablocks or the

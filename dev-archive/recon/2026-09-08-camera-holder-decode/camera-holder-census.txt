@@ -1,0 +1,19 @@
+CameraRule blocks: 380 ; with a CameraHolder: 380 ; without: 0
+
+camera class the rule holds       count  examples
+PathAnimationCamera                 237  Co Inst Win Ledge CR -> CO Struggle INST Ledge Win 01 Cam | Idle_long_pole_freehang_CR -> Idle_long_pole_freehang_01 | healing_falling -> (unnamed) | CR_SaveMe_ChargeUp -> CAM SaveMe 1 ChargeUp
+PopFixedCamera                       63  CR_Dash_Up -> CAM Magic Dash Up | CR_Dash_Down -> CAM Magic Dash Down | CR_Dash_Left -> CAM Magic Dash Left | CR_Dash_Right -> CAM Magic Dash Right
+PopFreeRoamingCamera                 36  Archetype_FreeRoaming -> Archetype Vanille Free Cam | Child A Compass CR -> Ground Compass Cam | PrinceCarryElika_CR -> PrinceCarryElika_CAM | Parent_Ground_CR -> Parent Ground Cam
+DuelStruggleCamera                   10  Struggle_Instigator_CR -> Struggle Instigator Cam | CO_Struggle_Instigator_CR -> CO Struggle Instigator Cam | BD_Struggle_Instigator_CR -> BD Struggle Instigator Cam | AL_Struggle_Instigator_CR -> AL Struggle Instigator Cam
+DuelProjectionCamera                  8  Projection Struggle Intro CR -> Archetype Prince Projection Camera | InstLose Projection Struggle Intro CR -> Instance of Archetype Prince Projection Camera | HU Projection Struggle Intro -> Parent HU Enemy Projection Camera | GRD Projection Struggle Intro -> ChildA GRD Enemy Projection Camera
+HealingCamera                         4  Activate_plate_CR -> Activation_plate_CAM | Tuto_Plate_CR -> TUTO_Activation_plate_CAM | Healing_MiniGame_Ahriman -> Ahriman_Heal_MiniGame_Cam | healing_minigame_CR -> HealingCamera_01
+AnimatedFreeRoamingCamera             4  ChildA_GripFall_CR -> AnimatedGripfall | ChildA_Slide_CR -> (unnamed) | ODD Prince Speech -> ODD LookAtPrince CAM | ODD Lover Speech -> ODD LookAtLover CAM
+LookAtTargetFreeRoamingCamera         4  Duel_BigD_LookAt_CR -> Duel BigD Target CAM | Duel_Intro CR -> A Duel Intro L Cam | Elika Hurt CR -> Instance of A Lover Cam R | Duel_ElikaNew_CR -> A Lover Cam R
+MovementCompensationCamera            3  Archetype_MovComp -> Archetype MovementCompensationCamera | Parent_Ledge_CR -> Parent Ledge Cam | ChildA_Crack_CR -> ChildA Crack Cam
+PopMarketingCamera                    3  CR_Debug_1stPerson -> CAM FPS | CR_Debug_Marketing2 -> CAM Marketing POP2 | CR_Debug_Marketing -> CAM Marketing POP
+FixedCamera                           2  Prince_CloseUp_CR -> (unnamed) | Duel_Jumpon_BigD_CR -> Big D RollUnder Cam
+ColumnCamera                          2  Archetype_Column_CR -> Archetype Column Cam | Parent_Roofing_CR_New -> PRoofing Cam
+PopGhostCamera                        1  CR_Debug_GhostCam -> CAM Ghost POP
+PopFlyOnBeamCamera                    1  CR_Magic_FlyOnBeam -> PopFlyOnBeamCamera
+CompassCamera                         1  ODD Target CR -> CA ODD Target Camera L
+DuelCamera                            1  Duel_DefaultNew_CR -> New Duel Cam

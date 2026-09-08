@@ -143,6 +143,71 @@ bite. Source: `engine-research/inbox/2026-09-04-sr-proxy-never-frees-the-real-dl
 
 ## 6. Camera & projection delivery (the crucial section)
 
+### ✅ ANVIL'S CRC-32 TYPE-ID SCHEME IS CONFIRMED ON THIS 2008 BUILD (folded from `/gr`, 2026-09-08)
+
+`/gr`'s 2026-09-07 drop predicted five type IDs as CRC-32 (zlib) of the ASCII class name, from
+documentation of much later Anvil titles (Ghost Recon Breakpoint 2019, AC Unity 2014) and flagged
+the six-year gap as `[hypothesis]`. **All five predicted values occur in this game's data**
+`[verified-numerically 2026-09-08]`:
+
+| class | predicted | as a datablock type | as a nested sub-record class |
+| --- | --- | --- | --- |
+| `CameraRule` | `0x6A69B9C3` | 380 | 380 |
+| `GraphRuleBook` | `0x4A77CEFE` | 872 | — |
+| `TemporalCameraTransition` | `0xF042235F` | 87 | — |
+| `CameraExecution` | `0x1A9A18CF` | — | 746 |
+| `CameraHolder` | `0x3CEDBC28` | — | 746 |
+
+Two of them exist **only** nested inside a `CameraRule` body, never as a top-level datablock —
+which is why a type census alone never showed them. This is consistent with §6's existing finding
+that 201 of 202 datablock type hashes resolve against the exe's own strings; the cross-generation
+step `/gr` was unsure about holds here.
+
+⚠️ The rest of that drop is **not** confirmed by this. Its structural predictions from AC Unity —
+that follow-vs-free is an object reference, that `*Holder` means "container of a list", that child
+order encodes priority — were tested where possible and the first two came out **wrong for this
+build** (see §6c and §11): `CameraHolder` is a single reference, not a list, and the follow
+mechanism is not a target reference at all. Priority-by-order is still untested.
+
+⚠️ **Hazard for any future gamepad test, also from that drop** `[reported 2026-09-07]`: set Steam's
+*Steam Input Per Game Setting* to **Forced Off** and use a plain XInput pad — this game is reported
+to crash on launch with Steam Input and a controller connected, and a crash reads as a failed test
+at a glance. Separately, opening the Steam overlay is reported to make the game ignore all input
+until restart, which would invalidate any input experiment silently.
+
+### ✅ THE HOLDER DECIDES: A RULE INSTALLS ONE CAMERA OBJECT, AND ITS CLASS IS THE BEHAVIOUR (2026-09-08, `/pd`, no launch)
+
+**This answers the 2026-09-07 either/or.** The free-flying camera we got was
+`CR_Debug_1stPerson`'s own execution, **not** a different rule winning. Write-up:
+`modding-notes/2026-09-08-the-holder-decides-and-cam-fps-reads-the-pad-itself.md`; layout
+`dev-archive/tools/forge/FORMAT.md` §6c; evidence
+`dev-archive/recon/2026-09-08-camera-holder-decode/`; tool `camera_rules.py`.
+
+- **A `CameraRule` body's `CameraHolder` sub-record names one camera datablock, and the CLASS of
+  that datablock is what the rule does.** All 380 rules have exactly one.
+  `[verified-numerically 2026-09-08]`
+  - `CR_Debug_1stPerson` → `CAM FPS`, a **`PopMarketingCamera`**
+  - `CR_Debug_GhostCam` → `CAM Ghost POP`, a **`PopGhostCamera`**
+- **`CR_Debug_GhostCam` cannot have been the winner**: read out of the *installed* archive, its
+  gate is still `188 CGST_DebugMode`, which has never been turned on; only `CR_Debug_1stPerson`
+  was patched to `(309,309,309)`. `[verified-numerically 2026-09-08]`
+- **Why a marketing camera flies under the movement keys:** `PadButtonReader` (56) and
+  `PadAxisReader` (4) occur **only** inside `PopMarketingCamera` — **0 occurrences across the
+  other 481 camera datablocks**. It reads input and moves itself, over a character controller
+  that is still running, which is exactly the two-consumer behaviour Tefa described.
+  `[verified-numerically 2026-09-08, n=484 camera blocks]`
+- **The follow camera class is `PopFreeRoamingCamera`** — 36 rules, incl.
+  `Parent_Ground_CR → Parent Ground Cam`. ⚠️ "FreeRoaming" is the **player's** state, not the
+  camera's freedom.
+- **Deployed and untested:** `CR_Debug_1stPerson` repointed to `Parent Ground Cam` by two `u32`
+  edits (`0x56a3d2`, `0x56a3eb`), diff showing exactly the 2 intended ranges and 0 checksum
+  failures, read back from the live install through an independent code path.
+  `[verified-numerically 2026-09-08]` for the edit; **`[hypothesis]` for what it does in game.**
+- **Still not established:** why this rule outranks ordinary gameplay rules once eligible. 873
+  other rules are also `(309,309,309)` and do not win, so eligibility does not decide it;
+  arbitration order does, and it has not been read out. `[hypothesis]`
+
+
 ### ✅ `.forge` IS DECODED, THE CAMERA SYSTEM IS DATA, AND THE DEBUG FPS CAMERA IS AUTHORED AND SHIPPED (2026-09-02, `/pd`, no launch)
 
 **Supersedes the two 2026-09-01 subsections below on method** (the hash-needle plan and "one
@@ -548,6 +613,13 @@ is what was patched) `[hypothesis]`, and **how to lock the camera to the Prince'
 "raise its priority" half of the mod looks unnecessary — the rule is evidently already winning.
 
 ## 11. Dead ends & false leads (save future time)
+- **⛔️ `PrinceTargetEntity` is NOT what makes a camera follow the Prince (2026-09-08).** The name
+  is exactly right and the inference is wrong: **zero of the 44 `PopFreeRoamingCamera` blocks —
+  the ordinary follow cameras — contain one**, while `PopFixedCamera` (8) and `PopMarketingCamera`
+  (2) do. It is a look-at target for cameras aiming at the Prince from elsewhere. Whatever makes a
+  follow camera follow is implicit in the class, not an explicit reference in the data.
+  `[disproved 2026-09-08]` Recorded because a name-based inference like this reads as a citation
+  once written down.
 - **⛔️ Searching for a `CGST_*` state by CRC32 hash is dead in CODE too, not just in data
   (2026-09-07).** With `.text` decrypted, neither `CGST_DebugMode` (`0x861D663F`) nor
   `CGST_DebugModeFPSCamera` (`0xA80488AB`) appears anywhere in it — **and neither do the positive

@@ -50,6 +50,8 @@ redistribution (noted below).
 | "DLC Debug Menu" thread (the Epilogue pause-menu route into a shipped "Menu Debug" screen) | XboxAchievements forum members | https://www.xboxachievements.com/forum/topic/115001-dlc-debug-menu/ |
 | "Debug menu/cheats in DLC" thread (independent report of the same pause-menu route) | Giant Bomb forum members | https://www.giantbomb.com/prince-of-persia/3030-20961/forums/debug-menucheats-in-dlc-233454/ |
 | Wikipedia — Prince of Persia (2008 video game) (Epilogue DLC platform availability; Scimitar lineage) | Wikipedia contributors | https://en.wikipedia.org/wiki/Prince_of_Persia_(2008_video_game) |
+| AC2 Customizable Ground Camera — the Cheat Engine mod whose description names "the default Ground Cam" and its FOV/distance/offset tunables (2026-09-11) | its author, via Nexus Mods | https://www.nexusmods.com/assassinscreedii/mods/161 |
+| Assassin's Creed Camera and Controls Fix — a same-generation AC1 camera mod noted as an unverified lead (2026-09-11) | its author, via Nexus Mods | https://www.nexusmods.com/assassinscreed/mods/55 |
 | LZO (`lzo2a_d.ch` / `config2a.h`, GPL) — the decompressor our own `.forge` reader was transcribed from | Markus F.X.J. Oberhumer | http://www.oberhumer.com/opensource/lzo/ |
 
 Development on this project is AI-assisted: much of the research, code, and

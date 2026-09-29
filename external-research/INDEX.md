@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-23 (estate sweep) — CHECK-IN.** Checked phunkaeg's *VR Modding Playbook*: it lists this project's external research as a studied source; no other Scimitar/Anvil-2008 entry. Nothing new.
+**Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Nothing new. Board unchanged since 2026-09-09 and all `[FLAT]` (the walk-and-turn follow-camera test); no public source answers it.
+
+_Previous: **Last `/gr` pass: 2026-09-23 (estate sweep) — CHECK-IN.** Checked phunkaeg's *VR Modding Playbook*: it lists this project's external research as a studied source; no other Scimitar/Anvil-2008 entry. Nothing new._
 
 _Previous: **Last `/gr` pass: 2026-09-11 (estate sweep, evening, home PC) — CHECK-IN.** Inbox empty; board unchanged and all `[FLAT]` (the walk-and-turn follow-camera test). Two targeted searches on the one static question the 2026-09-08 pass left open — a field list for `PopFreeRoamingCamera` — returned **no schema** (AnvilToolkit's public schema-exporter list still names no camera type), but one small corroboration is filed as a 🆕 topic: an AC2 Cheat Engine mod tunes "the default Ground Cam" by **FOV, distance and position offset**, so "Ground Cam" is a family-wide name for the ordinary follow camera (our repoint target) and those three are the fields the deferred decode should expect; its author's "movement drifting" note is a hazard for any head-offset step. Everything `[reported]`; Nexus pages 403 to automated fetch, so re-read by a human before leaning on it._
 

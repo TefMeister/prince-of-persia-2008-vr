@@ -652,3 +652,8 @@ is what was patched) `[hypothesis]`, and **how to lock the camera to the Prince'
 - **No vorpX (or equivalent live-VR-tool) precedent exists for this specific game** (external-research, 2026-08-25) — unlike Mad Max, there's no third-party confirmation that a full stereo/head-tracking conversion is achievable here, only the HelixMod 3D-Vision fix (a different, more limited technique) as evidence the renderer isn't unusually resistant to hooking.
 - D3D9 (non-Ex) means this project's camera/projection work will look more like Psychonauts' (SetTransform/vertex-shader-constant based) than the constant-buffer-based D3D11 titles elsewhere in this portfolio — §6/§7's template language (written for D3D11) will need adapting once live investigation starts.
 - No comfort/motion-sickness-specific risks identified yet (not a driving game, third-person action-platformer with acrobatics — camera behavior during wall-runs/ledge-grabs etc. may need particular VR-comfort attention, worth watching for once gameplay is seen).
+
+## Inbox folds, 2026-09-29
+
+**Our `d3d9` proxy exports only `Direct3DCreate9`: a latent start-up crash (from `dead-space-2-vr`, 2026-09-14).** A game that calls `D3DPERF_GetStatus`, `D3DPERF_SetOptions` or `DebugSetMute` crashes at start through a NULL pointer unless all seventeen exports are forwarded `[verified-live 2026-09-14, n=1, dead-space-2-vr]`. This game runs today, so the defect is latent; forward all seventeen at the next rebuild. Board row added.
+

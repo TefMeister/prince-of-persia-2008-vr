@@ -657,3 +657,5 @@ is what was patched) `[hypothesis]`, and **how to lock the camera to the Prince'
 
 **Our `d3d9` proxy exports only `Direct3DCreate9`: a latent start-up crash (from `dead-space-2-vr`, 2026-09-14).** A game that calls `D3DPERF_GetStatus`, `D3DPERF_SetOptions` or `DebugSetMute` crashes at start through a NULL pointer unless all seventeen exports are forwarded `[verified-live 2026-09-14, n=1, dead-space-2-vr]`. This game runs today, so the defect is latent; forward all seventeen at the next rebuild. Board row added.
 
+
+**Fixed 2026-09-30 (`/pd`):** all seventeen exports are now forwarded through naked pass-through stubs ported from Dead Space 2; exports match `SysWOW64\d3d9.dll` 17/17 `[compile-verified 2026-09-30]` and the stub self-test passes in a 32-bit process `[verified-numerically 2026-09-30]`. Deployed on the dev PC (`c89fb8a93d98`), not yet launched. Notes: `modding-notes/2026-09-30-the-d3d9-proxy-now-forwards-all-seventeen.md`.

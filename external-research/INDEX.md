@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Nothing new. Board unchanged since 2026-09-09 and all `[FLAT]` (the walk-and-turn follow-camera test); no public source answers it.
+**Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** Inbox empty; board `OPEN` rows read: the repointed camera rule and the XInput log, both launches. Nothing new.
+
+_Previous: **Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Nothing new. Board unchanged since 2026-09-09 and all `[FLAT]` (the walk-and-turn follow-camera test); no public source answers it._
 
 _Previous: **Last `/gr` pass: 2026-09-23 (estate sweep) — CHECK-IN.** Checked phunkaeg's *VR Modding Playbook*: it lists this project's external research as a studied source; no other Scimitar/Anvil-2008 entry. Nothing new._
 

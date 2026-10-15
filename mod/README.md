@@ -5,9 +5,9 @@ reboot (Steam AppID 19980), not the Sands of Time trilogy. Goal: real stereo
 rendering and 6DOF head tracking, with motion-controlled combat and traversal
 as a stretch target once the core is solid.
 
-> **Status: just starting out — repos created, no code written yet, nothing
-> playable released.** This folder holds releases only; watch it if
-> you want to know the moment there is something to try.
+> **Status: work in progress, nothing playable released yet.** Our add-on loads into the game, the
+> game's data archives can be read and rebuilt, and a first-person camera made from the game's own
+> debug camera is being tried. No VR picture yet.
 
 ## What this will be
 

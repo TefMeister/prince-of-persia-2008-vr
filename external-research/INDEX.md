@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** Inbox empty; board `OPEN` rows read: the repointed camera rule and the XInput log, both launches. Nothing new.
+**Last `/gr` pass: 2026-10-16 (estate sweep) — CHECK-IN.** Inbox empty. Board moved on (follow camera confirmed live, next is a first-person framing). One search for a 2008 camera-distance or FOV mod found none (only The Two Thrones and Sands of Time fixes); a negative from one search, not proof that none exists.
+
+_Previous: **Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** Inbox empty; board `OPEN` rows read: the repointed camera rule and the XInput log, both launches. Nothing new._
 
 _Previous: **Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Nothing new. Board unchanged since 2026-09-09 and all `[FLAT]` (the walk-and-turn follow-camera test); no public source answers it._
 

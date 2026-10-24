@@ -3,7 +3,7 @@
 Sweeps every datafile of every archive for the text form of the three debug
 menu ids, with two known-present controls."""
 import os, re, sys, time
-sys.path.insert(0, r"~\github-backups-pd\prince-of-persia-2008-vr\dev-archive\tools\forge")
+sys.path.insert(0, os.path.expanduser(r"~\github-backups-pd\prince-of-persia-2008-vr\dev-archive\tools\forge"))
 import forge
 
 GAME = r"D:\SteamLibrary\steamapps\common\Prince of Persia"

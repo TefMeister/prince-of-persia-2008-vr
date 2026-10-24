@@ -1,5 +1,5 @@
 import os, struct, sys, zlib
-sys.path.insert(0, r"C:\Users\TD3KX\github-backups-pd\prince-of-persia-2008-vr\dev-archive\tools\forge")
+sys.path.insert(0, os.path.expanduser(r"~\github-backups-pd\prince-of-persia-2008-vr\dev-archive\tools\forge"))
 import forge
 
 GAME = r"D:\SteamLibrary\steamapps\common\Prince of Persia"

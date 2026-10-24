@@ -22,7 +22,7 @@ latent.
 ## Installed
 
 Dev PC: `d3d9.dll` `c89fb8a93d98` (63,488 B); the previous one is in
-`Prince of Persia\_backup-2026-09-30-pd\`. Recorded in `deployed/DESKTOP-V8GTSIR/`. The home PC still has
+`Prince of Persia\_backup-2026-09-30-pd\`. Recorded in `deployed/the dev PC/`. The home PC still has
 the one-export build; a reminder is raised in `owed/HOME/`.
 
 ## What is NOT established

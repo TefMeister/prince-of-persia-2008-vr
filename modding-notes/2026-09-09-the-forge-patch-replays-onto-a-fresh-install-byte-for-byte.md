@@ -1,6 +1,6 @@
 # The forge patch replays onto a fresh install, byte for byte
 
-**2026-09-09, home PC (`RTX`), no launch.**
+**2026-09-09, home PC, no launch.**
 
 ## What happened
 

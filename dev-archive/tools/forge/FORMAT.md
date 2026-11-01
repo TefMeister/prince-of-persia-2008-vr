@@ -287,6 +287,28 @@ is still running. `[verified-numerically 2026-09-08, n=882 camera datablocks]`
 `PopMarketingCamera` (2) do. It is a look-at target for cameras that aim at the
 Prince from elsewhere. `[disproved 2026-09-08]`
 
+⚠️ **Correction 2026-11-01:** the counts in the two tables above are of the **tagged** form
+`<u16 seq><0x9009><hash>` only. Searched as plain `{objectId; classHash}` records (§6d),
+`Parent Ground Cam` holds `PadAxisReader` x4, `PadButtonReader` x2 (its orbit control) and
+`PrinceTargetEntity` x3. So "zero in every follow camera" is true of the tagged form, not of the
+class. `[verified-numerically 2026-11-01, n=1 camera]`
+
+## 6d. Inside a `PopFreeRoamingCamera`: a modifier chain, and the position curve
+
+Added 2026-11-01 (`/pd`, no launch). Scripts: `dev-archive/recon/2026-11-01-follow-camera-curves/`.
+
+The body is a run of sub-objects `{u32 objectId; u32 classHash; fields...}`, not 4-aligned, found
+by scanning byte by byte for a class hash the exe dictionary resolves (as in §6c). Sizes vary
+(1,965 to 3,876 bytes across 44 blocks), because each camera carries a different set of modifiers
+and trajectory points.
+
+`PolarCurveModifier` is followed by one or more `TrajectoryImpl`, each followed by its
+`TrajectoryPoint`s (139 to 157 bytes each). A point's `f32 x, y, z` sits at **+5 after the class
+hash** and again at **+117** (z is always 0). The first trajectory reads as the camera-position
+curve (along, up), low to high `[inferred-static 2026-11-01]`.
+
+`PrinceTargetTracker` sub-objects end in a bone target whose name is a CRC32 (`Reference`, `Head`).
+
 ## 7. How the character state machine is referenced in data
 
 **Not by hash.** The 313 `CGST_*` state hashes do not occur in any datablock outside

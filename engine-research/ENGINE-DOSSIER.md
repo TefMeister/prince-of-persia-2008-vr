@@ -175,6 +175,27 @@ to crash on launch with Steam Input and a controller connected, and a crash read
 at a glance. Separately, opening the Steam overlay is reported to make the game ignore all input
 until restart, which would invalidate any input experiment silently.
 
+### 🎥 THE FOLLOW CAMERA IS A MODIFIER CHAIN; ITS POSITION IS A CURVE; A CLOSE-UP BUILD IS INSTALLED (2026-11-01, `/pd`, no launch)
+
+Write-up: `modding-notes/2026-11-01-the-follow-camera-curve-and-a-close-up-build.md`; evidence
+`dev-archive/recon/2026-11-01-follow-camera-curves/`; layout `FORMAT.md` §6d.
+
+- A `PopFreeRoamingCamera` is a chain of ~100 named sub-objects (tracker, damping, `PolarControlsModifier`,
+  `PolarCurveModifier`, collision, framing, ...), each found by its CRC32 class hash. 18 different sizes across the
+  44 blocks, so there is no fixed field layout. `[verified-numerically 2026-11-01]`
+- **`PolarCurveModifier`'s first trajectory reads as the camera-position curve** (along, up offsets in metres,
+  low to high): ground `(1.10,0.44) (-3.14,3.21) (2.15,6.81)`, carrying Elika much closer, the close-up camera almost
+  on the target. `[inferred-static 2026-11-01]`; build B tests it.
+- The tracker's bone target is CRC32 of a bone name: ground aims at `Reference`, the close-up camera at `Head`.
+  `[verified-numerically 2026-11-01]`
+- ⚠️ Correction to the 2026-09-08 entry below: `PadAxisReader`/`PadButtonReader` are absent from non-marketing cameras
+  only in the **tagged** `<seq><0x9009><hash>` form; `Parent Ground Cam` holds 4 and 2 as plain class records, and 3
+  `PrinceTargetEntity` (so that entry's `[disproved]` line is true of the tagged form only).
+- **Installed (dev PC): build A**, `CR_Debug_1stPerson` → `99d3ca72` (the `Prince_CloseUp_CR` camera, a rule gated on
+  states `(150,257,145)`, not walking). A close-up while walking = our holder resolves from any id range; an
+  unchanged follow camera = fallback. Build B (A + the curve 3 m higher) kept in the local archive.
+  `[verified-numerically 2026-11-01]` for the edits, `[hypothesis]` for the effect.
+
 ### ✅ THE HOLDER DECIDES: A RULE INSTALLS ONE CAMERA OBJECT, AND ITS CLASS IS THE BEHAVIOUR (2026-09-08, `/pd`, no launch)
 
 **This answers the 2026-09-07 either/or.** The free-flying camera we got was

@@ -1,0 +1,46 @@
+PopFreeRoamingCamera blocks: 44
+body sizes: [(2643, 12), (2658, 5), (2987, 4), (1965, 4), (2673, 3), (2738, 2), (3301, 2), (2578, 2), (3641, 1), (3383, 1), (1969, 1), (3578, 1), (3542, 1), (2757, 1), (3538, 1), (2064, 1), (2016, 1), (3876, 1)]
+842a4002 'Archetype Vanille Free Cam'         body= 2643 subs=1
+3b5e4000 'Ground Compass Cam'                 body= 3641 subs=0
+6cd11194 'PrinceCarryElika_CAM'               body= 3383 subs=0
+99d3ca72 ''                                   body= 1969 subs=0
+842a4105 'Parent Ground Cam'                  body= 3578 subs=0
+842a410a 'Parent WallVerti Cam'               body= 2643 subs=0
+842a41af 'CA Gripfall Cam'                    body= 2738 subs=0
+828ac604 'REV Headbump Cam'                   body= 2673 subs=0
+81068b92 'Headbump Cam'                       body= 2673 subs=0
+842a41a8 'CA Slide Cam'                       body= 3542 subs=0
+c78a85fc 'Parent Magic Rebound Cam'           body= 2757 subs=0
+9ee2c000 'Instance of Magic plate failed camera' body= 2658 subs=0
+7c2d4467 'Magic plate failed camera'          body= 2658 subs=0
+842a4106 'Parent Pole Cam'                    body= 3301 subs=0
+3f2b517b 'Child A Pole Cam Swing'             body= 3301 subs=0
+33dd4141 'Arch ODD Cam (A)'                   body= 2987 subs=0
+33dd50e4 'ODD Cam (B)'                        body= 2987 subs=0
+33dd50e5 'ODD Cam (C)'                        body= 2987 subs=0
+33dd50e6 'ODD Cam (D)'                        body= 2987 subs=0
+4e822bf5 'Tremor Cam'                         body= 3538 subs=0
+d80f14b0 'CAM Fight Goo Drown'                body= 2064 subs=0
+67b3c531 ''                                   body= 2016 subs=0
+9790c004 'CA WallingHoriz Right Cam'          body= 2643 subs=0
+9790c003 'CA WallingHoriz Left Cam'           body= 2658 subs=0
+85551b10 'CA HorizCornerGrip L Cam'           body= 2643 subs=0
+277a470a 'CA HorizCornerGrip R Cam'           body= 2643 subs=0
+85551b12 'CA Lean Right Cam'                  body= 2643 subs=0
+85551b11 'CA Lean Left Cam'                   body= 2643 subs=0
+842a41ac 'CA LeanUp Cam'                      body= 2643 subs=0
+361ec019 'CB ING Lean Right Cam'              body= 2643 subs=0
+361ec018 'CB ING Lean Left Cam'               body= 2643 subs=0
+68775765 'CB Lean Down Cam'                   body= 2738 subs=0
+a1a37324 'CA Roofing Corner Cam'              body= 2643 subs=0
+a44ac086 'CA Gripfall CornerGrip Cam'         body= 2658 subs=0
+66965dc0 'Parent_RoofingFalling_CAM'          body= 2673 subs=0
+29b503b7 'Plate Entry L Cam'                  body= 1965 subs=0
+29b503b6 'Plate Entry R Cam'                  body= 1965 subs=0
+29b503b5 'Plate Entry V Cam'                  body= 1965 subs=0
+29b50364 'Plate Entry G Cam'                  body= 1965 subs=0
+5b74356a 'CAM Magic Grapple Right_01'         body= 2578 subs=0
+c0f78063 'CAM Magic Grapple Left'             body= 2578 subs=4
+c7fb8000 'CAM_SaveMeGoo_Drowning_onspot_No_turn' body= 3876 subs=0
+c7425180 'CB WallingHoriz Right 90 Cam'       body= 2643 subs=0
+c7425182 'CB WallingHoriz Left 90 Cam'        body= 2658 subs=0

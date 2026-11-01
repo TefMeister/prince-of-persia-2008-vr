@@ -1,0 +1,50 @@
++0004 PopFreeRoamingCamera           len=  6  @0=0.7682
++0012 PrinceTargetTracker            len= 16  @8=0.025
++00f9 PrinceTargetTracker            len= 16  @8=0.15
++0158 VerticalCompensationModifier   len= 18  @2=0.4887 @6=0.375 @10=0.5585 @14=0.585
++01ae FreeRoamingModifier            len= 18  
++0213 PolarControlsModifier          len=  2  
++02e7 PolarCurveModifier             len=  6  @2=3.1
++02f5 TrajectoryImpl                 len=  5  
++0302 TrajectoryPoint                len=139  @5=1.103 @9=0.4406 @17=0.3478 @29=0.9376 @50=2 @54=1535 @61=1 @65=1 @84=35.22 @89=0.6522 @101=-0.6522 @105=0.758 @117=1.103 @121=0.4406 @125=1
++0395 TrajectoryPoint                len=139  @5=-3.138 @9=3.214 @17=-0.09744 @29=0.9952 @37=-0.2308 @41=-2.627 @45=1 @50=1024 @57=1.916 @61=-0.7293 @65=1 @85=0.981 @89=-0.194 @101=0.194 @105=0.981 @117=-3.138 @121=3.214 @125=1
++0428 TrajectoryPoint                len=148  @5=2.154 @9=6.806 @17=-0.6272 @29=0.7789 @37=-3.702 @41=-0.4308 @45=1 @65=1 @85=0.2134 @89=-0.977 @101=0.977 @105=0.2134 @117=2.154 @121=6.806 @125=1
++04c4 TrajectoryImpl                 len=  5  
++04d1 TrajectoryPoint                len=139  @5=3.135 @9=2.2 @29=1 @65=1 @85=1 @105=1 @117=3.135 @121=2.5 @125=1
++0564 TrajectoryPoint                len=157  @5=3.135 @9=1.625 @29=1 @65=1 @85=1 @105=1 @117=3.135 @121=1.325 @125=1 @149=0.2 @153=0.8
++062a TrajectoryImpl                 len=  5  
++0637 TrajectoryPoint                len=139  @3=-2 @9=0.4187 @29=1 @53=-3.56 @57=1.76 @61=1 @65=1 @85=1 @105=1 @115=-2 @121=0.4187 @125=1
++06ca TrajectoryPoint                len=148  @5=1.613 @9=6.587 @29=1 @36=0.01099 @41=-0.03816 @45=1 @65=1 @85=1 @105=1 @117=1.613 @121=6.587 @125=1
++0766 TrajectoryImpl                 len=  5  
++0773 TrajectoryPoint                len=139  @5=3.259 @9=1.74 @29=1 @65=1 @85=1 @105=1 @117=3.259 @121=1.74 @125=1
++0806 TrajectoryPoint                len=149  @5=3.244 @9=2.039 @29=1 @65=1 @85=1 @105=1 @117=3.244 @121=2.039 @125=1
++08a3 FreeRoamingCollisionModifier   len= 14  @2=0.5 @6=0.2 @10=0.05
++092f ExplorationModifier            len=  1  
++0946 ExplorationOffsetUserInputMethod len=  8  @4=1
++0a5b ScreenFramingModifier          len= 24  @13=0.18 @20=0.1
++0a7b EulerModifier                  len= 10  @1=8 @5=8
++0b96 TargetFramingAttenuatorModifier len=  1  
++0be3 TargetFramingModifier          len= 16  @1=0.9 @5=0.9
++0c08 PrinceTargetTracker            len= 16  
++0004 PopFreeRoamingCamera           len=  6  @0=0.7682
++0012 PrinceTargetTracker            len= 16  @8=0.15
++00c2 PrinceTargetTracker            len= 16  @8=0.15
++0121 VerticalCompensationModifier   len= 18  @2=0.4887 @6=0.375 @10=0.5585 @14=0.585
++0177 FreeRoamingModifier            len= 18  
++01dc PolarControlsModifier          len=  2  
++02b0 PolarCurveModifier             len=  6  @2=3.1
++02be TrajectoryImpl                 len=  5  
++02cb TrajectoryPoint                len=139  @5=1.103 @9=0.4406 @17=0.3478 @29=0.9376 @50=2 @54=1535 @61=1 @65=1 @84=35.22 @89=0.6522 @101=-0.6522 @105=0.758 @117=1.103 @121=0.4406 @125=1
++035e TrajectoryPoint                len=139  @5=-3.138 @9=3.214 @17=-0.09744 @29=0.9952 @37=-0.2308 @41=-2.627 @45=1 @50=1024 @57=1.916 @61=-0.7293 @65=1 @85=0.981 @89=-0.194 @101=0.194 @105=0.981 @117=-3.138 @121=3.214 @125=1
++03f1 TrajectoryPoint                len=148  @5=2.154 @9=6.806 @17=-0.6272 @29=0.7789 @37=-3.702 @41=-0.4308 @45=1 @65=1 @85=0.2134 @89=-0.977 @101=0.977 @105=0.2134 @117=2.154 @121=6.806 @125=1
++048d TrajectoryImpl                 len=  5  
++049a TrajectoryPoint                len=139  @5=3.135 @9=2.5 @29=1 @65=1 @85=1 @105=1 @117=3.135 @121=2.5 @125=1
++052d TrajectoryPoint                len=157  @5=3.135 @9=1.325 @29=1 @65=1 @85=1 @105=1 @117=3.135 @121=1.325 @125=1 @149=0.2 @153=0.8
++05f3 TrajectoryImpl                 len= 14  
++0609 TrajectoryImpl                 len= 15  
++0620 FreeRoamingCollisionModifier   len= 14  @2=0.5 @6=0.2 @10=0.05
++06a6 ExplorationModifier            len=  1  
++0732 ScreenFramingModifier          len= 24  @13=1 @20=0.1
++0752 EulerModifier                  len= 10  @1=8 @5=8
++086d TargetFramingAttenuatorModifier len=  1  
++08ae TargetFramingModifier          len= 16  @1=0.9 @5=0.9

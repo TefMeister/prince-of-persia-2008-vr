@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-10-26 — CHECK-IN.** Inbox empty; board unchanged since 10-16 (next is a first-person framing from `PopFreeRoamingCamera`'s fields). One search for a public field list or camera mod for the Scimitar/Anvil family (Assassin's Creed 1) found none; only memory-editing tables for much later Assassin's Creed games. A negative from one search. Nothing new.
+**Last `/gr` pass: 2026-11-07 (estate sweep) — CHECK-IN.** Inbox empty; one combined search found no VR mod for Prince of Persia (2008) by anyone else. Nothing new.
+
+_Previous: **Last `/gr` pass: 2026-10-26 — CHECK-IN.** Inbox empty; board unchanged since 10-16 (next is a first-person framing from `PopFreeRoamingCamera`'s fields). One search for a public field list or camera mod for the Scimitar/Anvil family (Assassin's Creed 1) found none; only memory-editing tables for much later Assassin's Creed games. A negative from one search. Nothing new._
 
 _Previous: **Last `/gr` pass: 2026-10-16 (estate sweep) — CHECK-IN.** Inbox empty. Board moved on (follow camera confirmed live, next is a first-person framing). One search for a 2008 camera-distance or FOV mod found none (only The Two Thrones and Sands of Time fixes); a negative from one search, not proof that none exists._
 
